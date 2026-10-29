@@ -3122,7 +3122,7 @@ MADDE 324- Kullanıma elverişli bulundurulduğu sürece kiralanan, kiracının 
 
  
 
-2. Kiralananın sözleşmenin bitiminden önce geri verilmesi2
+2. Kiralananın sözleşmenin bitiminden önce geri verilmesi[2]
 
 MADDE 325- Kiracı, sözleşme süresine veya fesih dönemine uymaksızın kiralananı geri verdiği takdirde, kira sözleşmesinden doğan borçları, kiralananın benzer koşullarla kiraya verilebileceği makul bir süre için devam eder. Kiracının bu sürenin geçmesinden önce kiraya verenden kabul etmesi beklenebilecek, ödeme gücüne sahip ve kira ilişkisini devralmaya hazır yeni bir kiracı bulması hâlinde, kiracının kira sözleşmesinden doğan borçları sona erer.
 
@@ -3172,7 +3172,7 @@ Kiraya verenin meslekî faaliyeti gereği kiraya verdiği ve kiracının da öze
 
 III. Olağanüstü fesih
 
-1. Önemli sebepler2
+1. Önemli sebepler[2]
 
 MADDE 331- Taraflardan her biri, kira ilişkisinin devamını kendisi için çekilmez hâle getiren önemli sebeplerin varlığı durumunda, sözleşmeyi yasal fesih bildirim süresine uyarak her zaman feshedebilir.
 
@@ -3250,7 +3250,7 @@ Kamu kurum ve kuruluşlarının, hangi usul ve esaslar içinde olursa olsun yapt
 
  
 
-B. Bağlantılı sözleşme2
+B. Bağlantılı sözleşme[2]
 
 MADDE 340- Konut ve çatılı işyeri kiralarında sözleşmenin kurulması ya da sürdürülmesi, kiracının yararı olmaksızın, kiralananın kullanımıyla doğrudan ilişkisi olmayan bir borç altına girmesine bağlanmışsa, kirayla bağlantılı sözleşme geçersizdir.
 
@@ -3264,7 +3264,7 @@ Giderlere katlanan taraf, bu giderleri ispat edici belgelerin birer örneğini, 
 
  
 
-D. Kiracının güvence vermesi2
+D. Kiracının güvence vermesi[2]
 
 MADDE 342- Konut ve çatılı işyeri kiralarında sözleşmeyle kiracıya güvence verme borcu getirilmişse, bu güvence üç aylık kira bedelini aşamaz.
 
@@ -3276,13 +3276,13 @@ Kiraya veren, kira sözleşmesinin sona ermesini izleyen üç ay içinde kiracı
 
 E. Kira bedeli
 
-I. Genel olarak2
+I. Genel olarak[2]
 
 MADDE 343- Kira sözleşmelerinde kira bedelinin belirlenmesi dışında, kiracı aleyhine değişiklik yapılamaz.
 
  
 
-II. Belirlenmesi2[3][4]
+II. Belirlenmesi[2][3][4]
 
 MADDE 344 - Tarafların yenilenen kira dönemlerinde uygulanacak kira bedeline ilişkin anlaşmaları, bir önceki kira yılında tüketici fiyat endeksindeki oniki aylık ortalamalara göre değişim oranını geçmemek koşuluyla geçerlidir. Bu kural, bir yıldan daha uzun süreli kira sözleşmelerinde de uygulanır.
 
@@ -3304,7 +3304,7 @@ Sözleşmede yeni kira döneminde kira bedelinin artırılacağına ilişkin bir
 
  
 
-IV. Kiracı aleyhine düzenleme yasağı2
+IV. Kiracı aleyhine düzenleme yasağı[2]
 
 MADDE 346- Kiracıya, kira bedeli ve yan giderler dışında başka bir ödeme yükümlülüğü getirilemez. Özellikle, kira bedelinin zamanında ödenmemesi hâlinde ceza koşulu ödeneceğine veya sonraki kira bedellerinin muaccel olacağına ilişkin anlaşmalar geçersizdir.
 
@@ -3378,7 +3378,7 @@ MADDE 353- Kiraya veren, en geç davanın açılması için öngörülen sürede
 
  
 
-4. Dava sebeplerinin sınırlılığı2
+4. Dava sebeplerinin sınırlılığı[2]
 
 MADDE 354- Dava yoluyla kira sözleşmesinin sona erdirilmesine ilişkin hükümler, kiracı aleyhine değiştirilemez.
 

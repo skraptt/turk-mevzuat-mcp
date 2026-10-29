@@ -1848,7 +1848,7 @@ MADDE 100 – (1) Sermaye piyasasında izinsiz olarak faaliyette bulunduğu, yet
 
 Piyasa bozucu eylemler, bilgi suistimali ve piyasa dolandırıcılığı incelemelerinde uygulanacak tedbirler [12]
 
-MADDE 101 – (1) Kurul, 104 üncü, 106 ncı ve 107 nci maddelerde sayılan fiilleri işlediğine dair makul şüphe bulunan gerçek veya tüzel kişiler ile tüzel kişilerin yetkilileri ile ilgili sermaye piyasası araçlarına ilişkin olarak;12
+MADDE 101 – (1) Kurul, 104 üncü, 106 ncı ve 107 nci maddelerde sayılan fiilleri işlediğine dair makul şüphe bulunan gerçek veya tüzel kişiler ile tüzel kişilerin yetkilileri ile ilgili sermaye piyasası araçlarına ilişkin olarak;[12]
 
 a) Borsalarda geçici veya sürekli olarak işlem yapılmasının yasaklanması,
 
@@ -1956,7 +1956,7 @@ Piyasa dolandırıcılığı
 
 MADDE 107 – (1) Sermaye piyasası araçlarının fiyatlarına, fiyat değişimlerine, arz ve taleplerine ilişkin olarak yanlış veya yanıltıcı izlenim uyandırmak amacıyla alım veya satım yapanlar, emir verenler, emir iptal edenler, emir değiştirenler veya hesap hareketleri gerçekleştirenler üç yıldan beş yıla kadar hapis ve beş bin günden on bin güne kadar adli para cezası ile cezalandırılırlar. Ancak, bu suçtan dolayı verilecek olan adli para cezasının miktarı, suçun işlenmesi ile elde edilen menfaatten az olamaz.[15]
 
-(2) (Değişik: 27/3/2015-6637/11 md.) Sermaye piyasası araçlarının fiyatlarını, değerlerini veya yatırımcıların kararlarını etkilemek amacıyla yalan, yanlış veya yanıltıcı bilgi veren, söylenti çıkaran, haber veren, yorum yapan veya rapor hazırlayan ya da bunları yayan ve bu suretle menfaat sağlayanlar üç yıldan beş yıla kadar hapis ve beş bin güne kadar adli para cezası ile cezalandırılırlar.15
+(2) (Değişik: 27/3/2015-6637/11 md.) Sermaye piyasası araçlarının fiyatlarını, değerlerini veya yatırımcıların kararlarını etkilemek amacıyla yalan, yanlış veya yanıltıcı bilgi veren, söylenti çıkaran, haber veren, yorum yapan veya rapor hazırlayan ya da bunları yayan ve bu suretle menfaat sağlayanlar üç yıldan beş yıla kadar hapis ve beş bin güne kadar adli para cezası ile cezalandırılırlar.[15]
 
 (3) Birinci fıkrada tanımlanan suçu işleyen kişi pişmanlık göstererek, beş yüz bin Türk Lirasından az olmamak üzere, elde ettiği veya elde edilmesine sebep olduğu menfaatin iki katı miktarı kadar parayı, Hazineye;
 
@@ -2362,7 +2362,7 @@ MADDE 130 – (1) Kurulun gelirlerinin giderlerini karşılaması esastır. Kuru
 
 (4) (Değişik: 27/3/2015-6637/12 md.) 2015 yılı gelirlerinden başlamak üzere, Kurul tarafından düzenlenen ve denetlenen borsaların ve diğer teşkilatlanmış piyasaların, merkezî takas kurumlarının, merkezî saklama kurumlarının ve MKK’nın faiz gelirleri hariç tüm gelirleri üzerinden, Kurula 2014 yılı gelirleri üzerinden kaydedilmiş olan gelir tutarlarının her yıl, Türkiye İstatistik Kurumu tarafından Türkiye geneli için hesaplanan Tüketici Fiyat Endeksi ve Yurtiçi Üretici Fiyat Endeksinin, Aralık ayından bir önceki yılın Aralık ayına göre değişim oranlarının aritmetik ortalaması oranında artırılması suretiyle bulunacak tutarları Kurul bütçesine Kurul tarafından gelir olarak kaydedilir. Bu fıkranın yürürlüğe girdiği tarihten sonra kurulacak, fıkra kapsamındaki kurumların, kuruluşlarını takip eden yıldan başlamak üzere, faiz gelirleri hariç tüm gelirlerinin azami yüzde onu olmak üzere her takvim yılı için Kurulca belirlenecek oranı Kurul bütçesine Kurul tarafından gelir olarak kaydedilir. Ancak, bu fıkraya göre yapılacak ödemelerin zamanı ve tutarları, gelirin elde edildiği yılı izleyen takvim yılında Kurulun nakit durumu dikkate alınarak Kurul tarafından en az otuz gün öncesinden ilgili kurumlara bildirilir. Bir takvim yılı içinde talep edilmeyen tutarlar izleyen yıllarda ödenecek tutara eklenir ve Kurul tarafından aynı usul ile talep edilebilir.
 
-(5) (Ek:26/6/2024-7518/16 md.)22 Her yıl platformların bir önceki yıl faiz gelirleri hariç tüm gelirlerinin yüzde biri Kurul, yüzde biri de blokzincir ve ilgili bilişim teknolojilerinin geliştirilmesinde kullanılmak üzere TÜBİTAK bütçesine ilgili yılın mayıs ayı sonuna kadar ödenerek gelir olarak kaydedilir. Bu fıkraya göre yapılacak tahakkuk ve ödemelerle ilgili diğer esaslar Kurulca belirlenir.
+(5) (Ek:26/6/2024-7518/16 md.)[22] Her yıl platformların bir önceki yıl faiz gelirleri hariç tüm gelirlerinin yüzde biri Kurul, yüzde biri de blokzincir ve ilgili bilişim teknolojilerinin geliştirilmesinde kullanılmak üzere TÜBİTAK bütçesine ilgili yılın mayıs ayı sonuna kadar ödenerek gelir olarak kaydedilir. Bu fıkraya göre yapılacak tahakkuk ve ödemelerle ilgili diğer esaslar Kurulca belirlenir.
 
 (6) Kurul, faaliyetlerine ilişkin olarak her yılın haziran ayı sonuna kadar bir önceki yıla ait kararları, yaptığı ikincil düzenlemeler ile bunların ekonomik ve sosyal etkilerini analiz eden bir faaliyet raporu hazırlar. Faaliyet raporu, ayrıca Kurulun performans hedefleri ile uygulama sonuçlarının karşılaştırılmasını ve değerlendirilmesini de içerir.
 
