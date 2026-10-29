@@ -16,6 +16,7 @@ döndürür.
 |---|---|
 | `search_legislation` | Doğal dil sorgusuyla madde arar ("kiracının temerrüdü", "açık rıza olmadan veri işleme"). Sorgu bir atıfsa ("TBK m. 315", "6098/344", "TMK geçici m. 1") doğrudan o maddeyi döndürür. `kanun` ile tek kanunda aranabilir. |
 | `get_article` | Bir maddenin tam metnini getirir. `madde`: "315", "1/A", "Geçici 1", "Ek 3", en fazla 10 maddelik aralık ("344-347") ya da fıkra ve bent ("315/2", "5/2-ç"). Fıkra istenirse ilgili bölüm ayrıca `alinti` olarak döner. |
+| `get_article_history` | Bir maddenin değişiklik geçmişini tarih sırasıyla verir: hangi tarihte, hangi kanun ya da KHK maddesiyle değiştirildiği, eklendiği, yürürlükten kaldırıldığı ya da Anayasa Mahkemesince iptal edildiği ve hangi fıkrada. mevzuat.gov.tr metnindeki notlardan ve dipnotlardan çıkarılır. |
 | `list_laws` | Kapsanan kanunları künyeleriyle listeler. |
 
 Bütün araçlar salt okunurdur (`readOnlyHint: true`). Kanun metni çıktıda
@@ -55,6 +56,10 @@ Metinler her gün otomatik olarak kontrol edilir (bkz. [Güncellik](#güncellik)
 | ETDHK | 6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun |
 
 Henüz kapsanmayanlar: diğer vergi kanunları, yönetmelikler ve içtihat.
+
+**İçtihat için:** Bu sunucu yalnızca kanun metni verir. Yargıtay, Danıştay ve Anayasa Mahkemesi
+kararları için açık kaynak [Yargı MCP](https://github.com/saidsurucu/yargi-mcp) sunucusunu
+birlikte kullanabilirsiniz: biri kanunun güncel metnini, öteki o maddeyi uygulayan kararları getirir.
 
 mevzuat.gov.tr'deki dipnotlar (değişiklik ve Anayasa Mahkemesi iptal kararı notları)
 atılmaz; ilgili maddenin sonucunda `dipnotlar` alanında döner.
@@ -170,7 +175,10 @@ portal.
 
 - **Tools:** `search_legislation` (Turkish natural-language search or a citation),
   `get_article` (full text of an article, a range of up to 10, or a single
-  paragraph/sub-paragraph such as "KVKK m. 5/2-ç"), `list_laws`.
+  paragraph/sub-paragraph such as "KVKK m. 5/2-ç"), `get_article_history` (when and
+  by which law an article was amended, repealed or annulled), `list_laws`.
+- **Case law:** not included; pair it with the open-source
+  [Yargı MCP](https://github.com/saidsurucu/yargi-mcp) for court decisions.
   All tools are read-only.
 - **Freshness:** a daily GitHub Action compares every statute with mevzuat.gov.tr
   article by article. Unchanged texts get a new `sonKontrol` (last checked) date;

@@ -53,6 +53,24 @@ export const TOOLS = [
     annotations: { title: 'Kanun maddesini getir', ...READ_ONLY },
   },
   {
+    name: 'get_article_history',
+    title: 'Madde tarihçesi',
+    description:
+      'Bir maddenin değişiklik geçmişini tarih sırasıyla döndürür: hangi tarihte, hangi kanun ya da KHK maddesiyle değiştirildiği, ' +
+      'eklendiği, yürürlükten kaldırıldığı ya da Anayasa Mahkemesince iptal edildiği ve değişikliğin hangi fıkrada olduğu. ' +
+      'Kayıtlar mevzuat.gov.tr metnindeki değişiklik notlarından ve dipnotlardan çıkarılır; maddenin eski metinleri dönmez.',
+    inputSchema: {
+      type: 'object',
+      properties: {
+        kanun: { type: 'string', description: 'Kanun kısaltması, numarası ya da adı: "HMK", "6100".' },
+        madde: { type: 'string', description: 'Madde numarası: "107", "1/A", "Geçici 1", "Mükerrer 257".' },
+      },
+      required: ['kanun', 'madde'],
+      additionalProperties: false,
+    },
+    annotations: { title: 'Madde tarihçesi', ...READ_ONLY },
+  },
+  {
     name: 'list_laws',
     title: 'Kapsanan kanunları listele',
     description:
@@ -77,7 +95,18 @@ function articleBlock(a, full) {
   return `${head}\n${meta}\n<kanun_metni kimlik="${a.kimlik}">\n${body}\n</kanun_metni>`;
 }
 
+function historyText(r) {
+  const fmt = (t) => (t ? t.split('-').reverse().join('.') : 'tarih yok');
+  const lines = r.olaylar.map((e) => {
+    const where = e.fikra ? ` (${e.fikra}. fıkra)` : '';
+    const what = e.not && e.not.toLocaleLowerCase('tr-TR') !== e.islem ? `${e.islem}: ${e.not}` : e.islem;
+    return `- ${fmt(e.tarih)} · ${what}${where}${e.kaynak ? ` · ${e.kaynak}` : ''}${e.aciklama ? `\n  ${e.aciklama}` : ''}`;
+  });
+  return `## ${r.atif} tarihçesi${r.baslik ? ` — ${r.baslik}` : ''}\n${r.kaynak.url}\n<kanun_metni kimlik="${r.kimlik}">\n${lines.join('\n') || '(kayıt yok)'}\n</kanun_metni>\n\n${r.aciklama} Metin tarihi: ${r.kaynak.metinTarihi}, son kontrol: ${r.kaynak.sonKontrol}.`;
+}
+
 function asText(result, kind) {
+  if (kind === 'get_article_history') return historyText(result);
   if (kind === 'list_laws') {
     const lines = result.kanunlar.map(
       (l) => `- ${l.kisaltma} — ${l.ad} (${l.no} sayılı; ${kunye(l)}; ${l.maddeSayisi} madde) ${l.url}`,
@@ -101,6 +130,7 @@ export function callTool(engine, name, args = {}) {
   let result;
   if (name === 'search_legislation') result = engine.search(args);
   else if (name === 'get_article') result = engine.getArticle(args);
+  else if (name === 'get_article_history') result = engine.getHistory(args);
   else if (name === 'list_laws') result = engine.listLaws();
   else return { isError: true, content: [{ type: 'text', text: `Bilinmeyen araç: ${name}` }] };
 

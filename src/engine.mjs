@@ -3,6 +3,7 @@
 
 import { fold, tokenize } from './text.mjs';
 import { CONCEPTS } from './concepts.mjs';
+import { articleHistory } from './history.mjs';
 
 const K1 = 1.2;
 const B = 0.75;
@@ -165,6 +166,37 @@ export function createEngine(data) {
     return { maddeler: [present(a, { full: true, fikra: r.fikra, bent: r.bent })], bulunamayan: [] };
   }
 
+  // Maddenin değişiklik geçmişi (metindeki notlar ve dipnotlardan).
+  function getHistory({ kanun, madde }) {
+    const law = resolveLaw(kanun);
+    if (!law) return { error: `Kanun bulunamadı: "${kanun}". list_laws ile desteklenen kanunlara bakın.` };
+    const want = String(madde ?? '').trim();
+    if (!want) return { error: 'madde alanı boş.' };
+    const r = resolveSpec(law.no, want);
+    if (!r) return { error: `${law.abbr} içinde "${want}" numaralı madde bulunamadı.` };
+    const a = articles[r.index];
+    const olaylar = articleHistory(a.t, a.d);
+    return {
+      atif: citeOf(a),
+      kimlik: `${a.k}/${a.m}`,
+      kanun: { no: law.no, ad: law.name, kisaltma: law.abbr },
+      madde: a.m,
+      baslik: a.b,
+      olaylar,
+      aciklama:
+        olaylar.length === 0
+          ? 'mevzuat.gov.tr metninde bu madde için değişiklik notu ya da dipnot yok.'
+          : 'Kayıtlar mevzuat.gov.tr metnindeki değişiklik notlarından ("Değişik: …") ve dipnotlardan çıkarıldı; maddenin eski metinleri bu kaynakta yer almaz.',
+      kaynak: {
+        ad: 'mevzuat.gov.tr',
+        url: law.url,
+        resmiGazete: law.resmiGazete,
+        metinTarihi: law.metinTarihi || snapshot,
+        sonKontrol: law.sonKontrol || law.metinTarihi || snapshot,
+      },
+    };
+  }
+
   function search({ sorgu, kanun, limit = 8 }) {
     const q = String(sorgu ?? '').trim();
     if (!q) return { error: 'sorgu alanı boş.' };
@@ -246,7 +278,7 @@ export function createEngine(data) {
     };
   }
 
-  return { search, getArticle, listLaws, resolveLaw, parseCitation, snapshot };
+  return { search, getArticle, getHistory, listLaws, resolveLaw, parseCitation, snapshot };
 }
 
 // Eşleşen terimlerin geçtiği en yoğun bölümden ~320 karakterlik bir özet.

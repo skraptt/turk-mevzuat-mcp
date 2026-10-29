@@ -148,3 +148,26 @@ test('paket Cloudflare Workers ücretsiz plan sınırının altında', async () 
   // Sınır 3 MiB (sıkıştırılmış, kod dahil). Kod ve yuvarlama payı için 2,8 MB'ta uyar.
   assert.ok(size < 2.8e6, `veri sıkıştırılmış hâlde ${(size / 1e6).toFixed(2)} MB; sınıra yaklaşıldı`);
 });
+
+test('madde tarihçesi: metin notları, dipnotlar, AYM kararları', async () => {
+  const { articleHistory } = await import('../src/history.mjs');
+  const h = articleHistory(
+    '(1) Birinci fıkra.\n(2) (Değişik: 16/7/2026-7589/19 md.) İkinci fıkra.\n(3) (Ek: 2/7/2018-KHK/700/145 md.; Mülga: 1/1/2020 - 7200/3 md.)\n(4) (İptal: Anayasa Mahkemesinin 11/10/2023 tarihli ve E.: 2020/76; K.: 2023/172 sayılı Kararı ile.)',
+    ['24/6/2026 tarihli ve 7587 sayılı Kanunun 10 uncu maddesi ile bu bentte yer alan “iki” ibaresi “beş” şeklinde değiştirilmiştir.', 'Bu hükmün uygulanmasında ek 1 inci maddeye bakınız.'],
+  );
+  assert.deepEqual(
+    h.map((e) => [e.tarih, e.islem, e.kaynak, e.fikra ?? null]),
+    [
+      ['2018-07-02', 'ekleme', '700 sayılı KHK m. 145', 3],
+      ['2020-01-01', 'yürürlükten kaldırma', '7200 sayılı Kanun m. 3', 3],
+      ['2023-10-11', 'iptal', 'AYM E. 2020/76, K. 2023/172', 4],
+      ['2026-06-24', 'değişiklik', '7587 sayılı Kanun m. 10', null],
+      ['2026-07-16', 'değişiklik', '7589 sayılı Kanun m. 19', 2],
+      [null, 'not', undefined, null],
+    ],
+  );
+  const r = engine.getHistory({ kanun: 'HMK', madde: '107' });
+  assert.equal(r.atif, 'HMK m. 107');
+  assert.ok(r.olaylar.some((e) => e.tarih === '2026-07-16' && e.islem === 'yürürlükten kaldırma' && e.kaynak === '7589 sayılı Kanun m. 19'));
+  assert.match(engine.getHistory({ kanun: 'HMK', madde: '9999' }).error, /bulunamadı/);
+});
