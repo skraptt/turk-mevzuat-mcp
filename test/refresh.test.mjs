@@ -89,3 +89,17 @@ test('emniyet freni: yanlış kanun, boş sayfa, madde sayısında düşüş', (
   assert.throws(() => checkLaw(law, '<html><body>Bakım çalışması</body></html>', oldText), /kanun metni bulunamadı/);
   assert.throws(() => checkLaw(law, page(madde(1, 'Amaç', '(1) Bu Kanunun amacı.')), oldText), /şüpheli düşüş/);
 });
+
+test('dipnot işaretiyle biten son cümle sonraki maddenin başlığına kaymaz', () => {
+  const html = page(
+    madde(1, 'Amaç', '(1) Birinci cümle. İkinci cümle verilebilir.<a href="#_ftn1" name="_ftnref1"><span class=MsoFootnoteReference>[1]</span></a>') +
+    p(`<b>${sp('6 – İtirazın hükmü:')}</b>`) +
+    p(`<b>${sp('MADDE 2- ')}</b>${sp('(1) Tekrar atıf (…)</span><sup><span class=MsoFootnoteReference>2</span></sup><span> bildirilir.')}`),
+  );
+  const [m1, m2] = parseKanun(htmlToText(html), 'x').maddeler;
+  assert.match(m1.metin, /İkinci cümle verilebilir\.$/);
+  assert.deepEqual(m1.dipnotlar, ['1/1/2020 tarihli Kanunla değiştirilmiştir.']);
+  assert.equal(m2.baslik, '6 – İtirazın hükmü'); // tireli, iki noktalı alt başlık
+  assert.match(m2.metin, /\(…\) bildirilir\.$/); // bağlantısız üst simge dipnot sayılır
+  assert.deepEqual(m2.dipnotlar, ['İkinci dipnot.']);
+});
