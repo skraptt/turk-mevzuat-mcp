@@ -1,6 +1,6 @@
 {
   "name": "turk-mevzuat-mcp",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "description": "Türk kanunları için Model Context Protocol (MCP) sunucusu",
   "type": "module",
   "license": "Apache-2.0",

@@ -15,7 +15,7 @@ import { parseKanun } from './lib/parse.mjs';
 const root = join(dirname(fileURLToPath(import.meta.url)), '..');
 const manifest = JSON.parse(readFileSync(join(root, 'data', 'sources.json'), 'utf8'));
 // Genel tarih: kanunların en son karşılaştırıldığı gün (her kanunun kendi tarihi ayrıca tutulur).
-const snapshot = Object.values(manifest).map((m) => m.sonKontrol).sort().at(-1);
+const snapshot = Object.values(manifest).map((m) => m.sonKontrol).filter(Boolean).sort().at(-1);
 
 
 const files = readdirSync(join(root, 'sources')).filter((f) => f.endsWith('.txt')).sort();

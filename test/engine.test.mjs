@@ -20,7 +20,7 @@ test('kanun çözümleme: kısaltma, numara, ad, takma ad', () => {
   }
   assert.equal(engine.resolveLaw('İş Kanunu')?.no, '4857');
   assert.equal(engine.resolveLaw('İİK')?.no, '2004');
-  assert.equal(engine.resolveLaw('Vergi Usul Kanunu'), null);
+  assert.equal(engine.resolveLaw('Gelir Vergisi Kanunu'), null);
 });
 
 test('madde getirme: normal, harfli, geçici, aralık', () => {
@@ -119,4 +119,22 @@ test('mevzuat.gov.tr web metinleri: dipnotlar ayrılır, başlıklar korunur', (
   assert.match(dip.kaynak.metinTarihi, /^\d{4}-\d{2}-\d{2}$/);
   assert.ok(dip.kaynak.sonKontrol >= dip.kaynak.metinTarihi); // kontrol günü metin tarihinden önce olamaz
   assert.equal(engine.getArticle({ kanun: 'TCK', madde: '157' }).maddeler[0].baslik, 'Dolandırıcılık');
+});
+
+test('mükerrer maddeler ve üç haneli kanun numaraları', () => {
+  const mini = createEngine({
+    snapshot: '2026-10-29',
+    laws: [{ no: '213', name: 'Vergi Usul Kanunu', abbr: 'VUK', aliases: [], url: 'https://www.mevzuat.gov.tr/x', resmiGazete: {}, maddeSayisi: 2 }],
+    articles: [
+      { k: '213', m: '257', b: 'Maliye Bakanlığının yetkisi', y: null, t: '(1) Birinci.' },
+      { k: '213', m: 'Mükerrer 257', b: 'Yetki', y: null, t: '(1) Mükerrer madde metni.' },
+    ],
+  });
+  assert.equal(mini.getArticle({ kanun: '213', madde: 'mükerrer 257' }).maddeler[0].atif, 'VUK mükerrer m. 257');
+  assert.equal(mini.getArticle({ kanun: 'VUK', madde: 'Mükerrer Madde 257' }).maddeler[0].metin, '(1) Mükerrer madde metni.');
+  assert.equal(mini.getArticle({ kanun: 'VUK', madde: '257' }).maddeler[0].baslik, 'Maliye Bakanlığının yetkisi');
+  const s = mini.search({ sorgu: 'VUK mükerrer m. 257' });
+  assert.equal(s.dogrudanAtif, true);
+  assert.equal(s.sonuclar[0].kimlik, '213/Mükerrer 257');
+  assert.equal(mini.resolveLaw('213 sayılı Kanun')?.no, '213');
 });

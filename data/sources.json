@@ -126,5 +126,93 @@
     "kaynak": "mevzuat.gov.tr",
     "sha256": "83c78554fd7a8b7f32df1704e888d6089c2ce82e6e61acbc6ccec2cf9ac2584b",
     "maddeSayisi": 181
+  },
+  "2709": {
+    "dosya": "2709_Anayasa.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "5271": {
+    "dosya": "5271_Ceza_Muhakemesi_Kanunu.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "2577": {
+    "dosya": "2577_Idari_Yargilama_Usulu_Kanunu.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "6325": {
+    "dosya": "6325_Hukuk_Uyusmazliklarinda_Arabuluculuk_Kanunu.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "7036": {
+    "dosya": "7036_Is_Mahkemeleri_Kanunu.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "5326": {
+    "dosya": "5326_Kabahatler_Kanunu.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "634": {
+    "dosya": "634_Kat_Mulkiyeti_Kanunu.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "1136": {
+    "dosya": "1136_Avukatlik_Kanunu.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "213": {
+    "dosya": "213_Vergi_Usul_Kanunu.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "5651": {
+    "dosya": "5651_Internet_Kanunu.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "6563": {
+    "dosya": "6563_Elektronik_Ticaret_Kanunu.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
   }
 }

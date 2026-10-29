@@ -30,8 +30,8 @@ export function createEngine(data) {
   // Madde numarası anahtarları: "315", "gecici 1", "ek 3", "1/a".
   const normMadde = (m) =>
     fold(m)
-      .replace(/^(madde|md|m)\.?\s*/, '')
-      .replace(/^(gecici|ek)\s+(madde|md|m)\.?\s*/, '$1 ')
+      .replace(/^(madde|md|m)(?![a-z])\.?\s*/, '') // "mükerrer" de m ile başlar
+      .replace(/^(gecici|ek|mukerrer)\s+(madde|md|m)\.?\s*/, '$1 ')
       .replace(/\s+/g, ' ')
       .replace(/\s*\/\s*/g, '/')
       .trim();
@@ -58,14 +58,14 @@ export function createEngine(data) {
     if (input == null || input === '') return null;
     const k = fold(input).replace(/[^a-z0-9]+/g, ' ').trim();
     if (lawKeys.has(k)) return lawByNo.get(lawKeys.get(k));
-    const num = k.match(/\b(\d{4})\b/);
+    const num = k.match(/\b(\d{3,4})\b/);
     if (num && lawByNo.has(num[1])) return lawByNo.get(num[1]);
     return null;
   }
 
   // Madde numarası ve isteğe bağlı fıkra/bent: "315", "1/A", "Geçici 1", "315/2", "5/2-ç", "5 f.2 b.ç"
   const ARTICLE_SPEC =
-    '(?:(?:ge[çc]ici|ek)\\s+(?:(?:madde|md|m)\\.?\\s*)?)?\\d+(?:\\/[a-zçğıöşü](?![a-zçğıöşü\\d]))?' +
+    '(?:(?:ge[çc]ici|ek|m[üu]kerrer)\\s+(?:(?:madde|md|m)\\.?\\s*)?)?\\d+(?:\\/[a-zçğıöşü](?![a-zçğıöşü\\d]))?' +
     '(?:\\s*(?:\\/|f\\.?|fıkra)\\s*\\d+(?:\\s*[-,(]?\\s*(?:b\\.?\\s*|bent\\s*)?[a-zçğıöşü]{1,2}\\)?)?)?';
   const CITATION = new RegExp(`^(.+?)[\\s,/]+(?:(?:madde|md|m)\\.?\\s*)?(${ARTICLE_SPEC})\\s*\\.?$`, 'iu');
   const SPEC_PARTS = new RegExp(
@@ -95,10 +95,10 @@ export function createEngine(data) {
     return { law, madde: m[2] };
   }
 
-  // Yerleşik atıf biçimi: "TBK m. 315", "TBK geçici m. 2", "FSEK ek m. 1".
+  // Yerleşik atıf biçimi: "TBK m. 315", "TBK geçici m. 2", "FSEK ek m. 1", "VUK mükerrer m. 257".
   function citeOf(a) {
     const law = lawByNo.get(a.k);
-    const m = a.m.match(/^(Geçici|Ek) (.+)$/);
+    const m = a.m.match(/^(Geçici|Ek|Mükerrer) (.+)$/);
     return m ? `${law.abbr} ${m[1].toLocaleLowerCase('tr-TR')} m. ${m[2]}` : `${law.abbr} m. ${a.m}`;
   }
 

@@ -22,6 +22,18 @@ export const LAWS = [
   { no: '2004', name: 'İcra ve İflas Kanunu', abbr: 'İİK', aliases: ['icra kanunu', 'icra iflas kanunu'], tertip: 3 },
   { no: '4857', name: 'İş Kanunu', abbr: 'İş K.', aliases: ['iş kanunu', 'is kanunu'], tertip: 5 },
   { no: '5237', name: 'Türk Ceza Kanunu', abbr: 'TCK', aliases: ['ceza kanunu'], tertip: 5 },
+  // v0.5: usul, kamu ve bilişim hukuku
+  { no: '2709', name: 'Türkiye Cumhuriyeti Anayasası', abbr: 'AY', aliases: ['anayasa', 'türkiye cumhuriyeti anayasası'], tertip: 5 },
+  { no: '5271', name: 'Ceza Muhakemesi Kanunu', abbr: 'CMK', aliases: ['ceza muhakemesi kanunu', 'ceza muhakemeleri kanunu'], tertip: 5 },
+  { no: '2577', name: 'İdari Yargılama Usulü Kanunu', abbr: 'İYUK', aliases: ['idari yargılama usulü kanunu'], tertip: 5 },
+  { no: '6325', name: 'Hukuk Uyuşmazlıklarında Arabuluculuk Kanunu', abbr: 'HUAK', aliases: ['arabuluculuk kanunu'], tertip: 5 },
+  { no: '7036', name: 'İş Mahkemeleri Kanunu', abbr: 'İş Mah. K.', aliases: ['iş mahkemeleri kanunu'], tertip: 5 },
+  { no: '5326', name: 'Kabahatler Kanunu', abbr: 'Kab. K.', aliases: ['kabahatler kanunu'], tertip: 5 },
+  { no: '634', name: 'Kat Mülkiyeti Kanunu', abbr: 'KMK', aliases: ['kat mülkiyeti kanunu'], tertip: 5 },
+  { no: '1136', name: 'Avukatlık Kanunu', abbr: 'Av. K.', aliases: ['avukatlık kanunu'], tertip: 5 },
+  { no: '213', name: 'Vergi Usul Kanunu', abbr: 'VUK', aliases: ['vergi usul kanunu'], tertip: 4 },
+  { no: '5651', name: 'İnternet Ortamında Yapılan Yayınların Düzenlenmesi ve Bu Yayınlar Yoluyla İşlenen Suçlarla Mücadele Edilmesi Hakkında Kanun', abbr: '5651 s. K.', aliases: ['internet kanunu', '5651 sayılı kanun'], tertip: 5 },
+  { no: '6563', name: 'Elektronik Ticaretin Düzenlenmesi Hakkında Kanun', abbr: 'ETDHK', aliases: ['elektronik ticaret kanunu', 'e-ticaret kanunu'], tertip: 5 },
 ];
 
 export function mevzuatUrl(no, tertip) {

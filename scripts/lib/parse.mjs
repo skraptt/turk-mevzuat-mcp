@@ -4,7 +4,7 @@
 
 // "MADDE 1-", "Madde 1 –", "Geçici Madde 2-", "EK MADDE 3 –", "Madde 1/A –", "MADDE 146 ila 149 –"
 // "MADDE 61. -" (noktalı) ve tire olmadan "(Mülga: …)" ile başlayan madde başlıkları da tanınır.
-export const HEADING = /^\s*(?:(ge[çÇ][iİ]c[iİ]|ek)\s+)?madde\s+(\d+(?:\/[a-zçğıöşü])?)(?:\s+ila\s+(\d+))?\s*(?:\.?\s*[-–—]\s*|(?=\((?:Mülga|İptal)))/iu;
+export const HEADING = /^\s*(?:(ge[çÇ][iİ]c[iİ]|ek|m[üÜ]kerrer)\s+)?madde\s+(\d+(?:\/[a-zçğıöşü])?)(?:\s+ila\s+(\d+))?\s*(?:\.?\s*[-–—]\s*|(?=\((?:Mülga|İptal)))/iu;
 
 function isTitleLine(line) {
   // Satır sonundaki dipnot işaretleri ("…verilebilir.[2]") karar verirken sayılmaz.
@@ -51,7 +51,8 @@ function sectionPaths(lines) {
 function readKunye(lines) {
   const field = (re) => lines.find((l) => re.test(l));
   const kabul = field(/Kabul Tarihi/i)?.split(':').slice(1).join(':').trim() || null;
-  const rgLine = field(/Yayımlandığı Resm[îi] Gazete/i) || '';
+  // "Yayımlandığı Resmî Gazete", "Yayımlandığı R.Gazete", kaynaktaki yazım hatasıyla "Yayımlandğı"
+  const rgLine = field(/Yay[ıi]mland\S*\s+R(?:esm[îi])?\.?\s*Gazete/i) || '';
   const tarih = rgLine.match(/Tarihi?\s*:\s*([\d/.]+)/i)?.[1] || null;
   const sayi = rgLine.match(/Sayı\s*:\s*(\d+)/i)?.[1] || null;
   const fmt = (d) => (d ? d.split(/[/.]/).map((p) => p.padStart(2, '0')).join('.') : null);
@@ -112,7 +113,7 @@ export function parseKanun(text, fileName) {
   const allLines = pre.lines;
   // Kanunun sonundaki "işlenemeyen hükümler" ve "değişiklik getiren mevzuat / yürürlüğe giriş
   // tarihleri" tabloları madde değildir. Başlık birkaç satıra bölünmüş olabilir.
-  let tailStart = allLines.findIndex((l) => /İŞLENEMEYEN HÜKÜMLER|DEĞİŞİKLİK GETİREN|YÜRÜRLÜĞE GİRİŞ TARİHİNİ GÖSTERİR/u.test(l));
+  let tailStart = allLines.findIndex((l) => /İŞLENEMEYEN|DEĞİŞİKLİK GETİREN|YÜRÜRLÜĞE GİRİŞ TARİHİNİ GÖSTERİR/u.test(l));
   // Üstündeki "… SAYILI KANUNA EK VE" gibi büyük harfli başlık satırları da bu bölüme aittir.
   const isUpper = (l) => /\p{Lu}{3}/u.test(l) && l === l.toLocaleUpperCase('tr-TR') && !HEADING.test(l);
   for (let k = 0; tailStart > 0 && k < 5; k++) {
@@ -125,7 +126,7 @@ export function parseKanun(text, fileName) {
   // Son maddeden sonra gelen "(1) SAYILI LİSTE", "(I) SAYILI CETVEL" gibi kanun ekleri (kadro
   // listeleri vb.) madde metni değildir; son maddeye eklenmemeleri için kesilir.
   const lastHeading = lines.findLastIndex((l) => HEADING.test(l));
-  const annex = lines.findIndex((l, i) => i > lastHeading && /^\s*\((?:[IVX]+|\d+)\)\s*SAYILI\s+(?:LİSTE|CETVEL)\s*$/u.test(l));
+  const annex = lines.findIndex((l, i) => i > lastHeading && /^\s*\((?:[IVX]+|\d+)\)\s*SAYILI\s+(?:LİSTE|CETVEL)\s*(?:\[\d+\])*\s*$/u.test(l));
   if (lastHeading > -1 && annex > -1) lines = lines.slice(0, annex);
 
   const noLine = lines.find((l) => /^\s*Kanun Numarası\s*:/i.test(l));
@@ -146,7 +147,7 @@ export function parseKanun(text, fileName) {
     const start = headingIdx[h];
     const end = h + 1 < headingIdx.length ? headingIdx[h + 1] : lines.length;
     const m = lines[start].match(HEADING);
-    const prefix = m[1] ? (/^ek$/i.test(m[1]) ? 'Ek ' : 'Geçici ') : '';
+    const prefix = m[1] ? (/^ek$/i.test(m[1]) ? 'Ek ' : /^m[üÜ]/i.test(m[1]) ? 'Mükerrer ' : 'Geçici ') : '';
     const madde = prefix + m[2].toLocaleUpperCase('tr-TR') + (m[3] ? `-${m[3]}` : '');
 
     const body = [lines[start].slice(m[0].length), ...lines.slice(start + 1, end)];
