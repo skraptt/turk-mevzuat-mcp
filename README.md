@@ -145,6 +145,8 @@ Bu proje T.C. Cumhurbaşkanlığı Mevzuat Bilgi Sistemi ile bağlantılı deği
 
 ## Gizlilik
 
+Ayrıntılı ve İngilizce metin: [PRIVACY.md](PRIVACY.md).
+
 - Sunucu kullanıcı hesabı, çerez ya da kimlik doğrulama kullanmaz.
 - Gönderdiğiniz sorgular yalnızca cevabı üretmek için işlenir; sunucu tarafından
   kaydedilmez, saklanmaz ve üçüncü kişilerle paylaşılmaz. Kodda kayıt (log) tutan
@@ -185,4 +187,6 @@ portal.
   Workers with the data bundled in.
 - **Licence:** code Apache-2.0. Statute texts are free to reproduce under
   Art. 31 of the Turkish Law on Intellectual and Artistic Works.
+- **Privacy policy:** [PRIVACY.md](PRIVACY.md). No accounts, no cookies, no logging;
+  queries are processed in memory only.
 - **Not legal advice.**
