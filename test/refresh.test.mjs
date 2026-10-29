@@ -103,3 +103,15 @@ test('dipnot işaretiyle biten son cümle sonraki maddenin başlığına kaymaz'
   assert.match(m2.metin, /\(…\) bildirilir\.$/); // bağlantısız üst simge dipnot sayılır
   assert.deepEqual(m2.dipnotlar, ['İkinci dipnot.']);
 });
+
+test('üst simge olmayan dipnot atfı ve kanun ekleri', () => {
+  const html = page(
+    madde(1, 'Amaç', '(1) Kararın (…)</span><span class=MsoFootnoteReference>2</span><span> tebliğinden itibaren.') +
+    madde(2, 'Yürütme', '(1) Bu Kanun hükümlerini Cumhurbaşkanı yürütür.') +
+    p(sp('(I) SAYILI CETVEL')) + p(sp('KADRO LİSTESİ')) + '<table><tr><td>GİH</td><td>Uzman</td></tr></table>',
+  );
+  const [m1, m2] = parseKanun(htmlToText(html), 'x').maddeler;
+  assert.match(m1.metin, /\(…\) tebliğinden/);
+  assert.deepEqual(m1.dipnotlar, ['İkinci dipnot.']);
+  assert.equal(m2.metin, '(1) Bu Kanun hükümlerini Cumhurbaşkanı yürütür.');
+});

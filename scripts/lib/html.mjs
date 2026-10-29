@@ -49,6 +49,8 @@ export function htmlToText(html) {
     .replace(new RegExp(`<\\/?(?:${BLOCK1})\\b[^>]*>`, 'gi'), '\u0001')
     // Aynı dipnota ikinci kez yapılan atıf, bağlantısız bir üst simge olarak yazılır
     // ("<sup><span class=MsoFootnoteReference>5</span></sup>"); bunu da "[5]" biçimine getir.
+    // Bazı sayfalarda bu atıf üst simge bile değildir: "<span class=MsoFootnoteReference>67</span>".
+    .replace(/<span\b[^>]*class=["']?MsoFootnoteReference\b[^>]*>((?:\s|<[a-z][^>]*>)*)(\d{1,3})((?:\s|<\/[a-z]+\s*>)*?)<\/span>/gi, '[$2]')
     .replace(/<sup\b[^>]*>((?:\s|<[^>]+>)*)(\d{1,3})((?:\s|<[^>]+>)*)<\/sup>/gi, '[$2]')
     .replace(/<\/t[dh]\s*>/gi, '\t')
     .replace(/<[^>]+>/g, '');
