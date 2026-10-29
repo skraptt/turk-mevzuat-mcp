@@ -6,6 +6,9 @@
 // Sunucu oturum tutmaz ve istemciye akış (SSE) açmaz; her POST'a JSON ile cevap verir.
 
 import { TOOLS, callTool } from './tools.mjs';
+import { ICON_PNG_BASE64 } from './icon.mjs';
+
+const ICON = Uint8Array.from(atob(ICON_PNG_BASE64), (c) => c.charCodeAt(0));
 
 export const SERVER_INFO = { name: 'turk-mevzuat', title: 'Türk Mevzuat', version: '0.5.2' };
 const SUPPORTED_VERSIONS = ['2025-11-25', '2025-06-18', '2025-03-26', '2024-11-05'];
@@ -97,6 +100,9 @@ export async function handleRequest(engine, request) {
 
   if (url.pathname === '/' && request.method === 'GET') return infoPage(engine, url.origin);
   if (url.pathname === '/health') return json({ ok: true });
+  if ((url.pathname === '/favicon.ico' || url.pathname === '/icon.png') && request.method === 'GET') {
+    return new Response(ICON, { headers: { 'Content-Type': 'image/png', 'Cache-Control': 'public, max-age=86400', ...CORS } });
+  }
 
   if (url.pathname !== '/mcp') return json({ error: 'Bulunamadı' }, 404);
 

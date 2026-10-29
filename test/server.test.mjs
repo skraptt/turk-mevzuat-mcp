@@ -85,3 +85,13 @@ test('toplu istek ve CORS', async () => {
   const pre = await handleRequest(engine, new Request('https://ornek.dev/mcp', { method: 'OPTIONS' }));
   assert.equal(pre.status, 204);
 });
+
+test('simge: /favicon.ico ve /icon.png PNG döndürür', async () => {
+  for (const path of ['/favicon.ico', '/icon.png']) {
+    const res = await handleRequest(engine, new Request(`https://x.test${path}`));
+    assert.equal(res.status, 200);
+    assert.equal(res.headers.get('content-type'), 'image/png');
+    const bytes = new Uint8Array(await res.arrayBuffer());
+    assert.deepEqual([...bytes.slice(1, 4)], [0x50, 0x4e, 0x47]); // "PNG"
+  }
+});
