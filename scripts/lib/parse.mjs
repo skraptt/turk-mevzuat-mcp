@@ -121,7 +121,12 @@ export function parseKanun(text, fileName) {
     if (!isUpper(allLines[j]) || /^\s*\S+\s+(?:KİTAP|KISIM|BAP|BÖLÜM|AYIRIM)\s*$/u.test(allLines[j])) break;
     tailStart = j;
   }
-  const lines = tailStart === -1 ? allLines : allLines.slice(0, tailStart);
+  let lines = tailStart === -1 ? allLines : allLines.slice(0, tailStart);
+  // Son maddeden sonra gelen "(1) SAYILI LİSTE", "(I) SAYILI CETVEL" gibi kanun ekleri (kadro
+  // listeleri vb.) madde metni değildir; son maddeye eklenmemeleri için kesilir.
+  const lastHeading = lines.findLastIndex((l) => HEADING.test(l));
+  const annex = lines.findIndex((l, i) => i > lastHeading && /^\s*\((?:[IVX]+|\d+)\)\s*SAYILI\s+(?:LİSTE|CETVEL)\s*$/u.test(l));
+  if (lastHeading > -1 && annex > -1) lines = lines.slice(0, annex);
 
   const noLine = lines.find((l) => /^\s*Kanun Numarası\s*:/i.test(l));
   const no = noLine?.split(':')[1]?.trim() || fileName.match(/^(\d+)/)?.[1];
