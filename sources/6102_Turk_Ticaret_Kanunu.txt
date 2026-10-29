@@ -270,7 +270,7 @@ MADDE 24- (1) (Değişik: 15/8/2017-KHK-694/162 md.; Aynen kabul: 1/2/2018-7078/
 
 (3) Ticaret sicili kayıtlarının elektronik ortamda tutulmasına ilişkin usul ve esaslar Kanunun 26 ncı maddesine göre çıkarılacak yönetmelikte gösterilir. Bu kayıtlar ile tescil ve ilan edilmesi gereken içeriklerin düzenli olarak depolandığı ve elektronik ortamda sunulabilen merkezi ortak veri tabanı, Gümrük ve Ticaret Bakanlığı ile Türkiye Odalar ve Borsalar Birliği nezdinde oluşturulur.
 
-(4) Ticaret sicili müdürlüğünün kurulmasında aranacak şartlar ve odalar arasında sicil işlemleri ile ilgili olarak varlığı gerekli işbirliğinin sağlanmasına ilişkin esaslar, Gümrük ve Ticaret Bakanlığınca çıkarılacak bir tebliğle düzenlenir.10
+(4) Ticaret sicili müdürlüğünün kurulmasında aranacak şartlar ve odalar arasında sicil işlemleri ile ilgili olarak varlığı gerekli işbirliğinin sağlanmasına ilişkin esaslar, Gümrük ve Ticaret Bakanlığınca çıkarılacak bir tebliğle düzenlenir.[10]
 
 (5) (Ek: 26/6/2012-6335/3 md.) Ticaret sicili kayıt işlemlerinin elektronik ortamda yapılması için toplanması ve işlenmesi gerekli olan kişisel veriler, kişisel verilerin korunması ve bilgi güvenliğinin sağlanmasına ilişkin mevzuata uygun bir şekilde korunur.
 
@@ -4254,7 +4254,7 @@ MADDE 397- (1) (Değişik: 26/6/2012-6335/18 md.) Dördüncü fıkra uyarınca d
 
 (4) (Ek: 26/6/2012-6335/18 md.) 398 inci madde kapsamında denetime tabi olacak şirketler Cumhurbaşkanınca belirlenir.[52]
 
-(5) (Ek: 28/3/2013-6455/80 md.) Dördüncü fıkra kapsamı dışında kalan anonim şirketler (…)[53] bu fıkra hükümlerine göre denetlenir. Denetime ilişkin usul ve esaslar ile bu fıkra uyarınca denetim yapacak denetçilerin niteliklerine, uyacakları etik ilkelere, görev ve yetkilerine, seçilmelerine, görevden alınmalarına veya ayrılmalarına; denetimin ve denetim raporlarının içeriğine ve raporun genel kurula sunulmasına ilişkin hususlar Cumhurbaşkanınca çıkarılacak yönetmelikle düzenlenir. Kanunun denetçinin sorumluluğuna ilişkin hükümleri, bu fıkra uyarınca denetim yapacak denetçilere de kıyasen uygulanır.52
+(5) (Ek: 28/3/2013-6455/80 md.) Dördüncü fıkra kapsamı dışında kalan anonim şirketler (…)[53] bu fıkra hükümlerine göre denetlenir. Denetime ilişkin usul ve esaslar ile bu fıkra uyarınca denetim yapacak denetçilerin niteliklerine, uyacakları etik ilkelere, görev ve yetkilerine, seçilmelerine, görevden alınmalarına veya ayrılmalarına; denetimin ve denetim raporlarının içeriğine ve raporun genel kurula sunulmasına ilişkin hususlar Cumhurbaşkanınca çıkarılacak yönetmelikle düzenlenir. Kanunun denetçinin sorumluluğuna ilişkin hükümleri, bu fıkra uyarınca denetim yapacak denetçilere de kıyasen uygulanır.[52]
 
 (6) (Ek: 28/3/2013-6455/80 md.) Beşinci fıkra kapsamında denetime tabi olduğu hâlde söz konusu denetimi yaptırmayanların finansal tabloları ve yönetim kurulu yıllık faaliyet raporu düzenlenmemiş hükmündedir.
 
@@ -5132,7 +5132,7 @@ MADDE 473- (1) Bir anonim şirket sermayesini azaltarak, azaltılan kısmın yer
 
 (2) (…)[70] sermayenin azaltılmasına rağmen şirket alacaklılarının haklarını tamamen karşılayacak miktarda aktifin şirkette varlığı belirlenmiş olmadıkça sermayenin azaltılmasına karar verilmez.
 
-(3) Genel kurulun kararına 421 inci maddenin üçüncü fıkrasının birinci cümlesi uygulanır. Kararda (…)70 sermayenin azaltılmasının ne tarzda yapılacağı gösterilir.
+(3) Genel kurulun kararına 421 inci maddenin üçüncü fıkrasının birinci cümlesi uygulanır. Kararda (…)[70] sermayenin azaltılmasının ne tarzda yapılacağı gösterilir.
 
 (4) Esas sermayenin azaltılması sebebiyle kayıtlara göre doğacak defter kârı sadece payların yok edilmesinde kullanılabilir.
 
@@ -16352,7 +16352,7 @@ GEÇİCİ MADDE 15- (Ek:23/5/2024-7511/17 md.)
 
 Yürürlük[117]
 
-MADDE 1534 - (1) Kenar başlıkları metne dâhil olan bu Kanun 1/7/2012 tarihinde; (…)117 yürürlüğe girer. 1524 üncü madde, bu Kanunun yürürlüğe girdiği tarihten itibaren bir yıl sonra yürürlüğe girer. Türk Ticaret Kanununun Yürürlüğü ve Uygulama Şekli Hakkında Kanun hükümleri saklıdır.
+MADDE 1534 - (1) Kenar başlıkları metne dâhil olan bu Kanun 1/7/2012 tarihinde; (…)[117] yürürlüğe girer. 1524 üncü madde, bu Kanunun yürürlüğe girdiği tarihten itibaren bir yıl sonra yürürlüğe girer. Türk Ticaret Kanununun Yürürlüğü ve Uygulama Şekli Hakkında Kanun hükümleri saklıdır.
 
 (2) Bu Kanunun Türkiye Muhasebe Standartları ile ilgili hükümlerinin yürürlüklerine aşağıdaki hükümler uygulanır. Bu Kanun;
 
@@ -16368,7 +16368,7 @@ e) 28/3/2001 tarihli ve 4632 sayılı Bireysel Emeklilik Tasarruf ve Yatırım S
 
 bakımından 1/1/2013 tarihinde yürürlüğe girer.
 
-(3) (…)117 bu maddenin ikinci fıkrasında sayılanlar dışında kalan her ölçüdeki gerçek ve tüzel kişi tacirler için yayımlanan ve yayımlanacak olan özel Türkiye Muhasebe Standartları 1/1/2013 tarihinde yürürlüğe girer.
+(3) (…)[117] bu maddenin ikinci fıkrasında sayılanlar dışında kalan her ölçüdeki gerçek ve tüzel kişi tacirler için yayımlanan ve yayımlanacak olan özel Türkiye Muhasebe Standartları 1/1/2013 tarihinde yürürlüğe girer.
 
 (4) Bu Kanunun anonim şirketlerin denetlenmesine ilişkin 397 ilâ 406 ncı maddeleri 1/1/2013 tarihinde yürürlüğe girer.
 

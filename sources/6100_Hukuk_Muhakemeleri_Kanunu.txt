@@ -3556,11 +3556,11 @@ a) Aşağıdaki durumlarda bölge adliye mahkemesi, esası incelemeden kararın 
 
 2) İleri sürülen haklı ret talebine rağmen reddedilen hâkimin davaya bakmış olması.
 
-3) Mahkemenin görevli ve yetkili olmasına rağmen görevsizlik veya yetkisizlik kararı vermiş olması veya mahkemenin görevli ya da yetkili olmamasına rağmen davaya bakmış bulunması (…)48
+3) Mahkemenin görevli ve yetkili olmasına rağmen görevsizlik veya yetkisizlik kararı vermiş olması veya mahkemenin görevli ya da yetkili olmamasına rağmen davaya bakmış bulunması (…)[48]
 
 4) Diğer dava şartlarına aykırılık bulunması.
 
-5) Mahkemece usule aykırı olarak davanın veya karşı davanın açılmamış sayılmasına, davaların birleştirilmesine veya ayrılmasına, (…)48 karar verilmiş olması.
+5) Mahkemece usule aykırı olarak davanın veya karşı davanın açılmamış sayılmasına, davaların birleştirilmesine veya ayrılmasına, (…)[48] karar verilmiş olması.
 
 6) (Değişik:22/7/2020-7251/35 md.) Mahkemece, uyuşmazlığın çözümünde etkili olabilecek ölçüde önemli delillerin toplanmamış veya değerlendirilmemiş olması ya da talebin önemli bir kısmı hakkında karar verilmemiş olması.
 
@@ -3770,7 +3770,7 @@ MADDE 369- (1) Yargıtay, tarafların ileri sürdükleri temyiz sebepleriyle ba�
 
 (2) Yargıtay temyiz incelemesini dosya üzerinde yapar. Ancak, tüzel kişiliğin feshine veya genel kurul kararlarının iptaline, evlenmenin butlanına veya iptaline, boşanma veya ayrılığa, velayete, soybağına ve kısıtlamaya ilişkin davalarla miktar veya değeri altmışbin Türk Lirasını aşan alacak ve ayın davalarında taraflardan biri temyiz veya cevap dilekçesinde duruşma yapılmasını talep etmiş ise Yargıtayca bir gün belli edilerek taraflara usulen davetiye gönderilir. Tebliğ tarihi ile duruşma günü arasında en az iki hafta bulunması gerekir; taraflar gelmişlerse bu süreye bakılmaz. Tebligat gideri verilmemişse duruşma talebi dikkate alınmaz. Duruşma giderinin eksik ödenmiş olduğu anlaşılırsa, dairenin başkanı tarafından verilecek bir haftalık kesin süre içinde tamamlanması, aksi hâlde duruşma talebinden vazgeçilmiş sayılacağı, duruşma isteyene yazılı olarak bildirilir. Verilen süre içinde giderler tamamlanmadığı takdirde, Yargıtay incelemesini dosya üzerinde yapar.[61]
 
-(3) Altmışbin Türk Liralık duruşma sınırının belirlenmesinde 362 nci maddenin ikinci fıkrası kıyas yoluyla uygulanır.61
+(3) Altmışbin Türk Liralık duruşma sınırının belirlenmesinde 362 nci maddenin ikinci fıkrası kıyas yoluyla uygulanır.[61]
 
 (4) Yargıtay, ikinci fıkra hükmü ile bağlı olmaksızın, bilgi almak üzere resen de duruşma yapılmasına karar verebilir.
 
@@ -4286,7 +4286,7 @@ MADDE 398- (Değişik:22/7/2020-7251/43 md.)
 
 (4) Mahkeme, dosyadaki delilleri değerlendirerek gerekli araştırmayı yapar. Yargılama sonunda şikâyet olunanın ihtiyati tedbir kararının uygulanmasına ilişkin emre uymadığı veya tedbir kararına aykırı davrandığı tespit edilirse, birinci fıkra uyarınca disiplin hapsi ile cezalandırılmasına; aksi takdirde şikâyetin reddine karar verilir.
 
-(5) Taraflar, kararın (…)67 tebliğinden itibaren iki hafta içinde karara itiraz edebilir. İtirazı, o yerde hükmü veren mahkemenin birden fazla dairesinin bulunması hâlinde, numara olarak kendisinden sonra gelen daire; son numaralı daire için bir numaralı daire; o yerde hükmü veren mahkemenin tek dairesi bulunması hâlinde en yakın yerdeki aynı düzey ve sıfattaki mahkeme inceler.[67]
+(5) Taraflar, kararın (…)[67] tebliğinden itibaren iki hafta içinde karara itiraz edebilir. İtirazı, o yerde hükmü veren mahkemenin birden fazla dairesinin bulunması hâlinde, numara olarak kendisinden sonra gelen daire; son numaralı daire için bir numaralı daire; o yerde hükmü veren mahkemenin tek dairesi bulunması hâlinde en yakın yerdeki aynı düzey ve sıfattaki mahkeme inceler.[67]
 
 (6) İtiraz merci, bir hafta içinde kararını verir. Merci, itirazı yerinde görürse işin esası hakkında karar verir. İtiraz üzerine verilen karar kesindir.
 
