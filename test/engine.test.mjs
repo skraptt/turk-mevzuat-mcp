@@ -82,3 +82,26 @@ test('her sonuç kaynak ve tarih taşır', () => {
     assert.equal(s.kaynak.metinTarihi, data.snapshot);
   }
 });
+
+test('fıkra ve bent atıfları', () => {
+  const b = engine.getArticle({ kanun: 'KVKK', madde: '5/2-ç' }).maddeler[0];
+  assert.equal(b.atif, 'KVKK m. 5/2-ç');
+  assert.match(b.alinti, /^ç\) Veri sorumlusunun hukuki yükümlülüğünü/);
+  assert.match(b.metin, /^\(1\) Kişisel veriler/); // maddenin tamamı da döner
+  assert.match(engine.getArticle({ kanun: 'KVKK', madde: '5/2-c' }).maddeler[0].alinti, /^c\) Bir sözleşmenin/);
+  assert.equal(engine.getArticle({ kanun: 'KVKK', madde: '5 f.2 b.ç' }).maddeler[0].atif, 'KVKK m. 5/2-ç');
+  // Numarasız fıkralı madde: her paragraf bir fıkra
+  assert.match(engine.getArticle({ kanun: 'TBK', madde: '315/2' }).maddeler[0].alinti, /^Kiracıya verilecek süre en az on gün/);
+  // Harfli madde fıkra sanılmaz
+  assert.equal(engine.getArticle({ kanun: 'FSEK', madde: '1/A' }).maddeler[0].atif, 'FSEK m. 1/A');
+  assert.match(engine.getArticle({ kanun: 'TBK', madde: '315/9' }).error, /2 fıkradan/);
+  const s = engine.search({ sorgu: 'KVKK m. 5/2-ç' });
+  assert.equal(s.dogrudanAtif, true);
+  assert.equal(s.sonuclar[0].atif, 'KVKK m. 5/2-ç');
+});
+
+test('maddeler bölüm yolunu taşır', () => {
+  const a = engine.getArticle({ kanun: 'TBK', madde: '315' }).maddeler[0];
+  assert.match(a.bolum, /Kira Sözleşmesi/);
+  assert.match(engine.getArticle({ kanun: 'TTK', madde: '409' }).maddeler[0].bolum, /Anonim Şirket › Genel Kurul/);
+});

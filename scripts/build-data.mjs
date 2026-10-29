@@ -25,6 +25,39 @@ function isTitleLine(line) {
   return t.length > 0 && t.length < 150 && !/[.:;,]$/.test(t) && !/^\(\d+\)/.test(t);
 }
 
+// "BİRİNCİ KİTAP", "İKİNCİ KISIM", "ÜÇÜNCÜ BÖLÜM", "BİRİNCİ AYIRIM": bölüm başlıkları.
+// Başlığın adı bir sonraki dolu satırdadır ("KİŞİLER HUKUKU").
+const SECTION = /^\s*[A-ZÇĞİÖŞÜÂÎÛ]+(?:\s+[A-ZÇĞİÖŞÜÂÎÛ]+)?\s+(KİTAP|KISIM|BÖLÜM|AYIRIM)\s*$/u;
+const SECTION_LEVEL = { KİTAP: 0, KISIM: 1, BÖLÜM: 2, AYIRIM: 3 };
+
+function titleCaseTr(text) {
+  const small = new Set(['ve', 'ile', 'veya', 'ya', 'da', 'de', 'ki']);
+  return text
+    .toLocaleLowerCase('tr-TR')
+    .split(/\s+/)
+    .map((w, i) => (i > 0 && small.has(w) ? w : w.charAt(0).toLocaleUpperCase('tr-TR') + w.slice(1)))
+    .join(' ');
+}
+
+// Her satır için o noktada geçerli bölüm yolunu (Kitap › Kısım › Bölüm › Ayırım) hesaplar.
+function sectionPaths(lines) {
+  const stack = [];
+  const at = new Array(lines.length);
+  for (let i = 0; i < lines.length; i++) {
+    const m = lines[i].match(SECTION);
+    if (m) {
+      const level = SECTION_LEVEL[m[1]];
+      let j = i + 1;
+      while (j < lines.length && !lines[j].trim()) j++;
+      const name = j < lines.length && isTitleLine(lines[j]) && !SECTION.test(lines[j]) && !HEADING.test(lines[j]) ? lines[j].trim() : null;
+      stack.length = level;
+      stack[level] = name ? titleCaseTr(name) : null;
+    }
+    at[i] = stack.filter(Boolean).join(' › ') || null;
+  }
+  return at;
+}
+
 function readKunye(lines) {
   const field = (re) => lines.find((l) => re.test(l));
   const kabul = field(/Kabul Tarihi/i)?.split(':').slice(1).join(':').trim() || null;
@@ -45,6 +78,7 @@ function parseKanun(text, fileName) {
   if (!no) throw new Error(`${fileName}: kanun numarası bulunamadı`);
 
   const headingIdx = lines.flatMap((l, i) => (HEADING.test(l) ? [i] : []));
+  const paths = sectionPaths(lines);
   const out = [];
   let pendingTitle = [];
   for (let i = (headingIdx[0] ?? 0) - 1; i >= 0 && isTitleLine(lines[i]); i--) pendingTitle.unshift(lines[i].trim());
@@ -73,7 +107,7 @@ function parseKanun(text, fileName) {
         .slice(-2)
         .map((t) => t.replace(/\uFFFC/g, '').replace(/:$/, '').replace(/([a-zçğıöşüâîû)])\d{1,2}$/iu, '$1').trim())
         .join(' / ') || null;
-    out.push({ madde, baslik, metin });
+    out.push({ madde, baslik, metin, bolum: paths[start] });
     pendingTitle = nextTitle;
   }
   return { no, kunye: readKunye(lines), maddeler: out };
@@ -107,7 +141,7 @@ for (const file of files) {
     url: mevzuatUrl(no, meta.tertip),
     maddeSayisi: unique.length,
   });
-  for (const m of unique) articles.push({ k: no, m: m.madde, b: m.baslik, t: m.metin });
+  for (const m of unique) articles.push({ k: no, m: m.madde, b: m.baslik, y: m.bolum, t: m.metin });
   console.log(
     `${no.padEnd(5)} ${meta.abbr.padEnd(13)} ${String(unique.length).padStart(5)} madde` +
       (dropped ? `  (${dropped} tekrar atıldı)` : '') +

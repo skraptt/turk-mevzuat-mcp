@@ -7,7 +7,7 @@
 
 import { TOOLS, callTool } from './tools.mjs';
 
-export const SERVER_INFO = { name: 'turk-mevzuat', title: 'Türk Mevzuat', version: '0.1.0' };
+export const SERVER_INFO = { name: 'turk-mevzuat', title: 'Türk Mevzuat', version: '0.2.0' };
 const SUPPORTED_VERSIONS = ['2025-11-25', '2025-06-18', '2025-03-26', '2024-11-05'];
 
 const INSTRUCTIONS =

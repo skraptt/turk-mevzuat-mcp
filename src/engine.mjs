@@ -7,6 +7,7 @@ import { CONCEPTS } from './concepts.mjs';
 const K1 = 1.2;
 const B = 0.75;
 const TITLE_WEIGHT = 8; // başlıktaki eşleşmeler gövdedekinden değerli
+const PATH_WEIGHT = 4; // bölüm yolu (Kitap › Kısım › Bölüm) konuyu belirtir ama birçok maddede ortaktır
 
 export function createEngine(data) {
   const { laws, articles, snapshot } = data;
@@ -62,10 +63,32 @@ export function createEngine(data) {
     return null;
   }
 
-  // "TBK m. 315", "TBK 315", "6098 sayılı Kanun m.315", "6098/315", "TMK Geçici 1"
+  // Madde numarası ve isteğe bağlı fıkra/bent: "315", "1/A", "Geçici 1", "315/2", "5/2-ç", "5 f.2 b.ç"
+  const ARTICLE_SPEC =
+    '(?:(?:ge[çc]ici|ek)\\s+(?:(?:madde|md|m)\\.?\\s*)?)?\\d+(?:\\/[a-zçğıöşü](?![a-zçğıöşü\\d]))?' +
+    '(?:\\s*(?:\\/|f\\.?|fıkra)\\s*\\d+(?:\\s*[-,(]?\\s*(?:b\\.?\\s*|bent\\s*)?[a-zçğıöşü]{1,2}\\)?)?)?';
+  const CITATION = new RegExp(`^(.+?)[\\s,/]+(?:(?:madde|md|m)\\.?\\s*)?(${ARTICLE_SPEC})\\s*\\.?$`, 'iu');
+  const SPEC_PARTS = new RegExp(
+    '^(.*?\\d+(?:\\/[a-zçğıöşü](?![a-zçğıöşü\\d]))?)\\s*(?:\\/|f\\.?|fıkra)\\s*(\\d+)(?:\\s*[-,(]?\\s*(?:b\\.?\\s*|bent\\s*)?([a-zçğıöşü]{1,2})\\)?)?$',
+    'u',
+  );
+
+  // Madde numarasını (ve varsa fıkra/bent) veri dizinine çözer.
+  function resolveSpec(lawNo, spec) {
+    const raw = String(spec).trim();
+    const exact = articleIndex.get(`${lawNo}|${normMadde(raw)}`);
+    if (exact != null) return { index: exact, fikra: null, bent: null };
+    const m = raw.toLocaleLowerCase('tr-TR').match(SPEC_PARTS);
+    if (!m) return null;
+    const index = articleIndex.get(`${lawNo}|${normMadde(m[1])}`);
+    if (index == null) return null;
+    return { index, fikra: +m[2], bent: m[3] || null };
+  }
+
+  // "TBK m. 315", "TBK 315", "6098 sayılı Kanun m.315", "6098/315", "TMK Geçici 1", "KVKK m. 5/2-ç"
   function parseCitation(text) {
     const s = String(text).trim();
-    const m = s.match(/^(.+?)[\s,/]+(?:(?:madde|md|m)\.?\s*)?((?:ge[çc]ici|ek)\s+(?:(?:madde|md|m)\.?\s*)?\d+(?:\/[a-zçğıöşü])?|\d+(?:\/[a-zçğıöşü])?)\s*\.?$/iu);
+    const m = s.match(CITATION);
     if (!m) return null;
     const law = resolveLaw(m[1]);
     if (!law) return null;
@@ -79,14 +102,20 @@ export function createEngine(data) {
     return m ? `${law.abbr} ${m[1].toLocaleLowerCase('tr-TR')} m. ${m[2]}` : `${law.abbr} m. ${a.m}`;
   }
 
-  function present(a, { full = false, terms = [] } = {}) {
+  function present(a, { full = false, terms = [], fikra = null, bent = null } = {}) {
     const law = lawByNo.get(a.k);
+    let part = null;
+    if (fikra) {
+      part = extractFikra(a.t, fikra, bent);
+    }
     return {
-      atif: citeOf(a),
+      atif: citeOf(a) + (part ? `/${fikra}${bent ? `-${bent}` : ''}` : ''),
+      ...(part ? { alinti: part } : {}),
       kimlik: `${a.k}/${a.m}`,
       kanun: { no: law.no, ad: law.name, kisaltma: law.abbr },
       madde: a.m,
       baslik: a.b,
+      bolum: a.y || null,
       ...(full ? { metin: a.t } : { ozet: snippet(a.t, terms) }),
       kaynak: {
         ad: 'mevzuat.gov.tr',
@@ -120,11 +149,17 @@ export function createEngine(data) {
       return { maddeler: list, bulunamayan: missing };
     }
 
-    const i = articleIndex.get(`${law.no}|${normMadde(want)}`);
-    if (i == null) {
+    const r = resolveSpec(law.no, want);
+    if (!r) {
       return { error: `${law.abbr} içinde "${want}" numaralı madde bulunamadı. ${law.abbr} ${law.maddeSayisi} madde içeriyor (geçici ve ek maddeler dahil).` };
     }
-    return { maddeler: [present(articles[i], { full: true })], bulunamayan: [] };
+    const a = articles[r.index];
+    if (r.fikra && !extractFikra(a.t, r.fikra, r.bent)) {
+      const count = splitFikralar(a.t).length;
+      const what = r.bent ? `${r.fikra}. fıkranın (${r.bent}) bendi` : `${r.fikra}. fıkra`;
+      return { error: `${citeOf(a)} içinde ${what} bulunamadı. Madde ${count} fıkradan oluşuyor; tam metin için madde numarasını tek başına verin.` };
+    }
+    return { maddeler: [present(a, { full: true, fikra: r.fikra, bent: r.bent })], bulunamayan: [] };
   }
 
   function search({ sorgu, kanun, limit = 8 }) {
@@ -141,8 +176,12 @@ export function createEngine(data) {
     // Sorgu doğrudan bir atıfsa önce o madde gelir.
     const cite = parseCitation(q);
     if (cite && (!lawFilter || lawFilter.no === cite.law.no)) {
-      const i = articleIndex.get(`${cite.law.no}|${normMadde(cite.madde)}`);
-      if (i != null) return { sonuclar: [present(articles[i], { full: true })], toplam: 1, dogrudanAtif: true };
+      const r = resolveSpec(cite.law.no, cite.madde);
+      if (r) {
+        const ok = !r.fikra || extractFikra(articles[r.index].t, r.fikra, r.bent);
+        const opts = ok ? { full: true, fikra: r.fikra, bent: r.bent } : { full: true };
+        return { sonuclar: [present(articles[r.index], opts)], toplam: 1, dogrudanAtif: true };
+      }
     }
 
     const all = tokenize(q);
@@ -238,6 +277,7 @@ export function buildIndex(articles) {
     const tf = new Map();
     for (const t of tokenize(a.t)) tf.set(t, (tf.get(t) || 0) + 1);
     if (a.b) for (const t of tokenize(a.b)) tf.set(t, (tf.get(t) || 0) + TITLE_WEIGHT);
+    if (a.y) for (const t of tokenize(a.y)) tf.set(t, (tf.get(t) || 0) + PATH_WEIGHT);
     let len = 0;
     for (const [t, n] of tf) {
       len += n;
@@ -314,4 +354,43 @@ export function decodeIndex(ix) {
     },
   };
   return { postings, docLen };
+}
+
+// ---- Fıkra ve bent ----
+
+const BENT_LINE = /^([a-zçğıöşü]{1,2})\)\s/u;
+
+// Madde metnini fıkralara ayırır. Numaralı fıkralar "(1)" ile başlar; numarasız
+// metinlerde her paragraf bir fıkradır. Bent satırları ("a) …") içinde bulundukları
+// fıkraya aittir.
+export function splitFikralar(text) {
+  const lines = text.split('\n');
+  const numbered = lines.some((l) => /^\(\d+\)/.test(l));
+  const out = [];
+  let notes = [];
+  for (const line of lines) {
+    // Tek başına duran değişiklik notları ("(Değişik: …)") fıkra sayılmaz; izleyen fıkraya eklenir.
+    if (/^\((?:Değişik|Ek|Mülga|İptal)[^)]*\)\s*$/u.test(line)) {
+      notes.push(line);
+      continue;
+    }
+    const starts = numbered ? /^\(\d+\)/.test(line) : !BENT_LINE.test(line);
+    if (starts || !out.length) out.push([...notes, line]);
+    else out[out.length - 1].push(...notes, line);
+    notes = [];
+  }
+  if (notes.length) (out.length ? out[out.length - 1] : out[out.push([]) - 1]).push(...notes);
+  return out;
+}
+
+export function extractFikra(text, fikra, bent) {
+  const parts = splitFikralar(text);
+  const f = parts[fikra - 1];
+  if (!f) return null;
+  if (!bent) return f.join('\n');
+  const line = f.find((l) => {
+    const m = l.match(BENT_LINE);
+    return m && m[1] === bent;
+  });
+  return line || null;
 }

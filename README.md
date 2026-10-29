@@ -15,7 +15,7 @@ döndürür.
 | Araç | Ne yapar |
 |---|---|
 | `search_legislation` | Doğal dil sorgusuyla madde arar ("kiracının temerrüdü", "açık rıza olmadan veri işleme"). Sorgu bir atıfsa ("TBK m. 315", "6098/344", "TMK geçici m. 1") doğrudan o maddeyi döndürür. `kanun` ile tek kanunda aranabilir. |
-| `get_article` | Bir maddenin tam metnini getirir. `madde`: "315", "1/A", "Geçici 1", "Ek 3" ya da en fazla 10 maddelik aralık ("344-347"). |
+| `get_article` | Bir maddenin tam metnini getirir. `madde`: "315", "1/A", "Geçici 1", "Ek 3", en fazla 10 maddelik aralık ("344-347") ya da fıkra ve bent ("315/2", "5/2-ç"). Fıkra istenirse ilgili bölüm ayrıca `alinti` olarak döner. |
 | `list_laws` | Kapsanan kanunları künyeleriyle listeler. |
 
 Bütün araçlar salt okunurdur (`readOnlyHint: true`). Kanun metni çıktıda
@@ -50,12 +50,17 @@ Kanunu (5237), yönetmelikler ve içtihat.
   ilgili maddeye bağlar; örneğin kanun "depozito" demez, TBK m. 342 "güvence" der.
   Kanun kitaplarının sonundaki kavram dizini gibi çalışır ve hukukçular tarafından
   genişletilebilir.
-- **Atıf tanıma:** "TBK m. 315", "Borçlar Kanunu m.315", "6098/315" gibi yazımlar.
+- **Bölüm yolu:** Her madde, bulunduğu "Kitap › Kısım › Bölüm › Ayırım" başlıklarıyla
+  birlikte dizine eklenir (ör. TTK m. 409: "Ticaret Şirketleri › Anonim Şirket › Genel
+  Kurul"). Böylece "anonim şirket genel kurul toplantısı" gibi konu aramaları doğru bölüme
+  gider. Bölüm yolu sonuçlarda `bolum` alanında da gösterilir.
+- **Atıf tanıma:** "TBK m. 315", "Borçlar Kanunu m.315", "6098/315", "KVKK m. 5/2-ç",
+  "KVKK m. 5 f.2 b.ç" gibi yazımlar.
 
 Ağ erişimi ve dış servis yoktur; veri sunucunun içine gömülüdür.
 
 **Ölçülen kalite** (`npm run eval`, 30 sorguluk küçük bir deneme seti): doğru madde
-ilk sonuçta 16/30, ilk üç sonuçta 21/30. Sözcük araması anlam benzerliğini
+ilk sonuçta 17/30, ilk üç sonuçta 23/30. Sözcük araması anlam benzerliğini
 yakalayamaz; anlamsal arama (embedding) bir sonraki sürümün konusu.
 
 ## Kurulum ve çalıştırma
@@ -122,7 +127,8 @@ Gazete) reference and a link to mevzuat.gov.tr, the government's legislation
 portal.
 
 - **Tools:** `search_legislation` (Turkish natural-language search or a citation),
-  `get_article` (full text of an article or a range of up to 10), `list_laws`.
+  `get_article` (full text of an article, a range of up to 10, or a single
+  paragraph/sub-paragraph such as "KVKK m. 5/2-ç"), `list_laws`.
   All tools are read-only.
 - **Coverage:** 13 core statutes, 4,388 articles: Civil Code, Code of Obligations,
   Commercial Code, Civil Procedure, Consumer Protection, Personal Data Protection
