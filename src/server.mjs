@@ -86,7 +86,7 @@ function infoPage(engine, origin) {
     metinTarihi: laws.metinTarihi,
     kaynak: 'https://www.mevzuat.gov.tr',
     kaynakKod: 'https://github.com/skraptt/turk-mevzuat-mcp',
-    gizlilik: 'https://github.com/skraptt/turk-mevzuat-mcp#gizlilik',
+    gizlilik: 'https://github.com/skraptt/turk-mevzuat-mcp/blob/main/PRIVACY.md',
   });
 }
 
