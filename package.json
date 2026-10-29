@@ -1,15 +1,18 @@
 {
   "name": "turk-mevzuat-mcp",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Türk kanunları için Model Context Protocol (MCP) sunucusu",
   "type": "module",
   "license": "Apache-2.0",
   "private": true,
   "scripts": {
     "build": "node scripts/build-data.mjs",
-    "dev": "node scripts/serve.mjs",
+    "pretest": "node scripts/build-data.mjs",
     "test": "node --test test/*.test.mjs",
     "eval": "node scripts/eval.mjs",
+    "dev": "node scripts/serve.mjs",
+    "refresh": "node scripts/refresh.mjs",
+    "predeploy": "node scripts/build-data.mjs",
     "deploy": "npx wrangler@4 deploy"
   },
   "engines": {

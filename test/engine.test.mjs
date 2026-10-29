@@ -116,6 +116,7 @@ test('mevzuat.gov.tr web metinleri: dipnotlar ayrılır, başlıklar korunur', (
   }
   const dip = engine.getArticle({ kanun: 'İş K.', madde: '18' }).maddeler[0];
   assert.ok(dip.dipnotlar?.length > 0);
-  assert.equal(dip.kaynak.metinTarihi, '2026-10-29');
+  assert.match(dip.kaynak.metinTarihi, /^\d{4}-\d{2}-\d{2}$/);
+  assert.ok(dip.kaynak.sonKontrol >= dip.kaynak.metinTarihi); // kontrol günü metin tarihinden önce olamaz
   assert.equal(engine.getArticle({ kanun: 'TCK', madde: '157' }).maddeler[0].baslik, 'Dolandırıcılık');
 });

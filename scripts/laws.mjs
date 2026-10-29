@@ -1,6 +1,7 @@
 // Desteklenen kanunların künye bilgileri. Ad, kısaltma ve tertip elle tutulur;
 // Resmî Gazete tarihi ve sayısı derleme sırasında metnin künyesinden okunur.
 // Tertip, mevzuat.gov.tr bağlantısı için gereklidir (1960 öncesi kanunlar 3. tertip).
+// Metnin tarihi ve son kontrol günü data/sources.json'da tutulur (scripts/refresh.mjs).
 
 export const LAWS = [
   { no: '4721', name: 'Türk Medeni Kanunu', abbr: 'TMK', aliases: ['medeni kanun'], tertip: 5 },
@@ -18,11 +19,16 @@ export const LAWS = [
   { no: '6502', name: 'Tüketicinin Korunması Hakkında Kanun', abbr: 'TKHK', aliases: ['tüketici kanunu'], tertip: 5 },
   { no: '6698', name: 'Kişisel Verilerin Korunması Kanunu', abbr: 'KVKK', aliases: ['kvk kanunu'], tertip: 5 },
   { no: '6769', name: 'Sınai Mülkiyet Kanunu', abbr: 'SMK', aliases: [], tertip: 5 },
-  { metinTarihi: '2026-10-29', no: '2004', name: 'İcra ve İflas Kanunu', abbr: 'İİK', aliases: ['icra kanunu', 'icra iflas kanunu'], tertip: 3 },
-  { metinTarihi: '2026-10-29', no: '4857', name: 'İş Kanunu', abbr: 'İş K.', aliases: ['iş kanunu', 'is kanunu'], tertip: 5 },
-  { metinTarihi: '2026-10-29', no: '5237', name: 'Türk Ceza Kanunu', abbr: 'TCK', aliases: ['ceza kanunu'], tertip: 5 },
+  { no: '2004', name: 'İcra ve İflas Kanunu', abbr: 'İİK', aliases: ['icra kanunu', 'icra iflas kanunu'], tertip: 3 },
+  { no: '4857', name: 'İş Kanunu', abbr: 'İş K.', aliases: ['iş kanunu', 'is kanunu'], tertip: 5 },
+  { no: '5237', name: 'Türk Ceza Kanunu', abbr: 'TCK', aliases: ['ceza kanunu'], tertip: 5 },
 ];
 
 export function mevzuatUrl(no, tertip) {
   return `https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=${no}&MevzuatTur=1&MevzuatTertip=${tertip}`;
+}
+
+// Kanunun tam metnini veren sayfa (Word'den aktarılmış HTML). Güncelleme betiği bunu okur.
+export function metinUrl(no, tertip) {
+  return `https://www.mevzuat.gov.tr/anasayfa/MevzuatFihristDetayIframe?MevzuatTur=1&MevzuatNo=${no}&MevzuatTertip=${tertip}`;
 }

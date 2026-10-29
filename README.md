@@ -21,9 +21,11 @@ döndürür.
 Bütün araçlar salt okunurdur (`readOnlyHint: true`). Kanun metni çıktıda
 `<kanun_metni>` etiketleri içinde, veri olarak verilir.
 
-## Kapsam (v0.1)
+## Kapsam
 
-16 kanun, 5.360 madde. Metin tarihi: İş Kanunu, İİK ve TCK için **29.10.2026**, diğerleri için **10.10.2026** (her sonuçta `metinTarihi` alanında yazar).
+16 kanun, 5.360 madde. Her sonuç iki tarih taşır: `metinTarihi` (metnin alındığı gün) ve
+`sonKontrol` (metnin mevzuat.gov.tr'deki güncel hâliyle en son karşılaştırıldığı gün).
+Metinler her gün otomatik olarak kontrol edilir (bkz. [Güncellik](#güncellik)).
 
 | Kısaltma | Kanun |
 |---|---|
@@ -75,7 +77,7 @@ yakalayamaz; anlamsal arama (embedding) bir sonraki sürümün konusu.
 Bağımlılık yoktur; Node.js 20+ yeterlidir.
 
 ```bash
-npm test             # birim ve protokol testleri
+npm test             # veriyi derler, birim ve protokol testlerini çalıştırır
 npm run eval         # arama kalitesi
 npm run dev          # yerel sunucu: http://localhost:8787/mcp
 ```
@@ -95,13 +97,34 @@ sınırına sığar.
 Claude'da özel connector olarak ekleyin ve sunucu adresi olarak
 `https://<worker-adresiniz>/mcp` girin. Kimlik doğrulama gerekmez.
 
-## Veriyi güncelleme
+## Güncellik
 
-1. `sources/` klasöründeki `.txt` dosyalarını mevzuat.gov.tr'deki güncel metinle
-   değiştirin (künyeli düz metin biçimi).
-2. Yeni bir kanun ekliyorsanız `scripts/laws.mjs` dosyasına künyesini ekleyin.
-3. `node scripts/build-data.mjs --snapshot YYYY-MM-DD` ile veriyi ve dizini yeniden
-   üretin, `npm test` ile kontrol edin.
+Kanun metinleri GitHub Actions ile her gün mevzuat.gov.tr'deki güncel hâlleriyle
+karşılaştırılır ([`refresh.yml`](.github/workflows/refresh.yml)):
+
+1. Her kanunun tam metin sayfası indirilir, düz metne çevrilir (`scripts/lib/html.mjs`) ve
+   maddelere ayrılır (`scripts/lib/parse.mjs`).
+2. Yeni metin, mevcut metinle **madde madde** karşılaştırılır.
+3. **Fark yoksa** `data/sources.json`'daki kontrol tarihi işlenir ve sunucu yeniden yayımlanır;
+   sonuçlardaki `sonKontrol` alanı o günü gösterir.
+4. **Fark varsa** değişen, eklenen ve çıkan maddeleri gösteren bir rapor ile PR açılır.
+   Metin değişikliği, PR bir insan tarafından incelenip birleştirilmeden yayına girmez.
+5. **Emniyet freni:** sayfa alınamazsa, sayfada beklenen kanun yoksa ya da madde sayısı
+   şüpheli biçimde düşerse o kanuna dokunulmaz ve bir issue açılır.
+
+Elle çalıştırmak için:
+
+```bash
+npm run refresh                       # tüm kanunlar; rapor: refresh-report.md
+node scripts/refresh.mjs --only 6098 --dry-run
+```
+
+Yeni kanun eklemek için `scripts/laws.mjs` dosyasına künyesini, `data/sources.json`
+dosyasına boş bir metinle kaydını ekleyip `npm run refresh` çalıştırın.
+
+Kurulum (bir kez): depoda `CLOUDFLARE_API_TOKEN` ve `CLOUDFLARE_ACCOUNT_ID` secret'ları
+tanımlanmalı ve *Settings › Actions › General* altında "Allow GitHub Actions to create and
+approve pull requests" açık olmalıdır.
 
 ## Veri kaynağı ve lisans
 
@@ -137,6 +160,9 @@ portal.
   `get_article` (full text of an article, a range of up to 10, or a single
   paragraph/sub-paragraph such as "KVKK m. 5/2-ç"), `list_laws`.
   All tools are read-only.
+- **Freshness:** a daily GitHub Action compares every statute with mevzuat.gov.tr
+  article by article. Unchanged texts get a new `sonKontrol` (last checked) date;
+  changes open a pull request with a diff report for human review.
 - **Coverage:** 16 core statutes, 5,360 articles: Civil Code, Code of Obligations,
   Commercial Code, Civil Procedure, Labour Law, Enforcement and Bankruptcy Law,
   Criminal Code, Consumer Protection, Personal Data Protection (KVKK), copyright,

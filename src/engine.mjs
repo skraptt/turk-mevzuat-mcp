@@ -122,6 +122,8 @@ export function createEngine(data) {
         url: law.url,
         resmiGazete: law.resmiGazete,
         metinTarihi: law.metinTarihi || snapshot,
+        // Metnin mevzuat.gov.tr'deki güncel hâliyle en son karşılaştırıldığı gün.
+        sonKontrol: law.sonKontrol || law.metinTarihi || snapshot,
       },
       ...(a.d ? { dipnotlar: a.d } : {}),
     };
@@ -237,6 +239,7 @@ export function createEngine(data) {
         resmiGazete: l.resmiGazete,
         maddeSayisi: l.maddeSayisi,
         metinTarihi: l.metinTarihi || snapshot,
+        sonKontrol: l.sonKontrol || l.metinTarihi || snapshot,
         url: l.url,
       })),
       metinTarihi: snapshot,

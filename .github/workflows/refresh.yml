@@ -1,0 +1,109 @@
+# Her gün kanun metinlerini mevzuat.gov.tr ile karşılaştırır.
+#   • Değişiklik yoksa: data/sources.json'daki kontrol tarihi işlenir ve sunucu yeniden yayımlanır.
+#   • Değişiklik varsa: raporlu bir PR açılır (ya da açık PR güncellenir). PR birleştirilince
+#     yayımla iş akışı çalışır. Metin değişikliği insan onayı olmadan yayına girmez.
+#   • Bir kanun alınamazsa ya da emniyet freni devreye girerse: bir "issue" açılır.
+name: Mevzuat güncelliği
+
+on:
+  schedule:
+    - cron: '17 4 * * *' # her gün 04:17 UTC (07:17 TSİ)
+  workflow_dispatch:
+
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+env:
+  BRANCH: otomatik/mevzuat-guncelleme
+  ISSUE_TITLE: Mevzuat güncellemesi başarısız
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    outputs:
+      deploy: ${{ steps.check-date.outputs.deploy }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: git kimliği
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: mevzuat.gov.tr ile karşılaştır
+        id: refresh
+        continue-on-error: true
+        run: node scripts/refresh.mjs --report "$RUNNER_TEMP/rapor.md"
+
+      - name: Derle ve test et
+        id: test
+        continue-on-error: true
+        run: npm test
+
+      - name: Değişiklik varsa PR aç
+        if: steps.refresh.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          LAWS: ${{ steps.refresh.outputs.changed_laws }}
+          TESTS: ${{ steps.test.outcome }}
+        run: |
+          REPORT="$RUNNER_TEMP/rapor.md"
+          if [ "$TESTS" != "success" ]; then
+            printf '\n> ⚠️ **Testler başarısız.** Bu değişiklik ayrıştırmayı bozmuş olabilir; ayrıntı için iş akışı kayıtlarına bakın.\n' >> "$REPORT"
+          fi
+          git switch -c "$BRANCH"
+          git add sources data/sources.json
+          git commit -m "Mevzuat güncellemesi: $LAWS"
+          git push --force origin "$BRANCH"
+          TITLE="Mevzuat güncellemesi: $LAWS"
+          if [ "$(gh pr view "$BRANCH" --json state -q .state 2>/dev/null)" = "OPEN" ]; then
+            gh pr edit "$BRANCH" --title "$TITLE" --body-file "$REPORT"
+          else
+            gh pr create --base main --head "$BRANCH" --title "$TITLE" --body-file "$REPORT"
+          fi
+
+      - name: Değişiklik yoksa kontrol tarihini işle
+        id: check-date
+        if: steps.refresh.outputs.changed == 'false' && steps.test.outcome == 'success'
+        run: |
+          git add data/sources.json
+          if git diff --cached --quiet; then
+            echo "deploy=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git commit -m "Mevzuat kontrolü $(date -u +%F): değişiklik yok"
+          git push origin HEAD:main
+          echo "deploy=true" >> "$GITHUB_OUTPUT"
+
+      - name: Sorun varsa issue aç
+        if: steps.refresh.outcome == 'failure' || (steps.refresh.outputs.changed == 'false' && steps.test.outcome != 'success')
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          BODY="$RUNNER_TEMP/issue.md"
+          { echo "Otomatik kontrol $(date -u +%F) tarihinde sorunla karşılaştı: $RUN_URL"; echo;
+            [ -f "$RUNNER_TEMP/rapor.md" ] && cat "$RUNNER_TEMP/rapor.md"; } > "$BODY"
+          NUM=$(gh issue list --state open --search "in:title \"$ISSUE_TITLE\"" --json number -q '.[0].number')
+          if [ -n "$NUM" ]; then gh issue comment "$NUM" --body-file "$BODY"
+          else gh issue create --title "$ISSUE_TITLE" --body-file "$BODY"; fi
+
+      - name: Raporu iş akışı özetine ekle
+        if: always()
+        run: '[ -f "$RUNNER_TEMP/rapor.md" ] && cat "$RUNNER_TEMP/rapor.md" >> "$GITHUB_STEP_SUMMARY" || true'
+
+  deploy:
+    needs: refresh
+    if: needs.refresh.outputs.deploy == 'true'
+    uses: ./.github/workflows/deploy.yml
+    with:
+      ref: main
+    secrets: inherit
