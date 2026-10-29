@@ -24,7 +24,7 @@ Bütün araçlar salt okunurdur (`readOnlyHint: true`). Kanun metni çıktıda
 
 ## Kapsam
 
-27 kanun, yaklaşık 6.900 madde. Her sonuç iki tarih taşır: `metinTarihi` (metnin alındığı gün) ve
+27 kanun ve 20 yönetmelik/tebliğ, yaklaşık 7.500 madde. Her sonuç iki tarih taşır: `metinTarihi` (metnin alındığı gün) ve
 `sonKontrol` (metnin mevzuat.gov.tr'deki güncel hâliyle en son karşılaştırıldığı gün).
 Metinler her gün otomatik olarak kontrol edilir (bkz. [Güncellik](#güncellik)).
 
@@ -55,7 +55,18 @@ Metinler her gün otomatik olarak kontrol edilir (bkz. [Güncellik](#güncellik)
 | 5651 s. K. | 5651 sayılı İnternet Ortamında Yapılan Yayınların Düzenlenmesi … Hakkında Kanun |
 | ETDHK | 6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun |
 
-Henüz kapsanmayanlar: diğer vergi kanunları, yönetmelikler ve içtihat.
+**Yönetmelik ve tebliğler**
+
+| Alan | Düzenleme |
+|---|---|
+| KVKK ve bilişim | Veri Sorumluları Sicili Hakkında Yönetmelik · Kişisel Verilerin Silinmesi, Yok Edilmesi veya Anonim Hale Getirilmesi Hakkında Yönetmelik · Kişisel Verilerin Yurt Dışına Aktarılmasına İlişkin Usul ve Esaslar Hakkında Yönetmelik · Aydınlatma Yükümlülüğü Tebliği · Veri Sorumlusuna Başvuru Tebliği · Ticari İletişim ve Ticari Elektronik İletiler Hakkında Yönetmelik · E-Ticaret Aracı Hizmet Sağlayıcı ve Hizmet Sağlayıcılar Hakkında Yönetmelik |
+| Tüketici | Mesafeli Sözleşmeler · Tüketici Hakem Heyetleri · Garanti Belgesi · Satış Sonrası Hizmetler · Abonelik Sözleşmeleri · Ticari Reklam ve Haksız Ticari Uygulamalar · Tüketici Sözleşmelerindeki Haksız Şartlar · Ön Ödemeli Konut Satışları · Paket Tur Sözleşmeleri · Taksitle Satış Sözleşmeleri yönetmelikleri |
+| Usul | HUAK Yönetmeliği · Tebligat Kanununun Uygulanmasına Dair Yönetmelik · Elektronik Tebligat Yönetmeliği |
+
+Yönetmelik ve tebliğlerin numarası, mevzuat.gov.tr'deki kayıt numarasıdır (ör. Mesafeli
+Sözleşmeler Yönetmeliği = 20237); Resmî Gazete tarihi künyede yer alır.
+
+Henüz kapsanmayanlar: diğer vergi kanunları, yukarıdakiler dışındaki yönetmelikler, Cumhurbaşkanlığı kararnameleri ve içtihat.
 
 **İçtihat için:** Bu sunucu yalnızca kanun metni verir. Yargıtay, Danıştay ve Anayasa Mahkemesi
 kararları için açık kaynak [Yargı MCP](https://github.com/saidsurucu/yargi-mcp) sunucusunu
@@ -183,7 +194,8 @@ portal.
 - **Freshness:** a daily GitHub Action compares every statute with mevzuat.gov.tr
   article by article. Unchanged texts get a new `sonKontrol` (last checked) date;
   changes open a pull request with a diff report for human review.
-- **Coverage:** 27 statutes, about 6,900 articles: the Constitution, Civil Code, Code of
+- **Coverage:** 27 statutes and 20 regulations/communiqués (data protection, consumer,
+  e-commerce, service of process, mediation), about 7,500 articles. Statutes: the Constitution, Civil Code, Code of
   Obligations, Commercial Code, Civil, Criminal and Administrative Procedure, mediation,
   Labour Law and labour courts, Enforcement and Bankruptcy Law, Criminal Code,
   misdemeanours, condominium, the Attorneys Act, tax procedure, internet and e-commerce law, Consumer Protection, Personal Data Protection (KVKK), copyright,

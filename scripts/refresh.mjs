@@ -98,6 +98,11 @@ export function checkLaw(law, html, oldText) {
   const text = htmlToText(html);
   const parsed = parseKanun(text, `${law.no}.txt`);
   if (parsed.no !== law.no) throw new Error(`sayfadaki kanun numarası ${parsed.no}, beklenen ${law.no}`);
+  // Yönetmelik ve tebliğlerde metinde numara yoktur; sayfanın başlığı beklenen adla karşılaştırılır.
+  if ((law.tur || 1) !== 1 && law.name) {
+    const fold = (x) => x.toLocaleLowerCase('tr-TR').replace(/[^a-zçğıöşü]+/gu, '');
+    if (!fold(text.slice(0, 400)).includes(fold(law.name).slice(0, 30))) throw new Error(`sayfanın başlığı "${law.name}" ile eşleşmiyor`);
+  }
   const old = parseKanun(oldText, `${law.no}.txt`);
   const n = new Set(parsed.maddeler.map((m) => m.madde)).size;
   const o = new Set(old.maddeler.map((m) => m.madde)).size;
@@ -184,7 +189,7 @@ async function main() {
     try {
       if (!entry?.dosya) throw new Error('data/sources.json içinde kaydı yok');
       const file = join(root, 'sources', entry.dosya);
-      const html = htmlDir ? readFileSync(join(htmlDir, `${law.no}.html`), 'utf8') : await download(metinUrl(law.no, law.tertip));
+      const html = htmlDir ? readFileSync(join(htmlDir, `${law.no}.html`), 'utf8') : await download(metinUrl(law.no, law.tertip, law.tur));
       const res = checkLaw(law, html, existsSync(file) ? readFileSync(file, 'utf8') : ''); // yeni kanunda dosya henüz yok
       Object.assign(r, res);
       if (res.fark.ayni) {

@@ -129,3 +129,15 @@ test('mükerrer madde başlıkları ve "işlenemeyen geçici maddeler" eki', () 
   assert.equal(ms[1].baslik, 'Yetki');
   assert.equal(ms[2].metin, '(1) Bu Kanunu Cumhurbaşkanı yürütür.');
 });
+
+test('yönetmelik ve tebliğler: künyesiz sayfa, başlık denetimi, adres', async () => {
+  const { mevzuatUrl, metinUrl } = await import('../scripts/laws.mjs');
+  assert.equal(mevzuatUrl('20237', 5, 7), 'https://www.mevzuat.gov.tr/mevzuat?MevzuatNo=20237&MevzuatTur=7&MevzuatTertip=5');
+  assert.match(metinUrl('24454', 5, 9), /MevzuatTur=9&MevzuatNo=24454/);
+  const reg = `<html><body><div>${p(`<b>${sp('AYDINLATMA YÜKÜMLÜLÜĞÜNÜN YERİNE GETİRİLMESİNDE')}</b>`)}${p(`<b>${sp('UYULACAK USUL VE ESASLAR HAKKINDA TEBLİĞ')}</b>`)}${madde(1, 'Amaç ve kapsam', '(1) Bu Tebliğin amacı …')}${madde(2, 'Dayanak', '(1) Bu Tebliğ …')}</div></body></html>`;
+  const law = { no: '24454', tertip: 5, tur: 9, name: 'Aydınlatma Yükümlülüğünün Yerine Getirilmesinde Uyulacak Usul ve Esaslar Hakkında Tebliğ' };
+  const r = checkLaw(law, reg, '');
+  assert.equal(r.maddeSayisi, 2);
+  assert.equal(parseKanun(r.text, '24454.txt').maddeler[0].baslik, 'Amaç ve kapsam'); // belge adı başlığa karışmaz
+  assert.throws(() => checkLaw({ ...law, name: 'Mesafeli Sözleşmeler Yönetmeliği' }, reg, ''), /eşleşmiyor/);
+});

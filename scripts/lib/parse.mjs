@@ -146,6 +146,8 @@ export function parseKanun(text, fileName) {
   for (let i = (headingIdx[0] ?? 0) - 1; i >= 0; i--) {
     if (!lines[i].trim()) continue; // web görünümünden alınan metinlerde satır aralarında boşluk vardır
     if (!isTitleLine(lines[i]) || /Kanun Numarası|Kabul Tarihi|Yayımlandığı/u.test(lines[i])) break; // künye başlık değildir
+    // Tamamı büyük harfli satır, belgenin adıdır (yönetmeliklerde künye yoktur): "… HAKKINDA TEBLİĞ"
+    if (/\p{Lu}{4}/u.test(lines[i]) && lines[i] === lines[i].toLocaleUpperCase('tr-TR')) break;
     pendingTitle.unshift(lines[i].trim());
   }
 
