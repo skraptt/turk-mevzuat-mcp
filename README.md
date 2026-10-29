@@ -99,7 +99,7 @@ npx wrangler@4 login
 npm run deploy       # → https://turk-mevzuat-mcp.<hesabınız>.workers.dev/mcp
 ```
 
-Veri dosyası (sıkıştırılmış ~1,4 MB) Worker'ın içine gömülür; ücretsiz planın paket
+Veri dosyası (sıkıştırılmış ~2,2 MB) Worker'ın içine gömülür; ücretsiz planın paket
 sınırına sığar.
 
 ### Claude'a bağlama
