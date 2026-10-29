@@ -6,11 +6,16 @@
 // "MADDE 61. -" (noktalı) ve tire olmadan "(Mülga: …)" ile başlayan madde başlıkları da tanınır.
 export const HEADING = /^\s*(?:(ge[çÇ][iİ]c[iİ]|ek|m[üÜ]kerrer)\s+)?madde\s+(\d+(?:\/[a-zçğıöşü])?)(?:\s+ila\s+(\d+))?\s*(?:\.?\s*[-–—]\s*|(?=\((?:Mülga|İptal)))/iu;
 
+// Tek başına duran değişiklik notu: "(Ek:22/7/2020-7251/19 md.)"
+const NEXT_NOTE = /^\((?:Ek|Değişik|Mülga|İptal)\b[^()]*(?:\([^()]*\)[^()]*)*\)(?:\s*\[\d+\])*$/u;
+
 function isTitleLine(line) {
   // Satır sonundaki dipnot işaretleri ("…verilebilir.[2]") karar verirken sayılmaz.
   const t = line.trim().replace(/(?:\s*\[\d+\])+$/, '');
   // "2. Nutuklar:" gibi iki nokta ile biten numaralı başlıklar da başlıktır.
   if (/^(?:[IVX]+|[A-ZÇĞİÖŞÜ]|\d+|[a-zçğıöşü]{1,3})\s?[.)\-–]\s+\S.{0,140}:$/u.test(t)) return true;
+  // "3. (Mülga: …)", "(Değişik: …)" gibi fıkra kalıntıları başlık değildir.
+  if (/^(?:\d+\s*[.)-]\s*)?\((?:Mülga|İptal|Değişik|Ek)\b/u.test(t)) return false;
   return t.length > 0 && t.length < 150 && !/[.:;,]$/.test(t) && !/^\(\d+\)/.test(t);
 }
 
@@ -137,6 +142,7 @@ export function parseKanun(text, fileName) {
   const paths = sectionPaths(lines);
   const out = [];
   let pendingTitle = [];
+  let pendingNotes = [];
   for (let i = (headingIdx[0] ?? 0) - 1; i >= 0; i--) {
     if (!lines[i].trim()) continue; // web görünümünden alınan metinlerde satır aralarında boşluk vardır
     if (!isTitleLine(lines[i]) || /Kanun Numarası|Kabul Tarihi|Yayımlandığı/u.test(lines[i])) break; // künye başlık değildir
@@ -150,12 +156,18 @@ export function parseKanun(text, fileName) {
     const prefix = m[1] ? (/^ek$/i.test(m[1]) ? 'Ek ' : /^m[üÜ]/i.test(m[1]) ? 'Mükerrer ' : 'Geçici ') : '';
     const madde = prefix + m[2].toLocaleUpperCase('tr-TR') + (m[3] ? `-${m[3]}` : '');
 
-    const body = [lines[start].slice(m[0].length), ...lines.slice(start + 1, end)];
+    const body = [...pendingNotes.filter((n, i, all) => all.indexOf(n) === i), lines[start].slice(m[0].length), ...lines.slice(start + 1, end)];
     while (body.length && !body[body.length - 1].trim()) body.pop();
     const nextTitle = [];
+    const nextNotes = [];
     if (h + 1 < headingIdx.length) {
-      while (body.length > 1 && isTitleLine(body[body.length - 1])) {
-        nextTitle.unshift(body.pop().trim());
+      // Madde başlığından önceki satırlar: başlık ya da yeni maddenin "(Ek: … md.)" notu.
+      // "(Mülga son fıkra: …)" gibi fıkra/bent notları ise önceki maddeye aittir.
+      while (body.length > 1) {
+        const last = body[body.length - 1];
+        if (isTitleLine(last)) nextTitle.unshift(body.pop().trim());
+        else if (NEXT_NOTE.test(last.trim()) && !/fıkra|bent|cümle|ibare/iu.test(last)) nextNotes.unshift(body.pop().trim());
+        else break;
         while (body.length && !body[body.length - 1].trim()) body.pop();
       }
     }
@@ -174,6 +186,7 @@ export function parseKanun(text, fileName) {
     const dipnotlar = [...new Set([...t2.notes, ...t1.notes])];
     out.push({ madde, baslik, metin: t1.clean.replace(/ +\n/g, '\n').trim(), bolum: paths[start] ? takeNotes(paths[start], pre.notes).clean : null, dipnotlar });
     pendingTitle = nextTitle;
+    pendingNotes = nextNotes;
   }
   return { no, kunye: readKunye(lines), maddeler: out };
 }
