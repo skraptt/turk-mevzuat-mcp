@@ -1,4 +1,28 @@
 {
+  "213": {
+    "dosya": "213_Vergi_Usul_Kanunu.txt",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "3ee8a7da1b6eb4cc687d1c134f854bd9152e0fe284a9f2bcbe3dd538e22c3d37",
+    "maddeSayisi": 469
+  },
+  "634": {
+    "dosya": "634_Kat_Mulkiyeti_Kanunu.txt",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "91005dcd732e875cdf6d7521cc3f9b13c62dc3b90315359ef0d432835209820a",
+    "maddeSayisi": 83
+  },
+  "1136": {
+    "dosya": "1136_Avukatlik_Kanunu.txt",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "e93b226b2e20b902ae2fd68d27a00a2357875073640a54961d32501ebeb6ae8c",
+    "maddeSayisi": 231
+  },
   "2004": {
     "dosya": "2004_Icra_ve_Iflas_Kanunu.txt",
     "metinTarihi": "2026-10-29",
@@ -6,6 +30,22 @@
     "kaynak": "mevzuat.gov.tr",
     "sha256": "f60f20d06cd10b481e214719e2ca1e2c8f3620b04e2a7dd6c8a507da9969b8e8",
     "maddeSayisi": 486
+  },
+  "2577": {
+    "dosya": "2577_Idari_Yargilama_Usulu_Kanunu.txt",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "878bbc2d3abdb163acf634545135ba04b0dc8a6b352888982b200c98cef4842e",
+    "maddeSayisi": 82
+  },
+  "2709": {
+    "dosya": "2709_Anayasa.txt",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "8e4d1e81465330085176997cb661a370ec3855eae5e260c1298513342606894a",
+    "maddeSayisi": 198
   },
   "4721": {
     "dosya": "4721_Turk_Medeni_Kanunu.txt",
@@ -38,6 +78,30 @@
     "kaynak": "mevzuat.gov.tr",
     "sha256": "113f32370355868f4b32caf0fbb617f622384518aca6b0ed55de2c361811f700",
     "maddeSayisi": 349
+  },
+  "5271": {
+    "dosya": "5271_Ceza_Muhakemesi_Kanunu.txt",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "354af1adee65785e8a240192c53de369a6a1859cad40eef008ec480e17d5d8ad",
+    "maddeSayisi": 349
+  },
+  "5326": {
+    "dosya": "5326_Kabahatler_Kanunu.txt",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "563ee1fb2fde9531bf9e531b95a27028cc5ed61be3a825a7a9f55e8d07a00866",
+    "maddeSayisi": 53
+  },
+  "5651": {
+    "dosya": "5651_Internet_Kanunu.txt",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "cdb275b25b6a135a4f23561c929019e82337609271d1d2d07ff3aa488a7f6a64",
+    "maddeSayisi": 27
   },
   "5846": {
     "dosya": "5846_Fikir_ve_Sanat_Eserleri_Kanunu.txt",
@@ -95,6 +159,14 @@
     "sha256": "702bb85cf819c9b80f44b2659a1e7a3ef4d5eb125a5383528c2b5384e69d4d9b",
     "maddeSayisi": 44
   },
+  "6325": {
+    "dosya": "6325_Hukuk_Uyusmazliklarinda_Arabuluculuk_Kanunu.txt",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "f8fa41d8c318492c2f125134f31b0289294c28b854f09c687adacb2831f2700e",
+    "maddeSayisi": 45
+  },
   "6362": {
     "dosya": "6362_Sermaye_Piyasasi_Kanunu.txt",
     "metinTarihi": "2026-10-29",
@@ -110,6 +182,14 @@
     "kaynak": "mevzuat.gov.tr",
     "sha256": "31e3d3aaf31b524be7e242910581300d035dba6e7d3d755b2f6784c48901d8b4",
     "maddeSayisi": 95
+  },
+  "6563": {
+    "dosya": "6563_Elektronik_Ticaret_Kanunu.txt",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "736a4f962238374ce31452b3a90cd4e72d391411321844ecec1e79d5aed94ed5",
+    "maddeSayisi": 22
   },
   "6698": {
     "dosya": "6698_Kisisel_Verilerin_Korunmasi_Kanunu.txt",
@@ -127,92 +207,12 @@
     "sha256": "83c78554fd7a8b7f32df1704e888d6089c2ce82e6e61acbc6ccec2cf9ac2584b",
     "maddeSayisi": 181
   },
-  "2709": {
-    "dosya": "2709_Anayasa.txt",
-    "metinTarihi": null,
-    "sonKontrol": null,
-    "kaynak": "mevzuat.gov.tr",
-    "sha256": null,
-    "maddeSayisi": 0
-  },
-  "5271": {
-    "dosya": "5271_Ceza_Muhakemesi_Kanunu.txt",
-    "metinTarihi": null,
-    "sonKontrol": null,
-    "kaynak": "mevzuat.gov.tr",
-    "sha256": null,
-    "maddeSayisi": 0
-  },
-  "2577": {
-    "dosya": "2577_Idari_Yargilama_Usulu_Kanunu.txt",
-    "metinTarihi": null,
-    "sonKontrol": null,
-    "kaynak": "mevzuat.gov.tr",
-    "sha256": null,
-    "maddeSayisi": 0
-  },
-  "6325": {
-    "dosya": "6325_Hukuk_Uyusmazliklarinda_Arabuluculuk_Kanunu.txt",
-    "metinTarihi": null,
-    "sonKontrol": null,
-    "kaynak": "mevzuat.gov.tr",
-    "sha256": null,
-    "maddeSayisi": 0
-  },
   "7036": {
     "dosya": "7036_Is_Mahkemeleri_Kanunu.txt",
-    "metinTarihi": null,
-    "sonKontrol": null,
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
     "kaynak": "mevzuat.gov.tr",
-    "sha256": null,
-    "maddeSayisi": 0
-  },
-  "5326": {
-    "dosya": "5326_Kabahatler_Kanunu.txt",
-    "metinTarihi": null,
-    "sonKontrol": null,
-    "kaynak": "mevzuat.gov.tr",
-    "sha256": null,
-    "maddeSayisi": 0
-  },
-  "634": {
-    "dosya": "634_Kat_Mulkiyeti_Kanunu.txt",
-    "metinTarihi": null,
-    "sonKontrol": null,
-    "kaynak": "mevzuat.gov.tr",
-    "sha256": null,
-    "maddeSayisi": 0
-  },
-  "1136": {
-    "dosya": "1136_Avukatlik_Kanunu.txt",
-    "metinTarihi": null,
-    "sonKontrol": null,
-    "kaynak": "mevzuat.gov.tr",
-    "sha256": null,
-    "maddeSayisi": 0
-  },
-  "213": {
-    "dosya": "213_Vergi_Usul_Kanunu.txt",
-    "metinTarihi": null,
-    "sonKontrol": null,
-    "kaynak": "mevzuat.gov.tr",
-    "sha256": null,
-    "maddeSayisi": 0
-  },
-  "5651": {
-    "dosya": "5651_Internet_Kanunu.txt",
-    "metinTarihi": null,
-    "sonKontrol": null,
-    "kaynak": "mevzuat.gov.tr",
-    "sha256": null,
-    "maddeSayisi": 0
-  },
-  "6563": {
-    "dosya": "6563_Elektronik_Ticaret_Kanunu.txt",
-    "metinTarihi": null,
-    "sonKontrol": null,
-    "kaynak": "mevzuat.gov.tr",
-    "sha256": null,
-    "maddeSayisi": 0
+    "sha256": "32e167fb5ae6fd4f6947eb9acb93c510ead9a6917743ecd04ada6cc3dcd9c6d7",
+    "maddeSayisi": 17
   }
 }
