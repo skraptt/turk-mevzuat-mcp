@@ -47,6 +47,9 @@ export function htmlToText(html) {
     .replace(/<br\b[^>]*>/gi, '\u0001')
     .replace(new RegExp(`<\\/?(?:${BLOCK2})\\b[^>]*>`, 'gi'), '\u0002')
     .replace(new RegExp(`<\\/?(?:${BLOCK1})\\b[^>]*>`, 'gi'), '\u0001')
+    // Aynı dipnota ikinci kez yapılan atıf, bağlantısız bir üst simge olarak yazılır
+    // ("<sup><span class=MsoFootnoteReference>5</span></sup>"); bunu da "[5]" biçimine getir.
+    .replace(/<sup\b[^>]*>((?:\s|<[^>]+>)*)(\d{1,3})((?:\s|<[^>]+>)*)<\/sup>/gi, '[$2]')
     .replace(/<\/t[dh]\s*>/gi, '\t')
     .replace(/<[^>]+>/g, '');
   s = decodeEntities(s);

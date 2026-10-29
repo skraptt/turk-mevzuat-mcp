@@ -7,9 +7,10 @@
 export const HEADING = /^\s*(?:(ge[çÇ][iİ]c[iİ]|ek)\s+)?madde\s+(\d+(?:\/[a-zçğıöşü])?)(?:\s+ila\s+(\d+))?\s*(?:\.?\s*[-–—]\s*|(?=\((?:Mülga|İptal)))/iu;
 
 function isTitleLine(line) {
-  const t = line.trim();
+  // Satır sonundaki dipnot işaretleri ("…verilebilir.[2]") karar verirken sayılmaz.
+  const t = line.trim().replace(/(?:\s*\[\d+\])+$/, '');
   // "2. Nutuklar:" gibi iki nokta ile biten numaralı başlıklar da başlıktır.
-  if (/^(?:[IVX]+|[A-ZÇĞİÖŞÜ]|\d+|[a-zçğıöşü]{1,3})[.)-]\s+\S.{0,80}:$/u.test(t)) return true;
+  if (/^(?:[IVX]+|[A-ZÇĞİÖŞÜ]|\d+|[a-zçğıöşü]{1,3})\s?[.)\-–]\s+\S.{0,140}:$/u.test(t)) return true;
   return t.length > 0 && t.length < 150 && !/[.:;,]$/.test(t) && !/^\(\d+\)/.test(t);
 }
 
@@ -90,7 +91,7 @@ function preprocess(text) {
   // (ör. İİK) madde başlığıdır: "İflas daireleri:" → "İflas daireleri".
   for (let i = 0; i < lines.length; i++) {
     const t = lines[i].trim();
-    if (!/:(\[\d+\])*$/.test(t) || t.length > 100 || /^\(/.test(t)) continue;
+    if (!/:(\[\d+\])*$/.test(t) || t.length > 150 || /^\(/.test(t)) continue;
     let j = i + 1;
     while (j < lines.length && !lines[j].trim()) j++;
     if (j < lines.length && HEADING.test(lines[j])) lines[i] = lines[i].replace(/:((?:\[\d+\])*)\s*$/, '$1');
@@ -109,12 +110,16 @@ function takeNotes(text, notes) {
 export function parseKanun(text, fileName) {
   const pre = preprocess(text);
   const allLines = pre.lines;
-  let tailStart = allLines.findIndex((l) => /İŞLENEMEYEN HÜKÜMLER|DEĞİŞİKLİK GETİREN MEVZUATIN/u.test(l));
-  // Bu bölümün üstündeki "… SAYILI … KANUNUNA" gibi büyük harfli başlık satırı da ek bölüme aittir.
-  if (tailStart > 0) {
+  // Kanunun sonundaki "işlenemeyen hükümler" ve "değişiklik getiren mevzuat / yürürlüğe giriş
+  // tarihleri" tabloları madde değildir. Başlık birkaç satıra bölünmüş olabilir.
+  let tailStart = allLines.findIndex((l) => /İŞLENEMEYEN HÜKÜMLER|DEĞİŞİKLİK GETİREN|YÜRÜRLÜĞE GİRİŞ TARİHİNİ GÖSTERİR/u.test(l));
+  // Üstündeki "… SAYILI KANUNA EK VE" gibi büyük harfli başlık satırları da bu bölüme aittir.
+  const isUpper = (l) => /\p{Lu}{3}/u.test(l) && l === l.toLocaleUpperCase('tr-TR') && !HEADING.test(l);
+  for (let k = 0; tailStart > 0 && k < 5; k++) {
     let j = tailStart - 1;
     while (j > 0 && !allLines[j].trim()) j--;
-    if (/SAYILI/.test(allLines[j]) && allLines[j] === allLines[j].toLocaleUpperCase('tr-TR')) tailStart = j;
+    if (!isUpper(allLines[j]) || /^\s*\S+\s+(?:KİTAP|KISIM|BAP|BÖLÜM|AYIRIM)\s*$/u.test(allLines[j])) break;
+    tailStart = j;
   }
   const lines = tailStart === -1 ? allLines : allLines.slice(0, tailStart);
 
@@ -128,7 +133,7 @@ export function parseKanun(text, fileName) {
   let pendingTitle = [];
   for (let i = (headingIdx[0] ?? 0) - 1; i >= 0; i--) {
     if (!lines[i].trim()) continue; // web görünümünden alınan metinlerde satır aralarında boşluk vardır
-    if (!isTitleLine(lines[i])) break;
+    if (!isTitleLine(lines[i]) || /Kanun Numarası|Kabul Tarihi|Yayımlandığı/u.test(lines[i])) break; // künye başlık değildir
     pendingTitle.unshift(lines[i].trim());
   }
 
@@ -157,7 +162,7 @@ export function parseKanun(text, fileName) {
     const baslik =
       t2.clean
         .split(' / ')
-        .map((t) => t.replace(/\uFFFC/g, '').replace(/\s{2,}/g, ' ').replace(/:$/, '').replace(/([a-zçğıöşüâîû)])\d{1,2}$/iu, '$1').trim())
+        .map((t) => t.replace(/\uFFFC/g, '').replace(/\s+/g, ' ').trim().replace(/\s*:$/, '').replace(/([a-zçğıöşüâîû)])\d{1,2}$/iu, '$1').trim())
         .filter(Boolean)
         .join(' / ') || null;
     const dipnotlar = [...new Set([...t2.notes, ...t1.notes])];
