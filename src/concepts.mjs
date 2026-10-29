@@ -76,4 +76,38 @@ export const CONCEPTS = [
   { ifadeler: ['bilisim sistemine gir', 'hackle'], maddeler: ['5237/243'] },
   { ifadeler: ['dava zamanasim', 'ceza zamanasim'], maddeler: ['5237/66'] },
   { ifadeler: ['cezanin ertelen', 'hapis cezasinin ertelen'], maddeler: ['5237/51'] },
+  // Ceza muhakemesi (5271)
+  { ifadeler: ['tutuklama neden', 'tutuklanma sart', 'tutuklama sart'], maddeler: ['5271/100'] },
+  { ifadeler: ['tutuklama karari'], maddeler: ['5271/101'] },
+  { ifadeler: ['gozalti'], maddeler: ['5271/91'] },
+  { ifadeler: ['adli kontrol'], maddeler: ['5271/109'] },
+  { ifadeler: ['hagb', 'hukmun aciklanmasinin geri birakil'], maddeler: ['5271/231'] },
+  { ifadeler: ['uzlastirma', 'ceza uzlasma'], maddeler: ['5271/253'] },
+  { ifadeler: ['mudafi', 'avukat hakki gozalti'], maddeler: ['5271/150'] },
+  { ifadeler: ['bilgisayarda arama', 'telefonuna el kon', 'telefona el kon', 'telefonuma el koy', 'telefonuna el koy', 'telefonumu incele', 'dijital delil'], maddeler: ['5271/134'] },
+  // Arabuluculuk (6325, 7036)
+  { ifadeler: ['zorunlu arabuluculuk', 'dava sarti arabuluculuk', 'dava sarti olarak arabuluculuk', 'arabulucuya git', 'arabulucuya basvur'], maddeler: ['6325/18/A', '7036/3'] },
+  { ifadeler: ['iscilik alacagi arabuluculuk', 'ise iade arabuluculuk', 'is davasi arabuluculuk'], maddeler: ['7036/3'] },
+  // İdari yargı (2577) ve Anayasa (2709)
+  { ifadeler: ['iptal davasi', 'idari dava turleri', 'tam yargi davasi'], maddeler: ['2577/2'] },
+  { ifadeler: ['idari dava acma sure', 'iptal davasi sure', 'dava acma suresi idare'], maddeler: ['2577/7'] },
+  { ifadeler: ['yurutmenin durdurul'], maddeler: ['2577/27'] },
+  { ifadeler: ['idari eylem', 'idarenin eylemi', 'idare tazminat'], maddeler: ['2577/13'] },
+  { ifadeler: ['bireysel basvuru', 'anayasa mahkemesine basvuru'], maddeler: ['2709/148'] },
+  { ifadeler: ['itiraz yolu', 'somut norm denetimi', 'anayasaya aykirilik itiraz'], maddeler: ['2709/152'] },
+  { ifadeler: ['ifade ozgurlugu', 'dusunceyi aciklama'], maddeler: ['2709/26'] },
+  { ifadeler: ['temel haklarin sinirlan'], maddeler: ['2709/13'] },
+  // İnternet ve elektronik ticaret (5651, 6563)
+  { ifadeler: ['erisim engel', 'erisimin engellen', 'icerik kaldir', 'icerigin cikaril'], maddeler: ['5651/8', '5651/8/A', '5651/9/A'] },
+  { ifadeler: ['ticari elektronik ileti', 'istenmeyen e-posta', 'reklam sms', 'spam'], maddeler: ['6563/6'] },
+  // Kat mülkiyeti (634)
+  { ifadeler: ['aidat', 'ortak gider', 'apartman gider'], maddeler: ['634/20'] },
+  { ifadeler: ['kat malikleri kurulu karar'], maddeler: ['634/32', '634/33'] },
+  // Avukatlık (1136) ve vergi usul (213)
+  { ifadeler: ['avukatlik ucret', 'vekalet ucreti sozlesme'], maddeler: ['1136/164'] },
+  { ifadeler: ['avukatlik sozlesme'], maddeler: ['1136/163'] },
+  { ifadeler: ['avukat tekeli', 'yalniz avukatlarin'], maddeler: ['1136/35'] },
+  { ifadeler: ['vergi ziyai'], maddeler: ['213/341', '213/344'] },
+  { ifadeler: ['vergi kacakcilig', 'sahte fatura', 'naylon fatura'], maddeler: ['213/359'] },
+  { ifadeler: ['vergi cezasi indirim', 'cezada indirim vergi'], maddeler: ['213/376'] },
 ];
