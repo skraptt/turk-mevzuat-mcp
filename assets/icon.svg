@@ -1,10 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
-  <defs><mask id="hilal"><rect width="512" height="512" fill="black"/><circle cx="242.6" cy="200" r="35.0" fill="white"/><circle cx="251.3" cy="200" r="28.0" fill="black"/></mask></defs>
+  <defs><clipPath id="kare"><rect width="512" height="512" rx="112"/></clipPath><mask id="bg"><rect width="512" height="512" fill="black"/><circle cx="198.7" cy="256" r="150.0" fill="white"/><circle cx="236.2" cy="256" r="120.0" fill="black"/></mask></defs>
   <rect width="512" height="512" rx="112" fill="#9F1F2B"/>
+  <g clip-path="url(#kare)"><rect width="512" height="512" fill="#B52F3B" mask="url(#bg)"/><polygon points="313.3,256.0 365.1,239.2 365.1,184.7 397.2,228.8 449.0,211.9 416.9,256.0 449.0,300.1 397.2,283.2 365.1,327.3 365.1,272.8" fill="#B52F3B"/></g>
   <path d="M150 96h158l74 74v246a20 20 0 0 1-20 20H150a20 20 0 0 1-20-20V116a20 20 0 0 1 20-20z" fill="#FFFFFF"/>
   <path d="M308 96v54a20 20 0 0 0 20 20h54z" fill="#E7C9CC"/>
-  <rect width="512" height="512" fill="#C8102E" mask="url(#hilal)"/>
-  <polygon points="269.3,200.0 281.4,196.1 281.4,183.4 288.9,193.6 301.0,189.7 293.5,200.0 301.0,210.3 288.9,206.4 281.4,216.6 281.4,203.9" fill="#C8102E"/>
-  <text x="256" y="352" text-anchor="middle" font-family="Georgia, 'DejaVu Serif', serif" font-size="120" font-weight="700" fill="#9F1F2B">m.</text>
+  <text x="256" y="338" text-anchor="middle" font-family="Georgia, 'DejaVu Serif', serif" font-size="140" font-weight="700" fill="#9F1F2B">m.</text>
   <rect x="170" y="384" width="164" height="14" rx="7" fill="#E7C9CC"/>
 </svg>
