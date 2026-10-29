@@ -16,7 +16,8 @@ const argSnap = process.argv.indexOf('--snapshot');
 const snapshot = argSnap > -1 ? process.argv[argSnap + 1] : '2026-10-10';
 
 // "MADDE 1-", "Madde 1 –", "Geçici Madde 2-", "EK MADDE 3 –", "Madde 1/A –", "MADDE 146 ila 149 –"
-const HEADING = /^\s*(?:(ge[çÇ][iİ]c[iİ]|ek)\s+)?madde\s+(\d+(?:\/[a-zçğıöşü])?)(?:\s+ila\s+(\d+))?\s*[-–—]\s*/iu;
+// "MADDE 61. -" (noktalı) ve tire olmadan "(Mülga: …)" ile başlayan madde başlıkları da tanınır.
+const HEADING = /^\s*(?:(ge[çÇ][iİ]c[iİ]|ek)\s+)?madde\s+(\d+(?:\/[a-zçğıöşü])?)(?:\s+ila\s+(\d+))?\s*(?:\.?\s*[-–—]\s*|(?=\((?:Mülga|İptal)))/iu;
 
 function isTitleLine(line) {
   const t = line.trim();
@@ -27,8 +28,9 @@ function isTitleLine(line) {
 
 // "BİRİNCİ KİTAP", "İKİNCİ KISIM", "ÜÇÜNCÜ BÖLÜM", "BİRİNCİ AYIRIM": bölüm başlıkları.
 // Başlığın adı bir sonraki dolu satırdadır ("KİŞİLER HUKUKU").
-const SECTION = /^\s*[A-ZÇĞİÖŞÜÂÎÛ]+(?:\s+[A-ZÇĞİÖŞÜÂÎÛ]+)?\s+(KİTAP|KISIM|BÖLÜM|AYIRIM)\s*$/u;
-const SECTION_LEVEL = { KİTAP: 0, KISIM: 1, BÖLÜM: 2, AYIRIM: 3 };
+// Eski kanunlarda (ör. İİK) kısım yerine "BAP" kullanılır.
+const SECTION = /^\s*[A-ZÇĞİÖŞÜÂÎÛ]+(?:\s+[A-ZÇĞİÖŞÜÂÎÛ]+)?\s+(KİTAP|KISIM|BAP|BÖLÜM|AYIRIM)\s*$/u;
+const SECTION_LEVEL = { KİTAP: 0, KISIM: 1, BAP: 1, BÖLÜM: 2, AYIRIM: 3 };
 
 function titleCaseTr(text) {
   const small = new Set(['ve', 'ile', 'veya', 'ya', 'da', 'de', 'ki']);
@@ -68,9 +70,65 @@ function readKunye(lines) {
   return { kabul: fmt(kabul), rgTarih: fmt(tarih), rgSayi: sayi };
 }
 
+// mevzuat.gov.tr'nin web görünümünden alınan metinlerde dipnotlar "[1]" gibi işaretlerle
+// gösterilir ve dosyanın sonunda listelenir. Dipnotlar değişiklik ve Anayasa Mahkemesi
+// iptal bilgisi taşıdığı için atılmaz: işaretler metinden çıkarılır, dipnot metni ilgili
+// maddeye "dipnotlar" olarak eklenir.
+function splitFootnotes(lines) {
+  const start = lines.findIndex((l, i) => /^\s*\[1\]\s/.test(l) && lines.slice(i + 1).some((x) => /^\s*\[2\]\s/.test(x)));
+  if (start === -1) return { body: lines, notes: new Map() };
+  const notes = new Map();
+  let cur = null;
+  for (const l of lines.slice(start)) {
+    const m = l.match(/^\s*\[(\d+)\]\s*(.*)$/);
+    if (m) {
+      cur = m[1];
+      notes.set(cur, m[2].trim());
+    } else if (cur && l.trim()) {
+      notes.set(cur, `${notes.get(cur)} ${l.trim()}`);
+    }
+  }
+  return { body: lines.slice(0, start), notes };
+}
+
+function preprocess(text) {
+  let lines = text
+    .replace(/\r\n?/g, '\n')
+    .replace(/\u00A0/g, ' ')
+    .split('\n')
+    .map((l) => l.replace(/[ \t]+$/g, ''));
+  const { body, notes } = splitFootnotes(lines);
+  lines = body;
+  // Madde başlığından hemen önce gelen ve iki nokta ile biten kısa satır, eski kanunlarda
+  // (ör. İİK) madde başlığıdır: "İflas daireleri:" → "İflas daireleri".
+  for (let i = 0; i < lines.length; i++) {
+    const t = lines[i].trim();
+    if (!/:(\[\d+\])*$/.test(t) || t.length > 100 || /^\(/.test(t)) continue;
+    let j = i + 1;
+    while (j < lines.length && !lines[j].trim()) j++;
+    if (j < lines.length && HEADING.test(lines[j])) lines[i] = lines[i].replace(/:((?:\[\d+\])*)\s*$/, '$1');
+  }
+  return { lines, notes };
+}
+
+function takeNotes(text, notes) {
+  const ids = [...text.matchAll(/\[(\d+)\]/g)].map((m) => m[1]);
+  return {
+    clean: text.replace(/\[(\d+)\]/g, ''),
+    notes: [...new Set(ids)].filter((id) => notes.has(id)).map((id) => notes.get(id)),
+  };
+}
+
 function parseKanun(text, fileName) {
-  const allLines = text.replace(/\r\n?/g, '\n').split('\n');
-  const tailStart = allLines.findIndex((l) => /İŞLENEMEYEN HÜKÜMLER|DEĞİŞİKLİK GETİREN MEVZUATIN/u.test(l));
+  const pre = preprocess(text);
+  const allLines = pre.lines;
+  let tailStart = allLines.findIndex((l) => /İŞLENEMEYEN HÜKÜMLER|DEĞİŞİKLİK GETİREN MEVZUATIN/u.test(l));
+  // Bu bölümün üstündeki "… SAYILI … KANUNUNA" gibi büyük harfli başlık satırı da ek bölüme aittir.
+  if (tailStart > 0) {
+    let j = tailStart - 1;
+    while (j > 0 && !allLines[j].trim()) j--;
+    if (/SAYILI/.test(allLines[j]) && allLines[j] === allLines[j].toLocaleUpperCase('tr-TR')) tailStart = j;
+  }
   const lines = tailStart === -1 ? allLines : allLines.slice(0, tailStart);
 
   const noLine = lines.find((l) => /^\s*Kanun Numarası\s*:/i.test(l));
@@ -81,7 +139,11 @@ function parseKanun(text, fileName) {
   const paths = sectionPaths(lines);
   const out = [];
   let pendingTitle = [];
-  for (let i = (headingIdx[0] ?? 0) - 1; i >= 0 && isTitleLine(lines[i]); i--) pendingTitle.unshift(lines[i].trim());
+  for (let i = (headingIdx[0] ?? 0) - 1; i >= 0; i--) {
+    if (!lines[i].trim()) continue; // web görünümünden alınan metinlerde satır aralarında boşluk vardır
+    if (!isTitleLine(lines[i])) break;
+    pendingTitle.unshift(lines[i].trim());
+  }
 
   for (let h = 0; h < headingIdx.length; h++) {
     const start = headingIdx[h];
@@ -102,12 +164,17 @@ function parseKanun(text, fileName) {
     // U+FFFC: kaynak metinde dipnot işaretinin yerinde kalan nesne karakteri.
     const metin = body.map((l) => l.replace(/\uFFFC/g, '').trim()).filter(Boolean).join('\n');
     // Başlık sonundaki dipnot numaralarını at: "Belirlenmesi2" → "Belirlenmesi".
+    const rawTitle = pendingTitle.slice(-2).join(' / ');
+    const t1 = takeNotes(metin, pre.notes);
+    const t2 = takeNotes(rawTitle, pre.notes);
     const baslik =
-      pendingTitle
-        .slice(-2)
-        .map((t) => t.replace(/\uFFFC/g, '').replace(/:$/, '').replace(/([a-zçğıöşüâîû)])\d{1,2}$/iu, '$1').trim())
+      t2.clean
+        .split(' / ')
+        .map((t) => t.replace(/\uFFFC/g, '').replace(/\s{2,}/g, ' ').replace(/:$/, '').replace(/([a-zçğıöşüâîû)])\d{1,2}$/iu, '$1').trim())
+        .filter(Boolean)
         .join(' / ') || null;
-    out.push({ madde, baslik, metin, bolum: paths[start] });
+    const dipnotlar = [...new Set([...t2.notes, ...t1.notes])];
+    out.push({ madde, baslik, metin: t1.clean.replace(/ +\n/g, '\n').trim(), bolum: paths[start] ? takeNotes(paths[start], pre.notes).clean : null, dipnotlar });
     pendingTitle = nextTitle;
   }
   return { no, kunye: readKunye(lines), maddeler: out };
@@ -139,9 +206,10 @@ for (const file of files) {
     kabulTarihi: kunye.kabul,
     resmiGazete: { tarih: meta.rgTarih || kunye.rgTarih, sayi: meta.rgSayi || kunye.rgSayi },
     url: mevzuatUrl(no, meta.tertip),
+    metinTarihi: meta.metinTarihi || snapshot,
     maddeSayisi: unique.length,
   });
-  for (const m of unique) articles.push({ k: no, m: m.madde, b: m.baslik, y: m.bolum, t: m.metin });
+  for (const m of unique) articles.push({ k: no, m: m.madde, b: m.baslik, y: m.bolum, t: m.metin, ...(m.dipnotlar.length ? { d: m.dipnotlar } : {}) });
   console.log(
     `${no.padEnd(5)} ${meta.abbr.padEnd(13)} ${String(unique.length).padStart(5)} madde` +
       (dropped ? `  (${dropped} tekrar atıldı)` : '') +

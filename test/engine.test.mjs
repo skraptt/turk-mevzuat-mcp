@@ -18,7 +18,9 @@ test('kanun çözümleme: kısaltma, numara, ad, takma ad', () => {
   for (const k of ['TBK', 'tbk', '6098', '6098 sayılı Kanun', 'Türk Borçlar Kanunu', 'borçlar kanunu']) {
     assert.equal(engine.resolveLaw(k)?.no, '6098', k);
   }
-  assert.equal(engine.resolveLaw('İş Kanunu'), null);
+  assert.equal(engine.resolveLaw('İş Kanunu')?.no, '4857');
+  assert.equal(engine.resolveLaw('İİK')?.no, '2004');
+  assert.equal(engine.resolveLaw('Vergi Usul Kanunu'), null);
 });
 
 test('madde getirme: normal, harfli, geçici, aralık', () => {
@@ -79,7 +81,7 @@ test('derlenmiş dizin, çalışma anında kurulanla aynı sonucu verir', () => 
 test('her sonuç kaynak ve tarih taşır', () => {
   for (const s of engine.search({ sorgu: 'ayıplı mal', limit: 5 }).sonuclar) {
     assert.ok(s.atif && s.kimlik && s.kaynak.url.startsWith('https://www.mevzuat.gov.tr/'));
-    assert.equal(s.kaynak.metinTarihi, data.snapshot);
+    assert.match(s.kaynak.metinTarihi, /^\d{4}-\d{2}-\d{2}$/);
   }
 });
 
@@ -104,4 +106,16 @@ test('maddeler bölüm yolunu taşır', () => {
   const a = engine.getArticle({ kanun: 'TBK', madde: '315' }).maddeler[0];
   assert.match(a.bolum, /Kira Sözleşmesi/);
   assert.match(engine.getArticle({ kanun: 'TTK', madde: '409' }).maddeler[0].bolum, /Anonim Şirket › Genel Kurul/);
+});
+
+test('mevzuat.gov.tr web metinleri: dipnotlar ayrılır, başlıklar korunur', () => {
+  const a = engine.getArticle({ kanun: 'İİK', madde: '2' }).maddeler[0];
+  assert.equal(a.baslik, 'İflas daireleri'); // "İflas daireleri:" başlığı tanındı
+  for (const s of engine.search({ sorgu: 'icra dairesi', kanun: 'İİK', limit: 20 }).sonuclar) {
+    assert.doesNotMatch(s.ozet, /\[\d+\]/); // dipnot işareti metinde kalmaz
+  }
+  const dip = engine.getArticle({ kanun: 'İş K.', madde: '18' }).maddeler[0];
+  assert.ok(dip.dipnotlar?.length > 0);
+  assert.equal(dip.kaynak.metinTarihi, '2026-10-29');
+  assert.equal(engine.getArticle({ kanun: 'TCK', madde: '157' }).maddeler[0].baslik, 'Dolandırıcılık');
 });

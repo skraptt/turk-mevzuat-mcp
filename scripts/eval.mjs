@@ -39,6 +39,19 @@ const cases = [
  ['bilirkişi', ['6100/266']],
  ['istinaf süresi', ['6100/345']],
  ['zamanaşımını kesen sebepler', ['6098/154']],
+  // İş, icra ve ceza hukuku (v0.3'te eklendi)
+  ['işçinin kıdem ve ihbar süresi', ['4857/17']],
+  ['geçersiz fesih sonuçları işe başlatma', ['4857/21']],
+  ['işverenin derhal fesih sebepleri ahlak ve iyi niyet', ['4857/25']],
+  ['iş sözleşmesinin yazılı şekli', ['4857/8']],
+  ['takip talebinde bulunması gereken bilgiler', ['2004/58']],
+  ['ödeme emrine itiraz süresi', ['2004/62']],
+  ['haczi caiz olmayan mallar', ['2004/82']],
+  ['iflas yoluyla takip', ['2004/155', '2004/156', '2004/171']],
+  ['bilişim sistemine izinsiz girme', ['5237/243']],
+  ['hırsızlık suçunun nitelikli halleri', ['5237/142']],
+  ['meşru savunma', ['5237/25']],
+  ['zincirleme suç', ['5237/43']],
 ];
 
 let top1 = 0;

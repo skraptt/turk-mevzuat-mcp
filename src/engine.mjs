@@ -121,8 +121,9 @@ export function createEngine(data) {
         ad: 'mevzuat.gov.tr',
         url: law.url,
         resmiGazete: law.resmiGazete,
-        metinTarihi: snapshot,
+        metinTarihi: law.metinTarihi || snapshot,
       },
+      ...(a.d ? { dipnotlar: a.d } : {}),
     };
   }
 
@@ -235,6 +236,7 @@ export function createEngine(data) {
         kabulTarihi: l.kabulTarihi,
         resmiGazete: l.resmiGazete,
         maddeSayisi: l.maddeSayisi,
+        metinTarihi: l.metinTarihi || snapshot,
         url: l.url,
       })),
       metinTarihi: snapshot,

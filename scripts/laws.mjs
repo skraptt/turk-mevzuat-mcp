@@ -18,6 +18,9 @@ export const LAWS = [
   { no: '6502', name: 'Tüketicinin Korunması Hakkında Kanun', abbr: 'TKHK', aliases: ['tüketici kanunu'], tertip: 5 },
   { no: '6698', name: 'Kişisel Verilerin Korunması Kanunu', abbr: 'KVKK', aliases: ['kvk kanunu'], tertip: 5 },
   { no: '6769', name: 'Sınai Mülkiyet Kanunu', abbr: 'SMK', aliases: [], tertip: 5 },
+  { metinTarihi: '2026-10-29', no: '2004', name: 'İcra ve İflas Kanunu', abbr: 'İİK', aliases: ['icra kanunu', 'icra iflas kanunu'], tertip: 3 },
+  { metinTarihi: '2026-10-29', no: '4857', name: 'İş Kanunu', abbr: 'İş K.', aliases: ['iş kanunu', 'is kanunu'], tertip: 5 },
+  { metinTarihi: '2026-10-29', no: '5237', name: 'Türk Ceza Kanunu', abbr: 'TCK', aliases: ['ceza kanunu'], tertip: 5 },
 ];
 
 export function mevzuatUrl(no, tertip) {

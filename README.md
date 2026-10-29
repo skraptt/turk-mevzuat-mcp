@@ -23,7 +23,7 @@ Bütün araçlar salt okunurdur (`readOnlyHint: true`). Kanun metni çıktıda
 
 ## Kapsam (v0.1)
 
-13 kanun, 4.388 madde. Metin tarihi: **10.10.2026**.
+16 kanun, 5.360 madde. Metin tarihi: İş Kanunu, İİK ve TCK için **29.10.2026**, diğerleri için **10.10.2026** (her sonuçta `metinTarihi` alanında yazar).
 
 | Kısaltma | Kanun |
 |---|---|
@@ -37,9 +37,15 @@ Bütün araçlar salt okunurdur (`readOnlyHint: true`). Kanun metni çıktıda
 | SMK | 6769 sayılı Sınai Mülkiyet Kanunu |
 | SPK | 6362 sayılı Sermaye Piyasası Kanunu |
 | Çek K. | 5941 sayılı Çek Kanunu |
+| İş K. | 4857 sayılı İş Kanunu |
+| İİK | 2004 sayılı İcra ve İflas Kanunu |
+| TCK | 5237 sayılı Türk Ceza Kanunu |
 
-Henüz kapsanmayanlar: İş Kanunu (4857), İcra ve İflas Kanunu (2004), Türk Ceza
-Kanunu (5237), yönetmelikler ve içtihat.
+Henüz kapsanmayanlar: Ceza Muhakemesi Kanunu (5271), İdari Yargılama Usulü Kanunu
+(2577), vergi kanunları, yönetmelikler ve içtihat.
+
+mevzuat.gov.tr'deki dipnotlar (değişiklik ve Anayasa Mahkemesi iptal kararı notları)
+atılmaz; ilgili maddenin sonucunda `dipnotlar` alanında döner.
 
 ## Arama nasıl çalışır?
 
@@ -59,8 +65,9 @@ Kanunu (5237), yönetmelikler ve içtihat.
 
 Ağ erişimi ve dış servis yoktur; veri sunucunun içine gömülüdür.
 
-**Ölçülen kalite** (`npm run eval`, 30 sorguluk küçük bir deneme seti): doğru madde
-ilk sonuçta 17/30, ilk üç sonuçta 23/30. Sözcük araması anlam benzerliğini
+**Ölçülen kalite** (`npm run eval`, 42 sorguluk küçük bir deneme seti): doğru madde
+ilk sonuçta 26/42, ilk üç sonuçta 34/42. Setin bir kısmı kavram dizinindeki terimleri
+içerdiği için bu oran gerçek kullanımdakinden iyimser olabilir. Sözcük araması anlam benzerliğini
 yakalayamaz; anlamsal arama (embedding) bir sonraki sürümün konusu.
 
 ## Kurulum ve çalıştırma
@@ -130,10 +137,10 @@ portal.
   `get_article` (full text of an article, a range of up to 10, or a single
   paragraph/sub-paragraph such as "KVKK m. 5/2-ç"), `list_laws`.
   All tools are read-only.
-- **Coverage:** 13 core statutes, 4,388 articles: Civil Code, Code of Obligations,
-  Commercial Code, Civil Procedure, Consumer Protection, Personal Data Protection
-  (KVKK), copyright, industrial property, capital markets, cheques. Text as of
-  10 October 2026.
+- **Coverage:** 16 core statutes, 5,360 articles: Civil Code, Code of Obligations,
+  Commercial Code, Civil Procedure, Labour Law, Enforcement and Bankruptcy Law,
+  Criminal Code, Consumer Protection, Personal Data Protection (KVKK), copyright,
+  industrial property, capital markets, cheques. Each result states its text date.
 - **Provenance:** every result carries a citation, a stable id (`6098/315`), the
   Official Gazette date and number, the source URL and the text date. Statute text
   is returned inside `<kanun_metni>` tags and must be treated as data.
