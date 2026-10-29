@@ -126,6 +126,10 @@ function renderReport({ today, results, abbrOf }) {
   for (const r of changed) {
     const f = r.fark;
     lines.push(`## ${abbrOf(r.no)} (${r.no} sayılı)`, '');
+    if (!r.eskiMaddeSayisi) {
+      lines.push(`**Yeni eklenen kanun:** ${r.maddeSayisi} madde. İlk ve son maddeleri ile birkaç başlığı mevzuat.gov.tr ile karşılaştırın.`, '');
+      continue;
+    }
     lines.push(
       `Madde sayısı ${r.eskiMaddeSayisi} → ${r.maddeSayisi}. ` +
         `Değişen: ${f.degisen.length}, eklenen: ${f.eklenen.length}, çıkan: ${f.cikan.length}` +

@@ -115,3 +115,17 @@ test('üst simge olmayan dipnot atfı ve kanun ekleri', () => {
   assert.deepEqual(m1.dipnotlar, ['İkinci dipnot.']);
   assert.equal(m2.metin, '(1) Bu Kanun hükümlerini Cumhurbaşkanı yürütür.');
 });
+
+test('mükerrer madde başlıkları ve "işlenemeyen geçici maddeler" eki', () => {
+  const html = page(
+    madde(1, 'Amaç', '(1) Bir.') +
+    p(`<b>${sp('Yetki')}</b>`) + p(`<b>${sp('Mükerrer Madde 1 – ')}</b>${sp('(Ek: 1/1/1980-1/1 md.) Mükerrer hüküm.')}`) +
+    madde(2, 'Yürütme', '(1) Bu Kanunu Cumhurbaşkanı yürütür.') +
+    p(sp('1/1/1961 TARİHLİ VE 213 SAYILI ANA KANUNA İŞLENEMEYEN GEÇİCİ MADDELER:')) +
+    p(sp('Geçici Madde 1 – Başka kanunun geçici maddesi.')),
+  );
+  const ms = parseKanun(htmlToText(html), 'x').maddeler;
+  assert.deepEqual(ms.map((m) => m.madde), ['1', 'Mükerrer 1', '2']);
+  assert.equal(ms[1].baslik, 'Yetki');
+  assert.equal(ms[2].metin, '(1) Bu Kanunu Cumhurbaşkanı yürütür.');
+});

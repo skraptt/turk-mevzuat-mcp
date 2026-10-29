@@ -23,7 +23,7 @@ Bütün araçlar salt okunurdur (`readOnlyHint: true`). Kanun metni çıktıda
 
 ## Kapsam
 
-16 kanun, 5.360 madde. Her sonuç iki tarih taşır: `metinTarihi` (metnin alındığı gün) ve
+27 kanun, yaklaşık 6.900 madde. Her sonuç iki tarih taşır: `metinTarihi` (metnin alındığı gün) ve
 `sonKontrol` (metnin mevzuat.gov.tr'deki güncel hâliyle en son karşılaştırıldığı gün).
 Metinler her gün otomatik olarak kontrol edilir (bkz. [Güncellik](#güncellik)).
 
@@ -42,9 +42,19 @@ Metinler her gün otomatik olarak kontrol edilir (bkz. [Güncellik](#güncellik)
 | İş K. | 4857 sayılı İş Kanunu |
 | İİK | 2004 sayılı İcra ve İflas Kanunu |
 | TCK | 5237 sayılı Türk Ceza Kanunu |
+| CMK | 5271 sayılı Ceza Muhakemesi Kanunu |
+| Kab. K. | 5326 sayılı Kabahatler Kanunu |
+| AY | 2709 sayılı Türkiye Cumhuriyeti Anayasası |
+| İYUK | 2577 sayılı İdari Yargılama Usulü Kanunu |
+| HUAK | 6325 sayılı Hukuk Uyuşmazlıklarında Arabuluculuk Kanunu |
+| İş Mah. K. | 7036 sayılı İş Mahkemeleri Kanunu |
+| KMK | 634 sayılı Kat Mülkiyeti Kanunu |
+| Av. K. | 1136 sayılı Avukatlık Kanunu |
+| VUK | 213 sayılı Vergi Usul Kanunu |
+| 5651 s. K. | 5651 sayılı İnternet Ortamında Yapılan Yayınların Düzenlenmesi … Hakkında Kanun |
+| ETDHK | 6563 sayılı Elektronik Ticaretin Düzenlenmesi Hakkında Kanun |
 
-Henüz kapsanmayanlar: Ceza Muhakemesi Kanunu (5271), İdari Yargılama Usulü Kanunu
-(2577), vergi kanunları, yönetmelikler ve içtihat.
+Henüz kapsanmayanlar: diğer vergi kanunları, yönetmelikler ve içtihat.
 
 mevzuat.gov.tr'deki dipnotlar (değişiklik ve Anayasa Mahkemesi iptal kararı notları)
 atılmaz; ilgili maddenin sonucunda `dipnotlar` alanında döner.
@@ -62,7 +72,7 @@ atılmaz; ilgili maddenin sonucunda `dipnotlar` alanında döner.
   birlikte dizine eklenir (ör. TTK m. 409: "Ticaret Şirketleri › Anonim Şirket › Genel
   Kurul"). Böylece "anonim şirket genel kurul toplantısı" gibi konu aramaları doğru bölüme
   gider. Bölüm yolu sonuçlarda `bolum` alanında da gösterilir.
-- **Atıf tanıma:** "TBK m. 315", "Borçlar Kanunu m.315", "6098/315", "KVKK m. 5/2-ç",
+- **Atıf tanıma:** "VUK mükerrer m. 257", "TBK m. 315", "Borçlar Kanunu m.315", "6098/315", "KVKK m. 5/2-ç",
   "KVKK m. 5 f.2 b.ç" gibi yazımlar.
 
 Ağ erişimi ve dış servis yoktur; veri sunucunun içine gömülüdür.
@@ -163,9 +173,10 @@ portal.
 - **Freshness:** a daily GitHub Action compares every statute with mevzuat.gov.tr
   article by article. Unchanged texts get a new `sonKontrol` (last checked) date;
   changes open a pull request with a diff report for human review.
-- **Coverage:** 16 core statutes, 5,360 articles: Civil Code, Code of Obligations,
-  Commercial Code, Civil Procedure, Labour Law, Enforcement and Bankruptcy Law,
-  Criminal Code, Consumer Protection, Personal Data Protection (KVKK), copyright,
+- **Coverage:** 27 statutes, about 6,900 articles: the Constitution, Civil Code, Code of
+  Obligations, Commercial Code, Civil, Criminal and Administrative Procedure, mediation,
+  Labour Law and labour courts, Enforcement and Bankruptcy Law, Criminal Code,
+  misdemeanours, condominium, the Attorneys Act, tax procedure, internet and e-commerce law, Consumer Protection, Personal Data Protection (KVKK), copyright,
   industrial property, capital markets, cheques. Each result states its text date.
 - **Provenance:** every result carries a citation, a stable id (`6098/315`), the
   Official Gazette date and number, the source URL and the text date. Statute text
