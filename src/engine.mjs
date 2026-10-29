@@ -310,40 +310,67 @@ const b64 = {
 };
 
 // Dizini JSON'a sığacak küçük bir biçime çevirir: terim listesi + ikili diziler (base64).
+// Derlenmiş dizin biçimi (v2). Her terimin kayıtları "kayıt sayısı, belge farkları…"
+// olarak değişken uzunluklu tamsayılarla (varint) yazılır; belge numaraları artan
+// sırada olduğu için farklar küçüktür ve çoğu tek bayta sığar. Bu, paketin
+// Cloudflare'in ücretsiz plan boyut sınırının altında kalmasını sağlar.
 export function encodeIndex({ postings, docLen }) {
   const terms = [...postings.keys()];
-  const offsets = new Uint32Array(terms.length + 1);
-  let n = 0;
-  terms.forEach((t, i) => {
-    offsets[i] = n;
-    n += postings.get(t).length / 2;
-  });
-  offsets[terms.length] = n;
-  const docs = new Uint16Array(n);
-  const tfs = new Uint8Array(n);
-  let j = 0;
+  const bytes = [];
+  const varint = (n) => {
+    while (n >= 0x80) {
+      bytes.push((n & 0x7f) | 0x80);
+      n >>>= 7;
+    }
+    bytes.push(n);
+  };
+  const tfs = [];
   for (const t of terms) {
     const p = postings.get(t);
+    varint(p.length / 2);
+    let prev = 0;
     for (let k = 0; k < p.length; k += 2) {
-      docs[j] = p[k];
-      tfs[j] = p[k + 1];
-      j++;
+      varint(p[k] - prev);
+      prev = p[k];
+      tfs.push(p[k + 1]);
     }
   }
   return {
+    v: 2,
     terms,
-    offsets: b64.enc(new Uint8Array(offsets.buffer)),
-    docs: b64.enc(new Uint8Array(docs.buffer)),
-    tfs: b64.enc(tfs),
+    postings: b64.enc(Uint8Array.from(bytes)),
+    tfs: b64.enc(Uint8Array.from(tfs)),
     docLen: b64.enc(new Uint8Array(Float32Array.from(docLen).buffer)),
   };
 }
 
 export function decodeIndex(ix) {
-  const offsets = new Uint32Array(b64.dec(ix.offsets).buffer);
-  const docs = new Uint16Array(b64.dec(ix.docs).buffer);
+  if (ix.v !== 2) throw new Error('Dizin biçimi eski; npm run build ile yeniden derleyin.');
+  const bytes = b64.dec(ix.postings);
   const tfs = b64.dec(ix.tfs);
   const docLen = new Float32Array(b64.dec(ix.docLen).buffer);
+  const offsets = new Uint32Array(ix.terms.length + 1);
+  const docs = new Uint32Array(tfs.length);
+  let at = 0;
+  const varint = () => {
+    let n = 0;
+    let shift = 0;
+    let b;
+    do {
+      b = bytes[at++];
+      n += (b & 0x7f) * 2 ** shift;
+      shift += 7;
+    } while (b & 0x80);
+    return n;
+  };
+  let j = 0;
+  for (let i = 0; i < ix.terms.length; i++) {
+    offsets[i] = j;
+    const count = varint();
+    let prev = 0;
+    for (let k = 0; k < count; k++) docs[j++] = prev += varint();
+  }
+  offsets[ix.terms.length] = j;
   // Sorgu kodu terim başına [doc, tf, ...] dizisi bekler; ihtiyaç olunca tembel üret.
   const pos = new Map(ix.terms.map((t, i) => [t, i]));
   const cache = new Map();

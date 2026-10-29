@@ -74,8 +74,11 @@ test('derlenmiş dizin, çalışma anında kurulanla aynı sonucu verir', () => 
       q,
     );
   }
-  const roundtrip = decodeIndex(encodeIndex(buildIndex(raw.articles.slice(0, 50))));
-  assert.ok(roundtrip.postings.get(tokenize('kiralanan')[0]) !== undefined || true);
+  // Kodlama kayıpsızdır: her terimin kayıtları aynen geri gelir.
+  const built = buildIndex(raw.articles.slice(0, 300));
+  const roundtrip = decodeIndex(encodeIndex(built));
+  for (const [t, p] of built.postings) assert.deepEqual(roundtrip.postings.get(t), p, t);
+  assert.deepEqual([...roundtrip.docLen], [...built.docLen]);
 });
 
 test('her sonuç kaynak ve tarih taşır', () => {
@@ -137,4 +140,11 @@ test('mükerrer maddeler ve üç haneli kanun numaraları', () => {
   assert.equal(s.dogrudanAtif, true);
   assert.equal(s.sonuclar[0].kimlik, '213/Mükerrer 257');
   assert.equal(mini.resolveLaw('213 sayılı Kanun')?.no, '213');
+});
+
+test('paket Cloudflare Workers ücretsiz plan sınırının altında', async () => {
+  const { gzipSync } = await import('node:zlib');
+  const size = gzipSync(readFileSync(new URL('../data/mevzuat.json', import.meta.url)), { level: 9 }).length;
+  // Sınır 3 MiB (sıkıştırılmış, kod dahil). Kod ve yuvarlama payı için 2,8 MB'ta uyar.
+  assert.ok(size < 2.8e6, `veri sıkıştırılmış hâlde ${(size / 1e6).toFixed(2)} MB; sınıra yaklaşıldı`);
 });
