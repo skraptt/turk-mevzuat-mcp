@@ -23,6 +23,9 @@ const STOP = new Set(
     'kadar', 'sonra', 'once', 'uzere', 'dair', 'iliskin', 'hakkinda', 'gore', 'karsi', 'tarafindan',
     'madde', 'maddesi', 'maddede', 'fikra', 'fikrasi', 'bent', 'bendi', 'kanun', 'kanunu', 'kanunun',
     'nedir', 'nasil', 'hangi', 'midir', 'mudur', 'olur', 'olabilir', 'var', 'yok',
+    // Soru kalıplarındaki fiiller: "ne yapabilir", "ne olur", "dava açabilir mi"
+    'yapabilir', 'yapabilirim', 'yapar', 'yapmali', 'yapilir', 'yapmak', 'edebilir', 'eder', 'etmek',
+    'olursa', 'neler', 'gerekir', 'lazim', 'mumkun', 'durumunda', 'halinde', 'ben', 'benim', 'bana',
   ].map(fold),
 );
 

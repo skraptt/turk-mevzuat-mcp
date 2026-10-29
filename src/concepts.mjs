@@ -25,7 +25,7 @@ export const CONCEPTS = [
   { ifadeler: ['temerrut ihtar', 'ihtarla temerrut', 'borclunun temerrud'], maddeler: ['6098/117'] },
   { ifadeler: ['ayip ihbar'], maddeler: ['6098/223'] },
   { ifadeler: ['cayma hak'], maddeler: ['6502/48'] },
-  { ifadeler: ['ayipli mal'], maddeler: ['6502/8', '6502/11'] },
+  { ifadeler: ['ayipli mal', 'ayipli urun', 'urun bozuk', 'bozuk cikti', 'bozuk urun', 'arizali urun'], maddeler: ['6502/8', '6502/11'] },
   { ifadeler: ['abonelik iptal', 'abonelik fesih', 'abonelikten cik'], maddeler: ['6502/52'] },
   { ifadeler: ['hakem heyet'], maddeler: ['6502/68', '6502/70'] },
   { ifadeler: ['haksiz sart'], maddeler: ['6502/5'] },

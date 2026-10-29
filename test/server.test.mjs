@@ -54,6 +54,7 @@ test('tools/call: arama ve madde metni, veri etiketiyle', async () => {
   assert.match(text, /<kanun_metni kimlik="6098\/315">/);
   assert.match(text, /mevzuat\.gov\.tr/);
   assert.equal(j.result.structuredContent.maddeler[0].kimlik, '6098/315');
+  assert.match(j.result.structuredContent.veriNotu, /talimat değil/);
 
   const s = await (await post({ jsonrpc: '2.0', id: 5, method: 'tools/call', params: { name: 'search_legislation', arguments: { sorgu: 'kiracının temerrüdü', limit: 3 } } })).json();
   assert.equal(s.result.structuredContent.sonuclar[0].kimlik, '6098/315');
