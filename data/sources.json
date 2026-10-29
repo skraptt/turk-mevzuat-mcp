@@ -9,16 +9,16 @@
   },
   "4721": {
     "dosya": "4721_Turk_Medeni_Kanunu.txt",
-    "metinTarihi": "2026-10-10",
-    "sonKontrol": "2026-10-10",
-    "kaynak": "mikeTR",
-    "sha256": "dc40fb881ef72a02bc465fa56fa0bbbc6fc53493696bb6ef11bf5f57a02a1d56",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "bf6b566b60bc322745293f6c4c3e86ea2fccd299552dfa0f9b8e7fbaffbdf27f",
     "maddeSayisi": 1031
   },
   "4722": {
     "dosya": "4722_TMK_Yururluk_Kanunu.txt",
     "metinTarihi": "2026-10-10",
-    "sonKontrol": "2026-10-10",
+    "sonKontrol": "2026-10-29",
     "kaynak": "mikeTR",
     "sha256": "03e020eefff9f7bd010d1cd63cd6d29de0ccea72d7cb17423dfd83909a514140",
     "maddeSayisi": 25
@@ -28,7 +28,7 @@
     "metinTarihi": "2026-10-29",
     "sonKontrol": "2026-10-29",
     "kaynak": "mevzuat.gov.tr",
-    "sha256": "fa28b7acb55c2860824967aebd4b59aa1ae3428f9b803ad97886a095a3127b67",
+    "sha256": "ce68819d1a82cc651668c8e3c2ea1681350e22e17e8e5faaab8f2c052b1dd8a9",
     "maddeSayisi": 137
   },
   "5237": {
@@ -36,95 +36,95 @@
     "metinTarihi": "2026-10-29",
     "sonKontrol": "2026-10-29",
     "kaynak": "mevzuat.gov.tr",
-    "sha256": "4b6c6ae0817b5bfc0693a08146fe0c418e6cc7473691ebd8213ad99388b93545",
+    "sha256": "b9ca42397067c1ec8cfa14df0017b35b31b3b2e6ba252cb798c14294a20fce06",
     "maddeSayisi": 349
   },
   "5846": {
     "dosya": "5846_Fikir_ve_Sanat_Eserleri_Kanunu.txt",
-    "metinTarihi": "2026-10-10",
-    "sonKontrol": "2026-10-10",
-    "kaynak": "mikeTR",
-    "sha256": "3db936645bdb71a0421a581a9b62170ba4c12b95ddcf76b9c0063e708c1d8392",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "3bfe25428dd4f7e8aea5b45640924a32d84c58d289b8884f9f9a3a7642fcc1c8",
     "maddeSayisi": 115
   },
   "5941": {
     "dosya": "5941_Cek_Kanunu.txt",
-    "metinTarihi": "2026-10-10",
-    "sonKontrol": "2026-10-10",
-    "kaynak": "mikeTR",
-    "sha256": "81bf626d71d4e24aa27e7fffbe9766baf7085f5e87fa495958d7964f293ff2fc",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "2df59651be06a5c23e3b5dbd9d0ac0d17b4026dcb99e29f2b170fa8ecaa738f3",
     "maddeSayisi": 16
   },
   "6098": {
     "dosya": "6098_Turk_Borclar_Kanunu.txt",
-    "metinTarihi": "2026-10-10",
-    "sonKontrol": "2026-10-10",
-    "kaynak": "mikeTR",
-    "sha256": "c57dad5f4b936ce98526511537988c2ebac523529540709254c845c9e1d6ea33",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "d4aef9032e133bde891127cff8886468a1659500e079ac720e111354f95cc685",
     "maddeSayisi": 649
   },
   "6100": {
     "dosya": "6100_Hukuk_Muhakemeleri_Kanunu.txt",
-    "metinTarihi": "2026-10-10",
-    "sonKontrol": "2026-10-10",
-    "kaynak": "mikeTR",
-    "sha256": "25ae86b9cbfc860b37d5f0982a022abeaf15db077587d0afb268020d166c0bb0",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "9dde96f3dcbea8afd65d481363e9b90ffe9e97ddbf9243ba535420ac5bf9139c",
     "maddeSayisi": 459
   },
   "6101": {
     "dosya": "6101_TBK_Yururluk_Kanunu.txt",
     "metinTarihi": "2026-10-10",
-    "sonKontrol": "2026-10-10",
+    "sonKontrol": "2026-10-29",
     "kaynak": "mikeTR",
     "sha256": "7ce548d301a4a4754bd03dd6462099910c901388d6f062695ca07191f28879e6",
     "maddeSayisi": 14
   },
   "6102": {
     "dosya": "6102_Turk_Ticaret_Kanunu.txt",
-    "metinTarihi": "2026-10-10",
-    "sonKontrol": "2026-10-10",
-    "kaynak": "mikeTR",
-    "sha256": "978244e29bdf98dc4d9a0ed2d344dcd34291ef55baf1848f95dc283f6e11643c",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "e74032437ab08e47c318b559561a0027fe15bab6d8d9415d7145f1c1d31e9178",
     "maddeSayisi": 1551
   },
   "6103": {
     "dosya": "6103_TTK_Yururluk_Kanunu.txt",
-    "metinTarihi": "2026-10-10",
-    "sonKontrol": "2026-10-10",
-    "kaynak": "mikeTR",
-    "sha256": "8e82cd099b59512929ff59ca3685a429d41037df43d2017a73e3412c08b5ad60",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "dc472070b02a28ee1cc929e177ef663964f5371f08aeb7540babd2c7b650641a",
     "maddeSayisi": 44
   },
   "6362": {
     "dosya": "6362_Sermaye_Piyasasi_Kanunu.txt",
-    "metinTarihi": "2026-10-10",
-    "sonKontrol": "2026-10-10",
-    "kaynak": "mikeTR",
-    "sha256": "2d13df33fab3b55fcf1ebebb3851cb5d9fa12b3a9e18eb0ae7376383eb1c0c23",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "6e6d7968b4b4981aec5ea6098c564dc7c7bedb67a558d3edfdf5eb3ac1100cca",
     "maddeSayisi": 172
   },
   "6502": {
     "dosya": "6502_Tuketicinin_Korunmasi_Hakkinda_Kanun.txt",
-    "metinTarihi": "2026-10-10",
-    "sonKontrol": "2026-10-10",
-    "kaynak": "mikeTR",
-    "sha256": "3a82173d99c497306ff1979a94ef44f023f835d73b041ae8f185a335af6857dd",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "31e3d3aaf31b524be7e242910581300d035dba6e7d3d755b2f6784c48901d8b4",
     "maddeSayisi": 95
   },
   "6698": {
     "dosya": "6698_Kisisel_Verilerin_Korunmasi_Kanunu.txt",
-    "metinTarihi": "2026-10-10",
-    "sonKontrol": "2026-10-10",
-    "kaynak": "mikeTR",
-    "sha256": "c6f2f0aaa1a4db3694066b48fe21e7f6b0a5ad1f1b5c4b18596095a727f2ea2d",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "03c8240328b2da2410ec7d9180e00075dc8c8b74734e3d76433b9966381c5c5f",
     "maddeSayisi": 36
   },
   "6769": {
     "dosya": "6769_Sinai_Mulkiyet_Kanunu.txt",
-    "metinTarihi": "2026-10-10",
-    "sonKontrol": "2026-10-10",
-    "kaynak": "mikeTR",
-    "sha256": "9e67048d6c41f643f42835b70b9c86b65e00c739859c03aca54127ccff0c4b03",
+    "metinTarihi": "2026-10-29",
+    "sonKontrol": "2026-10-29",
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": "83c78554fd7a8b7f32df1704e888d6089c2ce82e6e61acbc6ccec2cf9ac2584b",
     "maddeSayisi": 181
   }
 }
