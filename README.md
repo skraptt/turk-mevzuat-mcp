@@ -84,6 +84,13 @@ atılmaz; ilgili maddenin sonucunda `dipnotlar` alanında döner.
   ilgili maddeye bağlar; örneğin kanun "depozito" demez, TBK m. 342 "güvence" der.
   Kanun kitaplarının sonundaki kavram dizini gibi çalışır ve hukukçular tarafından
   genişletilebilir.
+- **Gündelik dil sözlüğü** (`src/synonyms.mjs`): Sorgudaki gündelik sözcüğe kanundaki
+  karşılığını ekler ("patron" → "işveren", "maaş" → "ücret", "ev sahibi" → "kiraya veren").
+  Kavram dizininden farkı, belirli maddeye bağlamaması; yalnızca aramaya terim ekler.
+- **Sıralama düzeltmeleri:** Sorguda adı ya da kısaltması geçen kanunun maddeleri öne
+  çıkar ("kvkk idari para cezası" → KVKK m. 18). Amaç, kapsam, dayanak, yürürlük ve
+  yürütme maddeleri ile uygulama (yürürlük) kanunları geri çekilir. "İstiyorum",
+  "alabilir miyim" gibi konuşma dili sözcükleri sorgudan atılır.
 - **Bölüm yolu:** Her madde, bulunduğu "Kitap › Kısım › Bölüm › Ayırım" başlıklarıyla
   birlikte dizine eklenir (ör. TTK m. 409: "Ticaret Şirketleri › Anonim Şirket › Genel
   Kurul"). Böylece "anonim şirket genel kurul toplantısı" gibi konu aramaları doğru bölüme
@@ -93,10 +100,24 @@ atılmaz; ilgili maddenin sonucunda `dipnotlar` alanında döner.
 
 Ağ erişimi ve dış servis yoktur; veri sunucunun içine gömülüdür.
 
-**Ölçülen kalite** (`npm run eval`, 42 sorguluk küçük bir deneme seti): doğru madde
-ilk sonuçta 26/42, ilk üç sonuçta 34/42. Setin bir kısmı kavram dizinindeki terimleri
-içerdiği için bu oran gerçek kullanımdakinden iyimser olabilir. Sözcük araması anlam benzerliğini
-yakalayamaz; anlamsal arama (embedding) bir sonraki sürümün konusu.
+**Ölçülen kalite** (`npm run eval`, ayrıntı için `npm run eval -- --ayrinti`). Set 133
+sorudan oluşur ve iki kümeye ayrılır: sıralama ayarlanırken bakılan **geliştirme** kümesi
+(103 soru) ve ayarlama sırasında bakılmayan **kör** küme (30 soru). Sorular hukukçu
+diliyle (teknik) ve vatandaş diliyle (gündelik) yazılmıştır; beklenen maddeler veri
+üzerinde tek tek doğrulanmıştır. v0.8.0 sonuçları:
+
+| Küme | İlk sonuç | İlk 3 | MRR@5 |
+|---|---|---|---|
+| Geliştirme (103) | %71 | %89 | 0,81 |
+| Kör (30) | %40 | %70 | 0,54 |
+| Kör, yalnız teknik (15) | %67 | %87 | 0,76 |
+| Kör, yalnız gündelik (15) | %13 | %53 | 0,31 |
+
+Geliştirme kümesindeki yüksek oran kısmen kavram dizininin bu sorulara göre
+genişletilmesinden gelir; gerçek kullanıma daha yakın tahmin kör kümedir. Gündelik dille
+sorulmuş, kanun terimlerini hiç içermeyen sorular hâlâ zayıf noktadır: bu tür sorularda
+doğru madde çoğu zaman ilk üçtedir ama ilk sırada değildir. Sözcük araması anlam
+benzerliğini yakalayamaz; anlamsal arama (embedding) bir sonraki sürümün konusu.
 
 ## Kurulum ve çalıştırma
 

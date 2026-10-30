@@ -1,0 +1,57 @@
+// Gündelik dil → kanun dili sözlüğü. Sorgudaki gündelik bir sözcük ya da kalıp, kanunun
+// aynı şeyi anlatırken kullandığı terimlerle genişletilir ("patron" → "işveren",
+// "maaş" → "ücret"). Kavram dizininden farkı: belirli maddelere bağlanmaz, yalnızca
+// sözcük aramasına terim ekler. Bu yüzden her kanunda aynı şekilde işe yarar.
+//
+// Anahtarlar katlanmış (fold) ve kök hâlinde yazılır, sorgunun katlanmış biçiminde
+// sözcük başında aranır ("maas" → "maaşım", "maaşımı"). Değerler kanundaki ifadedir.
+// Genişletme terimleri asıl terimlerden biraz düşük ağırlık alır.
+
+export const SYNONYMS = [
+  ['patron', 'işveren'],
+  ['maas', 'ücret'],
+  ['kovul', 'fesih işveren'],
+  ['isten cikar', 'fesih işveren'],
+  ['isten atil', 'fesih işveren'],
+  ['istifa', 'fesih işçi'],
+  ['ev sahib', 'kiraya veren'],
+  ['evden cikar', 'tahliye'],
+  ['apartman', 'kat malikleri anagayrimenkul'],
+  ['site yonetim', 'kat malikleri yönetici'],
+  ['eski es', 'boşanma'],
+  ['bosanirken', 'boşanma'],
+  ['miras birak', 'mirasbırakan'],
+  ['olen', 'mirasbırakan'],
+  ['avukat hakk', 'müdafi'],
+  ['avukatim', 'müdafi vekil'],
+  ['karakol', 'kolluk'],
+  ['polis', 'kolluk'],
+  ['savci', 'cumhuriyet savcısı'],
+  ['hapis', 'hapis cezası'],
+  ['fotograf', 'görüntü özel hayat'],
+  ['video', 'görüntü'],
+  ['ses kayd', 'ses kayda alma'],
+  ['izinsiz', 'rıza hukuka aykırı'],
+  ['paylas', 'yayma ifşa'],
+  ['sosyal medya', 'internet'],
+  ['veri ihlal', 'veri güvenliği kurul bildir'],
+  ['sizinti', 'veri güvenliği'],
+  ['ceza kes', 'idari para cezası'],
+  ['devlet', 'idare'],
+  ['belediye', 'idare'],
+  ['memur', 'kamu görevlisi'],
+  ['geri gonder', 'cayma'],
+  ['geri ver', 'iade'],
+  ['iade et', 'cayma iade'],
+  ['internetten al', 'mesafeli sözleşme'],
+  ['online alisveris', 'mesafeli sözleşme'],
+  ['abonelik iptal', 'abonelik fesih'],
+  ['logo', 'marka'],
+  ['kopyala', 'çoğaltma'],
+  ['korsan', 'çoğaltma yayma izinsiz'],
+  ['borcunu odemi', 'borçlu takip'],
+  ['icerden ogren', 'bilgi suistimali'],
+  ['iceriden ogren', 'bilgi suistimali'],
+  ['manipulasyon', 'piyasa dolandırıcılığı'],
+  ['iflas erteleme', 'konkordato'],
+];

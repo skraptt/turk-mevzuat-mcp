@@ -29,6 +29,17 @@ const STOP = new Set(
   ].map(fold),
 );
 
+// Yalnızca sorguda atılan konuşma dili sözcükleri. Kanun metninde de geçebildikleri
+// için dizinden çıkarılmazlar; sorguda ise konu taşımazlar ("geri vermek istiyorum").
+const QUERY_STOP = new Set(
+  [
+    'istiyorum', 'istiyor', 'istiyoruz', 'isterse', 'alabilir', 'alabilirim', 'miyim', 'muyum', 'misin', 'musun',
+    'miyiz', 'acaba', 'beni', 'bizim', 'bize', 'onun', 'simdi', 'hala', 'zaten', 'yani', 'peki',
+    'verebilir', 'verebilirim', 'acabilir', 'acabilirim', 'acilabilir', 'gidebilir', 'olmali', 'olmalidir',
+    'sayilir', 'yapildi', 'edildi', 'ediliyor', 'oluyor', 'sence', 'diye', 'ne', 'zaman', 'kac',
+  ].map(fold),
+);
+
 export const STEM_LEN = 5;
 
 export function stem(token) {
@@ -41,10 +52,10 @@ export function stem(token) {
 export const FINE_LEN = 7;
 
 // Metni katlanmış, köklenmiş sözcüklere ayırır. Sayılar korunur (madde atıfları için).
-export function tokenize(text) {
+export function tokenize(text, { query = false } = {}) {
   const out = [];
   for (const raw of fold(text).split(/[^a-z0-9]+/)) {
-    if (!raw || STOP.has(raw)) continue;
+    if (!raw || STOP.has(raw) || (query && QUERY_STOP.has(raw))) continue;
     if (raw.length < 2 && !/\d/.test(raw)) continue;
     out.push(stem(raw));
     if (raw.length > STEM_LEN) out.push('~' + raw.slice(0, FINE_LEN));
