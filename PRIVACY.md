@@ -1,7 +1,7 @@
 # Privacy Policy / Gizlilik Politikası
 
 **Türk Mevzuat MCP** — https://github.com/skraptt/turk-mevzuat-mcp
-Last updated / Son güncelleme: 29 October 2026
+Last updated / Son güncelleme: 30 October 2026
 
 ## English
 
@@ -17,9 +17,13 @@ no user accounts, no sign-in, no cookies and no analytics.
   The server code writes no logs, and Cloudflare Workers observability (request
   logging) is disabled in the deployment configuration (`wrangler.toml`). Nothing from
   a request is stored after the response is sent.
-- **Third-party sharing.** Requests are not sold, shared or forwarded. The server makes
-  no outbound calls while answering; the statute data is bundled into it. The server
-  runs on Cloudflare Workers. Cloudflare processes connection data such as IP addresses
+- **Third-party sharing.** Requests are not sold or shared. The statute data is bundled
+  into the server. For semantic search, the text of a `search_legislation` query is sent
+  to Cloudflare Workers AI (an embedding model run by Cloudflare) to turn it into a
+  vector, and that vector is looked up in Cloudflare Vectorize. Both are Cloudflare
+  services on the same account that hosts the server; no other service receives request
+  data, and the server stores neither the query nor the vector. The server runs on
+  Cloudflare Workers. Cloudflare processes connection data such as IP addresses
   to deliver and secure the service, under the
   [Cloudflare Privacy Policy](https://www.cloudflare.com/privacypolicy/). The daily
   freshness check runs on GitHub Actions and only downloads public pages from
@@ -41,9 +45,13 @@ Kullanıcı hesabı, oturum açma, çerez ya da analiz aracı yoktur.
   Sunucu kodu kayıt (log) tutmaz ve Cloudflare Workers gözlemlenebilirlik kayıtları
   yapılandırmada kapalıdır (`wrangler.toml`). Cevap gönderildikten sonra istekten
   hiçbir şey saklanmaz.
-- **Üçüncü kişilerle paylaşım.** İstekler satılmaz, paylaşılmaz, başka yere iletilmez.
-  Sunucu cevap verirken dışarıya bağlanmaz; mevzuat verisi sunucunun içindedir. Sunucu
-  Cloudflare Workers üzerinde çalışır. Cloudflare, hizmeti sunmak ve güvenliği sağlamak
+- **Üçüncü kişilerle paylaşım.** İstekler satılmaz, paylaşılmaz. Mevzuat verisi
+  sunucunun içindedir. Anlamsal arama için `search_legislation` sorgusunun metni,
+  vektöre çevrilmek üzere Cloudflare Workers AI'ya (Cloudflare'in çalıştırdığı bir
+  embedding modeli) gönderilir ve bu vektör Cloudflare Vectorize'da aranır. İkisi de
+  sunucunun barındırıldığı Cloudflare hesabındaki hizmetlerdir; istek verisi başka
+  hiçbir hizmete gitmez ve sunucu ne sorguyu ne de vektörü saklar. Sunucu Cloudflare
+  Workers üzerinde çalışır. Cloudflare, hizmeti sunmak ve güvenliği sağlamak
   için IP adresi gibi bağlantı verilerini
   [kendi gizlilik politikasına](https://www.cloudflare.com/privacypolicy/) göre işler.
   Günlük güncellik kontrolü GitHub Actions'ta çalışır ve yalnızca mevzuat.gov.tr'deki

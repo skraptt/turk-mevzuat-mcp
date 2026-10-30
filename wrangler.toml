@@ -5,3 +5,12 @@ compatibility_date = "2026-10-01"
 # Veri dosyası derleme sırasında pakete gömülür; istek başına dosya okunmaz.
 [observability]
 enabled = false
+
+# Anlamsal arama: sorgu vektörü Workers AI ile hesaplanır, en yakın maddeler Vectorize'da
+# aranır (src/semantic.mjs). Dizin, yayımlama iş akışında hazırlanır (deploy.yml).
+[ai]
+binding = "AI"
+
+[[vectorize]]
+binding = "VEC"
+index_name = "turk-mevzuat"

@@ -1,0 +1,71 @@
+# Anlamsal arama dizinini günceller: değişen maddelerin vektörlerini Workers AI ile hesaplar
+# ve Vectorize'a yükler (scripts/embed.mjs), ardından arama kalitesini ölçer.
+# Vektör önbelleği vektor-onbellek dalında tutulur, böylece yalnızca değişen maddeler
+# yeniden hesaplanır. Yayımlama iş akışı (deploy.yml) bunu yayımlamadan önce çağırır;
+# arama/ ile başlayan dallara gönderimde tek başına çalışır (yayımlamaz).
+name: Anlamsal dizin
+
+on:
+  push:
+    branches: ['arama/**']
+  workflow_dispatch:
+  workflow_call:
+    inputs:
+      ref:
+        type: string
+        default: main
+
+concurrency:
+  group: anlamsal-dizin
+  cancel-in-progress: false
+
+permissions:
+  contents: write # vektör önbelleği dalına yazmak için
+
+jobs:
+  dizin:
+    runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ inputs.ref || github.ref }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Veriyi derle
+        run: npm run build
+      - name: Vektör önbelleğini al
+        run: |
+          if git ls-remote --exit-code --heads origin vektor-onbellek >/dev/null; then
+            git fetch --depth=1 origin vektor-onbellek
+            git worktree add .vektor FETCH_HEAD
+          else
+            git worktree add --orphan -b vektor-onbellek .vektor
+          fi
+      - name: Vectorize dizinini hazırla
+        run: |
+          if ! npx --yes wrangler@4 vectorize get turk-mevzuat >/dev/null 2>&1; then
+            npx --yes wrangler@4 vectorize create turk-mevzuat --dimensions=512 --metric=cosine
+          fi
+          # Kanuna göre süzme için meta veri dizini (zaten varsa hata yok sayılır).
+          npx --yes wrangler@4 vectorize create-metadata-index turk-mevzuat --propertyName=k --type=string || true
+      - name: Madde vektörlerini hesapla ve yükle
+        run: node scripts/embed.mjs --cache .vektor --sorgular --upload
+      - name: Vektör önbelleğini kaydet
+        if: always()
+        run: |
+          cd .vektor
+          [ -f vectors.json ] || exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -q -B vektor-onbellek
+          git add vectors.json
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Vektör önbelleği güncellendi"
+          git push -q origin HEAD:vektor-onbellek
+      - name: Anlamsal aramayla ölçüm
+        run: npm run -s eval -- --vektor .vektor/vectors.json | tee -a "$GITHUB_STEP_SUMMARY"
+        continue-on-error: true
