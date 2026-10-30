@@ -214,5 +214,165 @@
     "kaynak": "mevzuat.gov.tr",
     "sha256": "32e167fb5ae6fd4f6947eb9acb93c510ead9a6917743ecd04ada6cc3dcd9c6d7",
     "maddeSayisi": 17
+  },
+  "24276": {
+    "dosya": "24276_Veri_Sorumlulari_Sicili_Hakkinda_Yonetmelik.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "24038": {
+    "dosya": "24038_Kisisel_Verilerin_Silinmesi_Yok_Edilmesi_veya_Anonim_Hale_Ge.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "40863": {
+    "dosya": "40863_Kisisel_Verilerin_Yurt_Disina_Aktarilmasina_Iliskin_Usul_ve_.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "24454": {
+    "dosya": "24454_Aydinlatma_Yukumlulugunun_Yerine_Getirilmesinde_Uyulacak_Usu.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "24455": {
+    "dosya": "24455_Veri_Sorumlusuna_Basvuru_Usul_ve_Esaslari_Hakkinda_Teblig.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "20914": {
+    "dosya": "20914_Ticari_Iletisim_ve_Ticari_Elektronik_Iletiler_Hakkinda_Yonet.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "39927": {
+    "dosya": "39927_Elektronik_Ticaret_Araci_Hizmet_Saglayici_ve_Elektronik_Tica.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "20237": {
+    "dosya": "20237_Mesafeli_Sozlesmeler_Yonetmeligi.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "39730": {
+    "dosya": "39730_Tuketici_Hakem_Heyetleri_Yonetmeligi.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "19782": {
+    "dosya": "19782_Garanti_Belgesi_Yonetmeligi.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "19783": {
+    "dosya": "19783_Satis_Sonrasi_Hizmetler_Yonetmeligi.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "20480": {
+    "dosya": "20480_Abonelik_Sozlesmeleri_Yonetmeligi.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "20435": {
+    "dosya": "20435_Ticari_Reklam_ve_Haksiz_Ticari_Uygulamalar_Yonetmeligi.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "19798": {
+    "dosya": "19798_Tuketici_Sozlesmelerindeki_Haksiz_Sartlar_Hakkinda_Yonetmeli.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "20238": {
+    "dosya": "20238_On_Odemeli_Konut_Satislari_Hakkinda_Yonetmelik.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "20446": {
+    "dosya": "20446_Paket_Tur_Sozlesmeleri_Yonetmeligi.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "20447": {
+    "dosya": "20447_Taksitle_Satis_Sozlesmeleri_Hakkinda_Yonetmelik.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "24638": {
+    "dosya": "24638_Hukuk_Uyusmazliklarinda_Arabuluculuk_Kanunu_Yonetmeligi.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "15828": {
+    "dosya": "15828_Tebligat_Kanununun_Uygulanmasina_Dair_Yonetmelik.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
+  },
+  "29033": {
+    "dosya": "29033_Elektronik_Tebligat_Yonetmeligi.txt",
+    "metinTarihi": null,
+    "sonKontrol": null,
+    "kaynak": "mevzuat.gov.tr",
+    "sha256": null,
+    "maddeSayisi": 0
   }
 }

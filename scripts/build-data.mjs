@@ -8,7 +8,7 @@
 import { readFileSync, readdirSync, writeFileSync, mkdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { LAWS, mevzuatUrl } from './laws.mjs';
+import { LAWS, mevzuatUrl, TUR_ADI } from './laws.mjs';
 import { buildIndex, encodeIndex } from '../src/engine.mjs';
 import { parseKanun } from './lib/parse.mjs';
 
@@ -42,8 +42,9 @@ for (const file of files) {
     abbr: meta.abbr,
     aliases: meta.aliases,
     kabulTarihi: kunye.kabul,
-    resmiGazete: { tarih: meta.rgTarih || kunye.rgTarih, sayi: meta.rgSayi || kunye.rgSayi },
-    url: mevzuatUrl(no, meta.tertip),
+    resmiGazete: { tarih: meta.rgTarih || kunye.rgTarih, sayi: meta.rgSayi || kunye.rgSayi || null },
+    url: mevzuatUrl(no, meta.tertip, meta.tur),
+    tur: TUR_ADI[meta.tur || 1],
     metinTarihi: manifest[no]?.metinTarihi || snapshot,
     sonKontrol: manifest[no]?.sonKontrol || manifest[no]?.metinTarihi || snapshot,
     maddeSayisi: unique.length,
@@ -53,7 +54,7 @@ for (const file of files) {
     `${no.padEnd(5)} ${meta.abbr.padEnd(13)} ${String(unique.length).padStart(5)} madde` +
       (dropped ? `  (${dropped} tekrar atıldı)` : '') +
       (empty ? `  ⚠ ${empty} boş` : '') +
-      (!kunye.rgTarih ? '  ⚠ RG tarihi yok' : ''),
+      (!kunye.rgTarih && !meta.rgTarih ? '  ⚠ RG tarihi yok' : ''),
   );
 }
 

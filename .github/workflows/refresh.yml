@@ -8,6 +8,9 @@ name: Mevzuat güncelliği
 on:
   schedule:
     - cron: '17 4 * * *' # her gün 04:17 UTC (07:17 TSİ)
+    # GitHub zamanlanmış işleri yoğunlukta geciktirebilir ya da atlayabilir; ikinci bir deneme.
+    # Aynı gün iki kez çalışırsa ikincisi değişiklik bulmaz, yalnızca kontrol tarihini işler.
+    - cron: '43 15 * * *' # her gün 15:43 UTC (18:43 TSİ)
   workflow_dispatch:
 
 concurrency:
