@@ -37,7 +37,7 @@ test('bildirimler 202 ile gövdesiz kabul edilir', async () => {
 test('tools/list: her araçta başlık ve salt okunur etiketi', async () => {
   const j = await (await post({ jsonrpc: '2.0', id: 3, method: 'tools/list' })).json();
   const names = j.result.tools.map((t) => t.name);
-  assert.deepEqual(names, ['search_legislation', 'get_article', 'list_laws']);
+  assert.deepEqual(names, ['search_legislation', 'get_article', 'get_article_history', 'list_laws']);
   for (const t of j.result.tools) {
     assert.ok(t.title, `${t.name} title`);
     assert.equal(t.annotations.readOnlyHint, true, `${t.name} readOnlyHint`);
