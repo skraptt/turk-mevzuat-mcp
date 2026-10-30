@@ -112,20 +112,24 @@ Mevzuat verisi sunucunun içine gömülüdür. Tek dış bağlantı, anlamsal ar
 sorudan oluşur ve iki kümeye ayrılır: sıralama ayarlanırken bakılan **geliştirme** kümesi
 (103 soru) ve ayarlama sırasında bakılmayan **kör** küme (30 soru). Sorular hukukçu
 diliyle (teknik) ve vatandaş diliyle (gündelik) yazılmıştır; beklenen maddeler veri
-üzerinde tek tek doğrulanmıştır. v0.8.0 sonuçları:
+üzerinde tek tek doğrulanmıştır. v0.9.0 sonuçları (anlamsal arama ile; parantez içinde
+yalnız sözcük araması):
 
 | Küme | İlk sonuç | İlk 3 | MRR@5 |
 |---|---|---|---|
-| Geliştirme (103) | %71 | %89 | 0,81 |
-| Kör (30) | %40 | %70 | 0,54 |
-| Kör, yalnız teknik (15) | %67 | %87 | 0,76 |
-| Kör, yalnız gündelik (15) | %13 | %53 | 0,31 |
+| Geliştirme (103) | %74 (%71) | %91 (%89) | 0,82 (0,81) |
+| Kör (30) | %47 (%40) | %73 (%70) | 0,62 (0,54) |
+| Kör, yalnız teknik (15) | %60 (%67) | %87 (%87) | 0,74 (0,76) |
+| Kör, yalnız gündelik (15) | %33 (%13) | %60 (%53) | 0,50 (0,31) |
+
+Anlamsal aramayla ölçmek için vektör önbelleği gerekir:
+`git show origin/vektor-onbellek:vectors.json > /tmp/v.json && npm run eval -- --vektor /tmp/v.json`.
 
 Geliştirme kümesindeki yüksek oran kısmen kavram dizininin bu sorulara göre
 genişletilmesinden gelir; gerçek kullanıma daha yakın tahmin kör kümedir. Gündelik dille
 sorulmuş, kanun terimlerini hiç içermeyen sorular hâlâ zayıf noktadır: bu tür sorularda
-doğru madde çoğu zaman ilk üçtedir ama ilk sırada değildir. Sözcük araması anlam
-benzerliğini yakalayamaz; anlamsal arama (embedding) bir sonraki sürümün konusu.
+doğru madde çoğu zaman ilk üçtedir ama ilk sırada değildir. Anlamsal arama gündelik dildeki sorularda belirgin fark yaratır, ama tek başına sözcük
+aramasından zayıftır (kör kümede ilk 3: %53); iki yöntem birlikte en iyi sonucu verir.
 
 ## Kurulum ve çalıştırma
 
