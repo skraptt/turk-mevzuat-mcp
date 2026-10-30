@@ -17,7 +17,9 @@ export const INDEX_NAME = 'turk-mevzuat';
 export const QUERY_INSTRUCTION =
   'Instruct: Given a legal question in Turkish, retrieve the Turkish statute article that answers it\nQuery: ';
 const DOC_CHARS = 2000;
-const TIMEOUT_MS = 2500;
+// Workers AI yanıt süresi zaman zaman 2,5 saniyeyi aşıyor (canlıda gözlendi); 5 saniyeden
+// uzun sürerse arama sözcük aramasıyla devam eder.
+const TIMEOUT_MS = 5000;
 
 // Bir maddenin vektörü hesaplanırken kullanılan metin: kanun, madde numarası, bölüm yolu,
 // başlık ve gövdenin başı. Değişirse tüm vektörler yeniden hesaplanır (özet değişir).
