@@ -140,4 +140,23 @@ export const CONCEPTS = [
   { ifadeler: ['muhatap adreste yok', 'kapiya yapistir', 'tebligat muhtara'], maddeler: ['15828/30', '15828/33'] },
   { ifadeler: ['arabulucu ucret', 'arabuluculuk ucret'], maddeler: ['24638/9'] },
   { ifadeler: ['dava sarti arabuluculuk sure', 'arabuluculuk sure'], maddeler: ['24638/27'] },
+  // Genel kavramlar (v0.8): kanun metninin farklı adlandırdığı ya da başka kanuna gönderdiği konular.
+  { ifadeler: ['kidem tazminat'], maddeler: ['4857/120'] }, // 1475 s. K. m. 14 yürürlükte bırakılmıştır
+  { ifadeler: ['gozetme borc', 'iscinin kisiliginin koru'], maddeler: ['6098/417'] },
+  { ifadeler: ['mirasin red', 'mirasi red', 'mirasi reddet'], maddeler: ['4721/605', '4721/606'] },
+  { ifadeler: ['veri ihlal', 'veri guvenligi ihlal'], maddeler: ['6698/12'] },
+  { ifadeler: ['haksiz fiil'], maddeler: ['6098/49'] },
+  { ifadeler: ['velayet'], maddeler: ['4721/335'] },
+  { ifadeler: ['vasiyetname sekl', 'vasiyetnamenin sekl', 'vasiyet sekl'], maddeler: ['4721/531'] },
+  { ifadeler: ['bilirkisi'], maddeler: ['6100/266', '5271/63'] },
+  { ifadeler: ['istinaf sure'], maddeler: ['6100/345', '5271/273'] },
+  { ifadeler: ['temyiz sure'], maddeler: ['6100/361', '5271/291'] },
+  { ifadeler: ['iflas yoluyla takip', 'iflas yolu ile takip'], maddeler: ['2004/154', '2004/155'] },
+  { ifadeler: ['vergi uzlas', 'vergi cezasinda uzlas', 'tarhiyat oncesi uzlas'], maddeler: ['213/Ek 1'] },
+  { ifadeler: ['konkordato', 'iflas erteleme'], maddeler: ['2004/285'] },
+  { ifadeler: ['patentlenebil', 'patent sart', 'patent alinabil'], maddeler: ['6769/82', '6769/83'] },
+  { ifadeler: ['kamu gorevlisinin kusur', 'idarenin sorumlulug'], maddeler: ['2709/129', '2577/13'] },
+  { ifadeler: ['kira suresi bit', 'kira sozlesmesinin suresi', 'kira sozlesmesi suresi'], maddeler: ['6098/347', '6098/327'] },
+  { ifadeler: ['idari para cezasina itiraz', 'idari yaptirim kararina itiraz'], maddeler: ['5326/27'] },
+  { ifadeler: ['is sozlesmesinin sekl', 'is sozlesmesi yazili'], maddeler: ['4857/8'] },
 ];

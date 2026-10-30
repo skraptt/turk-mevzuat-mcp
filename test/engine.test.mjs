@@ -171,3 +171,24 @@ test('madde tarihçesi: metin notları, dipnotlar, AYM kararları', async () => 
   assert.ok(r.olaylar.some((e) => e.tarih === '2026-07-16' && e.islem === 'yürürlükten kaldırma' && e.kaynak === '7589 sayılı Kanun m. 19'));
   assert.match(engine.getHistory({ kanun: 'HMK', madde: '9999' }).error, /bulunamadı/);
 });
+
+test('gündelik dil genişletmesi: kanunda geçmeyen "patron" sözcüğü "işveren" ile eşleşir', () => {
+  assert.ok(!JSON.stringify(data.articles).toLocaleLowerCase('tr-TR').includes('patron'));
+  const r = engine.search({ sorgu: 'patron', kanun: 'İş Kanunu', limit: 3 }).sonuclar;
+  assert.ok(r.length > 0 && r.every((x) => fold(x.baslik).includes("isveren")), r.map((x) => x.baslik).join(" | "));
+});
+
+test('sorguda adı geçen kanun öne çıkar', () => {
+  const r = engine.search({ sorgu: 'kvkk idari para cezası', limit: 1 }).sonuclar;
+  assert.equal(r[0].kimlik, '6698/18');
+});
+
+test('amaç, kapsam ve yürürlük maddeleri konu sorularında geri çekilir', () => {
+  const r = engine.search({ sorgu: 'elektronik ticaret hizmet sağlayıcı', limit: 3 }).sonuclar.map((x) => x.baslik || '');
+  assert.ok(!r.some((b) => /^(Amaç|Kapsam|Yürürlük|Yürütme)$/u.test(b.split(' / ').pop())), r.join(' | '));
+});
+
+test('konuşma dili sözcükleri yalnızca sorguda atılır', () => {
+  assert.deepEqual(tokenize('geri vermek istiyorum', { query: true }).filter((t) => !t.startsWith('~')), ['geri', 'verme']);
+  assert.ok(tokenize('istiyorum').length > 0);
+});

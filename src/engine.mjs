@@ -3,12 +3,21 @@
 
 import { fold, tokenize } from './text.mjs';
 import { CONCEPTS } from './concepts.mjs';
+import { SYNONYMS } from './synonyms.mjs';
 import { articleHistory } from './history.mjs';
 
 const K1 = 1.2;
 const B = 0.75;
 const TITLE_WEIGHT = 8; // başlıktaki eşleşmeler gövdedekinden değerli
 const PATH_WEIGHT = 4; // bölüm yolu (Kitap › Kısım › Bölüm) konuyu belirtir ama birçok maddede ortaktır
+const SYNONYM_WEIGHT = 0.8; // gündelik dil genişletmesi asıl terimden biraz az sayılır
+const LAW_MENTION_BOOST = 1.6; // sorguda adı geçen kanunun maddeleri
+// Konusu "kanunun kendisi" olan maddeler (amaç, kapsam, yürürlük…) bir konu sorusunun cevabı
+// olmaz ama kanunun adını ve kapsamını tekrar ettikleri için sözcük eşleşmesinde öne çıkarlar.
+const BOILERPLATE = /^(?:amaç|kapsam|amaç ve kapsam|dayanak|yürürlük|yürütme|yürürlükten kaldırılan.*|kaldırılan hükümler)$/iu;
+const BOILERPLATE_FACTOR = 0.6;
+// Uygulama (yürürlük) kanunları geçiş hükümleridir; asıl kanunla aynı terimleri taşırlar.
+const TRANSITIONAL_FACTOR = 0.75;
 
 export function createEngine(data) {
   const { laws, articles, snapshot } = data;
@@ -46,6 +55,24 @@ export function createEngine(data) {
     ifadeler: c.ifadeler.map(fold),
     docs: c.maddeler.map(idToIndex).filter((i) => i != null),
   }));
+
+  // Madde başına sabit sıralama çarpanı (kalıp maddeler ve uygulama kanunları geri çekilir).
+  const lastTitle = (a) => (a.b || '').split(' / ').pop().replace(/^(?:[A-ZÇĞİÖŞÜ]{1,4}|\d{1,3})\s*[.)\-–]\s*/u, '').trim();
+  const prior = articles.map((a) => {
+    let f = 1;
+    if (BOILERPLATE.test(lastTitle(a))) f *= BOILERPLATE_FACTOR;
+    if (/Yürürlüğü ve Uygulama Şekli/u.test(lawByNo.get(a.k)?.name || '')) f *= TRANSITIONAL_FACTOR;
+    return f;
+  });
+  const synonyms = SYNONYMS.map(([k, v]) => ({ re: new RegExp(`(?:^|[^a-z0-9])${fold(k).replace(/\s+/g, '\\s+')}`), terms: tokenize(v), key: tokenize(k, { query: true }).filter((t) => !t.startsWith('~')) }));
+  // Sorguda kanun adı ya da kısaltması geçiyor mu? (çok kısa ve yalnız rakamdan oluşan anahtarlar hariç)
+  const mentionKeys = [...lawKeys].filter(([k]) => k.length >= 3 && !/^\d{1,2}$/.test(k)).sort((a, b) => b[0].length - a[0].length);
+  const mentionedLaws = (fq) => {
+    const q = ` ${fq.replace(/[^a-z0-9]+/g, ' ')} `;
+    const out = new Set();
+    for (const [k, no] of mentionKeys) if (q.includes(` ${k} `)) out.add(no);
+    return out;
+  };
 
   // ---- Ters dizin (BM25) ----
   // Derleme sırasında hazırlanmış dizin varsa onu kullan (Worker açılışını hızlandırır).
@@ -219,14 +246,34 @@ export function createEngine(data) {
       }
     }
 
-    const all = tokenize(q);
-    const terms = [...new Set(all)];
-    // Kapsama oranı yalnızca kaba köklerle hesaplanır; ince kökler ("~") ek puandır.
-    const coarse = terms.filter((t) => !t.startsWith('~'));
+    const fq = fold(q);
+    // Terim grupları: her sorgu sözcüğü bir gruptur; gündelik dil genişletmesi kendi grubunu
+    // oluşturur. Kapsama oranı grup üzerinden hesaplanır, böylece "patron" ile "işveren"
+    // aynı ihtiyacı karşılar ve genişletme terimleri paydayı şişirmez.
+    const weight = new Map(); // terim → ağırlık
+    const group = new Map(); // kaba terim → grup no
+    let groups = 0;
+    for (const t of tokenize(q, { query: true })) {
+      if (weight.has(t)) continue;
+      weight.set(t, 1);
+      if (!t.startsWith('~')) group.set(t, groups++);
+    }
+    for (const syn of synonyms) {
+      if (!syn.re.test(fq)) continue;
+      // Genişletme, karşıladığı sorgu sözcüğünün grubuna girer ("patron" ya da "işveren").
+      const own = syn.key.map((t) => group.get(t)).find((x) => x != null);
+      const g = own ?? groups++;
+      for (const t of syn.terms) {
+        if (weight.has(t)) continue;
+        weight.set(t, SYNONYM_WEIGHT);
+        if (!t.startsWith('~')) group.set(t, g);
+      }
+    }
+    const terms = [...weight.keys()];
     if (!terms.length) return { error: 'Sorguda aranabilir bir sözcük kalmadı; daha belirli sözcükler kullanın.' };
+    const mentioned = lawFilter ? new Set() : mentionedLaws(fq);
 
     // Kavram dizininde eşleşen maddeler, sözcük aramasının önüne konur.
-    const fq = fold(q);
     const conceptDocs = [];
     for (const c of concepts) {
       if (!c.ifadeler.some((f) => fq.includes(f))) continue;
@@ -234,24 +281,35 @@ export function createEngine(data) {
     }
 
     const scores = new Map();
-    const hits = new Map();
+    const hits = new Map(); // madde → eşleşen grup kümesi (bit maskesi değil, Set)
     for (const t of terms) {
       const p = postings.get(t);
       if (!p) continue;
+      const w = weight.get(t);
+      const g = group.get(t);
       const df = p.length / 2;
       const idf = Math.log(1 + (N - df + 0.5) / (df + 0.5));
       for (let j = 0; j < p.length; j += 2) {
         const d = p[j];
         if (lawFilter && articles[d].k !== lawFilter.no) continue;
         const tf = p[j + 1];
-        const s = idf * ((tf * (K1 + 1)) / (tf + K1 * (1 - B + (B * docLen[d]) / avgLen)));
+        const s = w * idf * ((tf * (K1 + 1)) / (tf + K1 * (1 - B + (B * docLen[d]) / avgLen)));
         scores.set(d, (scores.get(d) || 0) + s);
-        if (!t.startsWith('~')) hits.set(d, (hits.get(d) || 0) + 1);
+        if (g != null) {
+          let h = hits.get(d);
+          if (!h) hits.set(d, (h = new Set()));
+          h.add(g);
+        }
       }
     }
-    // Sorgudaki terimlerin çoğunu içeren maddeleri öne çıkar.
+    // Sorgudaki terim gruplarının çoğunu içeren maddeleri öne çıkar; sabit çarpanları uygula.
     const ranked = [...scores]
-      .map(([d, s]) => [d, s * (0.5 + (0.5 * Math.min(hits.get(d) || 0, coarse.length)) / Math.max(1, coarse.length))])
+      .map(([d, s]) => {
+        const cover = Math.min(hits.get(d)?.size || 0, groups) / Math.max(1, groups);
+        let f = prior[d];
+        if (mentioned.has(articles[d].k)) f = Math.max(f, 1) * LAW_MENTION_BOOST;
+        return [d, s * (0.5 + 0.5 * cover) * f];
+      })
       .sort((a, b) => b[1] - a[1]);
     const lexical = ranked.filter(([d]) => !conceptDocs.includes(d));
     const sonuclar = [
