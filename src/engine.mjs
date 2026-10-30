@@ -1,5 +1,6 @@
-// Mevzuat arama ve madde getirme çekirdeği. Ağ erişimi yok; yalnızca
-// data/mevzuat.json içeriğiyle çalışır. Cloudflare Workers ve Node'da aynı kod çalışır.
+// Mevzuat arama ve madde getirme çekirdeği. Ağ erişimi yok; yalnızca data/mevzuat.json
+// içeriğiyle çalışır. Anlamsal arama sonuçları dışarıdan (search({ semantik })) verilir.
+// Cloudflare Workers ve Node'da aynı kod çalışır.
 
 import { fold, tokenize } from './text.mjs';
 import { CONCEPTS } from './concepts.mjs';
@@ -16,6 +17,9 @@ const LAW_MENTION_BOOST = 1.6; // sorguda adı geçen kanunun maddeleri
 // olmaz ama kanunun adını ve kapsamını tekrar ettikleri için sözcük eşleşmesinde öne çıkarlar.
 const BOILERPLATE = /^(?:amaç|kapsam|amaç ve kapsam|dayanak|yürürlük|yürütme|yürürlükten kaldırılan.*|kaldırılan hükümler)$/iu;
 const BOILERPLATE_FACTOR = 0.6;
+// Anlamsal arama ile sözcük aramasının birleştirilmesi (Reciprocal Rank Fusion).
+// Her liste, maddeye 1 / (RRF_K + sıra) puan verir; ağırlıklar listelerin payını belirler.
+export const FUSION = { k: 60, sozcuk: 1, anlam: 1 };
 // Uygulama (yürürlük) kanunları geçiş hükümleridir; asıl kanunla aynı terimleri taşırlar.
 const TRANSITIONAL_FACTOR = 0.75;
 
@@ -224,7 +228,9 @@ export function createEngine(data) {
     };
   }
 
-  function search({ sorgu, kanun, limit = 8 }) {
+  // semantik: anlamsal aramanın en yakından uzağa sıraladığı madde kimlikleri ("6098/315").
+  // Verilmezse yalnızca sözcük araması yapılır.
+  function search({ sorgu, kanun, limit = 8, semantik = null, fusion = FUSION }) {
     const q = String(sorgu ?? '').trim();
     if (!q) return { error: 'sorgu alanı boş.' };
     limit = Math.max(1, Math.min(20, Number(limit) || 8));
@@ -312,11 +318,30 @@ export function createEngine(data) {
       })
       .sort((a, b) => b[1] - a[1]);
     const lexical = ranked.filter(([d]) => !conceptDocs.includes(d));
-    const sonuclar = [
-      ...conceptDocs.map((d) => ({ ...present(articles[d], { terms }), eslesme: 'kavram dizini' })),
-      ...lexical.map(([d, s]) => ({ ...present(articles[d], { terms }), eslesme: 'sözcük', skor: +s.toFixed(2) })),
-    ].slice(0, limit);
-    return { sonuclar, toplam: conceptDocs.length + lexical.length, dogrudanAtif: false };
+    const head = conceptDocs.map((d) => ({ ...present(articles[d], { terms }), eslesme: 'kavram dizini' }));
+
+    const sem = (semantik || [])
+      .map(idToIndex)
+      .filter((d) => d != null && !conceptDocs.includes(d) && (!lawFilter || articles[d].k === lawFilter.no));
+    if (!sem.length) {
+      const sonuclar = [...head, ...lexical.map(([d, sc]) => ({ ...present(articles[d], { terms }), eslesme: 'sözcük', skor: +sc.toFixed(2) }))].slice(0, limit);
+      return { sonuclar, toplam: conceptDocs.length + lexical.length, dogrudanAtif: false };
+    }
+
+    const fused = new Map(); // madde → [puan, sözcükte mi, anlamda mı]
+    const add = (d, w, rank, which) => {
+      const e = fused.get(d) || [0, false, false];
+      e[0] += w / (fusion.k + rank);
+      e[which] = true;
+      fused.set(d, e);
+    };
+    lexical.forEach(([d], i) => add(d, fusion.sozcuk * prior[d], i + 1, 1));
+    // Kalıp maddeler ve uygulama kanunları anlamsal listede de geri çekilir.
+    sem.forEach((d, i) => add(d, fusion.anlam * prior[d], i + 1, 2));
+    const order = [...fused].sort((a, b) => b[1][0] - a[1][0]);
+    const label = (l, m) => (l && m ? 'sözcük ve anlam' : l ? 'sözcük' : 'anlam');
+    const sonuclar = [...head, ...order.map(([d, [, l, m]]) => ({ ...present(articles[d], { terms }), eslesme: label(l, m) }))].slice(0, limit);
+    return { sonuclar, toplam: conceptDocs.length + fused.size, dogrudanAtif: false, anlamsal: true };
   }
 
   function listLaws() {

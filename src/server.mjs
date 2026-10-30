@@ -10,7 +10,7 @@ import { ICON_PNG_BASE64 } from './icon.mjs';
 
 const ICON = Uint8Array.from(atob(ICON_PNG_BASE64), (c) => c.charCodeAt(0));
 
-export const SERVER_INFO = { name: 'turk-mevzuat', title: 'Türk Mevzuat', version: '0.8.0' };
+export const SERVER_INFO = { name: 'turk-mevzuat', title: 'Türk Mevzuat', version: '0.9.0' };
 const SUPPORTED_VERSIONS = ['2025-11-25', '2025-06-18', '2025-03-26', '2024-11-05'];
 
 const INSTRUCTIONS =
@@ -30,7 +30,8 @@ const CORS = {
 const rpcError = (id, code, message) => ({ jsonrpc: '2.0', id: id ?? null, error: { code, message } });
 const rpcResult = (id, result) => ({ jsonrpc: '2.0', id, result });
 
-export function handleMessage(engine, msg) {
+// ctx.semantic: isteğe bağlı anlamsal arama işlevi (src/semantic.mjs createSemantic).
+export async function handleMessage(engine, msg, ctx = {}) {
   if (!msg || msg.jsonrpc !== '2.0' || typeof msg.method !== 'string') {
     // Yanıt (result/error) gönderen istemcilere sessiz kal; diğer bozuk mesajlar hata.
     if (msg && msg.jsonrpc === '2.0' && ('result' in msg || 'error' in msg)) return null;
@@ -59,7 +60,16 @@ export function handleMessage(engine, msg) {
       const { name, arguments: args } = params;
       if (!TOOLS.some((t) => t.name === name)) return rpcError(id, -32602, `Bilinmeyen araç: ${name}`);
       try {
-        return rpcResult(id, callTool(engine, name, args || {}));
+        // semantik ve fusion iç parametrelerdir; istemciden gelirse atılır.
+        let { semantik: _s, fusion: _f, ...a } = args || {};
+        if (name === 'search_legislation' && ctx.semantic && typeof a.sorgu === 'string' && a.sorgu.trim() && !engine.parseCitation(a.sorgu.trim())) {
+          const law = a.kanun ? engine.resolveLaw(a.kanun) : null;
+          if (!a.kanun || law) {
+            const semantik = await ctx.semantic(a.sorgu, law?.no ?? null);
+            if (semantik?.length) a = { ...a, semantik };
+          }
+        }
+        return rpcResult(id, callTool(engine, name, a));
       } catch (err) {
         // Beklenmeyen hatalar da araç hatası olarak, okunur bir mesajla döner.
         return rpcResult(id, { isError: true, content: [{ type: 'text', text: `Araç çalışırken hata oluştu: ${err.message}` }] });
@@ -93,7 +103,7 @@ function infoPage(engine, origin) {
   });
 }
 
-export async function handleRequest(engine, request) {
+export async function handleRequest(engine, request, ctx = {}) {
   const url = new URL(request.url);
 
   if (request.method === 'OPTIONS') return new Response(null, { status: 204, headers: CORS });
@@ -122,7 +132,7 @@ export async function handleRequest(engine, request) {
   const batch = Array.isArray(body);
   const messages = batch ? body : [body];
   if (!messages.length) return json(rpcError(null, -32600, 'Boş istek'), 400);
-  const responses = messages.map((m) => handleMessage(engine, m)).filter(Boolean);
+  const responses = (await Promise.all(messages.map((m) => handleMessage(engine, m, ctx)))).filter(Boolean);
 
   // Yalnızca bildirim/yanıt içeren istekler 202 ile, gövdesiz kabul edilir.
   if (!responses.length) return new Response(null, { status: 202, headers: CORS });

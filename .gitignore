@@ -5,3 +5,4 @@ node_modules/
 # Derlenmiş veri: npm run build ile sources/ klasöründen üretilir.
 data/mevzuat.json
 refresh-report.md
+.vektor/

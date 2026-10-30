@@ -95,3 +95,28 @@ test('simge: /favicon.ico ve /icon.png PNG döndürür', async () => {
     assert.deepEqual([...bytes.slice(1, 4)], [0x50, 0x4e, 0x47]); // "PNG"
   }
 });
+
+test('anlamsal arama: sonuçlar sözcük aramasıyla birleşir, hata olursa sözcük araması sürer', async () => {
+  const call = (semantic, sorgu = 'patronum maaşımı yatırmıyor') =>
+    handleRequest(
+      engine,
+      new Request('https://ornek.dev/mcp', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json, text/event-stream' },
+        body: JSON.stringify({ jsonrpc: '2.0', id: 1, method: 'tools/call', params: { name: 'search_legislation', arguments: { sorgu, limit: 3, semantik: ['5237/1'] } } }),
+      }),
+      { semantic },
+    ).then((r) => r.json());
+  const seen = [];
+  const ok = await call(async (q, k) => (seen.push([q, k]), ['4857/34', '4857/24']));
+  const ids = ok.result.structuredContent.sonuclar.map((x) => x.kimlik);
+  assert.ok(ids.includes('4857/34') && ids.includes('4857/24'), ids.join(' '));
+  assert.ok(ok.result.structuredContent.anlamsal);
+  assert.ok(!ids.includes('5237/1'), 'istemcinin gönderdiği semantik parametresi yok sayılır');
+  assert.deepEqual(seen, [['patronum maaşımı yatırmıyor', null]]);
+  const fail = await call(async () => null);
+  assert.ok(!fail.result.isError && fail.result.structuredContent.sonuclar.length > 0);
+  const cite = [];
+  await call(async (q) => (cite.push(q), []), 'TBK m. 315');
+  assert.equal(cite.length, 0, 'madde atfında anlamsal arama çağrılmaz');
+});

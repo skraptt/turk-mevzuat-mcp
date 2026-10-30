@@ -1,5 +1,7 @@
 # main dalına her gönderimde veriyi derler, testleri çalıştırır ve Cloudflare'e yayımlar.
 # Güncelleme iş akışı (refresh.yml) da kontrol tarihini işledikten sonra bunu çağırır.
+#
+# Yayımlamadan önce anlamsal arama dizini güncellenir (anlamsal.yml).
 name: Yayımla
 
 on:
@@ -17,11 +19,21 @@ concurrency:
   cancel-in-progress: false
 
 permissions:
-  contents: read
+  contents: write # anlamsal.yml vektör önbelleği dalına yazar
 
 jobs:
+  dizin:
+    uses: ./.github/workflows/anlamsal.yml
+    with:
+      ref: ${{ inputs.ref || github.ref }}
+    secrets: inherit
+
   deploy:
+    needs: dizin
     runs-on: ubuntu-latest
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -31,8 +43,6 @@ jobs:
           node-version: 22
       - name: Veriyi derle ve test et
         run: npm test
+
       - name: Cloudflare Workers'a yayımla
         run: npx --yes wrangler@4 deploy
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
