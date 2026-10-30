@@ -17,7 +17,7 @@ import { readFileSync, writeFileSync, appendFileSync, existsSync } from 'node:fs
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { createHash } from 'node:crypto';
-import { LAWS, metinUrl } from './laws.mjs';
+import { LAWS, metinUrl, TUR_ADI } from './laws.mjs';
 import { htmlToText, extractDocument } from './lib/html.mjs';
 import { parseKanun } from './lib/parse.mjs';
 
@@ -119,20 +119,22 @@ function renderReport({ today, results, abbrOf }) {
   const failed = results.filter((r) => r.durum === 'hata');
   const lines = [`# Mevzuat güncelleme raporu (${today})`, ''];
   lines.push(
-    `${results.length} kanun kontrol edildi: ${changed.length} kanunda değişiklik, ` +
-      `${results.filter((r) => r.durum === 'aynı').length} kanun aynı, ${failed.length} hata.`,
+    `${results.length} metin kontrol edildi: ${changed.length} metinde değişiklik, ` +
+      `${results.filter((r) => r.durum === 'aynı').length} metin aynı, ${failed.length} hata.`,
     '',
   );
   if (failed.length) {
-    lines.push('## Hatalar', '', 'Bu kanunlara dokunulmadı; mevcut metin kullanılmaya devam ediyor.', '');
+    lines.push('## Hatalar', '', 'Bu metinlere dokunulmadı; mevcut hâlleri kullanılmaya devam ediyor.', '');
     for (const r of failed) lines.push(`- **${abbrOf(r.no)}** (${r.no}): ${r.hata}`);
     lines.push('');
   }
   for (const r of changed) {
     const f = r.fark;
-    lines.push(`## ${abbrOf(r.no)} (${r.no} sayılı)`, '');
+    const law = LAWS.find((l) => l.no === r.no);
+    const tur = TUR_ADI[law?.tur || 1];
+    lines.push(`## ${abbrOf(r.no)} (${tur === 'Kanun' ? `${r.no} sayılı Kanun` : `${tur}, mevzuat.gov.tr no. ${r.no}`})`, '');
     if (!r.eskiMaddeSayisi) {
-      lines.push(`**Yeni eklenen kanun:** ${r.maddeSayisi} madde. İlk ve son maddeleri ile birkaç başlığı mevzuat.gov.tr ile karşılaştırın.`, '');
+      lines.push(`**Yeni eklenen ${tur.toLocaleLowerCase('tr-TR')}:** ${r.maddeSayisi} madde. İlk ve son maddeleri ile birkaç başlığı mevzuat.gov.tr ile karşılaştırın.`, '');
       continue;
     }
     lines.push(
