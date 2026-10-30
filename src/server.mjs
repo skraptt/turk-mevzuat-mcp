@@ -61,12 +61,13 @@ export async function handleMessage(engine, msg, ctx = {}) {
       if (!TOOLS.some((t) => t.name === name)) return rpcError(id, -32602, `Bilinmeyen araç: ${name}`);
       try {
         // semantik ve fusion iç parametrelerdir; istemciden gelirse atılır.
-        let { semantik: _s, fusion: _f, ...a } = args || {};
+        let { semantik: _s, fusion: _f, anlamsalDurum: _d, ...a } = args || {};
         if (name === 'search_legislation' && ctx.semantic && typeof a.sorgu === 'string' && a.sorgu.trim() && !engine.parseCitation(a.sorgu.trim())) {
           const law = a.kanun ? engine.resolveLaw(a.kanun) : null;
           if (!a.kanun || law) {
-            const semantik = await ctx.semantic(a.sorgu, law?.no ?? null);
-            if (semantik?.length) a = { ...a, semantik };
+            const r = await ctx.semantic(a.sorgu, law?.no ?? null);
+            if (r?.ids?.length) a = { ...a, semantik: r.ids };
+            else a = { ...a, anlamsalDurum: r?.hata ? `kullanılamadı (${r.hata})` : 'sonuç yok' };
           }
         }
         return rpcResult(id, callTool(engine, name, a));

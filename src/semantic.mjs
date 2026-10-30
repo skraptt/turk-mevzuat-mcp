@@ -53,7 +53,8 @@ const withTimeout = (p, ms) =>
   Promise.race([p, new Promise((_, rej) => setTimeout(() => rej(new Error('anlamsal arama zaman aşımı')), ms))]);
 
 // Worker ortamı (env.AI ve env.VEC bağları) varsa bir arama işlevi döner, yoksa null.
-// İşlev, en yakından uzağa madde kimlikleri döndürür; hata olursa null.
+// İşlev { ids } (en yakından uzağa madde kimlikleri) ya da { hata } döndürür; hiçbir zaman
+// istisna fırlatmaz. Hata metni sorgu içermez (Workers AI / Vectorize hata mesajı).
 export function createSemantic(env, { topK = 30 } = {}) {
   if (!env?.AI || !env?.VEC) return null;
   return async function semanticSearch(sorgu, kanunNo) {
@@ -63,11 +64,11 @@ export function createSemantic(env, { topK = 30 } = {}) {
         const opts = { topK, returnValues: false, returnMetadata: 'none' };
         if (kanunNo) opts.filter = { k: kanunNo };
         const r = await env.VEC.query([...vec], opts);
-        return (r?.matches || []).map((m) => m.id);
+        return { ids: (r?.matches || []).map((m) => m.id) };
       };
       return await withTimeout(run(), TIMEOUT_MS);
-    } catch {
-      return null;
+    } catch (err) {
+      return { hata: String(err?.message || err).slice(0, 200) };
     }
   };
 }
