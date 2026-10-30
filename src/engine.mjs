@@ -230,7 +230,7 @@ export function createEngine(data) {
 
   // semantik: anlamsal aramanın en yakından uzağa sıraladığı madde kimlikleri ("6098/315").
   // Verilmezse yalnızca sözcük araması yapılır.
-  function search({ sorgu, kanun, limit = 8, semantik = null, fusion = FUSION }) {
+  function search({ sorgu, kanun, limit = 8, semantik = null, fusion = FUSION, anlamsalDurum = null }) {
     const q = String(sorgu ?? '').trim();
     if (!q) return { error: 'sorgu alanı boş.' };
     limit = Math.max(1, Math.min(20, Number(limit) || 8));
@@ -325,7 +325,7 @@ export function createEngine(data) {
       .filter((d) => d != null && !conceptDocs.includes(d) && (!lawFilter || articles[d].k === lawFilter.no));
     if (!sem.length) {
       const sonuclar = [...head, ...lexical.map(([d, sc]) => ({ ...present(articles[d], { terms }), eslesme: 'sözcük', skor: +sc.toFixed(2) }))].slice(0, limit);
-      return { sonuclar, toplam: conceptDocs.length + lexical.length, dogrudanAtif: false };
+      return { sonuclar, toplam: conceptDocs.length + lexical.length, dogrudanAtif: false, ...(anlamsalDurum ? { anlamsal: false, anlamsalDurum } : {}) };
     }
 
     const fused = new Map(); // madde → [puan, sözcükte mi, anlamda mı]

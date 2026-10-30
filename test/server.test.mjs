@@ -108,15 +108,16 @@ test('anlamsal arama: sonuçlar sözcük aramasıyla birleşir, hata olursa söz
       { semantic },
     ).then((r) => r.json());
   const seen = [];
-  const ok = await call(async (q, k) => (seen.push([q, k]), ['4857/34', '4857/24']));
+  const ok = await call(async (q, k) => (seen.push([q, k]), { ids: ['4857/34', '4857/24'] }));
   const ids = ok.result.structuredContent.sonuclar.map((x) => x.kimlik);
   assert.ok(ids.includes('4857/34') && ids.includes('4857/24'), ids.join(' '));
   assert.ok(ok.result.structuredContent.anlamsal);
   assert.ok(!ids.includes('5237/1'), 'istemcinin gönderdiği semantik parametresi yok sayılır');
   assert.deepEqual(seen, [['patronum maaşımı yatırmıyor', null]]);
-  const fail = await call(async () => null);
+  const fail = await call(async () => ({ hata: 'deneme' }));
   assert.ok(!fail.result.isError && fail.result.structuredContent.sonuclar.length > 0);
+  assert.equal(fail.result.structuredContent.anlamsalDurum, 'kullanılamadı (deneme)');
   const cite = [];
-  await call(async (q) => (cite.push(q), []), 'TBK m. 315');
+  await call(async (q) => (cite.push(q), { ids: [] }), 'TBK m. 315');
   assert.equal(cite.length, 0, 'madde atfında anlamsal arama çağrılmaz');
 });
