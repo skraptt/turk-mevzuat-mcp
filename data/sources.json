@@ -2,7 +2,7 @@
   "213": {
     "dosya": "213_Vergi_Usul_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "3ee8a7da1b6eb4cc687d1c134f854bd9152e0fe284a9f2bcbe3dd538e22c3d37",
     "maddeSayisi": 469
@@ -10,7 +10,7 @@
   "634": {
     "dosya": "634_Kat_Mulkiyeti_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "91005dcd732e875cdf6d7521cc3f9b13c62dc3b90315359ef0d432835209820a",
     "maddeSayisi": 83
@@ -18,7 +18,7 @@
   "1136": {
     "dosya": "1136_Avukatlik_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "e93b226b2e20b902ae2fd68d27a00a2357875073640a54961d32501ebeb6ae8c",
     "maddeSayisi": 231
@@ -26,7 +26,7 @@
   "2004": {
     "dosya": "2004_Icra_ve_Iflas_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "f60f20d06cd10b481e214719e2ca1e2c8f3620b04e2a7dd6c8a507da9969b8e8",
     "maddeSayisi": 486
@@ -34,7 +34,7 @@
   "2577": {
     "dosya": "2577_Idari_Yargilama_Usulu_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "878bbc2d3abdb163acf634545135ba04b0dc8a6b352888982b200c98cef4842e",
     "maddeSayisi": 82
@@ -42,7 +42,7 @@
   "2709": {
     "dosya": "2709_Anayasa.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "8e4d1e81465330085176997cb661a370ec3855eae5e260c1298513342606894a",
     "maddeSayisi": 198
@@ -50,7 +50,7 @@
   "4721": {
     "dosya": "4721_Turk_Medeni_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "f0ae1971d2dc7e4937fbad2a3a97e9f3d1fcb40110eea5738763c5c61aa97c82",
     "maddeSayisi": 1031
@@ -58,7 +58,7 @@
   "4722": {
     "dosya": "4722_TMK_Yururluk_Kanunu.txt",
     "metinTarihi": "2026-10-10",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mikeTR",
     "sha256": "03e020eefff9f7bd010d1cd63cd6d29de0ccea72d7cb17423dfd83909a514140",
     "maddeSayisi": 25
@@ -66,7 +66,7 @@
   "4857": {
     "dosya": "4857_Is_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "c61cc19d55731c43601ef64aa59e2577d83bfb27299f82b9cfd7ae579f69af56",
     "maddeSayisi": 137
@@ -74,7 +74,7 @@
   "5237": {
     "dosya": "5237_Turk_Ceza_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "113f32370355868f4b32caf0fbb617f622384518aca6b0ed55de2c361811f700",
     "maddeSayisi": 349
@@ -82,7 +82,7 @@
   "5271": {
     "dosya": "5271_Ceza_Muhakemesi_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "354af1adee65785e8a240192c53de369a6a1859cad40eef008ec480e17d5d8ad",
     "maddeSayisi": 349
@@ -90,7 +90,7 @@
   "5326": {
     "dosya": "5326_Kabahatler_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "563ee1fb2fde9531bf9e531b95a27028cc5ed61be3a825a7a9f55e8d07a00866",
     "maddeSayisi": 53
@@ -98,7 +98,7 @@
   "5651": {
     "dosya": "5651_Internet_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "cdb275b25b6a135a4f23561c929019e82337609271d1d2d07ff3aa488a7f6a64",
     "maddeSayisi": 27
@@ -106,7 +106,7 @@
   "5846": {
     "dosya": "5846_Fikir_ve_Sanat_Eserleri_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "3bfe25428dd4f7e8aea5b45640924a32d84c58d289b8884f9f9a3a7642fcc1c8",
     "maddeSayisi": 115
@@ -114,7 +114,7 @@
   "5941": {
     "dosya": "5941_Cek_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "2df59651be06a5c23e3b5dbd9d0ac0d17b4026dcb99e29f2b170fa8ecaa738f3",
     "maddeSayisi": 16
@@ -122,7 +122,7 @@
   "6098": {
     "dosya": "6098_Turk_Borclar_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "fba6c59d2864c8b3e7324694215277fd9c7f890603f53c2768560c82ecd58071",
     "maddeSayisi": 649
@@ -130,7 +130,7 @@
   "6100": {
     "dosya": "6100_Hukuk_Muhakemeleri_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "cf476b30999a83f1217b8f735a75cbdf5a581851ac5cf482362dadacab1e771e",
     "maddeSayisi": 459
@@ -138,7 +138,7 @@
   "6101": {
     "dosya": "6101_TBK_Yururluk_Kanunu.txt",
     "metinTarihi": "2026-10-10",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mikeTR",
     "sha256": "7ce548d301a4a4754bd03dd6462099910c901388d6f062695ca07191f28879e6",
     "maddeSayisi": 14
@@ -146,7 +146,7 @@
   "6102": {
     "dosya": "6102_Turk_Ticaret_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "d1247d1454728649abb6bbaf4d7269d51eef6965492e8f07b994116af4098d67",
     "maddeSayisi": 1551
@@ -154,7 +154,7 @@
   "6103": {
     "dosya": "6103_TTK_Yururluk_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "702bb85cf819c9b80f44b2659a1e7a3ef4d5eb125a5383528c2b5384e69d4d9b",
     "maddeSayisi": 44
@@ -162,7 +162,7 @@
   "6325": {
     "dosya": "6325_Hukuk_Uyusmazliklarinda_Arabuluculuk_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "f8fa41d8c318492c2f125134f31b0289294c28b854f09c687adacb2831f2700e",
     "maddeSayisi": 45
@@ -170,7 +170,7 @@
   "6362": {
     "dosya": "6362_Sermaye_Piyasasi_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "2cc7836073e52cc73c5ee4de924455ed49a1251babc2a9d51f72381c25737075",
     "maddeSayisi": 172
@@ -178,7 +178,7 @@
   "6502": {
     "dosya": "6502_Tuketicinin_Korunmasi_Hakkinda_Kanun.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "31e3d3aaf31b524be7e242910581300d035dba6e7d3d755b2f6784c48901d8b4",
     "maddeSayisi": 95
@@ -186,7 +186,7 @@
   "6563": {
     "dosya": "6563_Elektronik_Ticaret_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "736a4f962238374ce31452b3a90cd4e72d391411321844ecec1e79d5aed94ed5",
     "maddeSayisi": 22
@@ -194,7 +194,7 @@
   "6698": {
     "dosya": "6698_Kisisel_Verilerin_Korunmasi_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "03c8240328b2da2410ec7d9180e00075dc8c8b74734e3d76433b9966381c5c5f",
     "maddeSayisi": 36
@@ -202,7 +202,7 @@
   "6769": {
     "dosya": "6769_Sinai_Mulkiyet_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "83c78554fd7a8b7f32df1704e888d6089c2ce82e6e61acbc6ccec2cf9ac2584b",
     "maddeSayisi": 181
@@ -210,7 +210,7 @@
   "7036": {
     "dosya": "7036_Is_Mahkemeleri_Kanunu.txt",
     "metinTarihi": "2026-10-29",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "32e167fb5ae6fd4f6947eb9acb93c510ead9a6917743ecd04ada6cc3dcd9c6d7",
     "maddeSayisi": 17
@@ -218,7 +218,7 @@
   "15828": {
     "dosya": "15828_Tebligat_Kanununun_Uygulanmasina_Dair_Yonetmelik.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "cdbafbadaa1e739b953a1171c7d79a74bf279111cb22e6251fea33f05d77c5cf",
     "maddeSayisi": 82
@@ -226,7 +226,7 @@
   "19782": {
     "dosya": "19782_Garanti_Belgesi_Yonetmeligi.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "c9096ff29766279abf1199c5582c9845135defa33ead58ce6fcf51d3edfcd295",
     "maddeSayisi": 14
@@ -234,7 +234,7 @@
   "19783": {
     "dosya": "19783_Satis_Sonrasi_Hizmetler_Yonetmeligi.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "21dc71fff49bf71b5c12a5860dca16e7bf004681e2cad3f6441901e95d49b1a6",
     "maddeSayisi": 20
@@ -242,7 +242,7 @@
   "19798": {
     "dosya": "19798_Tuketici_Sozlesmelerindeki_Haksiz_Sartlar_Hakkinda_Yonetmeli.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "e5ea3eb327e232f5efa31804c85c401bcad90a133a846c2d1752d38ee6f3cf33",
     "maddeSayisi": 11
@@ -250,7 +250,7 @@
   "20237": {
     "dosya": "20237_Mesafeli_Sozlesmeler_Yonetmeligi.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "2a7b1296c1fb1e640dfb716f24503735afc1a56df19aea1c35b5ddf8b70a4ff7",
     "maddeSayisi": 24
@@ -258,7 +258,7 @@
   "20238": {
     "dosya": "20238_On_Odemeli_Konut_Satislari_Hakkinda_Yonetmelik.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "9d9ef8edd89e47fdd87a226529f2b0d02acd3da42a53ebd3acd3f5b0b1c5e3fd",
     "maddeSayisi": 20
@@ -266,7 +266,7 @@
   "20435": {
     "dosya": "20435_Ticari_Reklam_ve_Haksiz_Ticari_Uygulamalar_Yonetmeligi.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "7de85fe64229a74cdc50a1a131d20ac87125665b0bbde02de8a4fd1016870fb2",
     "maddeSayisi": 42
@@ -274,7 +274,7 @@
   "20446": {
     "dosya": "20446_Paket_Tur_Sozlesmeleri_Yonetmeligi.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "fe207ead60d86b4bce1d3fe1e997524e0eab91673267035dbfa377b87f899054",
     "maddeSayisi": 22
@@ -282,7 +282,7 @@
   "20447": {
     "dosya": "20447_Taksitle_Satis_Sozlesmeleri_Hakkinda_Yonetmelik.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "4c0445efb1ed3af46934492d076dc918cfb80a77392b5b7f3b66f700b835b1cb",
     "maddeSayisi": 13
@@ -290,7 +290,7 @@
   "20480": {
     "dosya": "20480_Abonelik_Sozlesmeleri_Yonetmeligi.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "e8ca7dadd9f1a79932587a25e91cb059150e76dbb9e6652facb20a1984acde4e",
     "maddeSayisi": 28
@@ -298,7 +298,7 @@
   "20914": {
     "dosya": "20914_Ticari_Iletisim_ve_Ticari_Elektronik_Iletiler_Hakkinda_Yonet.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "3ee8db331653a69a2c22bea74a761dc86ed832cba6578980cbafc782477e35c1",
     "maddeSayisi": 23
@@ -306,7 +306,7 @@
   "24038": {
     "dosya": "24038_Kisisel_Verilerin_Silinmesi_Yok_Edilmesi_veya_Anonim_Hale_Ge.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "54b87fb3decd740646abd34b212eb2b20f1ada463dca1e269c47bf1de08dcba5",
     "maddeSayisi": 15
@@ -314,7 +314,7 @@
   "24276": {
     "dosya": "24276_Veri_Sorumlulari_Sicili_Hakkinda_Yonetmelik.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "53e14d050c9d709137c27d468a68afa592dc4c016a6f4a8b80ea1c7da29d3593",
     "maddeSayisi": 20
@@ -322,7 +322,7 @@
   "24454": {
     "dosya": "24454_Aydinlatma_Yukumlulugunun_Yerine_Getirilmesinde_Uyulacak_Usu.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "d0f00280d44d47e21c6ba972d9f5e5aa060457b476858f9c6eb0cc4612905a11",
     "maddeSayisi": 8
@@ -330,7 +330,7 @@
   "24455": {
     "dosya": "24455_Veri_Sorumlusuna_Basvuru_Usul_ve_Esaslari_Hakkinda_Teblig.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "17b69ed43e9329d6f4a52cf23a76ac2f52f86aa83bc22a360091aa0dd303accd",
     "maddeSayisi": 9
@@ -338,7 +338,7 @@
   "24638": {
     "dosya": "24638_Hukuk_Uyusmazliklarinda_Arabuluculuk_Kanunu_Yonetmeligi.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "acd65fb6ba3cf7493d03c7b4d296638b5e4746aa58296a18254ce5c2bf2a6cd2",
     "maddeSayisi": 62
@@ -346,7 +346,7 @@
   "29033": {
     "dosya": "29033_Elektronik_Tebligat_Yonetmeligi.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "94d2c09686ddf98cd62a07111137b46cf50aea502e50857dd58ff2cf3bfb45b9",
     "maddeSayisi": 34
@@ -354,7 +354,7 @@
   "39730": {
     "dosya": "39730_Tuketici_Hakem_Heyetleri_Yonetmeligi.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "aa44076454dc7f47edf2bc81a2f9502a5b88a78036ac1c414e64896ef7744d29",
     "maddeSayisi": 33
@@ -362,7 +362,7 @@
   "39927": {
     "dosya": "39927_Elektronik_Ticaret_Araci_Hizmet_Saglayici_ve_Elektronik_Tica.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "86c281d6dcffc02d942e2719e6e7176ff2b9fa96b9d8209fb9105541abf8f64c",
     "maddeSayisi": 37
@@ -370,7 +370,7 @@
   "40863": {
     "dosya": "40863_Kisisel_Verilerin_Yurt_Disina_Aktarilmasina_Iliskin_Usul_ve_.txt",
     "metinTarihi": "2026-10-30",
-    "sonKontrol": "2026-10-30",
+    "sonKontrol": "2026-10-31",
     "kaynak": "mevzuat.gov.tr",
     "sha256": "a71b88167c5d13faa0004e9f209457e58943fed4acec6208f1f59fba35105b57",
     "maddeSayisi": 19
