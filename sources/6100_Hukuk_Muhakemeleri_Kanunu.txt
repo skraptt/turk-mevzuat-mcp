@@ -1510,7 +1510,7 @@ MADDE 148- (1) Mahkemeler, resmî çalışma gün ve saatlerinde görev yaparlar
 
 Ses ve görüntü nakledilmesi yoluyla veya başka yerde duruşma icrası
 
-MADDE 149- (Başlığı ile Birlikte Değişik:22/7/2020-7251/17 md.)[18]
+MADDE 149- (Başlığı ile Birlikte Değişik:22/7/2020-7251/17 md.)
 
 (1) Mahkeme, taraflardan birinin talebi üzerine talep eden tarafın veya vekilinin, aynı anda ses ve görüntü nakledilmesi yoluyla bulundukları yerden duruşmaya katılmalarına ve usul işlemleri yapabilmelerine karar verebilir.
 
@@ -1518,9 +1518,11 @@ MADDE 149- (Başlığı ile Birlikte Değişik:22/7/2020-7251/17 md.)[18]
 
 (3) Mahkeme, tarafların üzerinde serbestçe tasarruf edemeyecekleri dava ve işlerde ilgililerin, aynı anda ses ve görüntü nakledilmesi yoluyla bulundukları yerden dinlenilmesine resen karar verebilir.
 
-(4) Mahkeme, fiilî engel veya güvenlik sebebiyle duruşmanın il sınırları içinde başka bir yerde yapılmasına, yargı çevresi içinde yer aldığı bölge adliye mahkemesi adalet komisyonunun uygun görüşünü alarak karar verebilir.
+(4) (Ek:16/7/2026-7589/22 md.)[18] Ses ve görüntü nakledilmesi yoluyla bulundukları yerden duruşmaya katılmasına karar verilenler hakkında, 154 üncü maddenin üçüncü fıkrasının (ç) bendinde belirtilen ikrar, yeminin edası, davanın geri alınmasına muvafakat, davadan feragat, davayı kabul ile sulh olma hâlleri hariç olmak üzere, elle atılan imzaya ilişkin hükümler uygulanmaz.
 
-(5) Bu maddenin uygulanmasına ilişkin usul ve esaslar yönetmelikte belirlenir.
+(5) Mahkeme, fiilî engel veya güvenlik sebebiyle duruşmanın il sınırları içinde başka bir yerde yapılmasına, yargı çevresi içinde yer aldığı bölge adliye mahkemesi adalet komisyonunun uygun görüşünü alarak karar verebilir.
+
+(6) Bu maddenin uygulanmasına ilişkin usul ve esaslar yönetmelikte belirlenir.
 
  
 
@@ -5234,7 +5236,7 @@ Yayımlanmasından başlayarak dokuz ay sonra
 
 [17] 22/7/2020 tarihli ve 7251 sayılı Kanunun 16 ncı maddesiyle, birinci fıkraya “tahkikat” ibaresinden sonra gelmek üzere “ve sözlü yargılama” ibaresi ile ikinci fıkraya “itiraz edemeyecekleri” ibaresinden sonra gelmek üzere “, tahkikatın sona erdiği duruşmada sözlü yargılamaya geçileceği, sözlü yargılama için duruşmanın ertelenmesi hâlinde taraflara ayrıca davetiye gönderilmeyeceği ve 150 nci madde hükmü saklı kalmak kaydıyla, yokluklarında hüküm verileceği” ibaresi eklenmiştir.
 
-[18] 16/7/2026 tarihli ve 7589 sayılı Kanunun 22 nci maddesiyle yayımı tarihinden itibaren üç ay sonra (31/10/2026) yürürlüğe girmek üzere bu maddeye üçüncü fıkradan sonra gelmek üzere fıkra eklenmiş ve diğer fıkralar buna göre teselsül ettirilmiştir. Söz konusu düzenleme, yürürlüğe girdiği tarihte Mevzuat Bilgi Sistemine işlenecek olup mezkur düzenlemeyi görmek için 31/7/2026 tarihli ve  33326 sayılı Resmî Gazete’ye bakınız.
+[18] 16/7/2026 tarihli ve 7589 sayılı Kanunun 22 nci maddesiyle bu maddeye üçüncü fıkradan sonra gelmek üzere bu fıkra eklenmiş ve diğer fıkralar buna göre teselsül ettirilmiştir.
 
  
 
