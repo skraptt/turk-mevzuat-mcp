@@ -6,7 +6,7 @@ Kanun Numarası                    : 6362
 
 Kabul Tarihi                           : 6/12/2012
 
-Yayımlandığı Resmî Gazete   : Tarih  : 30/12/2012      Sayı   : 28513
+Yayımlandığı Resmî Gazete  : Tarih  : 30/12/2012      Sayı   : 28513
 
 Yayımlandığı Düstur              : Tertip : 5                      Cilt    : 53
 
@@ -1438,7 +1438,7 @@ MADDE 75 – (1) Birliğin zorunlu organları, genel kurul, yönetim kurulu ve d
 
 (2) Birliğin organlarının seçiminin yapılacağı genel kurul toplantısından en az on beş gün önce, seçimlere katılacak Birlik üyelerini ve temsilcilerini belirleyen liste, toplantının gündemini, yerini, gününü, saatini ve çoğunluk olmadığı takdirde yapılacak ikinci toplantıya ilişkin hususları belirten bir yazı ile birlikte üç nüsha olarak Yüksek Seçim Kurulunca belirlenecek seçim kurulu başkanı hâkime tevdi edilir. Hâkim gerekli incelemeyi yaparak listeyi ve diğer hususları onaylar, bir sandık kurulu başkanı ve iki sandık kurulu üyesi ile bunlar için birer yedek üye atar. Oy verme işlemi, gizli oy ve açık tasnif esasına göre yapılır. Seçim süresinin sonunda seçim sonuçları tutanakla tespit edilip, sandık kurulu başkanı ve üyeleri tarafından imzalanır. Tutanağın düzenlenmesinden itibaren iki iş günü içinde seçimlere yapılacak her türlü itiraz hâkim tarafından aynı gün incelenir ve kesin olarak karara bağlanır. Kurul, bu Kanunun uygulanması açısından itiraz hakkına sahip olup, Kurul tarafından yapılan itiraz da aynı şekilde incelenir ve karara bağlanır.
 
-(3) Birliğin organları, gelirleri, giderleri ve çalışma esasları, üyeliğe kabul, üyelikten geçici ve sürekli çıkarma esasları, Kurulun önerisi ve ilgili Bakanlığın teklifi üzerine Cumhurbaşkanı kararı ile yürürlüğe konulan Statüsüyle düzenlenir. Kurul, Birliğin talebi üzerine ya da resen gerekli görülen hâllerde Statüde değişiklik yapılmasını ilgili Bakanlığa teklif edebilir.[7]
+(3) Birliğin organları, gelirleri, giderleri ve çalışma esasları, üyeliğe kabul, üyelikten geçici ve sürekli çıkarma esasları, Kurulun önerisi ve ilgili Bakanlığın teklifi üzerine Cumhurbaşkanı kararı ile yürürlüğe konulan Statüsüyle düzenlenir. Kurul, Birliğin talebi üzerine ya da resen gerekli görülen hâllerde Statüde değişiklik yapılmasını ilgili Bakanlığa teklif edebilir.[7] [8]
 
 (4) 74 üncü maddede belirlenen tüm Birlik üyelerinin, Birlik yönetim kurulunda temsil edilmeleri esastır. Bu esası teminen izlenmesi gereken aday olma ve aday gösterme usulleri Birlik Statüsünde belirtilir.
 
@@ -1458,7 +1458,7 @@ MADDE 76 – (1) Gayrimenkul değerleme uzmanlığı lisansına sahip olanlar il
 
 (3) Değerleme kuruluşları, değerleme kuruluşu niteliğini kazandığı andan itibaren üç ay içinde üyelik için Türkiye Değerleme Uzmanları Birliğine gerekli başvuruyu yapmakla yükümlüdür. Bu yükümlülüğe uyulmaması hâlinde, Kurul, bu kuruluşlar hakkında faaliyetlerinin durdurulması ve yetkilerinin iptali dâhil her türlü tedbiri almaya yetkilidir.
 
-(4) Türkiye Değerleme Uzmanları Birliği, gayrimenkul piyasasının ve gayrimenkul değerleme faaliyetlerinin gelişmesini sağlamak üzere araştırmalar yapmak, eğitim ve sertifika vermek, Birlik üyelerinin dayanışma ve mesleğin gerektirdiği özen ve disiplin içinde çalışmalarına yönelik meslek kurallarını ve değerleme standartlarını oluşturmak, haksız rekabeti önlemek amacıyla gerekli tedbirleri almak, kendisine mevzuatla verilen veya Kurulca belirlenen konularda düzenlemeler yapmak, yürütmek, denetlemek, Türkiye Değerleme Uzmanları Birliği Statüsünde öngörülen disiplin cezalarını vermek, ilgili konularda üyeleri temsilen ilgili kuruluşlarla iş birliği yapmak, mesleki gelişmeleri, idari ve yasal düzenlemeleri izleyerek bu konuda üyeleri aydınlatmakla görevli ve yetkilidir.
+(4) Türkiye Değerleme Uzmanları Birliği, gayrimenkul piyasasının ve gayrimenkul değerleme faaliyetlerinin gelişmesini sağlamak üzere araştırmalar yapmak, eğitim ve sertifika vermek, Birlik üyelerinin dayanışma ve mesleğin gerektirdiği özen ve disiplin içinde çalışmalarına yönelik meslek kurallarını ve değerleme standartlarını oluşturmak, haksız rekabeti önlemek amacıyla gerekli tedbirleri almak, kendisine mevzuatla verilen veya Kurulca belirlenen konularda düzenlemeler yapmak, yürütmek, denetlemek, Türkiye Değerleme Uzmanları Birliği Statüsünde öngörülen disiplin cezalarını vermek, ilgili konularda üyeleri temsilen ilgili kuruluşlarla iş birliği yapmak, mesleki gelişmeleri, idari ve yasal düzenlemeleri izleyerek bu konuda üyeleri aydınlatmakla görevli ve yetkilidir.[9]
 
 (5) Konut finansmanı kapsamında yapılan değerlemelere ilişkin bilgilerin, Türkiye Değerleme Uzmanları Birliği tarafından belirlenecek usul ve esaslara göre Türkiye Değerleme Uzmanları Birliğine iletilmesi zorunludur.
 
@@ -1612,7 +1612,7 @@ c) Bu fıkranın (a) bendinde sayılan gerçek ve tüzel kişilerin yüzde yirmi
 
 ç) Yatırım kuruluşlarının mali sıkıntıya düşmesine neden olan veya finansal durumunun bozulmasına önemli etkileri olan olaylarda sorumluluğu bulunan veya bu olaylardan menfaat sağlayan kişiler
 
-(5) Hak sahibi her bir yatırımcıya ödenecek azami tazmin tutarı yüz bin Türk Lirasıdır. Bu tutar her yıl ilan edilen yeniden değerleme katsayısı oranında artırılır. Kurulun teklifi üzerine Cumhurbaşkanı tarafından toplam tazmin tutarı beş katına kadar artırılabilir. Bu sınır, hesap sayısı, türü ve para birimine bakılmaksızın, bir yatırımcının aynı kuruluştan olan taleplerinin tümünü kapsar. YTM tarafından ödenecek azami tutarın üzerinde kalan tutarın başka bir yatırımcıya ödenmesi amacıyla devredilmiş olması hâlinde devralana YTM tarafından ödeme yapılmaz.[8]
+(5) Hak sahibi her bir yatırımcıya ödenecek azami tazmin tutarı yüz bin Türk Lirasıdır. Bu tutar her yıl ilan edilen yeniden değerleme katsayısı oranında artırılır. Kurulun teklifi üzerine Cumhurbaşkanı tarafından toplam tazmin tutarı beş katına kadar artırılabilir. Bu sınır, hesap sayısı, türü ve para birimine bakılmaksızın, bir yatırımcının aynı kuruluştan olan taleplerinin tümünü kapsar. YTM tarafından ödenecek azami tutarın üzerinde kalan tutarın başka bir yatırımcıya ödenmesi amacıyla devredilmiş olması hâlinde devralana YTM tarafından ödeme yapılmaz.[10]
 
  
 
@@ -1708,13 +1708,13 @@ MADDE 90 – (1) 89 uncu maddenin birinci ve ikinci fıkraları çerçevesinde k
 
 Tedbirler
 
-Kanuna aykırı ihraçlar ile izahnamede yer alan bilgi ve açıklamalara aykırılık hâlinde uygulanacak tedbirler[9]
+Kanuna aykırı ihraçlar ile izahnamede yer alan bilgi ve açıklamalara aykırılık hâlinde uygulanacak tedbirler[11]
 
 MADDE 91 – (1) Bu Kanuna aykırı şekilde sermaye piyasası aracı ihraç ettiği veya buna teşebbüs ettiği tespit edilenler hakkında, her türlü hukuki ve cezai sorumluluk saklı kalmak kaydıyla, Kurul, her türlü harç ve teminattan muaf olarak gerekli tüm tedbirleri almaya, satılan kısmın karşılığı ve satışı yapılacak sermaye piyasası aracı için her türlü harç ve teminattan muaf olarak ihtiyati tedbir ve ihtiyati haciz istemeye yetkilidir.
 
 (2) Kurul, Kanuna aykırı ihracın doğurduğu sonuçların ortadan kaldırılması ve nakit ve diğer varlıkların hak sahiplerine iadesi için tespit tarihinden itibaren otuz gün içinde ilgili ihracı yapan kişiye yazılı ihbarda bulunur. Muhatap, ihbar tarihinden itibaren en geç otuz gün içinde para topladığı gerçek ve tüzel kişilere ve toplanan tutara ilişkin ayrıntılı bilgileri Kurulca belirlenecek vasıtalarla ilan eder ve Kurula iletir. Bu ilanı takip eden üç ay içinde kendisinden para toplanan gerçek ve tüzel kişiler ortaklığın bulunduğu yer asliye hukuk mahkemesine itiraz edebilir. Söz konusu listenin kesinleşmesi üzerine, ilgili ihracı gerçekleştiren kişi tarafından hak sahiplerine iade yapılır. Bu iade işlemi tamamlanmadan birinci fıkra uyarınca konulan ihtiyati tedbir ve ihtiyati haciz kaldırılamaz.
 
-(3) (Ek:20/2/2020-7222/36 md.)[10] İzahnamede yer alan yatırımcıların yatırım kararını etkileyecek nitelikteki taahhüt ve açıklamalara aykırı davranılması veya taahhütlerin makul süre içerisinde yerine getirilmemesi ve Kurulun ilgili düzenlemelerine uygun olarak taahhüt ve açıklamalarda değişiklik yapılmamış olması hâlinde, her türlü hukuki ve cezai sorumluluk saklı kalmak kaydıyla, Kurul, ilgililerden aykırılıkların Kurulca belirlenen bir sürede giderilmesini ya da öngörülen işlemleri yapmasını istemeye, taahhüt ve açıklamalarda değişiklik yapılıp yapılmadığından bağımsız olarak, Kurula bu durumun makul bir ekonomik veya finansal gerekçeye dayandığını gösterir belge ve/veya açıklama sunulamadığı takdirde, ihraçtan elde edilen nakit veya diğer varlıkların kullanılmasını engellemek amacıyla kamuyu aydınlatma belgesinde yer alan taahhüt ve açıklamalara aykırı olarak gerçekleştirilen iş ve işlemler için her türlü harç ve teminattan muaf olarak ihtiyati tedbir ve ihtiyati haciz istemeye ya da öngöreceği diğer her türlü tedbiri almaya yetkilidir. Kurul, ihraçtan elde edilen tutarın izahnameye aykırı olarak kullanılması sonucunu doğurduğu tespit edilen iş ve işlemlerin iptali ve elde edilen nakit ve diğer varlıkların izahnameyi yayımlayan ortaklığa veya kolektif yatırım kuruluşuna iadesi için tespit tarihinden itibaren üç ay ve her hâlde izahnamenin onay tarihinden itibaren iki yıl içerisinde izahnameye aykırı olarak gerçekleştirilen işlemin iptali için dava açmaya da yetkilidir.
+(3) (Ek:20/2/2020-7222/36 md.)[12] İzahnamede yer alan yatırımcıların yatırım kararını etkileyecek nitelikteki taahhüt ve açıklamalara aykırı davranılması veya taahhütlerin makul süre içerisinde yerine getirilmemesi ve Kurulun ilgili düzenlemelerine uygun olarak taahhüt ve açıklamalarda değişiklik yapılmamış olması hâlinde, her türlü hukuki ve cezai sorumluluk saklı kalmak kaydıyla, Kurul, ilgililerden aykırılıkların Kurulca belirlenen bir sürede giderilmesini ya da öngörülen işlemleri yapmasını istemeye, taahhüt ve açıklamalarda değişiklik yapılıp yapılmadığından bağımsız olarak, Kurula bu durumun makul bir ekonomik veya finansal gerekçeye dayandığını gösterir belge ve/veya açıklama sunulamadığı takdirde, ihraçtan elde edilen nakit veya diğer varlıkların kullanılmasını engellemek amacıyla kamuyu aydınlatma belgesinde yer alan taahhüt ve açıklamalara aykırı olarak gerçekleştirilen iş ve işlemler için her türlü harç ve teminattan muaf olarak ihtiyati tedbir ve ihtiyati haciz istemeye ya da öngöreceği diğer her türlü tedbiri almaya yetkilidir. Kurul, ihraçtan elde edilen tutarın izahnameye aykırı olarak kullanılması sonucunu doğurduğu tespit edilen iş ve işlemlerin iptali ve elde edilen nakit ve diğer varlıkların izahnameyi yayımlayan ortaklığa veya kolektif yatırım kuruluşuna iadesi için tespit tarihinden itibaren üç ay ve her hâlde izahnamenin onay tarihinden itibaren iki yıl içerisinde izahnameye aykırı olarak gerçekleştirilen işlemin iptali için dava açmaya da yetkilidir.
 
 (4) Kurulca yapılan yazılı ihbar tarihinden itibaren bir yıl içinde bu Kanuna aykırı ihracın doğurduğu sonuçlar tamamen ortadan kaldırılmazsa, Kurul, nakit ve diğer varlıkların hak sahiplerine iadesi veya ortaklığın tasfiyesi için dava açmaya yetkilidir.
 
@@ -1794,7 +1794,7 @@ MADDE 99 – (1) Kurul, izinsiz sermaye piyasası faaliyetlerinin durdurulması 
 
 (3) (Değişik:26/6/2024-7518/7 md.) İzinsiz sermaye piyasası faaliyetlerinin, internet aracılığı ile yürütüldüğü tespit edildiğinde; internet aracılığıyla yapılan yayınlarla ilgili olarak içeriğin çıkarılmasına ve/veya erişimin engellenmesine Kurul tarafından karar verilir. Karar uygulanmak üzere Erişim Sağlayıcıları Birliğine gönderilir.
 
-(4) (Ek: 17/4/2017-KHK/690-67 md.; Değiştirilerek kabul: 1/2/2018-7077/57 md.) Kuruldan izin alınmaksızın kitle fonlama platformları aracılığıyla halktan para toplandığına veya Türkiye’de yerleşik kişilere yönelik olarak internet aracılığıyla yurt dışında kaldıraçlı işlem ve kaldıraçlı işlemlerle aynı hükümlere tabi olduğu belirlenen türev araç işlemleri yaptırıldığına ilişkin bilgi edinilmesi halinde, internet aracılığıyla yapılan yayınlarla ilgili olarak içeriğin çıkarılmasına ve/veya erişimin engellenmesine Kurul tarafından karar verilir. Karar uygulanmak üzere Erişim Sağlayıcıları Birliğine gönderilir.[11]
+(4) (Ek: 17/4/2017-KHK/690-67 md.; Değiştirilerek kabul: 1/2/2018-7077/57 md.) Kuruldan izin alınmaksızın kitle fonlama platformları aracılığıyla halktan para toplandığına veya Türkiye’de yerleşik kişilere yönelik olarak internet aracılığıyla yurt dışında kaldıraçlı işlem ve kaldıraçlı işlemlerle aynı hükümlere tabi olduğu belirlenen türev araç işlemleri yaptırıldığına ilişkin bilgi edinilmesi halinde, internet aracılığıyla yapılan yayınlarla ilgili olarak içeriğin çıkarılmasına ve/veya erişimin engellenmesine Kurul tarafından karar verilir. Karar uygulanmak üzere Erişim Sağlayıcıları Birliğine gönderilir.[13]
 
  
 
@@ -1846,9 +1846,9 @@ MADDE 100 – (1) Sermaye piyasasında izinsiz olarak faaliyette bulunduğu, yet
 
  
 
-Piyasa bozucu eylemler, bilgi suistimali ve piyasa dolandırıcılığı incelemelerinde uygulanacak tedbirler [12]
+Piyasa bozucu eylemler, bilgi suistimali ve piyasa dolandırıcılığı incelemelerinde uygulanacak tedbirler [14]
 
-MADDE 101 – (1) Kurul, 104 üncü, 106 ncı ve 107 nci maddelerde sayılan fiilleri işlediğine dair makul şüphe bulunan gerçek veya tüzel kişiler ile tüzel kişilerin yetkilileri ile ilgili sermaye piyasası araçlarına ilişkin olarak;[12]
+MADDE 101 – (1) Kurul, 104 üncü, 106 ncı ve 107 nci maddelerde sayılan fiilleri işlediğine dair makul şüphe bulunan gerçek veya tüzel kişiler ile tüzel kişilerin yetkilileri ile ilgili sermaye piyasası araçlarına ilişkin olarak;[14]
 
 a) Borsalarda geçici veya sürekli olarak işlem yapılmasının yasaklanması,
 
@@ -1892,7 +1892,7 @@ BİRİNCİ BÖLÜM
 
 Genel esaslar
 
-MADDE 103 – (1) Bu Kanuna dayanılarak yapılan düzenlemelere, belirlenen standart ve formlara ve Kurulca alınan genel ve özel nitelikteki kararlara aykırı hareket eden kişilere Kurul tarafından yirmi bin Türk Lirasından iki yüz elli bin Türk Lirasına kadar idari para cezası verilir. Ancak, yükümlülüğe aykırılık dolayısıyla menfaat temin edilmiş olması hâlinde verilecek idari para cezasının miktarı bu menfaatin iki katından az olamaz. (Ek cümle:20/2/2020-7222/36 md.) Tüzel kişilere, aykırılığın ağırlığı ve etkilediği mağdur sayısı dikkate alınarak bu fıkranın birinci cümlesinde yer alan asgari miktardan az olmamak üzere aykırılık tarihinden önceki son bağımsız denetimden geçmiş yıllık finansal tablolarında yer alan brüt satış hasılatının %1’i ile vergi öncesi kârının %20’sinden yüksek olanına kadar idari para cezası verilir. (Ek cümle:26/6/2024-7518/11 md.) Tüzel kişiliğin niteliğine göre, brüt satış hasılatı ile vergi öncesi kârın belirlenmesine ilişkin usul ve esaslar Kurulca düzenlenir.[13]
+MADDE 103 – (1) Bu Kanuna dayanılarak yapılan düzenlemelere, belirlenen standart ve formlara ve Kurulca alınan genel ve özel nitelikteki kararlara aykırı hareket eden kişilere Kurul tarafından yirmi bin Türk Lirasından iki yüz elli bin Türk Lirasına kadar idari para cezası verilir. Ancak, yükümlülüğe aykırılık dolayısıyla menfaat temin edilmiş olması hâlinde verilecek idari para cezasının miktarı bu menfaatin iki katından az olamaz. (Ek cümle:20/2/2020-7222/36 md.) Tüzel kişilere, aykırılığın ağırlığı ve etkilediği mağdur sayısı dikkate alınarak bu fıkranın birinci cümlesinde yer alan asgari miktardan az olmamak üzere aykırılık tarihinden önceki son bağımsız denetimden geçmiş yıllık finansal tablolarında yer alan brüt satış hasılatının %1’i ile vergi öncesi kârının %20’sinden yüksek olanına kadar idari para cezası verilir. (Ek cümle:26/6/2024-7518/11 md.) Tüzel kişiliğin niteliğine göre, brüt satış hasılatı ile vergi öncesi kârın belirlenmesine ilişkin usul ve esaslar Kurulca düzenlenir.[15]
 
 (2) Birinci fıkradaki yükümlülüklere aykırı hareket eden kişinin bir özel hukuk tüzel kişisinin organ veya temsilcisi olması veya organ veya temsilcisi olmamakla birlikte bu tüzel kişinin faaliyeti çerçevesinde görev üstlenen bir kişi olması hâlinde, ayrıca tüzel kişi hakkında da birinci fıkra hükmüne göre idari para cezası verilir. Aykırılığın, temsilcisi olunan veya adına hareket edilen tüzel kişinin zararına bir sonuç doğurması hâlinde, tüzel kişiye idari para cezası verilmez.
 
@@ -1948,15 +1948,15 @@ c) İş, meslek ve görevlerinin icrası nedeniyle bu bilgilere sahip olan kişi
 
 d) Sahip oldukları bilginin bu fıkrada belirtilen nitelikte bulunduğunu bilen veya ispat edilmesi hâlinde bilmesi gereken kişiler,
 
-üç yıldan beş yıla kadar hapis veya adli para cezası ile cezalandırılırlar. Ancak, bu suçtan dolayı adli para cezasına hükmedilmesi hâlinde verilecek ceza elde edilen menfaatin iki katından az olamaz.[14]
+üç yıldan beş yıla kadar hapis veya adli para cezası ile cezalandırılırlar. Ancak, bu suçtan dolayı adli para cezasına hükmedilmesi hâlinde verilecek ceza elde edilen menfaatin iki katından az olamaz.[16]
 
  
 
 Piyasa dolandırıcılığı
 
-MADDE 107 – (1) Sermaye piyasası araçlarının fiyatlarına, fiyat değişimlerine, arz ve taleplerine ilişkin olarak yanlış veya yanıltıcı izlenim uyandırmak amacıyla alım veya satım yapanlar, emir verenler, emir iptal edenler, emir değiştirenler veya hesap hareketleri gerçekleştirenler üç yıldan beş yıla kadar hapis ve beş bin günden on bin güne kadar adli para cezası ile cezalandırılırlar. Ancak, bu suçtan dolayı verilecek olan adli para cezasının miktarı, suçun işlenmesi ile elde edilen menfaatten az olamaz.[15]
+MADDE 107 – (1) Sermaye piyasası araçlarının fiyatlarına, fiyat değişimlerine, arz ve taleplerine ilişkin olarak yanlış veya yanıltıcı izlenim uyandırmak amacıyla alım veya satım yapanlar, emir verenler, emir iptal edenler, emir değiştirenler veya hesap hareketleri gerçekleştirenler üç yıldan beş yıla kadar hapis ve beş bin günden on bin güne kadar adli para cezası ile cezalandırılırlar. Ancak, bu suçtan dolayı verilecek olan adli para cezasının miktarı, suçun işlenmesi ile elde edilen menfaatten az olamaz.[17]
 
-(2) (Değişik: 27/3/2015-6637/11 md.) Sermaye piyasası araçlarının fiyatlarını, değerlerini veya yatırımcıların kararlarını etkilemek amacıyla yalan, yanlış veya yanıltıcı bilgi veren, söylenti çıkaran, haber veren, yorum yapan veya rapor hazırlayan ya da bunları yayan ve bu suretle menfaat sağlayanlar üç yıldan beş yıla kadar hapis ve beş bin güne kadar adli para cezası ile cezalandırılırlar.[15]
+(2) (Değişik: 27/3/2015-6637/11 md.) Sermaye piyasası araçlarının fiyatlarını, değerlerini veya yatırımcıların kararlarını etkilemek amacıyla yalan, yanlış veya yanıltıcı bilgi veren, söylenti çıkaran, haber veren, yorum yapan veya rapor hazırlayan ya da bunları yayan ve bu suretle menfaat sağlayanlar üç yıldan beş yıla kadar hapis ve beş bin güne kadar adli para cezası ile cezalandırılırlar.[17]
 
 (3) Birinci fıkrada tanımlanan suçu işleyen kişi pişmanlık göstererek, beş yüz bin Türk Lirasından az olmamak üzere, elde ettiği veya elde edilmesine sebep olduğu menfaatin iki katı miktarı kadar parayı, Hazineye;
 
@@ -2002,7 +2002,7 @@ MADDE 110 – (1) Aşağıdaki fiiller güveni kötüye kullanma suçunun niteli
 
 a) Yatırım kuruluşuna, 58 inci madde kapsamındaki fon kuruluna ve 59 uncu madde kapsamındaki teminat sorumlularına; sermaye piyasası faaliyetleri sebebiyle veya emanetçi sıfatıyla veya idare etmek için veya teminat olarak veya her ne nam altında olursa olsun, kayden veya fiziken tevdi veya teslim edilen sermaye piyasası araçları, nakit ve diğer her türlü kıymeti kendisinin veya başkasının menfaatine satmak, kullanmak, rehnetmek, gizlemek veya inkâr etmek
 
-b) Yönetim, denetim veya sermaye bakımından dolaylı veya dolaysız olarak ilişkili bulunduğu diğer bir teşebbüs veya şahısla emsallerine göre bariz şekilde farklı fiyat, ücret ve bedel uygulamak (…)[16] örtülü işlemlerde bulunarak halka açık ortaklıkların kârını veya mal varlığını azaltmak
+b) Yönetim, denetim veya sermaye bakımından dolaylı veya dolaysız olarak ilişkili bulunduğu diğer bir teşebbüs veya şahısla emsallerine göre bariz şekilde farklı fiyat, ücret ve bedel uygulamak (…)[18] örtülü işlemlerde bulunarak halka açık ortaklıkların kârını veya mal varlığını azaltmak
 
 c) Halka açık ortaklıklar ve kolektif yatırım kuruluşları ile bunların iştirak ve bağlı ortaklıklarının, yönetim, denetim veya sermaye bakımından doğrudan veya dolaylı olarak ilişkide bulundukları gerçek veya tüzel kişiler ile emsallerine uygunluk, piyasa teamülleri, ticari hayatın basiret ve dürüstlük ilkelerine aykırı olarak farklı fiyat, ücret, bedel, şartlar içeren anlaşmalar veya ticari uygulamalar yapmak veya işlem hacmi üretmek gibi işlemlerde bulunarak kârlarını veya malvarlıklarını azaltmak veya kârlarının veya malvarlıklarının artmasını engellemek
 
@@ -2174,7 +2174,7 @@ Kurul Başkan ve üyelerinin görev süreleri
 
 MADDE 120 – (1) (Mülga birinci ve ikinci cümle: 2/7/2018-KHK-703/165 md.) (…) Başkanlığın ve üyeliğin herhangi bir sebeple boşalması hâlinde, boşalan üyeliğe, 119 uncu maddede belirtilen esaslar dâhilinde en geç iki ay içinde atama yapılır.
 
-(2) Kurul Başkan ve üyelerinin görev süreleri dolmadan herhangi bir nedenle görevlerine son verilemez. Ancak, ağır hastalık veya engellilik nedeniyle altı aydan daha uzun bir süre iş göremeyecekleri, atanmaları için gerekli şartları kaybettikleri veya durumlarının 121 inci maddeye aykırı olduğu tespit edilen veya görevleri ile ilgili olarak işledikleri suçlardan dolayı haklarında verilen mahkûmiyet kararı kesinleşen Kurul Başkan ve üyeleri, süreleri dolmadan Cumhurbaşkanının onayı ile görevden alınırlar. Ayrıca, geçici iş göremezlik hâlinin altı aydan fazla sürmesi hâlinde, bu durumda olan üyelerin üyelikleri düşer.[17][18]
+(2) Kurul Başkan ve üyelerinin görev süreleri dolmadan herhangi bir nedenle görevlerine son verilemez. Ancak, ağır hastalık veya engellilik nedeniyle altı aydan daha uzun bir süre iş göremeyecekleri, atanmaları için gerekli şartları kaybettikleri veya durumlarının 121 inci maddeye aykırı olduğu tespit edilen veya görevleri ile ilgili olarak işledikleri suçlardan dolayı haklarında verilen mahkûmiyet kararı kesinleşen Kurul Başkan ve üyeleri, süreleri dolmadan Cumhurbaşkanının onayı ile görevden alınırlar. Ayrıca, geçici iş göremezlik hâlinin altı aydan fazla sürmesi hâlinde, bu durumda olan üyelerin üyelikleri düşer.[19][20]
 
  
 
@@ -2276,9 +2276,9 @@ MADDE 125 – (1) Başkana, başkanlığa ilişkin görevlerinde yardımcı olma
 
 Hizmet birimleri
 
-MADDE 126 – (1) Kurulun hizmet birimleri, daire başkanlıkları şeklinde teşkilatlanmış on iki hizmet biriminden oluşur. Kurul Karar Organının teklifi ve ilgili Bakanın onayı ile bu sayının yarısını geçmemek kaydıyla yeni daire başkanlıkları oluşturulabilir, sayısı on ikinin altına düşmemek kaydıyla mevcut daire başkanlıkları kapatılabilir, birleştirilebilir veya görev ve yetkilerinin bir kısmı yeni kurulacak daire başkanlıklarına verilebilir. Hizmet birimleri, bu Kanunda belirtilen faaliyet alanı, görev ve yetkilere uygun olarak Kurul Karar Organının teklifi ve Cumhurbaşkanınca yürürlüğe konulan yönetmelikle belirlenir. [19]
+MADDE 126 – (1) Kurulun hizmet birimleri, daire başkanlıkları şeklinde teşkilatlanmış on iki hizmet biriminden oluşur. Kurul Karar Organının teklifi ve ilgili Bakanın onayı ile bu sayının yarısını geçmemek kaydıyla yeni daire başkanlıkları oluşturulabilir, sayısı on ikinin altına düşmemek kaydıyla mevcut daire başkanlıkları kapatılabilir, birleştirilebilir veya görev ve yetkilerinin bir kısmı yeni kurulacak daire başkanlıklarına verilebilir. Hizmet birimleri, bu Kanunda belirtilen faaliyet alanı, görev ve yetkilere uygun olarak Kurul Karar Organının teklifi ve Cumhurbaşkanınca yürürlüğe konulan yönetmelikle belirlenir. [21]
 
-(2) Yurt içinde gerekli görülen yerlerde Kurul Karar Organının kararıyla, sermaye piyasaları açısından yoğun ilişki içinde bulunulan ülkelerde ise Cumhurbaşkanı kararıyla temsilcilik açılabilir. Yurt dışı temsilciliklerin açılacağı yerler ve süresi ile temsilciliklerin çalışma usul ve esasları, bu temsilciliklerde görev yapacak personelin niteliği, sayısı, görev süresi ve bunlara ödenecek ücretlerin belirlenmesi, personele yapılacak ödemeler dışında kalan diğer harcamaların neler olacağı ve harcamaya ilişkin usul ve esaslar Cumhurbaşkanınca belirlenir.[20]
+(2) Yurt içinde gerekli görülen yerlerde Kurul Karar Organının kararıyla, sermaye piyasaları açısından yoğun ilişki içinde bulunulan ülkelerde ise Cumhurbaşkanı kararıyla temsilcilik açılabilir. Yurt dışı temsilciliklerin açılacağı yerler ve süresi ile temsilciliklerin çalışma usul ve esasları, bu temsilciliklerde görev yapacak personelin niteliği, sayısı, görev süresi ve bunlara ödenecek ücretlerin belirlenmesi, personele yapılacak ödemeler dışında kalan diğer harcamaların neler olacağı ve harcamaya ilişkin usul ve esaslar Cumhurbaşkanınca belirlenir.[22]
 
 (3) Kurul Karar Organı 128 inci maddenin birinci fıkrasının (ı) bendinde düzenlenen bilimsel araştırmaların yapılmasını sağlamak üzere Araştırma Merkezi Müdürlüğü kurabilir.
 
@@ -2344,7 +2344,7 @@ k) (Ek: 12/7/2013-6495/57 md.) Halka açık ortaklıkların yönetim kurulların
 
 MADDE 129 – (1) Yıllık faaliyet raporu, raporun ait olduğu dönemi izleyen yılın haziran ayı sonuna kadar Kurulun internet sitesinde yayınlanır ve ilgili Bakana gönderilir. Kurul, faaliyetleriyle ilgili olarak yılda en az bir defa Türkiye Büyük Millet Meclisi Plan ve Bütçe Komisyonuna bilgi verir.
 
-(2) Kurul, ilgili Bakanlığın gerekli gördüğü hâllerde Cumhurbaşkanlığına bilgi verir.[21]
+(2) Kurul, ilgili Bakanlığın gerekli gördüğü hâllerde Cumhurbaşkanlığına bilgi verir.[23]
 
 (3) Kurul tarafından yapılan düzenlemeler, değişiklikleri de içerecek şekilde sürekli olarak güncellenmek suretiyle Kurulun internet sayfasında yayınlanır.
 
@@ -2352,17 +2352,17 @@ MADDE 129 – (1) Yıllık faaliyet raporu, raporun ait olduğu dönemi izleyen 
 
  
 
-Kurulun bütçesi, harcama ve işlemlerinin denetimi[22]
+Kurulun bütçesi, harcama ve işlemlerinin denetimi[24]
 
 MADDE 130 – (1) Kurulun gelirlerinin giderlerini karşılaması esastır. Kurul bütçesi, 10/12/2003 tarihli ve 5018 sayılı Kamu Malî Yönetimi ve Kontrol Kanununun ilgili hükümlerinde belirlenen usul ve esaslara göre hazırlanır ve kabul edilir.
 
 (2) Kurulun gelirlerinin giderlerini karşılamaması durumunda açık, genel bütçeden yapılacak Hazine yardımlarından karşılanır.
 
-(3) İhraççılar veya halka arz edenler, Kurul bütçesine gelir kaydedilmek üzere, satışı yapılacak sermaye piyasası araçlarının varsa nominal değerinden aşağı olmamak üzere ihraç değerinin binde üçü tutarında ücret yatırmak zorundadır. Yatırım fonlarının ve değişken sermayeli yatırım ortaklıklarının üçer aylık dönemlerin son iş gününde, net varlık değerlerinin yüz binde beşi tutarındaki ücret, izleyen on iş günü içinde Kurul hesabına yatırılır. Bu fıkrada belirtilen oranları aşmamak kaydıyla, sermaye piyasası aracının niteliği, vadesi veya ihraççısı dikkate alınmak suretiyle Kurul Karar Organı tarafından farklı oranlar belirlenebilir. Cumhurbaşkanı alınacak ücretleri kanuni oranlarının iki katını aşmamak üzere artırmaya veya kanuni oranlarına indirmeye yetkilidir.[23]
+(3) İhraççılar veya halka arz edenler, Kurul bütçesine gelir kaydedilmek üzere, satışı yapılacak sermaye piyasası araçlarının varsa nominal değerinden aşağı olmamak üzere ihraç değerinin binde üçü tutarında ücret yatırmak zorundadır. Yatırım fonlarının ve değişken sermayeli yatırım ortaklıklarının üçer aylık dönemlerin son iş gününde, net varlık değerlerinin yüz binde beşi tutarındaki ücret, izleyen on iş günü içinde Kurul hesabına yatırılır. Bu fıkrada belirtilen oranları aşmamak kaydıyla, sermaye piyasası aracının niteliği, vadesi veya ihraççısı dikkate alınmak suretiyle Kurul Karar Organı tarafından farklı oranlar belirlenebilir. Cumhurbaşkanı alınacak ücretleri kanuni oranlarının iki katını aşmamak üzere artırmaya veya kanuni oranlarına indirmeye yetkilidir.[25]
 
 (4) (Değişik: 27/3/2015-6637/12 md.) 2015 yılı gelirlerinden başlamak üzere, Kurul tarafından düzenlenen ve denetlenen borsaların ve diğer teşkilatlanmış piyasaların, merkezî takas kurumlarının, merkezî saklama kurumlarının ve MKK’nın faiz gelirleri hariç tüm gelirleri üzerinden, Kurula 2014 yılı gelirleri üzerinden kaydedilmiş olan gelir tutarlarının her yıl, Türkiye İstatistik Kurumu tarafından Türkiye geneli için hesaplanan Tüketici Fiyat Endeksi ve Yurtiçi Üretici Fiyat Endeksinin, Aralık ayından bir önceki yılın Aralık ayına göre değişim oranlarının aritmetik ortalaması oranında artırılması suretiyle bulunacak tutarları Kurul bütçesine Kurul tarafından gelir olarak kaydedilir. Bu fıkranın yürürlüğe girdiği tarihten sonra kurulacak, fıkra kapsamındaki kurumların, kuruluşlarını takip eden yıldan başlamak üzere, faiz gelirleri hariç tüm gelirlerinin azami yüzde onu olmak üzere her takvim yılı için Kurulca belirlenecek oranı Kurul bütçesine Kurul tarafından gelir olarak kaydedilir. Ancak, bu fıkraya göre yapılacak ödemelerin zamanı ve tutarları, gelirin elde edildiği yılı izleyen takvim yılında Kurulun nakit durumu dikkate alınarak Kurul tarafından en az otuz gün öncesinden ilgili kurumlara bildirilir. Bir takvim yılı içinde talep edilmeyen tutarlar izleyen yıllarda ödenecek tutara eklenir ve Kurul tarafından aynı usul ile talep edilebilir.
 
-(5) (Ek:26/6/2024-7518/16 md.)[22] Her yıl platformların bir önceki yıl faiz gelirleri hariç tüm gelirlerinin yüzde biri Kurul, yüzde biri de blokzincir ve ilgili bilişim teknolojilerinin geliştirilmesinde kullanılmak üzere TÜBİTAK bütçesine ilgili yılın mayıs ayı sonuna kadar ödenerek gelir olarak kaydedilir. Bu fıkraya göre yapılacak tahakkuk ve ödemelerle ilgili diğer esaslar Kurulca belirlenir.
+(5) (Ek:26/6/2024-7518/16 md.)[24] Her yıl platformların bir önceki yıl faiz gelirleri hariç tüm gelirlerinin yüzde biri Kurul, yüzde biri de blokzincir ve ilgili bilişim teknolojilerinin geliştirilmesinde kullanılmak üzere TÜBİTAK bütçesine ilgili yılın mayıs ayı sonuna kadar ödenerek gelir olarak kaydedilir. Bu fıkraya göre yapılacak tahakkuk ve ödemelerle ilgili diğer esaslar Kurulca belirlenir.
 
 (6) Kurul, faaliyetlerine ilişkin olarak her yılın haziran ayı sonuna kadar bir önceki yıla ait kararları, yaptığı ikincil düzenlemeler ile bunların ekonomik ve sosyal etkilerini analiz eden bir faaliyet raporu hazırlar. Faaliyet raporu, ayrıca Kurulun performans hedefleri ile uygulama sonuçlarının karşılaştırılmasını ve değerlendirilmesini de içerir.
 
@@ -2436,7 +2436,7 @@ MADDE 136 – (1) 47 nci madde hariç olmak üzere bu Kanun hükümleri, TCMB’
 
 Çeşitli hükümler
 
-MADDE 137 – (1) 47 nci madde, Cumhurbaşkanı kararı ile MKK nezdinde kayden izlenmeyen tüm veya bazı sermaye piyasası araçlarını konu alan teminat sözleşmelerine de uygulanabilir.[24]
+MADDE 137 – (1) 47 nci madde, Cumhurbaşkanı kararı ile MKK nezdinde kayden izlenmeyen tüm veya bazı sermaye piyasası araçlarını konu alan teminat sözleşmelerine de uygulanabilir.[26]
 
 (2) Bu Kanun uyarınca kurulan ve faaliyet gösteren borsalar ve teşkilatlanmış diğer pazar yerleri, merkezî takas kuruluşları, merkezî saklama kuruluşları ile MKK tarafından yürütülen hizmetlerde grev ve lokavt yapılamaz.
 
@@ -2466,7 +2466,7 @@ c) Borsa İstanbul Anonim Şirketine ait payların bir kısmı gerektiğinde str
 
 ç) Bu Kanunun yayımı tarihinden itibaren üç yıl içinde Borsa İstanbul Anonim Şirketinin elinde pay kalması hâlinde, bu paylar bedelsiz olarak Hazineye intikal eder.
 
-(7) Borsa İstanbul Anonim Şirketinin kamuya ait paylarının bu Kanun çerçevesinde halka arzı veya sair yöntemlerle satışı, Cumhurbaşkanınca belirlenecek usul ve esaslar çerçevesinde gerçekleştirilir.[25]
+(7) Borsa İstanbul Anonim Şirketinin kamuya ait paylarının bu Kanun çerçevesinde halka arzı veya sair yöntemlerle satışı, Cumhurbaşkanınca belirlenecek usul ve esaslar çerçevesinde gerçekleştirilir.[27]
 
 (8) Borsa İstanbul Anonim Şirketi esas sözleşmesi uyarınca yönetim kurulu başkanı ve üyeleri seçilinceye kadar İstanbul Menkul Kıymetler Borsasının mevcut başkanı Borsa İstanbul Anonim Şirketi yönetim kurulu başkanı olarak; İstanbul Menkul Kıymetler Borsasının yönetim kurulu üyeleri de Borsa İstanbul Anonim Şirketi yönetim kurulu üyeleri olarak görev yaparlar. (Mülga ikinci cümle: 27/3/2015-6637/23 md.) (…) Borsa İstanbul Anonim Şirketinin yönetim kurulu başkanlığına ve üyeliklerine seçim yapılıncaya kadar yönetim kurulu başkanlığının ya da üyeliklerinin herhangi bir nedenle boşalması hâlinde Hazine Müsteşarlığı tarafından yerlerine görevlendirme yapılır. İstanbul Altın Borsası Başkanı ve yönetim kurulu üyelerinin görevleri Borsa İstanbul Anonim Şirketinin esas sözleşmesinin tescil edildiği tarih itibarıyla son bulur.
 
@@ -2478,7 +2478,7 @@ b) Mevzuatta İstanbul Menkul Kıymetler Borsasına ve İstanbul Altın Borsası
 
 (11) Borsa İstanbul Anonim Şirketindeki kamu payı yüzde ellinin altına düşünceye kadar kendisinin ve iştiraklerinin her türlü hesap ve işlemlerinin denetimi yalnızca, Kurulun listesindeki bağımsız denetim kuruluşları arasından Hazine Müsteşarlığı tarafından seçilecek bir bağımsız denetim kuruluşunca yapılır. Bağımsız denetim neticesinde hazırlanan rapor eş zamanlı olarak Kurula ve Hazine Müsteşarlığına sunulur. Bu Kanunun 72 nci maddesinin birinci ve üçüncü fıkraları Borsa İstanbul Anonim Şirketi hakkında da uygulanır.
 
-(12) Borsa İstanbul Anonim Şirketi ile bağlı ortaklıkları ve iştirakleri, kamu iktisadi teşebbüsleri de dâhil, sermayesinin yarısından fazlası kamuya ait olan veya özel kanunla veya Cumhurbaşkanlığı Kararnamesiyle kurulan kamu kurum, kuruluş ve ortaklıklarına uygulanan mevzuat, uygulama ve kısıtlamalara tabi değildir. Hazine Müsteşarlığı ve 4749 sayılı Kanun uyarınca kurulan varlık kiralama şirketleri, ihraç etmiş oldukları menkul kıymetlere ilişkin, ihraççıların tabi olduğu Borsa İstanbul Anonim Şirketine ödenmesi gereken kayıt ücreti ve kotasyon ücretinden muaftır.[26]
+(12) Borsa İstanbul Anonim Şirketi ile bağlı ortaklıkları ve iştirakleri, kamu iktisadi teşebbüsleri de dâhil, sermayesinin yarısından fazlası kamuya ait olan veya özel kanunla veya Cumhurbaşkanlığı Kararnamesiyle kurulan kamu kurum, kuruluş ve ortaklıklarına uygulanan mevzuat, uygulama ve kısıtlamalara tabi değildir. Hazine Müsteşarlığı ve 4749 sayılı Kanun uyarınca kurulan varlık kiralama şirketleri, ihraç etmiş oldukları menkul kıymetlere ilişkin, ihraççıların tabi olduğu Borsa İstanbul Anonim Şirketine ödenmesi gereken kayıt ücreti ve kotasyon ücretinden muaftır.[28]
 
 (13) 233 sayılı Kanun Hükmünde Kararname, 22/1/1990 tarihli ve 399 sayılı Kamu İktisadi Teşebbüsleri Personel Rejiminin Düzenlenmesi ve 233 Sayılı Kanun Hükmünde Kararnamenin Bazı Maddelerinin Yürürlükten Kaldırılmasına Dair Kanun Hükmünde Kararname, 657 sayılı Kanun, 4/7/2001 tarihli ve 631 sayılı Memurlar ve Diğer Kamu Görevlilerinin Mali ve Sosyal Haklarında Düzenlemeler ile Bazı Kanun ve Kanun Hükmünde Kararnamelerde Değişiklik Yapılması Hakkında Kanun Hükmünde Kararname, 190 sayılı Kanun Hükmünde Kararname, 10/2/1954 tarihli ve 6245 sayılı Harcırah Kanunu, 3/12/2010 tarihli ve 6085 sayılı Sayıştay Kanunu, 2/4/1987 tarihli ve 3346 sayılı Kamu İktisadi Teşebbüsleri ile Fonların Türkiye Büyük Millet Meclisince Denetlenmesinin Düzenlenmesi Hakkında Kanun, 4/1/2002 tarihli ve 4734 sayılı Kamu İhale Kanunu, 5/1/2002 tarihli ve 4735 sayılı Kamu İhale Sözleşmeleri Kanunu, 8/9/1983 tarihli ve 2886 sayılı Devlet İhale Kanunu, 5018 sayılı Kanun, 5/1/1961 tarihli ve 237 sayılı Taşıt Kanunu, 9/11/1983 tarihli ve 2946 sayılı Kamu Konutları Kanunu, 2/1/1961 tarihli ve 195 sayılı Basın İlân Kurumu Teşkiline Dair Kanun, 24/11/1994 tarihli ve 4046 sayılı Özelleştirme Uygulamaları Hakkında Kanun, 18/5/1994 tarihli ve 527 sayılı Kanun Hükmünde Kararname, 7/12/1994 tarihli ve 4054 sayılı Rekabetin Korunması Hakkında Kanun ile bunların ek ve değişikliklerine ilişkin hükümler Borsa İstanbul Anonim Şirketi ile Borsa İstanbul Anonim Şirketinin doğrudan veya dolaylı olarak pay sahipliği nedeniyle bunlara tabi hâle gelen bağlı ortaklıkları ve iştirakleri hakkında uygulanmaz. (İptal ikinci cümle: Anayasa Mahkemesi’nin 14/11/2013 tarihli ve E.: 2013/24, K.: 2013/133 sayılı Kararı ile.)
 
@@ -2548,7 +2548,7 @@ GEÇİCİ MADDE 3 – (1) 18/12/1999 tarihinden önce, Kurulca tüm yetki belgel
 
 (4) 31/12/2012 tarihine kadar bir alacak sahibine yapılacak ödeme tutarı, 18.729 Türk Lirasını aşamaz. Bu tutar, 1/1/2013 tarihinden sonra her yıl ilan edilen yeniden değerleme katsayısı oranında artırılır. Ancak, üçüncü fıkra uyarınca, Amerikan Doları bazında asıl alacaktan mahsup edilen ara ödemeler tutarı, yetki belgesinin iptal tarihi itibarıyla TCMB döviz alış kuru üzerinden Türk Lirasına çevrilir ve bu fıkrada belirtilen azami ödeme tutarından indirilerek, hak sahiplerine yapılacak azami tutar belirlenir.
 
-(5) Özel Fonun mal varlığının yönetimi ve nemalandırılmasına ilişkin esaslar YTM tarafından hazırlanacak ve Kurul tarafından onaylanacak bir yönetmelikle belirlenir. Özel Fon, bu madde gereğince yapılacak ödemeler dışında bir amaçla kullanılamaz. Özel Fonun, yapılacak ödemeleri karşılamaya yetmemesi hâlinde, Cumhurbaşkanı kararıyla belirlenecek ek kaynak, Hazine tarafından karşılanır. Bu Kanunun yayımı tarihinde İstanbul Menkul Kıymetler Borsası bünyesinde bulunan Özel Fon mal varlığı, alacak, borçlar ve hakların Yatırımcıları Koruma Fonundan YTM’ye intikal ettiği tarihten itibaren üç ay içinde devredilir.[27]
+(5) Özel Fonun mal varlığının yönetimi ve nemalandırılmasına ilişkin esaslar YTM tarafından hazırlanacak ve Kurul tarafından onaylanacak bir yönetmelikle belirlenir. Özel Fon, bu madde gereğince yapılacak ödemeler dışında bir amaçla kullanılamaz. Özel Fonun, yapılacak ödemeleri karşılamaya yetmemesi hâlinde, Cumhurbaşkanı kararıyla belirlenecek ek kaynak, Hazine tarafından karşılanır. Bu Kanunun yayımı tarihinde İstanbul Menkul Kıymetler Borsası bünyesinde bulunan Özel Fon mal varlığı, alacak, borçlar ve hakların Yatırımcıları Koruma Fonundan YTM’ye intikal ettiği tarihten itibaren üç ay içinde devredilir.[29]
 
 (6) İflas idarelerinin ibraz ettiği borç ödemeden aciz belgelerine bağlanmış olan alacaklar için yapılacak ödemeler, üçüncü ve dördüncü fıkralarda yer alan hesaplama yöntemi ile belirlenerek, Özel Fon tarafından iflas idarelerine yapılır. Özel Fon, ödemelerin bu madde hükümlerine uygun yapılmasını teminen, kesinleşmiş sıra cetveline, iflas dosyasındaki belgelere, iflas idaresi ve iflas dairesinden talep edebileceği belgelere dayanarak karşılıklı inceleme yapma ve bu madde ile diğer ilgili mevzuat hükümlerine aykırı ödeme taleplerini reddetme hakkını haizdir.
 
@@ -3932,42 +3932,46 @@ KHK/703
 
 [7] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “uygun görüşü” ibaresi “teklifi” şeklinde ve “Bakanlar Kurulu” ibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir.
 
-[8] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “Bakanlar Kurulu” ibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir.
+[8] Anayasa Mahkemesinin 13/5/2026 tarihli ve E.: 2026/111, K.: 2026/104 sayılı Kararı ile bu fıkrada yer alan “üyelikten geçici ve sürekli çıkarma esasları” ibaresi iptal edilmiştir. Bu Kararın Resmî Gazete’de yayımlanmasından başlayarak dokuz ay sonra (27/8/2027) yürürlüğe gireceği hüküm altına alınmıştır.
 
-[9] 20/2/2020 tarihli ve 7222 sayılı Kanunun 35 inci maddesiyle, bu madde başlığı “Kanuna aykırı ihraçlarda uygulanacak tedbirler” iken metne işlendiği şekilde değiştirilmiştir.
+[9] Anayasa Mahkemesinin 13/5/2026 tarihli ve E.: 2026/111, K.: 2026/104 sayılı Kararı ile bu fıkrada yer alan “Türkiye Değerleme Uzmanları Birliği Statüsünde öngörülen disiplin cezalarını vermek” ibaresi iptal edilmiştir. Bu Kararın Resmî Gazete’de yayımlanmasından başlayarak dokuz ay sonra (27/8/2027) yürürlüğe gireceği hüküm altına alınmıştır.
 
-[10] 20/2/2020 tarihli ve 7222 sayılı Kanunun 35 inci maddesiyle, maddeye ikinci fıkradan sonra gelmek üzere fıkra eklenmiş ve diğer fıkralar buna göre teselsül ettirilmiştir.
+[10] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “Bakanlar Kurulu” ibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir.
 
-[11] 26/6/2024 tarihli ve 7518 sayılı Kanunun 7 nci maddesi ile bu fıkrada yer alan “Kurulun başvurusu üzerine Bilgi Teknolojileri ve İletişim Kurumu, ilgili internet sitesine erişimi engeller” ibaresi “internet aracılığıyla yapılan yayınlarla ilgili olarak içeriğin çıkarılmasına ve/veya erişimin engellenmesine Kurul tarafından karar verilir. Karar uygulanmak üzere Erişim Sağlayıcıları Birliğine gönderilir” şeklinde değiştirilmiştir.
+[11] 20/2/2020 tarihli ve 7222 sayılı Kanunun 35 inci maddesiyle, bu madde başlığı “Kanuna aykırı ihraçlarda uygulanacak tedbirler” iken metne işlendiği şekilde değiştirilmiştir.
 
-[12] 26/6/2024 tarihli ve 7518 sayılı Kanunun 10 uncu maddesi ile bu madde başlığı “Bilgi suistimali ve piyasa dolandırıcılığı incelemelerinde uygulanacak tedbirler” iken metne işlendiği şekilde değiştirilmiş, birinci fıkraya “Kurul,” ibaresinden sonra gelmek üzere “104 üncü,” ibaresi eklenmiştir.
+[12] 20/2/2020 tarihli ve 7222 sayılı Kanunun 35 inci maddesiyle, maddeye ikinci fıkradan sonra gelmek üzere fıkra eklenmiş ve diğer fıkralar buna göre teselsül ettirilmiştir.
 
-[13] 26/6/2024 tarihli ve 7518 sayılı Kanunun 11 inci maddesi ile bu fıkraya “bu fıkranın birinci cümlesinde yer alan asgari miktardan az olmamak üzere” ibaresinden sonra gelmek üzere “aykırılık tarihinden önceki son” ibaresi eklenmiştir.
+[13] 26/6/2024 tarihli ve 7518 sayılı Kanunun 7 nci maddesi ile bu fıkrada yer alan “Kurulun başvurusu üzerine Bilgi Teknolojileri ve İletişim Kurumu, ilgili internet sitesine erişimi engeller” ibaresi “internet aracılığıyla yapılan yayınlarla ilgili olarak içeriğin çıkarılmasına ve/veya erişimin engellenmesine Kurul tarafından karar verilir. Karar uygulanmak üzere Erişim Sağlayıcıları Birliğine gönderilir” şeklinde değiştirilmiştir.
 
-[14] 20/2/2020 tarihli ve 7222 sayılı Kanunun 37 nci maddesiyle, bu fıkrada yer alan “iki yıldan” ibaresi “üç yıldan” şeklinde değiştirilmiştir.
+[14] 26/6/2024 tarihli ve 7518 sayılı Kanunun 10 uncu maddesi ile bu madde başlığı “Bilgi suistimali ve piyasa dolandırıcılığı incelemelerinde uygulanacak tedbirler” iken metne işlendiği şekilde değiştirilmiş, birinci fıkraya “Kurul,” ibaresinden sonra gelmek üzere “104 üncü,” ibaresi eklenmiştir.
 
-[15] 20/2/2020 tarihli ve 7222 sayılı Kanunun 38 inci maddesiyle, bu fıkralarda yer alan “iki” ibareleri “üç” şeklinde değiştirilmiştir.
+[15] 26/6/2024 tarihli ve 7518 sayılı Kanunun 11 inci maddesi ile bu fıkraya “bu fıkranın birinci cümlesinde yer alan asgari miktardan az olmamak üzere” ibaresinden sonra gelmek üzere “aykırılık tarihinden önceki son” ibaresi eklenmiştir.
 
-[16] Bu bentte  yer alan “…gibi...” ibaresi, Anayasa Mahkemesi’nin 14/11/2013 tarihli ve E.: 2013/24, K.: 2013/133 sayılı Kararı ile iptal edilmiştir.
+[16] 20/2/2020 tarihli ve 7222 sayılı Kanunun 37 nci maddesiyle, bu fıkrada yer alan “iki yıldan” ibaresi “üç yıldan” şeklinde değiştirilmiştir.
 
-[17] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “Başbakanın” ibaresi “Cumhurbaşkanının” şeklinde değiştirilmiştir.
+[17] 20/2/2020 tarihli ve 7222 sayılı Kanunun 38 inci maddesiyle, bu fıkralarda yer alan “iki” ibareleri “üç” şeklinde değiştirilmiştir.
 
-[18] 25/4/2013 tarihli ve 6462 sayılı Kanunun 1 inci maddesi ile bu fıkrada yer alan “sakatlık” ibaresi “engellilik”  şeklinde değiştirilmiştir.
+[18] Bu bentte  yer alan “…gibi...” ibaresi, Anayasa Mahkemesi’nin 14/11/2013 tarihli ve E.: 2013/24, K.: 2013/133 sayılı Kararı ile iptal edilmiştir.
 
-[19] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu maddenin birinci fıkrasında yer alan “Bakanlar Kurulu kararıyla” ibaresi “Cumhurbaşkanınca” şeklinde değiştirilmiştir.
+[19] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “Başbakanın” ibaresi “Cumhurbaşkanının” şeklinde değiştirilmiştir.
 
-[20] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “Bakanlar Kurulu” ibaresi “Cumhurbaşkanı” şeklinde ve aynı fıkrada yer alan “Bakanlar Kurulunca” ibaresi “Cumhurbaşkanınca” şeklinde değiştirilmiştir.
+[20] 25/4/2013 tarihli ve 6462 sayılı Kanunun 1 inci maddesi ile bu fıkrada yer alan “sakatlık” ibaresi “engellilik”  şeklinde değiştirilmiştir.
 
-[21] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “Bakanlar Kuruluna” ibaresi “Cumhurbaşkanlığına” şeklinde değiştirilmiştir.
+[21] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu maddenin birinci fıkrasında yer alan “Bakanlar Kurulu kararıyla” ibaresi “Cumhurbaşkanınca” şeklinde değiştirilmiştir.
 
-[22] 26/6/2024 tarihli ve 7518 sayılı Kanunun 16 ncı maddesi ile bu maddeye dördüncü fıkradan sonra gelmek üzere fikra eklenmiş ve diğer fıkralar buna göre teselsül ettirilmiştir.
+[22] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “Bakanlar Kurulu” ibaresi “Cumhurbaşkanı” şeklinde ve aynı fıkrada yer alan “Bakanlar Kurulunca” ibaresi “Cumhurbaşkanınca” şeklinde değiştirilmiştir.
 
-[23] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “Bakanlar Kurulu” ibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir.
+[23] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “Bakanlar Kuruluna” ibaresi “Cumhurbaşkanlığına” şeklinde değiştirilmiştir.
 
-[24] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “Bakanlar Kurulu” ibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir.
+[24] 26/6/2024 tarihli ve 7518 sayılı Kanunun 16 ncı maddesi ile bu maddeye dördüncü fıkradan sonra gelmek üzere fikra eklenmiş ve diğer fıkralar buna göre teselsül ettirilmiştir.
 
-[25] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “Hazine Müsteşarlığının bağlı olduğu Bakanın önerisi üzerine Bakanlar Kurulunca” ibaresi “Cumhurbaşkanınca” şeklinde değiştirilmiştir.
+[25] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “Bakanlar Kurulu” ibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir.
 
-[26] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “özel kanunla” ibaresinden sonra gelmek üzere “veya Cumhurbaşkanlığı Kararnamesiyle” ibaresi eklenmiştir.
+[26] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “Bakanlar Kurulu” ibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir.
 
-[27] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “Bakanlar Kurulu” ibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir.
+[27] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “Hazine Müsteşarlığının bağlı olduğu Bakanın önerisi üzerine Bakanlar Kurulunca” ibaresi “Cumhurbaşkanınca” şeklinde değiştirilmiştir.
+
+[28] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “özel kanunla” ibaresinden sonra gelmek üzere “veya Cumhurbaşkanlığı Kararnamesiyle” ibaresi eklenmiştir.
+
+[29] 2/7/2018 tarihli ve 703 sayılı KHK’nin 165 inci maddesiyle, bu fıkrada yer alan “Bakanlar Kurulu” ibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir.

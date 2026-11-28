@@ -4402,7 +4402,7 @@ Bu bent uyarınca özel fon hesabında izlenen ve dönem kazancının tespitinde
 
 Yatırım döneminde veya iktisadi kıymetin aktifleştirilmesinden sonra işin bırakılması veya özel fon hesabında izlenen söz konusu tutarların bir kısmının veya tamamının başka bir hesaba nakledilmesi ya da işletmeden çekilmesi hallerinde, bu bent uyarınca dönem kazancında dikkate alınmayan tutarlar; işin bırakıldığı veya özel fon hesabının kısmen veya tamamen bu bent hükümlerine aykırı şekilde kullanıldığı dönemin kurum kazancının tespitinde dikkate alınır.
 
-B) Yeniden değerleme oranı, yeniden değerleme yapılacak yılın Ekim ayında (Ekim ayı dahil) bir önceki yılın aynı dönemine göre Devlet İstatistik Enstitüsünün Toptan Eşya Fiyatları Genel Endeksinde meydana gelen ortalama fiyat artış oranıdır. Bu oran Maliye Bakanlığınca Resmî Gazete ile ilân edilir.[96][97][98][99][100][101][102][103][104]
+B) Yeniden değerleme oranı, yeniden değerleme yapılacak yılın Ekim ayında (Ekim ayı dahil) bir önceki yılın aynı dönemine göre Devlet İstatistik Enstitüsünün Toptan Eşya Fiyatları Genel Endeksinde meydana gelen ortalama fiyat artış oranıdır. Bu oran Maliye Bakanlığınca Resmî Gazete ile ilân edilir.[96][97][98][99][100][101][102][103][104][105]
 
 C) (Ek: 30/3/2006-5479/11 md.) Vergi kanunlarında yer alan "toptan eşya fiyatları genel endeksi" ibaresi "üretici fiyatları genel endeksi" ve "TEFE" ibaresi "ÜFE" olarak uygulanır. 
 
@@ -4604,7 +4604,7 @@ Mevcutlarda Amortisman
 
  
 
-Amortisman mevzuu:[105]
+Amortisman mevzuu:[106]
 
 Madde 313 – (Değişik birinci fıkra: 21/1/1983-2791/6 md.) İşletmede bir yıldan fazla kullanılan ve yıpranmaya, aşınmaya veya kıymetten düşmeye maruz bulunan gayrimenkullerle 269 uncu madde gereğince gayrimenkul gibi değerlenen iktisadi kıymetlerin, alet, edevat, mefruşat, demirbaş ve sinema filmlerinin birinci kısımdaki esaslara göre tespit edilen değerinin, bu Kanun hükümlerine göre yok edilmesi amortisman mevzuunu teşkil eder.
 
@@ -4632,7 +4632,7 @@ Normal amortisman:
 
 Madde 315 – (Değişik: 17/12/2003-5024/3 md.)
 
-Mükellefler amortismana tâbi iktisadî kıymetlerini, 320 nci maddenin dördüncü fıkrası saklı kalmak üzere, Maliye Bakanlığının tespit ve ilân edeceği oranlar üzerinden itfa ederler. İlân edilecek oranların tespitinde iktisadî kıymetlerin faydalı ömürleri dikkate alınır.[106]
+Mükellefler amortismana tâbi iktisadî kıymetlerini, 320 nci maddenin dördüncü fıkrası saklı kalmak üzere, Maliye Bakanlığının tespit ve ilân edeceği oranlar üzerinden itfa ederler. İlân edilecek oranların tespitinde iktisadî kıymetlerin faydalı ömürleri dikkate alınır.[107]
 
  
 
@@ -4646,7 +4646,7 @@ Bu usulün tatbikinde;
 
 1. Her yıl, üzerinden amortisman hesaplanacak değer, evvelce ayrılmış olan amortismanlar toplamının tenzili suretiyle tesbit olunur. (Ek hüküm: 17/12/2003-5024/4 md.) Enflasyon düzeltmesi yapılan dönemlerde, üzerinden amortisman ayrılacak değer, amortismana tâbi iktisadî kıymetin düzeltilmiş değerinden daha evvel ayrılmış olan amortismanların toplamının taşınmış değerleri indirilmek suretiyle tespit edilir.
 
-2. (Değişik: 17/12/2003-5024/4 md.) Bu usulde uygulanacak amortisman oranı % 50'yi geçmemek üzere normal amortisman oranının iki katıdır.[107]
+2. (Değişik: 17/12/2003-5024/4 md.) Bu usulde uygulanacak amortisman oranı % 50'yi geçmemek üzere normal amortisman oranının iki katıdır.[108]
 
 3. Bu usulde amortisman süresi normal amortisman nispetlerine göre hesaplanır.
 
@@ -4752,7 +4752,7 @@ Ticari ve zirai kazancın elde edilmesi ve idame ettirilmesi ile ilgili olmak ş
 
 1. (Değişik: 1/5/1981-2455/3 md.) Dava veya icra safhasında bulunan alacaklar;
 
-2. Yapılan protestoya veya yazı ile bir defadan fazla istenilmesine rağmen borçlu tarafından ödenmemiş bulunan ve 3.000 (25.000) Türk lirasını aşmayan alacaklar;[108][109]
+2. Yapılan protestoya veya yazı ile bir defadan fazla istenilmesine rağmen borçlu tarafından ödenmemiş bulunan ve 3.000 (25.000) Türk lirasını aşmayan alacaklar;[109][110]
 
 Şüpheli alacak sayılır.
 
@@ -4878,7 +4878,7 @@ Cezalar:
 
 Madde 331 – (Değişik: 30/12/1980-2365/58 md.)
 
-Vergi kanunları hükümlerine aykırı hareket edenler, bu kitapta yazılı vergi cezaları (vergi ziyaı cezası  ve usulsüzlük cezaları) ve diğer cezalar ile cezalandırılırlar.[110]
+Vergi kanunları hükümlerine aykırı hareket edenler, bu kitapta yazılı vergi cezaları (vergi ziyaı cezası  ve usulsüzlük cezaları) ve diğer cezalar ile cezalandırılırlar.[111]
 
  
 
@@ -4908,7 +4908,7 @@ Damga Vergisi ve Damga Resmi uygulamalarında gerek nispi, gerek maktu vergi ve 
 
 Tek fiil ve çeşitli suç işlenmesi:
 
-a) Muhtelif vergi ziyaına  sebebiyet verilmesi:[111]
+a) Muhtelif vergi ziyaına  sebebiyet verilmesi:[112]
 
 Madde 335 – (Değişik: 30/12/1980-2365/61 md.)
 
@@ -4916,7 +4916,7 @@ Vergi ziyaı cezasında  cezayı istilzam eden tek bir fiil ile başka neviden 
 
  
 
-b) Muhtelif cezayı istilzam etmesi:[112]
+b) Muhtelif cezayı istilzam etmesi:[113]
 
 Madde 336 – (Değişik : 30/12/1980-2365/62 md.)
 
@@ -4928,7 +4928,7 @@ Usulsüzlük cezası kesilen bir fiil ile vergi ziyaına da sebebiyet verildiği
 
 Fiil ayrılığı:
 
-Madde 337 – (Değişik birinci fıkra: 30/12/1980-2365/63 md.) Ayrı ayrı yapılmış olan vergi ziyaı veya usulsüzlükten dolayı ayrı ayrı ceza kesilir. Şu kadarki, 352 nci maddede yazılı usulsüzlüklerden, aynı takvim yılı içinde aynı neviden birden fazla yapıldığı takdirde birden fazlasının herbiri için, birincisine ait cezanın dörtte biri kesilir.[113]
+Madde 337 – (Değişik birinci fıkra: 30/12/1980-2365/63 md.) Ayrı ayrı yapılmış olan vergi ziyaı veya usulsüzlükten dolayı ayrı ayrı ceza kesilir. Şu kadarki, 352 nci maddede yazılı usulsüzlüklerden, aynı takvim yılı içinde aynı neviden birden fazla yapıldığı takdirde birden fazlasının herbiri için, birincisine ait cezanın dörtte biri kesilir.[114]
 
 Aynı nevi usulsüzlükten maksat, fiillerin 352 nci maddede gösterilen derece ve fıkralar itibariyle yekdiğerine mutabakatıdır.
 
@@ -4978,7 +4978,7 @@ Ayrıca mükellefe tebliğ edilmek şartı ile yeniden 15 günlük bir mühlet v
 
  
 
-En az ceza haddi:[114]
+En az ceza haddi:[115]
 
 Madde 343 – (Değişik: 30/12/1980-2365/67 md.)
 
@@ -4994,7 +4994,7 @@ Vergi Cezaları
 
 BİRİNCİ BÖLÜM
 
-Vergi Ziyaı Cezası[115]
+Vergi Ziyaı Cezası[116]
 
  
 
@@ -5052,13 +5052,13 @@ Mükerrer madde 349 – (Ek: 30/12/1980-2365/75 md.; Mülga: 22/7/1998-4369/82 m
 
  
 
-Tahrire dayanan vergiler ile kanuni süresi geçtikten sonra kendiliğinden verilen beyannameler için kusur cezası[116]
+Tahrire dayanan vergiler ile kanuni süresi geçtikten sonra kendiliğinden verilen beyannameler için kusur cezası[117]
 
 Madde 350 – (Mülga: 22/7/1998-4369/82 md.)
 
  
 
-İKİNCİ BÖLÜM[117]
+İKİNCİ BÖLÜM[118]
 
 Usulsüzlük
 
@@ -5070,9 +5070,9 @@ Madde 351 – Usulsüzlük vergi kanunlarının şekle ve usule mütaallik hük�
 
  
 
-Usulsüzlük dereceleri ve cezaları:[118]
+Usulsüzlük dereceleri ve cezaları:[119]
 
-Madde 352 – (Değişik: 30/12/1980-2365/76 md.)[119]
+Madde 352 – (Değişik: 30/12/1980-2365/76 md.)[120]
 
 Usulsüzlükler, aşağıda yazılı derecelere ve bu kanuna bağlı 1 sayılı cetvele göre cezalandırılır. Usulsüzlük fiili re'sen takdiri gerektirirse, bağlı 1 sayılı cetvelde yazılı cezalar iki kat olarak kesilir.
 
@@ -5088,13 +5088,13 @@ I inci derece usulsüzlükler:
 
 5. Çiftçiler tarafından 245 inci madde hükmüne göre muhtar ve ihtiyar heyetlerince yapılan davete müddetinde icabet edilmemesi;
 
-6. Bu Kanunun kayıt nizamına ait hükümlerine (Madde 215 - 219 ile mükerrer madde 242) uyulmamış olması (Her incelemede inceleme tarihine kadar aynı takvim yılı için tespit edilen usulsüzlükler tek fiil sayılır);[120]
+6. Bu Kanunun kayıt nizamına ait hükümlerine (Madde 215 - 219 ile mükerrer madde 242) uyulmamış olması (Her incelemede inceleme tarihine kadar aynı takvim yılı için tespit edilen usulsüzlükler tek fiil sayılır);[121]
 
 7. İşe başlamanın zamanında bildirilmemesi;
 
 8. Tasdiki mecburi olan defterlerden hernangi birinin tasdik muamelesinin yaptırılmamış olması (Kanuni sürenin sonundan başlıyarak 1 ay geçtikten sonra tasdik ettirilenler, tasdik ettirilmemiş sayılır.);
 
-9. Diğer ücretler üzerinden alınan Gelir Vergisinde, tarh zamanı geçtiği halde verginin tarh ettirilmemiş olması;[121]
+9. Diğer ücretler üzerinden alınan Gelir Vergisinde, tarh zamanı geçtiği halde verginin tarh ettirilmemiş olması;[122]
 
 10. (Mülga: 18/4/1984-2995/4 md.)
 
@@ -5124,9 +5124,9 @@ II nci derece usulsüzlükler:
 
 a) Fatura ve benzeri evrak verilmemesi ve alınmaması ile diğer şekil ve usul hükümlerine uyulmaması
 
-Madde 353 – (Değişik: 24/6/1994-4008/17 md.)[122][123][124]
+Madde 353 – (Değişik: 24/6/1994-4008/17 md.)[123][124][125]
 
-1. (Değişik: 21/3/2018-7103/12 md.) Elektronik belge olarak düzenlenmesi gerekenler de dâhil olmak üzere, verilmesi ve alınması icabeden fatura, gider pusulası, müstahsil makbuzu ile serbest meslek makbuzlarının verilmemesi, alınmaması, düzenlenen bu belgelerde gerçek meblağdan farklı meblağlara yer verilmesi, bu belgelerin elektronik belge olarak düzenlenmesi gerekirken Maliye Bakanlığınca belirlenen zorunlu haller hariç olmak üzere kâğıt olarak düzenlenmesi ya da bu Kanunun 227, 231 ve 234 üncü maddelerine göre hiç düzenlenmemiş sayılması halinde; bu belgeleri düzenlemek ve almak zorunda olanların her birine, her bir belge için bir takvim yılı içinde ilk tespitte 10.000 (17.000 TL) Türk lirasından, sonraki tespitlerde Kanuna bağlı 2 sayılı cetvelde yer alan tutarlardan aşağı olmamak üzere bu belgelere yazılması gereken meblağın veya meblağ farkının %10’u nispetinde özel usulsüzlük cezası kesilir. (Ek cümleler:28/7/2024-7524/11 md.) Tek tespitte aynı neviden birden fazla belgenin düzenlenmediğinin tespit edilmesi durumunda her bir belge için ayrı ayrı ceza kesilir ancak bu tespit, bu bent uyarınca kesilecek ceza uygulamasında, Kanuna bağlı 2 sayılı cetvelde yer alan tespit sayısının belirlenmesinde bir adet tespit olarak değerlendirilir. Şu kadar ki, bu bentte yer alan özel usulsüzlük cezasına tabi fiillerin, belgeleri almak zorunda olanlar tarafından, idarenin bilgisine girmeden önce belgenin düzenlenmesi gereken süreyi takip eden beş iş günü içerisinde idareye bildirilmesi durumunda, alıcı adına özel usulsüzlük cezası kesilmez. Bu bent kapsamındaki belgelerin düzenlenmediğinin belgeyi almak zorunda olanlar tarafından, idarenin bilgisine girmeden önce belgenin düzenlenmesi gereken süreyi takip eden beş iş günü içerisinde idareye bildirildiği durumlarda, belgeleri düzenlemek zorunda olanlar adına bu bentte yer alan özel usulsüzlük cezası üç kat olarak uygulanır. Bu bent kapsamındaki belgeler yerine bu Kanun kapsamında olmayan belgelerin düzenlenmesi halinde, belgeleri düzenlemek zorunda olanlar adına bu bentte yer alan özel usulsüzlük cezası iki kat olarak uygulanır. Bu bent kapsamındaki belgelerin yerine bu Kanun kapsamında olmayan belgelerin düzenlendiğinin belgeyi almak zorunda olanlar tarafından beş iş günü içerisinde idareye bildirildiği durumlarda, söz konusu belgeleri düzenleyenler adına bu bentte yer alan cezalar altı kat olarak uygulanır. [125]
+1. (Değişik: 21/3/2018-7103/12 md.) Elektronik belge olarak düzenlenmesi gerekenler de dâhil olmak üzere, verilmesi ve alınması icabeden fatura, gider pusulası, müstahsil makbuzu ile serbest meslek makbuzlarının verilmemesi, alınmaması, düzenlenen bu belgelerde gerçek meblağdan farklı meblağlara yer verilmesi, bu belgelerin elektronik belge olarak düzenlenmesi gerekirken Maliye Bakanlığınca belirlenen zorunlu haller hariç olmak üzere kâğıt olarak düzenlenmesi ya da bu Kanunun 227, 231 ve 234 üncü maddelerine göre hiç düzenlenmemiş sayılması halinde; bu belgeleri düzenlemek ve almak zorunda olanların her birine, her bir belge için bir takvim yılı içinde ilk tespitte 10.000 (17.000 TL) Türk lirasından, sonraki tespitlerde Kanuna bağlı 2 sayılı cetvelde yer alan tutarlardan aşağı olmamak üzere bu belgelere yazılması gereken meblağın veya meblağ farkının %10’u nispetinde özel usulsüzlük cezası kesilir. (Ek cümleler:28/7/2024-7524/11 md.) Tek tespitte aynı neviden birden fazla belgenin düzenlenmediğinin tespit edilmesi durumunda her bir belge için ayrı ayrı ceza kesilir ancak bu tespit, bu bent uyarınca kesilecek ceza uygulamasında, Kanuna bağlı 2 sayılı cetvelde yer alan tespit sayısının belirlenmesinde bir adet tespit olarak değerlendirilir. Şu kadar ki, bu bentte yer alan özel usulsüzlük cezasına tabi fiillerin, belgeleri almak zorunda olanlar tarafından, idarenin bilgisine girmeden önce belgenin düzenlenmesi gereken süreyi takip eden beş iş günü içerisinde idareye bildirilmesi durumunda, alıcı adına özel usulsüzlük cezası kesilmez. Bu bent kapsamındaki belgelerin düzenlenmediğinin belgeyi almak zorunda olanlar tarafından, idarenin bilgisine girmeden önce belgenin düzenlenmesi gereken süreyi takip eden beş iş günü içerisinde idareye bildirildiği durumlarda, belgeleri düzenlemek zorunda olanlar adına bu bentte yer alan özel usulsüzlük cezası üç kat olarak uygulanır. Bu bent kapsamındaki belgeler yerine bu Kanun kapsamında olmayan belgelerin düzenlenmesi halinde, belgeleri düzenlemek zorunda olanlar adına bu bentte yer alan özel usulsüzlük cezası iki kat olarak uygulanır. Bu bent kapsamındaki belgelerin yerine bu Kanun kapsamında olmayan belgelerin düzenlendiğinin belgeyi almak zorunda olanlar tarafından beş iş günü içerisinde idareye bildirildiği durumlarda, söz konusu belgeleri düzenleyenler adına bu bentte yer alan cezalar altı kat olarak uygulanır. [126]
 
 Bir takvim yılı içinde her bir belge nevine ilişkin olarak tespit olunan yukarıda yazılı özel usulsüzlükler için kesilecek cezanın toplamı 10 milyon (17.000.000 TL) Türk lirasını geçemez.
 
@@ -5174,15 +5174,15 @@ c) Damga vergisinde:
 
 Madde 355 – (Değişik : 30/12/2004-5281/15 md.)
 
-Damga Vergisi ödenmemiş veya noksan ödenmiş kâğıtları, vergi ve cezası tahsil edilmeden tasdik eden veya örneklerini çıkarıp veren noterler adına her kâğıt için tahsil edilmeyen Damga Vergisi üzerinden maktu vergilerde % 50, nispî vergilerde % 10 oranında özel usulsüzlük cezası kesilir. Ancak, bu madde kapsamında kesilecek özel usulsüzlük cezaları her bir kâğıt için 40 (70,00 TL) Türk lirasından az olamaz.[126][127]
+Damga Vergisi ödenmemiş veya noksan ödenmiş kâğıtları, vergi ve cezası tahsil edilmeden tasdik eden veya örneklerini çıkarıp veren noterler adına her kâğıt için tahsil edilmeyen Damga Vergisi üzerinden maktu vergilerde % 50, nispî vergilerde % 10 oranında özel usulsüzlük cezası kesilir. Ancak, bu madde kapsamında kesilecek özel usulsüzlük cezaları her bir kâğıt için 40 (70,00 TL) Türk lirasından az olamaz.[127][128]
 
  
 
-Bilgi vermekten çekinenler ile 107/A, 152/A, 153/A, mükerrer 242, 256, 257, mükerrer 257 nci madde ve Gelir Vergisi Kanununun 98/A maddesi hükmüne uymayanlar için ceza:[128][129][130][131][132]
+Bilgi vermekten çekinenler ile 107/A, 152/A, 153/A, mükerrer 242, 256, 257, mükerrer 257 nci madde ve Gelir Vergisi Kanununun 98/A maddesi hükmüne uymayanlar için ceza:[129][130][131][132][133]
 
 Mükerrer Madde 355 – (Ek: 30/12/1980-2365/80 md; Değişik: 22/7/1998-4369/13 md.)
 
-Bu Kanunun 86,148,149,150, mükerrer 242, 256 ve 257 nci maddelerinde yer alan zorunluluklar ile mükerrer 257 nci maddesi ve Gelir Vergisi Kanununun 98/A maddesi uyarınca getirilen zorunluluklara uymayan (Kamu idare ve müesseselerinde bilgi verme görevini yerine getirmeyen yöneticiler dahil);[133]
+Bu Kanunun 86,148,149,150, mükerrer 242, 256 ve 257 nci maddelerinde yer alan zorunluluklar ile mükerrer 257 nci maddesi ve Gelir Vergisi Kanununun 98/A maddesi uyarınca getirilen zorunluluklara uymayan (Kamu idare ve müesseselerinde bilgi verme görevini yerine getirmeyen yöneticiler dahil);[134]
 
 1. Birinci sınıf tüccarlar ile serbest meslek erbabı hakkında 20.000 (35.000 TL) Türk Lirası,
 
@@ -5190,7 +5190,7 @@ Bu Kanunun 86,148,149,150, mükerrer 242, 256 ve 257 nci maddelerinde yer alan z
 
 3. Yukarıdaki bentlerde yazılı bulunanlar dışında kalanlar hakkında 5.000 (8.700 TL) Türk Lirası,
 
-Özel usulsüzlük cezası kesilir. (Ek cümle: 21/3/2018-7103/13 md.) Bu Kanunun 107/A maddesi uyarınca getirilen zorunluluklara uymayanlardan, bu fıkranın (1) numaralı bendinde yer alanlara 1.000 (12.000 TL) Türk lirası, (2) numaralı bendinde yer alanlara 500 (6.000 TL) Türk lirası, (3) numaralı bendinde yer alanlara 250 (3.000 TL) Türk lirası özel usulsüzlük cezası kesilir. (Ek cümle:1/7/2022-7417/28 md.) (Değişik cümle:28/7/2024-7524/13 md.) Mükerrer 257 nci maddenin birinci fıkrasının (7) numaralı bendi ile getirilen zorunluluklara uymayanlar ile aynı bent kapsamında bildirilmesi gereken alım, satım, kiralama, ilan ve reklama ilişkin bilgileri bildirmeyen, eksik veya yanıltıcı bildirimde bulunanlara, bildirilmeyen, eksik veya yanıltıcı bildirilen her bir alım, satım, kiralama, ilan ve reklama konu mal ve hizmete ilişkin bilgi ve diğer yükümlülükler için (1), (2) ve (3) numaralı bentler uyarınca özel usulsüzlük cezası kesilir, bu şekilde kesilen özel usulsüzlük cezası her bir bildirim için 10 milyon (17.000.000 TL) Türk lirasından fazla olamaz. (Ek cümle:29/4/2021-7318/3 md.) Mükerrer 257 nci maddenin birinci fıkrasının (8) ve (10) numaralı bentleri uyarınca getirilen zorunluluklara uymayanlara, (1) numaralı bentte yer alan tutarın 10 katından az ve 10 milyon (17.000.000 TL) Türk lirasından fazla olmamak üzere, bir önceki hesap dönemine ait brüt satışlar toplamının binde 3’ü tutarında özel usulsüzlük cezası kesilir. (Ek cümle:1/7/2022-7417/28 md.) 152/A maddesi veya mükerrer 257 nci maddenin birinci fıkrasının (9) numaralı bendi ile getirilen zorunluluklara uymayanlara (1) numaralı bentte yer alan özel usulsüzlük cezasının 3 katı uygulanır.[134]
+Özel usulsüzlük cezası kesilir. (Ek cümle: 21/3/2018-7103/13 md.) Bu Kanunun 107/A maddesi uyarınca getirilen zorunluluklara uymayanlardan, bu fıkranın (1) numaralı bendinde yer alanlara 1.000 (12.000 TL) Türk lirası, (2) numaralı bendinde yer alanlara 500 (6.000 TL) Türk lirası, (3) numaralı bendinde yer alanlara 250 (3.000 TL) Türk lirası özel usulsüzlük cezası kesilir. (Ek cümle:1/7/2022-7417/28 md.) (Değişik cümle:28/7/2024-7524/13 md.) Mükerrer 257 nci maddenin birinci fıkrasının (7) numaralı bendi ile getirilen zorunluluklara uymayanlar ile aynı bent kapsamında bildirilmesi gereken alım, satım, kiralama, ilan ve reklama ilişkin bilgileri bildirmeyen, eksik veya yanıltıcı bildirimde bulunanlara, bildirilmeyen, eksik veya yanıltıcı bildirilen her bir alım, satım, kiralama, ilan ve reklama konu mal ve hizmete ilişkin bilgi ve diğer yükümlülükler için (1), (2) ve (3) numaralı bentler uyarınca özel usulsüzlük cezası kesilir, bu şekilde kesilen özel usulsüzlük cezası her bir bildirim için 10 milyon (17.000.000 TL) Türk lirasından fazla olamaz. (Ek cümle:29/4/2021-7318/3 md.) Mükerrer 257 nci maddenin birinci fıkrasının (8) ve (10) numaralı bentleri uyarınca getirilen zorunluluklara uymayanlara, (1) numaralı bentte yer alan tutarın 10 katından az ve 10 milyon (17.000.000 TL) Türk lirasından fazla olmamak üzere, bir önceki hesap dönemine ait brüt satışlar toplamının binde 3’ü tutarında özel usulsüzlük cezası kesilir. (Ek cümle:1/7/2022-7417/28 md.) 152/A maddesi veya mükerrer 257 nci maddenin birinci fıkrasının (9) numaralı bendi ile getirilen zorunluluklara uymayanlara (1) numaralı bentte yer alan özel usulsüzlük cezasının 3 katı uygulanır.[135]
 
 Bu hükmün uygulanması için, bilgi ve ibraz ödevinin yerine getirilmesiyle ilgili olarak yapılacak tebliğlerde bilginin verilmesi için tayin olunan sürede cevap verilmemesi, eksik veya yanıltıcı bilgi verilmesi veya defter ve belge ibrazı için tayin olunan süre ile defter ve belgelerin süresinde ibraz edilmemesi durumunda haklarında Kanunun ceza hükümlerinin uygulanması cihetine gidileceğinin ilgililere yazılı olarak bildirilmesi şarttır. (Ek cümle: 16/6/2009-5904/22 md.) Ancak, bu ödevlerin yerine getirilmesine ilişkin usul ve esasların Maliye Bakanlığınca yapılan düzenleyici idari işlemlerle duyurulması halinde, ilgililere ayrıca yazılı olarak bildirilme şartı aranmaz.
 
@@ -5204,9 +5204,9 @@ Bu hükmün uygulanması için, bilgi ve ibraz ödevinin yerine getirilmesiyle i
 
 (Ek fıkra:28/7/2024-7524/13 md.) 153/A maddesinin üçüncü ve müteakip fıkraları uyarınca istenilen teminatın süresinde verilmemesi veya tamamlanmaması halinde mezkûr fıkralar kapsamında verilmesi veya tamamlanması gereken teminat tutarı kadar, teminatı vermeyenler veya tamamlamayanlar adına özel usulsüzlük cezası kesilir. Bu ceza hakkında, Kanunun 376 ncı maddesi ile uzlaşma hükümleri uygulanmaz.
 
-(Ek fıkra: 3/7/2005-5398/23 md.) Elektronik ortamda beyanname verilmesi mecburiyetine uyulmaması halinde kesilmesi gereken özel usûlsüzlük cezası, beyannamenin kanuni süresinin sonundan başlayarak elektronik ortamda 30 gün içinde verilmesi halinde 1/10 oranında, bu sürenin dolmasını takip eden 30 gün içinde verilmesi halinde ise 1/5 oranında uygulanır.[135]
+(Ek fıkra: 3/7/2005-5398/23 md.) Elektronik ortamda beyanname verilmesi mecburiyetine uyulmaması halinde kesilmesi gereken özel usûlsüzlük cezası, beyannamenin kanuni süresinin sonundan başlayarak elektronik ortamda 30 gün içinde verilmesi halinde 1/10 oranında, bu sürenin dolmasını takip eden 30 gün içinde verilmesi halinde ise 1/5 oranında uygulanır.[136]
 
-(Ek fıkra: 16/6/2009-5904/22 md.) (Ek cümle:15/7/2016-6728/21 md.) Elektronik ortamda bildirim veya form verilmesi mecburiyetine uyulmaması hâlinde kesilmesi gereken özel usulsüzlük cezası, bildirim veya formların belirlenen sürelerin sonundan başlayarak elektronik ortamda 3 gün içinde verilmesi halinde 1/10 oranında uygulanır. Elektronik ortamda verilme zorunluluğu getirilen bildirim veya formlara ilişkin olarak süresinden sonra düzeltme amacıyla verilen bildirim ve formların, belirlenen sürelerin sonundan itibaren 10 gün içinde verilmesi halinde özel usulsüzlük cezası kesilmez, takip eden 15 gün içinde verilmesi halinde ise kesilmesi gereken özel usulsüzlük cezası 1/5 oranında uygulanır.[135]
+(Ek fıkra: 16/6/2009-5904/22 md.) (Ek cümle:15/7/2016-6728/21 md.) Elektronik ortamda bildirim veya form verilmesi mecburiyetine uyulmaması hâlinde kesilmesi gereken özel usulsüzlük cezası, bildirim veya formların belirlenen sürelerin sonundan başlayarak elektronik ortamda 3 gün içinde verilmesi halinde 1/10 oranında uygulanır. Elektronik ortamda verilme zorunluluğu getirilen bildirim veya formlara ilişkin olarak süresinden sonra düzeltme amacıyla verilen bildirim ve formların, belirlenen sürelerin sonundan itibaren 10 gün içinde verilmesi halinde özel usulsüzlük cezası kesilmez, takip eden 15 gün içinde verilmesi halinde ise kesilmesi gereken özel usulsüzlük cezası 1/5 oranında uygulanır.[136]
 
 (Ek fıkra: 16/6/2009-5904/22 md.) Elektronik ortamda beyanname ile bildirim ve form verme mecburiyetine uymayanlara bu maddeye göre ceza kesilmesi halinde, 352 nci maddenin birinci derece usulsüzlüklerle ilgili (1) numaralı bendi ile ikinci derece usulsüzlüklerle ilgili (7) numaralı bendi uyarınca ayrıca ceza kesilmez.
 
@@ -5232,13 +5232,13 @@ Madde 358 – (Mülga: 22/7/1998-4369/82 md.)
 
  
 
-ÜÇÜNCÜ BÖLÜM[136]
+ÜÇÜNCÜ BÖLÜM[137]
 
 Suçlar ve Cezaları
 
  
 
-Kaçakçılık Suçları ve Cezaları[137]
+Kaçakçılık Suçları ve Cezaları[138]
 
 Madde 359 – (Değişik: 23/1/2008-5728/276 md.)
 
@@ -5248,7 +5248,7 @@ a) Vergi kanunlarına göre tutulan veya düzenlenen ve saklanma ve ibraz mecbur
 
 2) Defter, kayıt ve belgeleri tahrif edenler veya gizleyenler veya muhteviyatı itibariyle yanıltıcı belge düzenleyenler veya bu belgeleri kullananlar,
 
-Hakkında on sekiz aydan beş yıla kadar hapis cezasına hükmolunur. Varlığı noter tasdik kayıtları veya sair suretlerle sabit olduğu halde, inceleme sırasında vergi incelemesine yetkili kimselere defter ve belgelerin ibraz edilmemesi, bu fıkra hükmünün uygulanmasında gizleme olarak kabul edilir. Gerçek bir muamele veya duruma dayanmakla birlikte bu muamele veya durumu mahiyet veya miktar itibariyle gerçeğe aykırı şekilde yansıtan belge ise, muhteviyatı itibariyle yanıltıcı belgedir.[138]
+Hakkında on sekiz aydan beş yıla kadar hapis cezasına hükmolunur. Varlığı noter tasdik kayıtları veya sair suretlerle sabit olduğu halde, inceleme sırasında vergi incelemesine yetkili kimselere defter ve belgelerin ibraz edilmemesi, bu fıkra hükmünün uygulanmasında gizleme olarak kabul edilir. Gerçek bir muamele veya duruma dayanmakla birlikte bu muamele veya durumu mahiyet veya miktar itibariyle gerçeğe aykırı şekilde yansıtan belge ise, muhteviyatı itibariyle yanıltıcı belgedir.[139]
 
 b) Vergi kanunları uyarınca tutulan veya düzenlenen ve saklama ve ibraz mecburiyeti bulunan defter, kayıt ve belgeleri yok edenler veya defter sahifelerini yok ederek yerine başka yapraklar koyanlar veya hiç yaprak koymayanlar veya belgelerin asıl veya suretlerini tamamen veya kısmen sahte olarak düzenleyenler veya bu belgeleri kullananlar, üç yıldan sekiz yıla kadar hapis cezası ile cezalandırılır. Gerçek bir muamele veya durum olmadığı halde bunlar varmış gibi düzenlenen belge, sahte belgedir.
 
@@ -5272,7 +5272,7 @@ Kaçakçılık suçlarını işleyenler hakkında bu maddede yazılı cezaların
 
  
 
-Cezadan indirim[139]
+Cezadan indirim[140]
 
 Madde 360 – (Değişik: 23/1/2008-5728/277 md.)
 
@@ -5360,17 +5360,17 @@ Cezayı gerektiren olayın tesbitine dair tutanak sureti ile inceleme raporunun 
 
  
 
-Bazı kaçakçılık suçlarının cezalandırılmasında usül:[140]
+Bazı kaçakçılık suçlarının cezalandırılmasında usül:[141]
 
 Madde 367 – (Değişik: 23/1/2008-5728/280 md.)
 
-(Değişik birinci fıkra: 23/7/2010-6009/13 md.) Yaptıkları inceleme sırasında 359 uncu maddede yazılı suçların işlendiğini tespit eden Vergi Müfettişleri ve Vergi Müfettiş Yardımcıları tarafından ilgili rapor değerlendirme komisyonunun mütalaasıyla doğrudan doğruya ve vergi incelemesine yetkili olan diğer memurlar tarafından ilgili rapor değerlendirme komisyonunun mütalaasıyla vergi dairesi başkanlığı veya defterdarlık tarafından keyfiyetin Cumhuriyet başsavcılığına bildirilmesi mecburidir.[141]
+(Değişik birinci fıkra: 23/7/2010-6009/13 md.) Yaptıkları inceleme sırasında 359 uncu maddede yazılı suçların işlendiğini tespit eden Vergi Müfettişleri ve Vergi Müfettiş Yardımcıları tarafından ilgili rapor değerlendirme komisyonunun mütalaasıyla doğrudan doğruya ve vergi incelemesine yetkili olan diğer memurlar tarafından ilgili rapor değerlendirme komisyonunun mütalaasıyla vergi dairesi başkanlığı veya defterdarlık tarafından keyfiyetin Cumhuriyet başsavcılığına bildirilmesi mecburidir.[142]
 
 359 uncu maddede yazılı suçların işlendiğine sair suretlerle ıttıla hasıl eden Cumhuriyet başsavcılığı hemen ilgili vergi dairesini haberdar ederek inceleme yapılmasını talep eder.
 
 Kamu davasının açılması, inceleme neticesinin Cumhuriyet başsavcılığına bildirilmesine talik olunur.
 
-(Ek dördüncü fıkra:29/4/2021-7318/5 md.) 359 uncu maddenin (ç) ve (d) fıkralarında yazılı suçların işlendiğinin inceleme sırasında tespiti halinde incelemenin tamamlanması beklenmeksizin, sair suretlerle öğrenilmesi halinde ise incelemeye başlanmaksızın Vergi Müfettişleri ve Vergi Müfettiş Yardımcıları tarafından bu tespitlere ilişkin rapor düzenlenir ve rapor değerlendirme komisyonunun mütalaasıyla birlikte keyfiyet Cumhuriyet başsavcılığına bildirilir. Kamu davasının açılması için incelemenin tamamlanması şartı aranmaz.[142]
+(Ek dördüncü fıkra:29/4/2021-7318/5 md.) 359 uncu maddenin (ç) ve (d) fıkralarında yazılı suçların işlendiğinin inceleme sırasında tespiti halinde incelemenin tamamlanması beklenmeksizin, sair suretlerle öğrenilmesi halinde ise incelemeye başlanmaksızın Vergi Müfettişleri ve Vergi Müfettiş Yardımcıları tarafından bu tespitlere ilişkin rapor düzenlenir ve rapor değerlendirme komisyonunun mütalaasıyla birlikte keyfiyet Cumhuriyet başsavcılığına bildirilir. Kamu davasının açılması için incelemenin tamamlanması şartı aranmaz.[143]
 
 (Ek beşinci fıkra:8/4/2022-7394/5 md.) 359 uncu maddede yazılı suçlara ilişkin yürütülmekte olan soruşturma veya kovuşturmalarda mütalaaya konu fiilin, başka bir kişi tarafından veya başka bir kişiyle birlikte gerçekleştirildiğinin ortaya çıkması durumunda, bu kişi bakımından kamu davası açılması için rapor düzenlenmesi ve mütalaa verilmesi şartı aranmaz.
 
@@ -5398,11 +5398,11 @@ Vergi Cezaları:
 
 Başlayarak bir ay içinde ödenir.
 
-(Ek fıkra: 22/7/1998-4369/16 md.; Mülga: 11/8/1999-4444/14 md.)[143]
+(Ek fıkra: 22/7/1998-4369/16 md.; Mülga: 11/8/1999-4444/14 md.)[144]
 
  
 
-Yanılma ve görüş değişikliği:[144]
+Yanılma ve görüş değişikliği:[145]
 
 Madde 369 – (Değişik: 23/7/2010-6009/14 md.)
 
@@ -5412,7 +5412,7 @@ Bir hükmün uygulanma tarzı hususunda yetkili makamların genel tebliğ veya s
 
  
 
-İzaha davet:[145][146]
+İzaha davet:[146][147]
 
 Madde 370 – (Mülga: 30/12/1980-2365/89 md.; Yeniden düzenleme: 15/7/2016-6728/22 md.) (Değişik:5/12/2019-7194/25 md.)
 
@@ -5436,7 +5436,7 @@ Beyana dayanan vergilerde vergi ziyaı cezasını gerektiren fiilleri işleyen m
 
 1. Mükellefin keyfiyeti haber verdiği tarihten önce bir muhbir tarafından her hangi resmi bir makama dilekçe ile veya şifahi beyanı tutanakla tevsik edilmek suretiyle haber verilen husus hakkında ihbarda bulunulmamış olması (Dilekçe veya tutanağın resmi kayıtlara geçirilmiş olması şarttır.).
 
-2. Haber verme dilekçesinin yetkili memurlar tarafından mükellef nezdinde haber verilen olayın ilgili olduğu vergi türüne ilişkin bir vergi incelemesine başlandığı veya olayın ve ilgili olduğu vergi türünün takdir komisyonuna intikal ettirildiği günden evvel (Kaçakçılık suçu teşkil eden fiillerin işlendiğinin tespitinden önce) verilmiş ve resmi kayıtlara geçirilmiş olması.[147]
+2. Haber verme dilekçesinin yetkili memurlar tarafından mükellef nezdinde haber verilen olayın ilgili olduğu vergi türüne ilişkin bir vergi incelemesine başlandığı veya olayın ve ilgili olduğu vergi türünün takdir komisyonuna intikal ettirildiği günden evvel (Kaçakçılık suçu teşkil eden fiillerin işlendiğinin tespitinden önce) verilmiş ve resmi kayıtlara geçirilmiş olması.[148]
 
 3. Hiç verilmemiş olan vergi beyannamelerinin mükellefin haber verme dilekçesinin verildiği tarihten başlayarak onbeş gün içinde tevdi olunması.
 
@@ -5502,17 +5502,17 @@ Yukarıdaki hükümler vergi aslına tabi olmaksızın kesilen usulsüzlük ceza
 
 ÜÇÜNCÜ BÖLÜM
 
-Uzlaşma[148]
+Uzlaşma[149]
 
  
 
 Uzlaşmanın konusu, kapsamı, komisyonlar ve şekli
 
-Ek Madde 1 – (Ek: 19/2/1963-205/22 md.; Değişik: 22/7/1998-4369/18 md.)[149][150]
+Ek Madde 1 – (Ek: 19/2/1963-205/22 md.; Değişik: 22/7/1998-4369/18 md.)[150][151]
 
-Mükellef tarafından, ikmalen, re'sen veya idarece tarh edilen vergilere ilişkin vergi ziyaı cezaları ile 5.000 (40.000 üzeri) Türk lirasını aşan usulsüzlük ve özel usulsüzlük cezalarının (359 uncu maddede yazılı fiillerle vergi ziyaına sebebiyet verilmesi halinde (…)[150] kesilen ceza ile bu fiillere iştirak edenlere kesilen ceza ve 370 inci maddenin (b) fıkrası kapsamında kendilerine ön tespite ilişkin yazı tebliğ edilen mükelleflere mezkur maddeye göre kesilen ceza hariç) tahakkuk edecek miktarları konusunda, vergi ziyaına sebebiyet verilmesinin kanun hükümlerine yeterince nüfuz edememekten ya da 369 uncu maddede yazılı yanılmadan kaynaklandığının veya bu Kanunun 116, 117 ve 118 inci maddelerinde yazılı vergi hataları ile bunun dışında her türlü maddi hata bulunduğunun veya yargı kararları ile idarenin ihtilaf konusu olayda görüş farklılığının olduğunun ileri sürülmesi durumunda, idare bu bölümde yer alan hükümler çerçevesinde mükellefler ile uzlaşabilir. (Mülga cümle:28/7/2024-7524/14 md.) (Ek cümle:14/10/2021-7338/44 md.) Uzlaşmaya konu edilebilecek usulsüzlük ve özel usulsüzlük cezalarının tespitinde cezayı gerektiren fiil bazında kesilecek toplam ceza tutarı dikkate alınır ve 5.000 (40.000 ve altı) Türk lirasını aşmayan usulsüzlük ve özel usulsüzlük cezaları için Kanunun 376 ncı maddesindeki indirim oranı %50 artırımlı olarak uygulanır. Uzlaşma talebi vergi ihbarnemesinin tebliğ tarihinden itibaren otuz gün içinde yapılır. Uzlaşmanın vaki olmaması veya temin edilememesi halinde yeniden uzlaşma talebinde bulunulamaz. Uzlaşmanın vaki olmadığına dair tutanağa idarenin nihai teklifi yazılır. Mükellef dava açma süresinin sonuna kadar teklif edilen (…)[150] cezayı kabul ettiğini yazılı olarak bildirirse bu takdirde uzlaşma sağlanmış sayılır. Mükellef, uzlaşma görüşmelerinde, bağlı olduğu meslek odasından bir temsilci ve 3568 sayılı Kanuna göre kurulan meslek odasından bir meslek mensubu bulundurabilir.[151][152][153][154]
+Mükellef tarafından, ikmalen, re'sen veya idarece tarh edilen vergilere ilişkin vergi ziyaı cezaları ile 5.000 (40.000 üzeri) Türk lirasını aşan usulsüzlük ve özel usulsüzlük cezalarının (359 uncu maddede yazılı fiillerle vergi ziyaına sebebiyet verilmesi halinde (…)[151] kesilen ceza ile bu fiillere iştirak edenlere kesilen ceza ve 370 inci maddenin (b) fıkrası kapsamında kendilerine ön tespite ilişkin yazı tebliğ edilen mükelleflere mezkur maddeye göre kesilen ceza hariç) tahakkuk edecek miktarları konusunda, vergi ziyaına sebebiyet verilmesinin kanun hükümlerine yeterince nüfuz edememekten ya da 369 uncu maddede yazılı yanılmadan kaynaklandığının veya bu Kanunun 116, 117 ve 118 inci maddelerinde yazılı vergi hataları ile bunun dışında her türlü maddi hata bulunduğunun veya yargı kararları ile idarenin ihtilaf konusu olayda görüş farklılığının olduğunun ileri sürülmesi durumunda, idare bu bölümde yer alan hükümler çerçevesinde mükellefler ile uzlaşabilir. (Mülga cümle:28/7/2024-7524/14 md.) (Ek cümle:14/10/2021-7338/44 md.) Uzlaşmaya konu edilebilecek usulsüzlük ve özel usulsüzlük cezalarının tespitinde cezayı gerektiren fiil bazında kesilecek toplam ceza tutarı dikkate alınır ve 5.000 (40.000 ve altı) Türk lirasını aşmayan usulsüzlük ve özel usulsüzlük cezaları için Kanunun 376 ncı maddesindeki indirim oranı %50 artırımlı olarak uygulanır. Uzlaşma talebi vergi ihbarnemesinin tebliğ tarihinden itibaren otuz gün içinde yapılır. Uzlaşmanın vaki olmaması veya temin edilememesi halinde yeniden uzlaşma talebinde bulunulamaz. Uzlaşmanın vaki olmadığına dair tutanağa idarenin nihai teklifi yazılır. Mükellef dava açma süresinin sonuna kadar teklif edilen (…)[151] cezayı kabul ettiğini yazılı olarak bildirirse bu takdirde uzlaşma sağlanmış sayılır. Mükellef, uzlaşma görüşmelerinde, bağlı olduğu meslek odasından bir temsilci ve 3568 sayılı Kanuna göre kurulan meslek odasından bir meslek mensubu bulundurabilir.[152][153][154][155]
 
-Sürekli, geçici ve merkezi uzlaşma komisyonlarının teşkili, uzlaşmaya müracaat etmeye yetkili olanların belirlenmesi, uzlaşmanın şekli, uzlaşmaya konu edilebilecek vergi, resim ve harçlara ilişkin cezaların belirlenmesi, uzlaşma komisyonlarının yetkileri, uzlaşmanın yapılmasına ilişkin usul ve esaslar Maliye Bakanlığınca çıkarılacak bir yönetmelikle düzenlenir. İl özel idareleri ve belediyelere ait vergi, resim ve harçlar için bu yönetmelik İçişleri Bakanlığının görüşü alınarak Çevre ve Şehircilik Bakanlığınca hazırlanır.[155]
+Sürekli, geçici ve merkezi uzlaşma komisyonlarının teşkili, uzlaşmaya müracaat etmeye yetkili olanların belirlenmesi, uzlaşmanın şekli, uzlaşmaya konu edilebilecek vergi, resim ve harçlara ilişkin cezaların belirlenmesi, uzlaşma komisyonlarının yetkileri, uzlaşmanın yapılmasına ilişkin usul ve esaslar Maliye Bakanlığınca çıkarılacak bir yönetmelikle düzenlenir. İl özel idareleri ve belediyelere ait vergi, resim ve harçlar için bu yönetmelik İçişleri Bakanlığının görüşü alınarak Çevre ve Şehircilik Bakanlığınca hazırlanır.[156]
 
 Maliye Bakanlığı vergi incelemesine dayanılarak kesilecek cezalarda tarhiyat öncesi uzlaşma yapılmasına izin verebilir.
 
@@ -5546,7 +5546,7 @@ Uzlaşma komisyonu muamelelerinin kesinliği:
 
 Ek Madde 6 – (Ek: 19/2/1963-205/22 md.)
 
-Uzlaşma komisyonlarının tutacakları uzlaşma tutanakları kesin olup gereği vergi dairelerince derhal yerine getirilir.[156]
+Uzlaşma komisyonlarının tutacakları uzlaşma tutanakları kesin olup gereği vergi dairelerince derhal yerine getirilir.[157]
 
 (Değişik: 23/6/1982-2686/46 md.) Mükellef veya adına ceza kesilen; üzerinde uzlaşılan ve tutanakla tespit olunan hususlar hakkında dava açılmaz ve hiçbir mercie şikayette bulunamaz.
 
@@ -5554,15 +5554,15 @@ Uzlaşma komisyonlarının tutacakları uzlaşma tutanakları kesin olup gereği
 
 Uzlaşma ve vergi mahkemesinde dava açma:
 
-Ek Madde 7 - (Ek: 19/2/1963-205/22 md.; Değişik: 23/6/1982-2686/47 md.)[157]
+Ek Madde 7 - (Ek: 19/2/1963-205/22 md.; Değişik: 23/6/1982-2686/47 md.)[158]
 
-Müddeti içinde uzlaşma talebinde bulunan mükellef veya ceza muhatabı uzlaşma talep ettiği (…)[157] ceza için, ancak uzlaşma vaki olmadığı takdirde dava açma yoluna gidebilir.
+Müddeti içinde uzlaşma talebinde bulunan mükellef veya ceza muhatabı uzlaşma talep ettiği (…)[158] ceza için, ancak uzlaşma vaki olmadığı takdirde dava açma yoluna gidebilir.
 
-Mükellef veya ceza muhatabı aynı (…)[157] ceza için uzlaşma talebinden önce dava açmışsa dava, uzlaşma işleminin sonuca bağlanmasından önce vergi mahkemelerince incelenmez; herhangi bir sebeple incelenir ve karara bağlanırsa bu karar hükümsüz sayılır.
+Mükellef veya ceza muhatabı aynı (…)[158] ceza için uzlaşma talebinden önce dava açmışsa dava, uzlaşma işleminin sonuca bağlanmasından önce vergi mahkemelerince incelenmez; herhangi bir sebeple incelenir ve karara bağlanırsa bu karar hükümsüz sayılır.
 
 (Mülga üçüncü fıkra:28/7/2024-7524/14 md.)
 
-Uzlaşmanın vaki olmaması halinde mükellef veya ceza muhatabı; (…)[157] kesilen cezaya, uzlaşmanın vaki olmadığına dair tutanağın kendisine tebliğinden itibaren genel hükümler dairesinde ve yetkili vergi mahkemesi nezdinde dava açabilir. Bu takdirde, dava açma müddeti bitmiş veya 15 günden az kalmış ise bu müddet tutanağın tebliği tarihinden itibaren 15 gün olarak uzar.
+Uzlaşmanın vaki olmaması halinde mükellef veya ceza muhatabı; (…)[158] kesilen cezaya, uzlaşmanın vaki olmadığına dair tutanağın kendisine tebliğinden itibaren genel hükümler dairesinde ve yetkili vergi mahkemesi nezdinde dava açabilir. Bu takdirde, dava açma müddeti bitmiş veya 15 günden az kalmış ise bu müddet tutanağın tebliği tarihinden itibaren 15 gün olarak uzar.
 
 Uzlaşmanın vaki olmaması halinde, yukarıdaki ikinci fıkra uyarınca durdurulmuş olan davanın görülmesine, keyfiyetin vergi dairesince işarı üzerine vergi mahkemesinde devam olunur.
 
@@ -5570,11 +5570,11 @@ Uzlaşmanın vaki olmaması halinde, yukarıdaki ikinci fıkra uyarınca durduru
 
 Ödeme:
 
-Ek Madde 8 – (Ek: 19/2/1963-205/22 md.)[158]
+Ek Madde 8 – (Ek: 19/2/1963-205/22 md.)[159]
 
-Uzlaşma konusu yapılan (…)[158] cezalar;
+Uzlaşma konusu yapılan (…)[159] cezalar;
 
-1. Uzlaşma vakı olduğu takdirde, uzlaşma tutanağı (…)[158] cezaların ödeme zamanlarından önce ilgiliye tebliğ edilmişse kanuni ödeme zamanlarında; ödeme zamanları kısmen veya tamamen geçtikten sonra tebliğ edilmişse ödeme süreleri geçmiş olanlar uzlaşma tutanağının tebliğinden itibaren bir ay içinde;
+1. Uzlaşma vakı olduğu takdirde, uzlaşma tutanağı (…)[159] cezaların ödeme zamanlarından önce ilgiliye tebliğ edilmişse kanuni ödeme zamanlarında; ödeme zamanları kısmen veya tamamen geçtikten sonra tebliğ edilmişse ödeme süreleri geçmiş olanlar uzlaşma tutanağının tebliğinden itibaren bir ay içinde;
 
 2. (Değişik: 23/6/1982-2686/48 md.) Uzlaşma vaki olmadığı takdirde, bu Kanunun 368 inci madde hükmü ile 2577 sayılı İdari Yargılma Usulü Kanununun 27 nci maddesinin dördüncü fıkrası hükmü dairesinde;
 
@@ -5584,11 +5584,11 @@ Uzlaşma konusu yapılan (…)[158] cezalar;
 
 Uzlaşma ve cezalarda indirme:
 
-Ek Madde 9 – (Ek: 19/2/1963-205/22 md.) (Değişik:5/12/2019-7194/29 md.)[159]
+Ek Madde 9 – (Ek: 19/2/1963-205/22 md.) (Değişik:5/12/2019-7194/29 md.)[160]
 
 Bu bölüm uyarınca üzerinde uzlaşılan cezalar hakkında başkaca bir indirim uygulanmaz.
 
-Hakkında 376 ncı maddenin birinci fıkrasının (1) numaralı bendi hükümleri uygulanan (…)[159] cezalar için bu bölüm hükümleri uygulanmaz. Mükellefin uzlaşma tutanağını imzalayıncaya kadar uzlaşma talebinden vazgeçtiğini beyanla hadiseye 376 ncı maddenin birinci fıkrasının (1) numaralı bendi hükümlerinin uygulanmasını isteme hakkı mahfuzdur.
+Hakkında 376 ncı maddenin birinci fıkrasının (1) numaralı bendi hükümleri uygulanan (…)[160] cezalar için bu bölüm hükümleri uygulanmaz. Mükellefin uzlaşma tutanağını imzalayıncaya kadar uzlaşma talebinden vazgeçtiğini beyanla hadiseye 376 ncı maddenin birinci fıkrasının (1) numaralı bendi hükümlerinin uygulanmasını isteme hakkı mahfuzdur.
 
  
 
@@ -5600,13 +5600,13 @@ Ek Madde 10 – (Ek: 19/2/1963-205/22 md.; Mülga: 26/12/1993-3946/38 md.)
 
 Tarhiyat öncesi uzlaşma:
 
-Ek Madde 11 – (Ek: 4/12/1985-3239/33 md.)[160][161]
+Ek Madde 11 – (Ek: 4/12/1985-3239/33 md.)[161][162]
 
-(Değişik birinci fıkra: 11/8/1999-4444/7 md.) Maliye Bakanlığı, vergi incelemesine dayanılarak tarh edilecek vergilere ilişkin kesilecek vergi ziyaı cezaları ile 5.000 (40.000 üzeri) Türk lirasını aşan usulsüzlük ve özel usulsüzlük cezalarında (359 uncu maddede yazılı fiillerle vergi ziyaına sebebiyet verilmesi halinde (…)[161] kesilecek ceza ile bu fiillere iştirak edenlere kesilecek ceza hariç) tarhiyat öncesi uzlaşma yapılmasına izin verebilir. (Ek cümle:14/10/2021-7338/45 md.) Uzlaşmaya konu edilebilecek usulsüzlük ve özel usulsüzlük cezalarının tespitinde, cezayı gerektiren fiil bazında kesilecek toplam ceza tutarı dikkate alınır.[162][163][164]
+(Değişik birinci fıkra: 11/8/1999-4444/7 md.) Maliye Bakanlığı, vergi incelemesine dayanılarak tarh edilecek vergilere ilişkin kesilecek vergi ziyaı cezaları ile 5.000 (40.000 üzeri) Türk lirasını aşan usulsüzlük ve özel usulsüzlük cezalarında (359 uncu maddede yazılı fiillerle vergi ziyaına sebebiyet verilmesi halinde (…)[162] kesilecek ceza ile bu fiillere iştirak edenlere kesilecek ceza hariç) tarhiyat öncesi uzlaşma yapılmasına izin verebilir. (Ek cümle:14/10/2021-7338/45 md.) Uzlaşmaya konu edilebilecek usulsüzlük ve özel usulsüzlük cezalarının tespitinde, cezayı gerektiren fiil bazında kesilecek toplam ceza tutarı dikkate alınır.[163][164][165]
 
 Tarhiyattan önce uzlaşmaya varılması halinde tutanakla tespit edilen bu husus hakkında dava açılamaz ve hiçbir mercie şikayette bulunulamaz. (Ek: 3/12/1988-3505/10 md.) (Mülga cümle:28/7/2024-7524/14 md.)
 
-Tarhiyat öncesi uzlaşmanın temini edilememiş veya uzlaşma müzakeresinde uzlaşmaya varılamamış olması halinde mükellefler veya ceza muhatabı olanlar (…)[161] cezanın kesilmesinden sonra uzlaşma talep edemezler.
+Tarhiyat öncesi uzlaşmanın temini edilememiş veya uzlaşma müzakeresinde uzlaşmaya varılamamış olması halinde mükellefler veya ceza muhatabı olanlar (…)[162] cezanın kesilmesinden sonra uzlaşma talep edemezler.
 
 Tarhiyat öncesi uzlaşmaya ilişkin esas ve usuller Yönetmelikte belirtilir.
 
@@ -5624,11 +5624,11 @@ Fazla çalışma ücreti:
 
 Ek Madde 13 – (Ek: 24/3/1988-3418/32 md.) (Başlığı ile Birlikte Yeniden Düzenleme:28/7/2024-7524/15 md.)
 
-Gelir İdaresi Başkanlığı taşra teşkilatı kadro veya pozisyonlarında bulunan memur ve sözleşmeli personelden icra, tahsilat, yoklama ile yaygın ve yoğun vergi denetimi işlemlerini fiilen daire dışında yapmakla görevlendirilen ve bu görevleri nedeniyle normal mesai saatleri dışında fiilen çalışanlara, bu şekilde çalıştıkları her bir saat için 300 gösterge rakamının memur aylık katsayısı ile çarpımı sonucu bulunacak tutarda fazla çalışma ücreti ödenir. Bu ödemeden Hazine ve Maliye Bakanlığı kadrolarında olup aynı işlemler için görevlendirilenlerden; Gelir İdaresi Başkanlığı taşra teşkilatında geçici görevli bulunan memurlar ile gelir servisi bulunan malmüdürlüklerinde görevli memur ve sözleşmeli personel de aynı usul ve esaslar çerçevesinde yararlanır. Bu ödeme damga vergisi hariç herhangi bir vergi ve kesintiye tabi tutulmaz. Bu madde kapsamında ödeme yapılanlara, ödemenin yapıldığı günler için diğer mevzuat hükümleri çerçevesinde ayrıca fazla çalışma ücreti ödenmez. Bu fıkraya göre her bir personel için ödenebilecek fazla çalışma ücreti ayda 50 saati ve fazla çalışma ücreti ödenebilecek personel sayısı ise Gelir İdaresi Başkanlığı taşra teşkilatı kadro ve pozisyonlarında bulunan toplam memur ve sözleşmeli personel sayısının %40’ını geçemez. Bu maddenin uygulanmasına ilişkin usul ve esasları belirlemeye Gelir İdaresi Başkanlığı yetkilidir.[165]
+Gelir İdaresi Başkanlığı taşra teşkilatı kadro veya pozisyonlarında bulunan memur ve sözleşmeli personelden icra, tahsilat, yoklama ile yaygın ve yoğun vergi denetimi işlemlerini fiilen daire dışında yapmakla görevlendirilen ve bu görevleri nedeniyle normal mesai saatleri dışında fiilen çalışanlara, bu şekilde çalıştıkları her bir saat için 300 gösterge rakamının memur aylık katsayısı ile çarpımı sonucu bulunacak tutarda fazla çalışma ücreti ödenir. Bu ödemeden Hazine ve Maliye Bakanlığı kadrolarında olup aynı işlemler için görevlendirilenlerden; Gelir İdaresi Başkanlığı taşra teşkilatında geçici görevli bulunan memurlar ile gelir servisi bulunan malmüdürlüklerinde görevli memur ve sözleşmeli personel de aynı usul ve esaslar çerçevesinde yararlanır. Bu ödeme damga vergisi hariç herhangi bir vergi ve kesintiye tabi tutulmaz. Bu madde kapsamında ödeme yapılanlara, ödemenin yapıldığı günler için diğer mevzuat hükümleri çerçevesinde ayrıca fazla çalışma ücreti ödenmez. Bu fıkraya göre her bir personel için ödenebilecek fazla çalışma ücreti ayda 50 saati ve fazla çalışma ücreti ödenebilecek personel sayısı ise Gelir İdaresi Başkanlığı taşra teşkilatı kadro ve pozisyonlarında bulunan toplam memur ve sözleşmeli personel sayısının %40’ını geçemez. Bu maddenin uygulanmasına ilişkin usul ve esasları belirlemeye Gelir İdaresi Başkanlığı yetkilidir.[166]
 
  
 
-DÖRDÜNCÜ BÖLÜM[166]
+DÖRDÜNCÜ BÖLÜM[167]
 
 Karşılıklı Anlaşma Usulü
 
@@ -5700,7 +5700,7 @@ Karşılıklı anlaşma usulü hükümlerinin uygulanmasına ilişkin usul ve es
 
 BEŞİNCİ KİTAP
 
-Vergi Davaları[167]
+Vergi Davaları[168]
 
  
 
@@ -5720,7 +5720,7 @@ Belediyelerde dava açma yetkisini belediye adına varidat müdürü, olmayan ye
 
  
 
-Dava konusu:[168]
+Dava konusu:[169]
 
 Madde 378 – (Değişik: 23/6/1982-2686/51 md.)
 
@@ -5764,7 +5764,7 @@ Madde 380 – 412 – (6/1/1982 tarihli ve 2577 sayılı Kanunun 63 üncü madde
 
  
 
-Mükelleflerin izahat talebi:[169]
+Mükelleflerin izahat talebi:[170]
 
 Madde 413 – (Değişik: 23/7/2010-6009/15 md.)
 
@@ -5784,7 +5784,7 @@ Bu maddenin uygulanmasına ilişkin usul ve esaslar Maliye Bakanlığınca çık
 
 Katılma payı:
 
-Mükerrer Madde 413- (Ek:27/12/2023-7491/15 md.)[170]
+Mükerrer Madde 413- (Ek:27/12/2023-7491/15 md.)[171]
 
 Gelir İdaresi Başkanlığı sistemlerinde yer alan ve bu Kanunun 5 inci maddesi kapsamında üçüncü kişilerle paylaşılabilecek bilgilerin; anılan madde hükümleri çerçevesinde genel yönetim kapsamındaki kamu idareleri dışındaki kamu kurum ve kuruluşları ve tüzel kişilerle paylaşılması karşılığında sorgu veya dönen kayıt başına 25 (0,43) kuruştan az olmamak üzere katılma payı alınır. Katılma payının tutarı, sorgulanan veya dönen verinin sayısı, boyutu ve kapsamı, verinin sorgulama dışında toplu olarak paylaşılması durumunda paylaşılan verinin sayısı, boyutu, kapsamı ve mükellef sayısı ayrı ayrı veya birlikte dikkate alınarak Hazine ve Maliye Bakanlığınca belirlenebilir. Bakanlık, kanunları gereğince mükelleflerden alabilecekleri bilgileri Başkanlık sistemlerinden alan kamu kurumu niteliğindeki meslek kuruluşları ve üst kuruluşlarından, paylaşılan verinin türü ve paylaşılma şeklini de dikkate alarak katılma payı almamaya veya daha düşük tutarlı almaya yetkilidir. Katılma payları, yeni bir belirleme yapılmadığı sürece, her yıl bir önceki yıla ilişkin olarak bu Kanun uyarınca belirlenen yeniden değerleme oranında artırılır. Ödenecek katılma payı tutarının belirlenmesine esas olan sorgu, dönen kayıt veya toplu olarak paylaşılan veri miktarının belirlenmesinde Gelir İdaresi Başkanlığı kayıtları esas alınır.
 
@@ -5814,7 +5814,7 @@ Bu Kanunun; 104, mükerrer 115, 177, 352 (Kanuna bağlı cetvel), 353 ve 356 nc�
 
 Maliye Bakanlığı; bu Kanunun 26,35 ve 366 ncı maddelerinde yer alan tahakku fişi ile vergi ve ceza ihbarnamelerinin şekli ve ihtiva edeceği bilgilerde değişiklik yapmaya ve bunları vergi dairesi adına tanzim edecek olanları belirlemeye yetkilidir.
 
-(Değişik: 22/7/1998-4369/19 md.) Bu Kanunda yer alan maktu hadler ile asgari ve azami miktarları belirtilmiş olan para ile ödenecek ceza miktarları, her yıl bir önceki yıla ilişkin olarak bu Kanun uyarınca belirlenen yeniden değerleme oranında artırılmak suretiyle uygulanır. Bu şekilde hesaplanan maktu had ve miktarların yüzde beşini aşmayan kesirler dikkate alınmaz. Cumhurbaşkanı, bu suretle tespit edilen had ve miktarları yarısına kadar artırmaya veya indirmeye, nispi hadleri ise iki katına kadar artırmaya veya yarısına kadar indirmeye veya tekrar kanuni seviyesine getirmeye yetkilidir.[171]
+(Değişik: 22/7/1998-4369/19 md.) Bu Kanunda yer alan maktu hadler ile asgari ve azami miktarları belirtilmiş olan para ile ödenecek ceza miktarları, her yıl bir önceki yıla ilişkin olarak bu Kanun uyarınca belirlenen yeniden değerleme oranında artırılmak suretiyle uygulanır. Bu şekilde hesaplanan maktu had ve miktarların yüzde beşini aşmayan kesirler dikkate alınmaz. Cumhurbaşkanı, bu suretle tespit edilen had ve miktarları yarısına kadar artırmaya veya indirmeye, nispi hadleri ise iki katına kadar artırmaya veya yarısına kadar indirmeye veya tekrar kanuni seviyesine getirmeye yetkilidir.[172]
 
  
 
@@ -5856,7 +5856,7 @@ Dileyenler, vergi dairesine, en geç, kanunun mer'iyete girdiği tarihten itibar
 
 Geçici Madde 4 – Bu kanunun yürürlüğe girdiği tarihte veya sonraki yıllarda bilanço esasına göre Gelir ve Kurumlar Vergisi mükellefiyetine girecek olanlar açılış bilanço ve envanterini tanzim ederken işletmeye dahil iktisadi kıymetleri bu kanunun üçüncü kitabında yazılı hükümler dairesinde değerlendirirler. Maliyet bedeli ile değerlenmesi icap eden kıymetlerin bu bedeli bilinmiyorsa maliyet bedeli yerine mükelleflerin bizzat belli edecekleri alış emsal bedeli değerlemeye esas tutulur.
 
-Vergi incelemesi neticesinde alış emsal bedelinin fazla hesap edildiğinin anlaşılması halinde mükellef hakkında vergi ziyaı veya usulsüzlük cezaları uygulanmaz.[172]
+Vergi incelemesi neticesinde alış emsal bedelinin fazla hesap edildiğinin anlaşılması halinde mükellef hakkında vergi ziyaı veya usulsüzlük cezaları uygulanmaz.[173]
 
  
 
@@ -5864,7 +5864,7 @@ Amortismana tabi iktisadi kıymetlerin değerlenmesi:
 
 Geçici Madde 5 – (Değişik: 19/2/1963-205/24 md.)
 
-Bu kanunun mer'iyete girdiği tarihte veya mütaakıp yıllarda ticari, zirai veya mesleki kazançları dolayısiyle yeniden Gelir Vergisine girecek veya basit usulden gerçek usule geçecek olan mükellefler ile öteden beri faaliyete devam eden serbest meslek erbabınının amortismana  tabi iktisadi kıymetleri maliyet bedeli, maliyet bedeli bilinmiyorsa bizzat kendilerince alış tarihindeki rayice göre tahmin olunacak bedeli ile değerlenir. Şu kadar ki, bu kıymetlerin alış tarihleri ile mükellefiyete giriş veya gerçek usule geçiş tarihi arasındaki yıllara ait amortismanlar tutarı bu değerden düşülür ve bakiyesinin amortismanına devam olunur.[173]
+Bu kanunun mer'iyete girdiği tarihte veya mütaakıp yıllarda ticari, zirai veya mesleki kazançları dolayısiyle yeniden Gelir Vergisine girecek veya basit usulden gerçek usule geçecek olan mükellefler ile öteden beri faaliyete devam eden serbest meslek erbabınının amortismana  tabi iktisadi kıymetleri maliyet bedeli, maliyet bedeli bilinmiyorsa bizzat kendilerince alış tarihindeki rayice göre tahmin olunacak bedeli ile değerlenir. Şu kadar ki, bu kıymetlerin alış tarihleri ile mükellefiyete giriş veya gerçek usule geçiş tarihi arasındaki yıllara ait amortismanlar tutarı bu değerden düşülür ve bakiyesinin amortismanına devam olunur.[174]
 
 Mükellefçe tahmin olunacak bedelin fazla hesaplandığının tesbiti halinde bundan dolayı adına ceza kesilmez.
 
@@ -5972,7 +5972,7 @@ Geçici Madde 20 – (Ek: 22/7/1998-4369/20 md.)
 
 Geçici Madde 21 – (Ek: 22/7/1998-4369/20 md.)
 
-Bu Kanunun yürürlüğe girmesinden önce işlenmiş fiiller hakkında kesilecek cezalarda, bu fiillerin işlendiği tarihte 213 sayılı Vergi Usul Kanununun yürürlükte bulunan vergi cezalarına ait hükümleri; hükmolunacak cezalar hakkında ise, bu fiillerin işlendiği tarihte yürürlükte bulunan hükümler ile bu Kanun hükümlerinden lehe olanı uygulanır. (...)[174]
+Bu Kanunun yürürlüğe girmesinden önce işlenmiş fiiller hakkında kesilecek cezalarda, bu fiillerin işlendiği tarihte 213 sayılı Vergi Usul Kanununun yürürlükte bulunan vergi cezalarına ait hükümleri; hükmolunacak cezalar hakkında ise, bu fiillerin işlendiği tarihte yürürlükte bulunan hükümler ile bu Kanun hükümlerinden lehe olanı uygulanır. (...)[175]
 
  
 
@@ -6072,11 +6072,11 @@ Bu Kanunun 112 nci maddesinin (4) numaralı fıkrası, bu maddenin yürürlüğe
 
  
 
-Geçici Madde 30 – (Ek: 21/3/2018-7103/16 md.)[175][176]
+Geçici Madde 30 – (Ek: 21/3/2018-7103/16 md.)[176][177]
 
 Bu maddenin yürürlüğe girdiği tarihten sonra, 17/4/1957 tarihli ve 6948 sayılı Sanayi Sicili Kanununa göre sanayi sicil belgesini haiz mükelleflerce münhasıran imalat sanayiinde veya 26/6/2001 tarihli ve 4691 sayılı Teknoloji Geliştirme Bölgeleri Kanunu, 28/2/2008 tarihli ve 5746 sayılı Araştırma, Geliştirme ve Tasarım Faaliyetlerinin Desteklenmesi Hakkında Kanun ve 3/7/2014 tarihli ve 6550 sayılı Araştırma Altyapılarının Desteklenmesine Dair Kanun kapsamında faaliyette bulunan mükelleflerce münhasıran Ar-Ge, yenilik ve tasarım faaliyetlerinde kullanılmak üzere, 2019 takvim yılı sonuna kadar iktisap edilen yeni makina ve teçhizat ile aynı tarihe kadar yatırım teşvik belgesi kapsamında iktisap edilen yeni makina ve teçhizat için uygulanacak amortisman oran ve süreleri, Maliye Bakanlığınca bu Kanunun 315 inci maddesine göre tespit ve ilan edilen faydalı ömür sürelerinin yarısı dikkate alınmak suretiyle hesaplanabilir. Bu şekilde yapılacak hesaplamada faydalı ömür süresinin küsuratlı çıkması halinde, çıkan rakam bir üst tam sayıya tamamlanmak suretiyle ilgili kıymetlere uygulanacak amortisman oran ve süreleri belirlenir. Bu şekilde belirlenen oran ve süreler izleyen yıllarda değiştirilemez. İmalat sanayiinde kullanılmak üzere iktisap edilen ve madde hükmünden yararlanılabilecek makina ve teçhizatı tespite Cumhurbaşkanı, uygulamaya ilişkin usul ve esasları belirlemeye Maliye Bakanlığı yetkilidir.
 
-(Ek ikinci fıkra:14/10/2021-7338/51 md.) Bu fıkranın yürürlüğe girdiği tarihten 31/12/2024 tarihine (bu tarihler dâhil) kadar, birinci fıkrada belirtilen kapsam ve şartlar dâhilinde iktisap edilen yeni makina ve teçhizat için aynı fıkra uygulamasından yararlanılabilir. Bu fıkranın uygulamasına ilişkin usul ve esasları belirlemeye Hazine ve Maliye Bakanlığı yetkilidir.[177]
+(Ek ikinci fıkra:14/10/2021-7338/51 md.) Bu fıkranın yürürlüğe girdiği tarihten 31/12/2024 tarihine (bu tarihler dâhil) kadar, birinci fıkrada belirtilen kapsam ve şartlar dâhilinde iktisap edilen yeni makina ve teçhizat için aynı fıkra uygulamasından yararlanılabilir. Bu fıkranın uygulamasına ilişkin usul ve esasları belirlemeye Hazine ve Maliye Bakanlığı yetkilidir.[178]
 
  
 
@@ -6162,13 +6162,13 @@ Bu maddenin uygulanmasına ilişkin usul ve esasları belirlemeye Hazine ve Mali
 
 Geçici Madde 33 – (Ek: 20/1/2022-7352/1 md.)
 
-Geçici vergi dönemleri de dahil olmak üzere (…)[178] ve 2022 hesap dönemleri (kendilerine özel hesap dönemi tayin edilenlerde 2022 ve 2023 yılında biten hesap dönemleri itibarıyla) ile 2023 hesap dönemi geçici vergi dönemlerinde mükerrer 298 inci madde kapsamındaki enflasyon düzeltmesine ilişkin şartların oluşup oluşmadığına bakılmaksızın mali tablolar enflasyon düzeltmesine tabi tutulmaz.
+Geçici vergi dönemleri de dahil olmak üzere (…)[179] ve 2022 hesap dönemleri (kendilerine özel hesap dönemi tayin edilenlerde 2022 ve 2023 yılında biten hesap dönemleri itibarıyla) ile 2023 hesap dönemi geçici vergi dönemlerinde mükerrer 298 inci madde kapsamındaki enflasyon düzeltmesine ilişkin şartların oluşup oluşmadığına bakılmaksızın mali tablolar enflasyon düzeltmesine tabi tutulmaz.
 
 Mükerrer 298 inci maddenin (Ç) fıkrası uygulaması açısından, birinci fıkrada enflasyon düzeltmesi yapılmayacağı belirtilen dönemler enflasyon düzeltmesi şartlarının gerçekleşmediği dönem olarak değerlendirilir.
 
 31/12/2023 tarihli mali tablolar, enflasyon düzeltmesi şartlarının oluşup oluşmadığına bakılmaksızın enflasyon düzeltmesine tabi tutulur. Yapılan enflasyon düzeltmesinden kaynaklanan kâr/zarar farkı geçmiş yıllar kâr/zararı hesabında gösterilir. Bu şekilde tespit edilen geçmiş yıl kârı vergiye tabi tutulmaz, geçmiş yıl zararı zarar olarak kabul edilmez.
 
-(Ek fıkra:27/12/2023-7491/17 md.) Bankalar, 21/11/2012 tarihli ve 6361 sayılı Finansal Kiralama, Faktoring, Finansman ve Tasarruf Finansman Şirketleri Kanunu kapsamındaki şirketler, ödeme ve elektronik para kuruluşları, yetkili döviz müesseseleri, varlık yönetim şirketleri, sermaye piyasası kurumları, sigorta ve reasürans şirketleri, emeklilik şirketleri, tasfiye ve iflas hallerindeki şirketler, 8/6/1984 tarihli ve 233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname kapsamındaki iktisadi devlet teşekkülleri ile kamu iktisadi kuruluşları tarafından geçici vergi dönemleri de dahil olmak üzere 2024 ve 2025 hesap dönemlerinde yapılan enflasyon düzeltmesinden kaynaklanan kâr/zarar farkı, kazancın tespitinde dikkate alınmaz. (Ek cümleler:24/10/2024-7529/12 md.) Bu fıkra hükümleri; tasfiye halindeki şirketler açısından kurumların tasfiyeye girmesine ilişkin genel kurul kararının tescil edildiği tarihin içinde bulunduğu hesap döneminden, iflas halindeki şirketler açısından ise iflasın açıldığı tarihin içinde bulunduğu hesap döneminden itibaren uygulanır. Bu tarihten önce geçici vergi dönemlerine ilişkin yapılmış olan enflasyon düzeltmesine yönelik geriye dönük herhangi bir düzeltme yapılmaz. Tasfiyeden vazgeçilmesi ya da iflasın kaldırılması durumunda, tasfiyeden vazgeçilen tarihin veya iflasın kaldırılmasına ilişkin mahkeme karar tarihinin içinde bulunduğu geçici vergi döneminden itibaren enflasyon düzeltmesi uygulanır. Tasfiyeden vazgeçilmesi veya iflasın kaldırılması hallerinde, bu fıkra uyarınca dönem kazancında dikkate alınmayan tutarlar tasfiyeden vazgeçildiği veya iflasın kaldırıldığı dönem kazancının tespitinde dikkate alınır. Bu fıkra kapsamında belirlenen dönemleri geçici vergi dönemleri de dahil olmak üzere bir hesap dönemi kadar uzatmaya Cumhurbaşkanı yetkilidir.[179]
+(Ek fıkra:27/12/2023-7491/17 md.) Bankalar, 21/11/2012 tarihli ve 6361 sayılı Finansal Kiralama, Faktoring, Finansman ve Tasarruf Finansman Şirketleri Kanunu kapsamındaki şirketler, ödeme ve elektronik para kuruluşları, yetkili döviz müesseseleri, varlık yönetim şirketleri, sermaye piyasası kurumları, sigorta ve reasürans şirketleri, emeklilik şirketleri, tasfiye ve iflas hallerindeki şirketler, 8/6/1984 tarihli ve 233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname kapsamındaki iktisadi devlet teşekkülleri ile kamu iktisadi kuruluşları tarafından geçici vergi dönemleri de dahil olmak üzere 2024 ve 2025 hesap dönemlerinde yapılan enflasyon düzeltmesinden kaynaklanan kâr/zarar farkı, kazancın tespitinde dikkate alınmaz. (Ek cümleler:24/10/2024-7529/12 md.) Bu fıkra hükümleri; tasfiye halindeki şirketler açısından kurumların tasfiyeye girmesine ilişkin genel kurul kararının tescil edildiği tarihin içinde bulunduğu hesap döneminden, iflas halindeki şirketler açısından ise iflasın açıldığı tarihin içinde bulunduğu hesap döneminden itibaren uygulanır. Bu tarihten önce geçici vergi dönemlerine ilişkin yapılmış olan enflasyon düzeltmesine yönelik geriye dönük herhangi bir düzeltme yapılmaz. Tasfiyeden vazgeçilmesi ya da iflasın kaldırılması durumunda, tasfiyeden vazgeçilen tarihin veya iflasın kaldırılmasına ilişkin mahkeme karar tarihinin içinde bulunduğu geçici vergi döneminden itibaren enflasyon düzeltmesi uygulanır. Tasfiyeden vazgeçilmesi veya iflasın kaldırılması hallerinde, bu fıkra uyarınca dönem kazancında dikkate alınmayan tutarlar tasfiyeden vazgeçildiği veya iflasın kaldırıldığı dönem kazancının tespitinde dikkate alınır. Bu fıkra kapsamında belirlenen dönemleri geçici vergi dönemleri de dahil olmak üzere bir hesap dönemi kadar uzatmaya Cumhurbaşkanı yetkilidir.[180]
 
 Bu maddenin birinci, ikinci ve üçüncü fıkrası hükümleri, mükerrer 298 inci maddenin (A) fıkrasının (9) numaralı bendi kapsamında olan mükellefler bakımından geçerli değildir.
 
@@ -6178,7 +6178,7 @@ Bu maddenin uygulanmasına ilişkin usul ve esasları belirlemeye Hazine ve Mali
 
 Geçici Madde 34- (Ek:8/4/2022-7394/6 md.)
 
-Haklarında hüküm verilmiş olup da dosyası infaz aşamasında olanlar, 359 uncu maddede yazılı fiillerle verginin ziyaa uğratıldığının tespit edilmesine bağlı olarak tarh edilen verginin, gecikme faizi ve gecikme zammının tamamı ile kesilen cezaların yarısı ve buna isabet eden gecikme zammını, bu maddeyi ihdas eden Kanunun yürürlüğe girdiği tarihten itibaren bir yıl içinde Hazineye ödedikleri takdirde 359 uncu maddede bu maddeyi ihdas eden Kanunla soruşturma evresi için yapılan etkin pişmanlık düzenlemesinden faydalanabilir. Bu fıkrada belirtilen ceza indiriminden faydalanabilmek için vergi mahkemesinde dava açılmaması, açılmışsa feragat edilmesi, kanun yollarına başvurulmaması veya başvurulmuşsa vazgeçilmesi şarttır.[180]
+Haklarında hüküm verilmiş olup da dosyası infaz aşamasında olanlar, 359 uncu maddede yazılı fiillerle verginin ziyaa uğratıldığının tespit edilmesine bağlı olarak tarh edilen verginin, gecikme faizi ve gecikme zammının tamamı ile kesilen cezaların yarısı ve buna isabet eden gecikme zammını, bu maddeyi ihdas eden Kanunun yürürlüğe girdiği tarihten itibaren bir yıl içinde Hazineye ödedikleri takdirde 359 uncu maddede bu maddeyi ihdas eden Kanunla soruşturma evresi için yapılan etkin pişmanlık düzenlemesinden faydalanabilir. Bu fıkrada belirtilen ceza indiriminden faydalanabilmek için vergi mahkemesinde dava açılmaması, açılmışsa feragat edilmesi, kanun yollarına başvurulmaması veya başvurulmuşsa vazgeçilmesi şarttır.[181]
 
 Birinci fıkra hükümleri bu maddeyi ihdas eden Kanunun yayımı tarihinde soruşturma ve kovuşturma evresinde bulunan dosyalar hakkında da uygulanır. Bu takdirde, ödemenin hüküm verilinceye kadar yapılması şarttır.
 
@@ -6324,7 +6324,7 @@ Madde 4l7 – Bu kanun hükümlerini Bakanlar Kurulu yürütür.
 
  
 
-1 Sayılı Usulsüzlük Cezalarına Ait Cetvel[181][182]
+1 Sayılı Usulsüzlük Cezalarına Ait Cetvel[182][183]
 
 (Değişik : 30/12/1980 - 2365/98 md.)
 
@@ -6380,7 +6380,7 @@ Yukardakiler dışında kalıp beyanname usulüyle gelir vergisine tabi olanlar
 
 5
 
-Kazancı basit usulde tespit edilenler[183]
+Kazancı basit usulde tespit edilenler[184]
 
  
 
@@ -6416,7 +6416,7 @@ Gelir Vergisinden muaf esnaf
 
 2 Sayılı Cetvel
 
-(Ek:28/7/2024-7524/11 md.)[184]
+(Ek:28/7/2024-7524/11 md.)[185]
 
  
 
@@ -6514,7 +6514,7 @@ b) İhracat teşvik belgesine bağlanan döviz kazandırıcı faaliyetlerle, bu 
 
 c) İhracat veya döviz kazandırma taahhüdünde bulunulan ve yatırım teşvik belgesine bağlanmış yatırımlar için alınan yatırım kredileri ile bu belge kapsamındaki şirket kuruluşu ve sermaye artırımı, gayrimenkullerin ve irtifak haklarının ayni sermaye olarak konulması halinde bunların şirket adına tapuya tescili,
 
-İşlemleri ve bu işlemlerle ilgili olarak düzenlenen kağıtlar, 31.12.2003 tarihine kadar 488 sayılı Kanuna göre damga vergisinden ve 492 sayılı Kanuna göre harçlardan istisna edilir.[185]
+İşlemleri ve bu işlemlerle ilgili olarak düzenlenen kağıtlar, 31.12.2003 tarihine kadar 488 sayılı Kanuna göre damga vergisinden ve 492 sayılı Kanuna göre harçlardan istisna edilir.[186]
 
 Kredilerin amaç dışı kullanılması, taahhüt edilen ihracatın gerçekleştirilmemesi veya teşvik belgesindeki şartların yerine getirilmemesi halinde, alınmayan damga vergileri ve harçlar, ihracatçı veya yatırımcı kişi veya kuruluşlardan, 213 sayılı Vergi Usul Kanunu hükümlerine göre ceza ve gecikme faizi ile birlikte geri alınır.
 
@@ -6552,7 +6552,7 @@ Geçici Madde 1 – 1/1/1999 tarihinden önceki vergilendirme dönemleri için 6
 
 213 sayılı Vergi Usul Kanununa göre uygulanan kaçakçılık, ağır kusur ve kusur cezalarından; vadesi 1/1/1999 tarihinden önce olup, bu tarih itibariyle ödenmemiş olanlar ile 1/1/1999 tarihinden sonra kesinleştiği halde ödenmeyenlere, vade tarihinden ödendikleri tarihe kadar geçen süre için 6183 sayılı Amme Alacaklarının Tahsil Usulü Hakkında Kanunun 51 inci maddesine göre geçikme zammı uygulanır.
 
-6-17/12/2003 tarihli ve 5024 sayılı Kanunun Geçici Maddesi:[186]
+6-17/12/2003 tarihli ve 5024 sayılı Kanunun Geçici Maddesi:[187]
 
 Geçici Madde 1- 31.12.2003 tarihi (kendilerine özel hesap dönemi tayin edilenlerde 2004 yılında biten hesap döneminin sonu) itibarıyla aktif toplamı 7,5 trilyon Türk Lirasını veya hesap dönemine ait ciroları toplamı 15 trilyon Türk Lirasını aşmayan mükelleflerden dileyenler, 2004 yılı (kendilerine özel hesap dönemi tayin edilenlerde 2004 yılında biten hesap döneminden sonra başlayan hesap dönemine ilişkin) geçici vergi dönemlerinde beyan edecekleri geçici vergi matrahının tespitinde; enflasyon düzeltmesine ilişkin hükümler yerine Vergi Usul Kanununun bu Kanunla değiştirilmeden önceki değerleme hükümleri ile Gelir Vergisi Kanunu ve Kurumlar Vergisi Kanununun bu Kanunla kaldırılan hükümlerini ve Vergi Usul Kanununun 280 inci maddesinin bu Kanunla kaldırılan son fıkrasını dikkate alırlar. Bu takdirde enflasyon düzeltmesinin dikkate alınmadığı hususu beyannamede belirtilir. Beyanname verme süresi içinde bu hususu bildirmeyen veya beyanname vermeyen mükelleflerin enflasyon düzeltmesine ilişkin hükümleri dikkate almadıkları kabul edilir.
 
@@ -7298,6 +7298,16 @@ Tebliğ
 
 104, Mükerrer Madde 115, 153/A, 177, 232, 252, Mükerrer Madde 257, 313, 323, 343, 352, 353, 355, Mükerrer Madde 355,370, Ek Madde 1, Ek Madde 11, Mükerrer Madde 413
 
+Tebliğ
+
+599
+
+24/11/2026
+
+33440
+
+Mükerrer Madde 298
+
  
 
                                          
@@ -7438,7 +7448,7 @@ Mükerrer Madde 49, 73, 74, Usulsüzlük Cezalarına Ait Cetvel
 
 5, 11, 49, Mükerrer Madde 49, 72, 74, 75, 104, 112, 114, 115, 126, 127, 141 inci maddeyi takiben Ek Madde, 149, 168, 177, 183, 201, 202, 203, 206, 221, 223, 230, 231, 232, 233, Mükerrer Madde 257, 285, 313, 343, 344, 345, Mükerrer Madde 347, 352, 353, Mükerrer Madde 354, Mükerrer Madde 355, 356, 358, 361, 371, 376, Ek Bölüm Ek Madde 4, Ek Bölüm Ek Madde 11, Ek Bölüm Ek Madde 12, 377, 414, 415, Geçici Madde 12, Geçici Madde 13, Geçici Madde 14, Geçici Madde 15
 
-1/1/1986[187]
+1/1/1986[188]
 
 3332
 
@@ -7746,7 +7756,7 @@ Ek Madde 13
 
 114, Geçici Madde 28
 
-1/7/2010 tarihinden geçerli olmak üzere 1/8/2010[188]
+1/7/2010 tarihinden geçerli olmak üzere 1/8/2010[189]
 
 140, 367
 
@@ -8280,174 +8290,176 @@ Geçici Madde 37
 
 [104] 27/11/2025 tarihli ve 33090 sayılı Resmî Gazete’de yayımlanan Hazine ve Maliye Bakanlığı (Gelir İdaresi Başkanlığı)’nın 585 Sıra Nolu Vergi Usul Kanunu Genel Tebliği ile 2025 yılı için yeniden değerleme oranı % 25,49 (yirmi beş virgül kırk dokuz) olarak tespit edilmiştir. Öte yandan, bu konuda daha önce yayımlanmış olan tebliğler de yürürlükte bulunmaktadır.
 
-[105] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
+[105] 24/11/2026 tarihli ve 33440 sayılı Resmî Gazete’de yayımlanan Hazine ve Maliye Bakanlığı (Gelir İdaresi Başkanlığı)’nın 599 Sıra Nolu Vergi Usul Kanunu Genel Tebliği ile 2026 yılı için yeniden değerleme oranı % 27,83 (yirmi yedi virgül seksen üç) olarak tespit edilmiştir. Öte yandan, bu konuda daha önce yayımlanmış olan tebliğler de yürürlükte bulunmaktadır.
 
-[106] 14/10/2021 tarihli ve 7338 sayılı Kanunun 32 nci maddesiyle bu fıkraya “kıymetlerini” ibaresinden sonra gelmek üzere “, 320 nci maddenin dördüncü fıkrası saklı kalmak üzere,” ibaresi eklenmiştir.
+[106] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
 
-[107] Bu bentte yer alan "amortisman oranı normal amortisman oranının iki katıdır." ibaresi, 16/7/2004 tarihli ve 5228 sayılı Kanunun 59 uncu maddesiyle"amortisman oranı % 50'yi geçmemek üzere normal amortisman oranının iki katıdır."olarak değiştirilmiştir.
+[107] 14/10/2021 tarihli ve 7338 sayılı Kanunun 32 nci maddesiyle bu fıkraya “kıymetlerini” ibaresinden sonra gelmek üzere “, 320 nci maddenin dördüncü fıkrası saklı kalmak üzere,” ibaresi eklenmiştir.
 
-[108] 14/10/2021 tarihli ve 7338 sayılı Kanunun 35 inci maddesiyle bu bentte yer alan “dava ve icra takibine değmeyecek derecede küçük” ibaresi “ve 3.000 Türk lirasını aşmayan” şeklinde değiştirilmiştir.
+[108] Bu bentte yer alan "amortisman oranı normal amortisman oranının iki katıdır." ibaresi, 16/7/2004 tarihli ve 5228 sayılı Kanunun 59 uncu maddesiyle"amortisman oranı % 50'yi geçmemek üzere normal amortisman oranının iki katıdır."olarak değiştirilmiştir.
 
-[109] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
+[109] 14/10/2021 tarihli ve 7338 sayılı Kanunun 35 inci maddesiyle bu bentte yer alan “dava ve icra takibine değmeyecek derecede küçük” ibaresi “ve 3.000 Türk lirasını aşmayan” şeklinde değiştirilmiştir.
 
-[110] Bu maddenin parantez içi hükmünde yeralan “kaçakçılık, ağır kusur, kusur” ibaresi, 22/7/1998 tarihli ve 4369 sayılı Kanunun 81 inci maddesiyle “vergi ziyaı cezası...”  şeklinde değiştirilmiştir.
+[110] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
 
-[111] Bu maddede yer alan "Kaçakçılık, ağır kusur veya kusurda" ibaresi, 22/7/1998 tarih ve 4369 sayılı Kanunun 81 inci maddesiyle “Vergi ziyaı cezasında” şeklinde değiştirilmiştir.
+[111] Bu maddenin parantez içi hükmünde yeralan “kaçakçılık, ağır kusur, kusur” ibaresi, 22/7/1998 tarihli ve 4369 sayılı Kanunun 81 inci maddesiyle “vergi ziyaı cezası...”  şeklinde değiştirilmiştir.
 
-[112] 22/7/1998 tarih ve 4369 sayılı Kanunun 81 inci maddesiyle, bu maddenin birinci fıkrasında yer alan "... kaçakçılık ve usulsüzlük veya ağır kusur ve usulsüzlük veyahut kusur ile usulsüzlük ..." ibaresi "... vergi ziyaı ve usulsüzlük ..." şeklinde, ikinci fıkrasında yer alan "... kaçakçılık, ağır kusur veya kusur ..." ibaresi "... vergi ziyaı..." şeklinde değiştirilmiştir.
+[112] Bu maddede yer alan "Kaçakçılık, ağır kusur veya kusurda" ibaresi, 22/7/1998 tarih ve 4369 sayılı Kanunun 81 inci maddesiyle “Vergi ziyaı cezasında” şeklinde değiştirilmiştir.
 
-[113] Bu fıkrada yeralan "kaçakçılık, ağır kusur, kusur" ibaresi, 22/7/1998 tarih ve 4369 sayılı Kanunun 81 inci maddesiyle "...vergi ziyaı…” şeklinde değiştirilmiştir.
+[113] 22/7/1998 tarih ve 4369 sayılı Kanunun 81 inci maddesiyle, bu maddenin birinci fıkrasında yer alan "... kaçakçılık ve usulsüzlük veya ağır kusur ve usulsüzlük veyahut kusur ile usulsüzlük ..." ibaresi "... vergi ziyaı ve usulsüzlük ..." şeklinde, ikinci fıkrasında yer alan "... kaçakçılık, ağır kusur veya kusur ..." ibaresi "... vergi ziyaı..." şeklinde değiştirilmiştir.
 
-[114] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
+[114] Bu fıkrada yeralan "kaçakçılık, ağır kusur, kusur" ibaresi, 22/7/1998 tarih ve 4369 sayılı Kanunun 81 inci maddesiyle "...vergi ziyaı…” şeklinde değiştirilmiştir.
 
-[115] "Kaçakçılık" olan birinci bölüm başlığı, "Kaçakçılığın tarifi:" olan madde kenar başlığı ve "Kaçakçılık Suçunun Tarifi:" olan madde başlıkları 22/7/1998 tarih ve 4369 sayılı Kanunun 11 inci maddesiyle metne işlendikleri şekilde değiştirilmiştir. Daha sonra 23/1/2008 tarihli ve 5728 sayılı Kanunun 275 inci maddesiyle, “Vergi ziyaı suçu ve cezası” iken, metne işlendiği şekilde değiştirilmiştir.
+[115] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
 
-[116] Bu madde başlığı 24/6/1994 tarih ve 4008 sayılı Kanunun 16 ncı maddesi ile metne işlendiği şekilde değiştirilmiştir.
+[116] "Kaçakçılık" olan birinci bölüm başlığı, "Kaçakçılığın tarifi:" olan madde kenar başlığı ve "Kaçakçılık Suçunun Tarifi:" olan madde başlıkları 22/7/1998 tarih ve 4369 sayılı Kanunun 11 inci maddesiyle metne işlendikleri şekilde değiştirilmiştir. Daha sonra 23/1/2008 tarihli ve 5728 sayılı Kanunun 275 inci maddesiyle, “Vergi ziyaı suçu ve cezası” iken, metne işlendiği şekilde değiştirilmiştir.
 
-[117] Bu bölüm başlığı "üçüncü Bölüm" iken, 22/7/1998 tarih ve 4369 sayılı Kanunun 81 inci maddesiyle metne işlendiği şekilde değiştirilmiştir.
+[117] Bu madde başlığı 24/6/1994 tarih ve 4008 sayılı Kanunun 16 ncı maddesi ile metne işlendiği şekilde değiştirilmiştir.
 
-[118] Bu maddede yer alan miktarların 1/1/2026 tarihinden itibaren uygulanması ile ilgili olarak 30/12/2026 tarihli ve 33124 5. Mükerrer sayılı Resmî Gazete’de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliğ ekine bakınız.
+[118] Bu bölüm başlığı "üçüncü Bölüm" iken, 22/7/1998 tarih ve 4369 sayılı Kanunun 81 inci maddesiyle metne işlendiği şekilde değiştirilmiştir.
 
-[119] 28/7/2024 tarihli ve 7524 sayılı Kanunun 10 uncu maddesi ile bu maddenin birinci fıkrasının birinci cümlesinde yer alan “bağlı cetvele” ibaresi “bağlı 1 sayılı cetvele” şeklinde, ikinci cümlesinde yer alan “bağlı cetvelde” ibaresi “bağlı 1 sayılı cetvelde” şeklinde değiştirilmiştir.
+[119] Bu maddede yer alan miktarların 1/1/2026 tarihinden itibaren uygulanması ile ilgili olarak 30/12/2026 tarihli ve 33124 5. Mükerrer sayılı Resmî Gazete’de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliğ ekine bakınız.
+
+[120] 28/7/2024 tarihli ve 7524 sayılı Kanunun 10 uncu maddesi ile bu maddenin birinci fıkrasının birinci cümlesinde yer alan “bağlı cetvele” ibaresi “bağlı 1 sayılı cetvele” şeklinde, ikinci cümlesinde yer alan “bağlı cetvelde” ibaresi “bağlı 1 sayılı cetvelde” şeklinde değiştirilmiştir.
 
  
 
-[120] 14/10/2021 tarihli ve 7338 sayılı Kanunun 39 uncu maddesiyle bu bentte yer alan “(Madde 215 - 219)” ibaresi “(Madde 215 - 219 ile mükerrer madde 242)” şeklinde değiştirilmiştir.
+[121] 14/10/2021 tarihli ve 7338 sayılı Kanunun 39 uncu maddesiyle bu bentte yer alan “(Madde 215 - 219)” ibaresi “(Madde 215 - 219 ile mükerrer madde 242)” şeklinde değiştirilmiştir.
 
-[121] Bu bentte yer alan "Götürü matrahlar" ibaresi, 22/7/1998 tarihli ve 4369 sayılı Kanunun 81 inci maddesiyle metne işlendiği şekilde değiştirilmiştir.
+[122] Bu bentte yer alan "Götürü matrahlar" ibaresi, 22/7/1998 tarihli ve 4369 sayılı Kanunun 81 inci maddesiyle metne işlendiği şekilde değiştirilmiştir.
 
-[122] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
+[123] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
 
-[123] 1/7/2022 tarihli ve 7417 sayılı Kanunun 27 nci maddesiyle bu maddenin birinci fıkrasının;(1) ve (2) numaralı bentlerinde yer alan “240” ibareleri “1.000” şeklinde, “120.000” ibareleri “500.000” şeklinde, “12.000” ibaresi “50.000” şeklinde değiştirilmiştir.
+[124] 1/7/2022 tarihli ve 7417 sayılı Kanunun 27 nci maddesiyle bu maddenin birinci fıkrasının;(1) ve (2) numaralı bentlerinde yer alan “240” ibareleri “1.000” şeklinde, “120.000” ibareleri “500.000” şeklinde, “12.000” ibaresi “50.000” şeklinde değiştirilmiştir.
 
-[124] 28/7/2024 tarihli ve 7524 sayılı Kanunun 11 inci maddesi ile birinci fıkranın (1) numaralı bendinde yer alan “1.000 Türk lirasından aşağı olmamak üzere” ibaresi “bir takvim yılı içinde ilk tespitte 10.000 Türk lirasından, sonraki tespitlerde Kanuna bağlı 2 sayılı cetvelde yer alan tutarlardan aşağı olmamak üzere” şeklinde “500.000” ibaresi “10 milyon” şeklinde değiştirilmiş, (2) numaralı bendinde yer alan “1.000 Türk lirası” ibaresi “bir takvim yılında ilk tespitte 10.000 Türk lirası, sonraki tespitlerde Kanuna bağlı 2 sayılı cetvelde yer alan tutarlarda” şeklinde, “50.000” ibaresi “1 milyon” şeklinde, “500.000” ibaresi “10 milyon” şeklinde değiştirilmiş, (6) numaralı bendinde yer alan “250.000.000 lira” ibaresi “65.000 Türk lirası” şeklinde, (10) numaralı bendinde yer alan “75.000.000 lira” ibaresi “15.000 Türk lirası” şeklinde değiştirilmiştir.
+[125] 28/7/2024 tarihli ve 7524 sayılı Kanunun 11 inci maddesi ile birinci fıkranın (1) numaralı bendinde yer alan “1.000 Türk lirasından aşağı olmamak üzere” ibaresi “bir takvim yılı içinde ilk tespitte 10.000 Türk lirasından, sonraki tespitlerde Kanuna bağlı 2 sayılı cetvelde yer alan tutarlardan aşağı olmamak üzere” şeklinde “500.000” ibaresi “10 milyon” şeklinde değiştirilmiş, (2) numaralı bendinde yer alan “1.000 Türk lirası” ibaresi “bir takvim yılında ilk tespitte 10.000 Türk lirası, sonraki tespitlerde Kanuna bağlı 2 sayılı cetvelde yer alan tutarlarda” şeklinde, “50.000” ibaresi “1 milyon” şeklinde, “500.000” ibaresi “10 milyon” şeklinde değiştirilmiş, (6) numaralı bendinde yer alan “250.000.000 lira” ibaresi “65.000 Türk lirası” şeklinde, (10) numaralı bendinde yer alan “75.000.000 lira” ibaresi “15.000 Türk lirası” şeklinde değiştirilmiştir.
 
-[125] 14/10/2021 tarihli ve 7338 sayılı Kanunun 40 ıncı maddesiyle bu bentte yer alan “227 nci ve 231 inci” ibaresi “227, 231 ve 234 üncü” şeklinde değiştirilmiştir.
+[126] 14/10/2021 tarihli ve 7338 sayılı Kanunun 40 ıncı maddesiyle bu bentte yer alan “227 nci ve 231 inci” ibaresi “227, 231 ve 234 üncü” şeklinde değiştirilmiştir.
 
-[126] 28/7/2024 tarihli ve 7524 sayılı Kanunun 12 nci maddesi ile bu fıkrada yer alan “1 Yeni Türk Lirasından” ibaresi “40 Türk lirasından” şeklinde değiştirilmiştir.
+[127] 28/7/2024 tarihli ve 7524 sayılı Kanunun 12 nci maddesi ile bu fıkrada yer alan “1 Yeni Türk Lirasından” ibaresi “40 Türk lirasından” şeklinde değiştirilmiştir.
 
-[127] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) ) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
+[128] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) ) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
 
-[128] Bu madde başlığı “d) Bilgi vermekten çekinenler ile 257 nci madde hükmüne uymayanlar için:” iken 22/7/1998 tarih ve 4369 Sayılı Kanun ile “Bilgi vermekten çekinenler ile 256,257 ve mükerrer 257 nci madde hükmüne uymayanlar için ceza” şeklinde, bu madde başlığı daha sonra 15/7/2016 tarihli ve 6728 sayılı Kanunun 21 inci maddesiyle metne işlendiği şekilde değiştirilmiştir.
+[129] Bu madde başlığı “d) Bilgi vermekten çekinenler ile 257 nci madde hükmüne uymayanlar için:” iken 22/7/1998 tarih ve 4369 Sayılı Kanun ile “Bilgi vermekten çekinenler ile 256,257 ve mükerrer 257 nci madde hükmüne uymayanlar için ceza” şeklinde, bu madde başlığı daha sonra 15/7/2016 tarihli ve 6728 sayılı Kanunun 21 inci maddesiyle metne işlendiği şekilde değiştirilmiştir.
 
-[129] Bu maddenin “Bilgi vermekten çekinenler ile 256, 257, mükerrer 257 nci madde ve Gelir Vergisi Kanununun 98/A maddesi hükmüne uymayanlar için ceza:” olan başlığı 21/3/2018 tarihli ve 7103 sayılı Kanunun 13 üncü maddesiyle metne işlendiği şekilde değiştirilmiştir.
+[130] Bu maddenin “Bilgi vermekten çekinenler ile 256, 257, mükerrer 257 nci madde ve Gelir Vergisi Kanununun 98/A maddesi hükmüne uymayanlar için ceza:” olan başlığı 21/3/2018 tarihli ve 7103 sayılı Kanunun 13 üncü maddesiyle metne işlendiği şekilde değiştirilmiştir.
 
-[130] 14/10/2021 tarihli ve 7338 sayılı Kanunun 41 inci maddesiyle bu madde başlığına “107/A,” ibaresinden sonra gelmek üzere “mükerrer 242,” ibaresi ve maddenin birinci fıkrasına “150,” ibaresinden sonra gelmek üzere “mükerrer 242,” ibaresi eklenmiştir.
+[131] 14/10/2021 tarihli ve 7338 sayılı Kanunun 41 inci maddesiyle bu madde başlığına “107/A,” ibaresinden sonra gelmek üzere “mükerrer 242,” ibaresi ve maddenin birinci fıkrasına “150,” ibaresinden sonra gelmek üzere “mükerrer 242,” ibaresi eklenmiştir.
 
-[131] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
+[132] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
 
-[132] 28/7/2024 tarihli ve 7524 sayılı Kanunun 13 üncü maddesi ile bu madde başlığına “107/A,” ibaresinden sonra gelmek üzere “152/A, 153/A,” ibaresi eklenmiş, aynı maddenin; birinci fıkrasının; (1) numaralı bendinde yer alan “1.000” ibaresi “20.000” şeklinde, (2) numaralı bendinde yer alan “500” ibaresi “10.000” şeklinde, (3) numaralı bendinde yer alan “250” ibaresi “5.000” şeklinde, dördüncü cümlesinde yer alan “1 milyon” ibaresi “10 milyon” şeklinde, son cümlesinde yer alan “Mükerrer” ibaresi “152/A maddesi veya mükerrer” şeklinde değiştirilmiş ve Dördüncü fıkrasının birinci cümlesinde yer alan “uymayan mükelleflerden” ibaresi “uymayanların” şeklinde, “% 5’i” ibaresi “% 10’u” şeklinde, ikinci cümlesinde yer alan “kesilen mükellefler” ibaresi “kesilenler” şeklinde, üçüncü cümlesinde yer alan “770.000 TL’yi” ibaresi “20 milyon Türk lirasını” şeklinde değiştirilmiştir.
+[133] 28/7/2024 tarihli ve 7524 sayılı Kanunun 13 üncü maddesi ile bu madde başlığına “107/A,” ibaresinden sonra gelmek üzere “152/A, 153/A,” ibaresi eklenmiş, aynı maddenin; birinci fıkrasının; (1) numaralı bendinde yer alan “1.000” ibaresi “20.000” şeklinde, (2) numaralı bendinde yer alan “500” ibaresi “10.000” şeklinde, (3) numaralı bendinde yer alan “250” ibaresi “5.000” şeklinde, dördüncü cümlesinde yer alan “1 milyon” ibaresi “10 milyon” şeklinde, son cümlesinde yer alan “Mükerrer” ibaresi “152/A maddesi veya mükerrer” şeklinde değiştirilmiş ve Dördüncü fıkrasının birinci cümlesinde yer alan “uymayan mükelleflerden” ibaresi “uymayanların” şeklinde, “% 5’i” ibaresi “% 10’u” şeklinde, ikinci cümlesinde yer alan “kesilen mükellefler” ibaresi “kesilenler” şeklinde, üçüncü cümlesinde yer alan “770.000 TL’yi” ibaresi “20 milyon Türk lirasını” şeklinde değiştirilmiştir.
 
-[133] 15/7/2016 tarihli ve 6728 sayılı Kanunun 21 inci maddesiyle, bu maddenin birinci fıkrasında yer alan “mükerrer 257 nci madde uyarınca getirilen zorunluluklara” ibaresi “mükerrer 257 nci maddesi ve Gelir Vergisi Kanununun 98/A maddesi uyarınca getirilen zorunluluklara” şeklinde değiştirilmiştir.
+[134] 15/7/2016 tarihli ve 6728 sayılı Kanunun 21 inci maddesiyle, bu maddenin birinci fıkrasında yer alan “mükerrer 257 nci madde uyarınca getirilen zorunluluklara” ibaresi “mükerrer 257 nci maddesi ve Gelir Vergisi Kanununun 98/A maddesi uyarınca getirilen zorunluluklara” şeklinde değiştirilmiştir.
 
-[134] 16/11/2022 tarihli ve 7421 sayılı Kanunun 2 nci maddesiyle, bu maddenin birinci fıkrasınının dördüncü cümlesinde yer alan “(8) numaralı bendi” ibaresi “(8) ve (10) numaralı bentleri” şeklinde değiştirilmiştir.
+[135] 16/11/2022 tarihli ve 7421 sayılı Kanunun 2 nci maddesiyle, bu maddenin birinci fıkrasınının dördüncü cümlesinde yer alan “(8) numaralı bendi” ibaresi “(8) ve (10) numaralı bentleri” şeklinde değiştirilmiştir.
 
-[135] 23/7/2010 tarihli ve 6009 sayılı Kanunun 12 nci maddesiyle, bu maddenin beşinci fıkrasında yer alan “15 gün” ibareleri “30 gün”, “1/4” ibaresi “1/10”, “1/2” ibaresi “1/5”, altıncı fıkrasında yer alan “1/2” ibaresi “1/5” şeklinde değiştirilmiştir.
+[136] 23/7/2010 tarihli ve 6009 sayılı Kanunun 12 nci maddesiyle, bu maddenin beşinci fıkrasında yer alan “15 gün” ibareleri “30 gün”, “1/4” ibaresi “1/10”, “1/2” ibaresi “1/5”, altıncı fıkrasında yer alan “1/2” ibaresi “1/5” şeklinde değiştirilmiştir.
 
-[136] Bu bölüm başlığı "Dördüncü Bölüm" ve "ceza mahkemelerince yargılanacak Suçlar ve Cezaları" iken, 22/7/1998 tarih ve 4369 sayılı Kanunun 14 üncü maddesiyle metne işlendiği şekilde değiştirilmiştir. Daha sonra bu başlık “Hürriyeti Bağlayıcı Ceza İle Cezalandırılacak Suçlar ve Cezaları” iken; 23/1/2008 tarihli ve 5728 sayılı Kanunun 276 ncı maddesiyle metne işlendiği şekilde değiştirilmiştir.
+[137] Bu bölüm başlığı "Dördüncü Bölüm" ve "ceza mahkemelerince yargılanacak Suçlar ve Cezaları" iken, 22/7/1998 tarih ve 4369 sayılı Kanunun 14 üncü maddesiyle metne işlendiği şekilde değiştirilmiştir. Daha sonra bu başlık “Hürriyeti Bağlayıcı Ceza İle Cezalandırılacak Suçlar ve Cezaları” iken; 23/1/2008 tarihli ve 5728 sayılı Kanunun 276 ncı maddesiyle metne işlendiği şekilde değiştirilmiştir.
 
-[137] 8/4/2022 tarihli ve 7394 sayılı Kanunun 4 üncü maddesiyle (a) fıkrasında yer alan “üç” ibaresi “beş” şeklinde, (b), (c) ve (ç) fıkralarında yer alan “beş” ibareleri “sekiz” şeklinde değiştirilmiştir.
+[138] 8/4/2022 tarihli ve 7394 sayılı Kanunun 4 üncü maddesiyle (a) fıkrasında yer alan “üç” ibaresi “beş” şeklinde, (b), (c) ve (ç) fıkralarında yer alan “beş” ibareleri “sekiz” şeklinde değiştirilmiştir.
 
-[138] 16/6/2009 tarihli ve 5904 sayılı Kanunun 23 üncü maddesiyle; bu maddenin (a) fıkrasında yer alan “bir yıldan” ibaresi “on sekiz aydan” şeklinde değiştirilmiştir.
+[139] 16/6/2009 tarihli ve 5904 sayılı Kanunun 23 üncü maddesiyle; bu maddenin (a) fıkrasında yer alan “bir yıldan” ibaresi “on sekiz aydan” şeklinde değiştirilmiştir.
 
-[139] Bu madde başlığı “İştirak”iken, 23/1/2008 tarihli ve 5728 sayılı Kanunun 277 nci maddesiyle metne işlendiği şekilde değiştirilmiştir.
+[140] Bu madde başlığı “İştirak”iken, 23/1/2008 tarihli ve 5728 sayılı Kanunun 277 nci maddesiyle metne işlendiği şekilde değiştirilmiştir.
 
-[140] 30/12/1980 tarih ve 2365 sayılı Kanunun 86 ncı maddesi ile değişik şeklidir.
+[141] 30/12/1980 tarih ve 2365 sayılı Kanunun 86 ncı maddesi ile değişik şeklidir.
 
-[141] 7/7/2011 tarihli ve 646 sayılı KHK’nin 4 üncü maddesiyle, bu maddenin birinci fıkrasında yer alan “maliye müfettişleri, hesap uzmanları ile bunların yardımcıları ve gelirler kontrolörleri ile stajyer gelirler kontrolörleri” ibaresi “Vergi Müfettişleri ve Vergi Müfettiş Yardımcıları” şeklinde değiştirilmiştir.
+[142] 7/7/2011 tarihli ve 646 sayılı KHK’nin 4 üncü maddesiyle, bu maddenin birinci fıkrasında yer alan “maliye müfettişleri, hesap uzmanları ile bunların yardımcıları ve gelirler kontrolörleri ile stajyer gelirler kontrolörleri” ibaresi “Vergi Müfettişleri ve Vergi Müfettiş Yardımcıları” şeklinde değiştirilmiştir.
 
-[142] 30/11/2022 tarihli ve 7423 sayılı Kanunun 2 nci maddesiyle bu fıkranın birinci cümlesinde yer alan “(ç) fıkrasında” ibaresi “(ç) ve (d) fıkralarında” şeklinde değiştirilmiştir.
+[143] 30/11/2022 tarihli ve 7423 sayılı Kanunun 2 nci maddesiyle bu fıkranın birinci cümlesinde yer alan “(ç) fıkrasında” ibaresi “(ç) ve (d) fıkralarında” şeklinde değiştirilmiştir.
 
-[143] Bu fıkra, 22/7/1998 tarih ve 4369 sayılı Kanunun 16 ncı maddesiyle eklenmiş, ancak 1/1/2003 tarihinde yürürlüğe gireceği için metne işlenmeden, 11/8/1999 tarih ve 4444 sayılı Kanunun 14 üncü maddesiyle yürürlükten kaldırılmıştır. (Sözkonusu fıkra için bakınız: Kanunlar külliyatı 6 ncı cilt sayfa 7598)
+[144] Bu fıkra, 22/7/1998 tarih ve 4369 sayılı Kanunun 16 ncı maddesiyle eklenmiş, ancak 1/1/2003 tarihinde yürürlüğe gireceği için metne işlenmeden, 11/8/1999 tarih ve 4444 sayılı Kanunun 14 üncü maddesiyle yürürlükten kaldırılmıştır. (Sözkonusu fıkra için bakınız: Kanunlar külliyatı 6 ncı cilt sayfa 7598)
 
-[144] Bu madde başlığı “Yanılma:” iken 23/7/2010 tarihli ve 6009 sayılı Kanunun 14 üncü maddesiyle metne işlendiği şekilde değiştirilmiştir.
+[145] Bu madde başlığı “Yanılma:” iken 23/7/2010 tarihli ve 6009 sayılı Kanunun 14 üncü maddesiyle metne işlendiği şekilde değiştirilmiştir.
 
-[145] 15/7/2016 tarihli ve 6728 sayılı Kanunun 20 nci maddesiyle, bu madde başlığı metne işlendiği şekilde yeniden düzenlenmiştir.
+[146] 15/7/2016 tarihli ve 6728 sayılı Kanunun 20 nci maddesiyle, bu madde başlığı metne işlendiği şekilde yeniden düzenlenmiştir.
 
-[146] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
+[147] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
 
-[147] 14/10/2021 tarihli ve 7338 sayılı Kanunun 42 nci maddesiyle bu bentte yer alan “her hangi bir vergi incelemesine başlandığı veya olayın” ibaresi “haber verilen olayın ilgili olduğu vergi türüne ilişkin bir vergi incelemesine başlandığı veya olayın ve ilgili olduğu vergi türünün” şeklinde değiştirilmiştir.
+[148] 14/10/2021 tarihli ve 7338 sayılı Kanunun 42 nci maddesiyle bu bentte yer alan “her hangi bir vergi incelemesine başlandığı veya olayın” ibaresi “haber verilen olayın ilgili olduğu vergi türüne ilişkin bir vergi incelemesine başlandığı veya olayın ve ilgili olduğu vergi türünün” şeklinde değiştirilmiştir.
 
-[148] Bu bölüm ve başlığı, 19/2/1963 tarih ve 205 sayılı Kanunun 22 nci maddesi ile eklenmiştir.
+[149] Bu bölüm ve başlığı, 19/2/1963 tarih ve 205 sayılı Kanunun 22 nci maddesi ile eklenmiştir.
 
-[149] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
+[150] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
 
-[150] 28/7/2024 tarihli ve 7524 sayılı Kanunun 14 üncü maddesi ile bu maddenin birinci fıkrasının birinci cümlesinde yer alan “vergilerle bunlara” ibaresi “vergilere” şeklinde değiştirilmiş, “tarh edilen vergi ve” ibaresi madde metninden çıkarılmış, yedinci cümlesinde yer alan “vergi ve” ibaresi madde metninden çıkarılmış, ikinci fıkrasının birinci cümlesinde yer alan “harçların” ibaresi “harçlara ilişkin cezaların” şeklinde ve üçüncü fıkrasında yer alan “tarh edilecek vergilerde” ibaresi “kesilecek cezalarda” şeklinde değiştirilmiştir.
+[151] 28/7/2024 tarihli ve 7524 sayılı Kanunun 14 üncü maddesi ile bu maddenin birinci fıkrasının birinci cümlesinde yer alan “vergilerle bunlara” ibaresi “vergilere” şeklinde değiştirilmiş, “tarh edilen vergi ve” ibaresi madde metninden çıkarılmış, yedinci cümlesinde yer alan “vergi ve” ibaresi madde metninden çıkarılmış, ikinci fıkrasının birinci cümlesinde yer alan “harçların” ibaresi “harçlara ilişkin cezaların” şeklinde ve üçüncü fıkrasında yer alan “tarh edilecek vergilerde” ibaresi “kesilecek cezalarda” şeklinde değiştirilmiştir.
 
-[151] Bu fıkrada yer alan, “Mükellef tarafından, ikmalen, re'sen veya idarece yapılacak tarhiyatta...” ibaresi, 11/8/1999 tarih ve 4444 sayılı Kanunun 7 nci maddesiyle, metne işlendiği şekilde değiştirilmiştir.
+[152] Bu fıkrada yer alan, “Mükellef tarafından, ikmalen, re'sen veya idarece yapılacak tarhiyatta...” ibaresi, 11/8/1999 tarih ve 4444 sayılı Kanunun 7 nci maddesiyle, metne işlendiği şekilde değiştirilmiştir.
 
-[152] 20/2/2008 tarihli ve 5736 sayılı Kanunun 6 ncı maddesiyle; bu fıkrada bulunan “(344 üncü maddenin üçüncü fıkrası uyarınca vergi ziyaı cezası kesilen tarhiyata ilişkin vergi ve ceza hariç)” ibaresi, “(359 uncu maddede yazılı fiillerle vergi ziyaına sebebiyet verilmesi halinde tarh edilen vergi ve kesilen ceza ile bu fiillere iştirak edenlere kesilen ceza hariç)” şeklinde değiştirilmiş ve metne işlenmiştir.
+[153] 20/2/2008 tarihli ve 5736 sayılı Kanunun 6 ncı maddesiyle; bu fıkrada bulunan “(344 üncü maddenin üçüncü fıkrası uyarınca vergi ziyaı cezası kesilen tarhiyata ilişkin vergi ve ceza hariç)” ibaresi, “(359 uncu maddede yazılı fiillerle vergi ziyaına sebebiyet verilmesi halinde tarh edilen vergi ve kesilen ceza ile bu fiillere iştirak edenlere kesilen ceza hariç)” şeklinde değiştirilmiş ve metne işlenmiştir.
 
-[153] 5/12/2019 tarihli ve 7194 sayılı Kanunun 28 inci maddesiyle, bu parantez içi hükümde yer alan “kesilen ceza hariç” ibaresi “kesilen ceza ve 370 inci maddenin (b) fıkrası kapsamında kendilerine ön tespite ilişkin yazı tebliğ edilen mükelleflere mezkur maddeye göre kesilen ceza hariç” şeklinde değiştirilmiştir.
+[154] 5/12/2019 tarihli ve 7194 sayılı Kanunun 28 inci maddesiyle, bu parantez içi hükümde yer alan “kesilen ceza hariç” ibaresi “kesilen ceza ve 370 inci maddenin (b) fıkrası kapsamında kendilerine ön tespite ilişkin yazı tebliğ edilen mükelleflere mezkur maddeye göre kesilen ceza hariç” şeklinde değiştirilmiştir.
 
-[154] 14/10/2021 tarihli ve 7338 sayılı Kanunun 44 üncü maddesiyle bu fıkranın birinci cümlesine “cezalarının” ibaresinden önce gelmek üzere “cezaları ile 5.000 Türk lirasını aşan usulsüzlük ve özel usulsüzlük” ibaresi eklenmiştir.
+[155] 14/10/2021 tarihli ve 7338 sayılı Kanunun 44 üncü maddesiyle bu fıkranın birinci cümlesine “cezalarının” ibaresinden önce gelmek üzere “cezaları ile 5.000 Türk lirasını aşan usulsüzlük ve özel usulsüzlük” ibaresi eklenmiştir.
 
-[155] 29/11/2018 tarihli ve 7153 sayılı Kanunun 28 nci maddesiyle bu fıkrada yer alan “İçişleri Bakanlığınca” ibaresi “İçişleri Bakanlığının görüşü alınarak Çevre ve Şehircilik Bakanlığınca” şeklinde değiştirilmiştir.
+[156] 29/11/2018 tarihli ve 7153 sayılı Kanunun 28 nci maddesiyle bu fıkrada yer alan “İçişleri Bakanlığınca” ibaresi “İçişleri Bakanlığının görüşü alınarak Çevre ve Şehircilik Bakanlığınca” şeklinde değiştirilmiştir.
 
-[156] 22/7/1998 tarihli ve 4369 sayılı Kanunun 18 inci maddesiyle bu fıkrada yer alan "uzlaşma komisyonlarının ek 5 inci maddeye göre tutacakları" ibaresi, “Uzlaşma komisyonlarının tutacakları” şeklinde değiştirilmiştir.
+[157] 22/7/1998 tarihli ve 4369 sayılı Kanunun 18 inci maddesiyle bu fıkrada yer alan "uzlaşma komisyonlarının ek 5 inci maddeye göre tutacakları" ibaresi, “Uzlaşma komisyonlarının tutacakları” şeklinde değiştirilmiştir.
 
-[157] 28/7/2024 tarihli ve 7524 sayılı Kanunun 14 üncü maddesi ile bu maddenin birinci ve ikinci fıkralarında yer alan “vergi veya” ibareleri madde metninden çıkarılmış ve dördüncü fıkrasında yer alan “tarhedilen vergiye veya” ibaresi madde metninden çıkarılmıştır.
+[158] 28/7/2024 tarihli ve 7524 sayılı Kanunun 14 üncü maddesi ile bu maddenin birinci ve ikinci fıkralarında yer alan “vergi veya” ibareleri madde metninden çıkarılmış ve dördüncü fıkrasında yer alan “tarhedilen vergiye veya” ibaresi madde metninden çıkarılmıştır.
 
-[158] 28/7/2024 tarihli ve 7524 sayılı Kanunun 14 üncü maddesi ile bu maddede yer alan “vergi ve” ibareleri madde metninden çıkarılmış, “112 ve 368 inci maddeleri hükümleri” ibaresi “368 inci madde hükmü” şeklinde, “8 numaralı bendi” ibaresi “dördüncü fıkrası” şeklinde değiştirilmiştir.
+[159] 28/7/2024 tarihli ve 7524 sayılı Kanunun 14 üncü maddesi ile bu maddede yer alan “vergi ve” ibareleri madde metninden çıkarılmış, “112 ve 368 inci maddeleri hükümleri” ibaresi “368 inci madde hükmü” şeklinde, “8 numaralı bendi” ibaresi “dördüncü fıkrası” şeklinde değiştirilmiştir.
 
-[159] 28/7/2024 tarihli ve 7524 sayılı Kanunun 14 üncü maddesi ile bu maddenin birinci fıkrasında yer alan “uzlaşılan vergi ve cezalar hakkında 376 ncı maddenin birinci fıkrasının (2) numaralı bendi hükmü dışında indirim uygulanmaz.” ibaresi “uzlaşılan cezalar hakkında başkaca bir indirim uygulanmaz.” şeklinde değiştirilmiş ve ikinci fıkrasında yer alan “vergi ve” ibaresi madde metninden çıkarılmıştır.
+[160] 28/7/2024 tarihli ve 7524 sayılı Kanunun 14 üncü maddesi ile bu maddenin birinci fıkrasında yer alan “uzlaşılan vergi ve cezalar hakkında 376 ncı maddenin birinci fıkrasının (2) numaralı bendi hükmü dışında indirim uygulanmaz.” ibaresi “uzlaşılan cezalar hakkında başkaca bir indirim uygulanmaz.” şeklinde değiştirilmiş ve ikinci fıkrasında yer alan “vergi ve” ibaresi madde metninden çıkarılmıştır.
 
-[160] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
+[161] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
 
-[161] 28/7/2024 tarihli ve 7524 sayılı Kanunun 14 üncü maddesi ile bu maddenin birinci fıkrasının birinci cümlesinde yer alan “vergiler ve bunlara” ibaresi “vergilere” şeklinde değiştirilmiş, “tarh edilecek vergi ve” ibaresi madde metninden çıkarılmış ve üçüncü fıkrasında yer alan “verginin tarhından ve” ibaresi madde metninden çıkarılmıştır.
+[162] 28/7/2024 tarihli ve 7524 sayılı Kanunun 14 üncü maddesi ile bu maddenin birinci fıkrasının birinci cümlesinde yer alan “vergiler ve bunlara” ibaresi “vergilere” şeklinde değiştirilmiş, “tarh edilecek vergi ve” ibaresi madde metninden çıkarılmış ve üçüncü fıkrasında yer alan “verginin tarhından ve” ibaresi madde metninden çıkarılmıştır.
 
-[162] 20/2/2008 tarihli ve 5736 sayılı Kanunun 6 ncı maddesiyle; bu fıkrada bulunan  "(344 üncü maddenin üçüncü fıkrası uyarınca vergi ziyaı cezası kesilecek tarhiyata ilişkin vergi ve ceza hariç)" ibaresi "(359 uncu maddede yazılı fiillerle vergi ziyaına sebebiyet verilmesi halinde tarh edilecek vergi ve kesilecek ceza ile bu fiillere iştirak edenlere kesilecek ceza hariç)" şeklinde değiştirilmiştir.
+[163] 20/2/2008 tarihli ve 5736 sayılı Kanunun 6 ncı maddesiyle; bu fıkrada bulunan  "(344 üncü maddenin üçüncü fıkrası uyarınca vergi ziyaı cezası kesilecek tarhiyata ilişkin vergi ve ceza hariç)" ibaresi "(359 uncu maddede yazılı fiillerle vergi ziyaına sebebiyet verilmesi halinde tarh edilecek vergi ve kesilecek ceza ile bu fiillere iştirak edenlere kesilecek ceza hariç)" şeklinde değiştirilmiştir.
 
-[163] 21/3/2018 tarihli ve 7103 sayılı Kanunun 15 inci maddesiyle bu fıkrada yer alan “vergilerle kesilecek cezalarda” ibaresi “vergiler ile bunlara ilişkin kesilecek vergi ziyaı cezalarında” şeklinde değiştirilmiş olup 7103 sayılı Kanunun 93 üncü maddesi uyarınca bu değişiklik yayım tarihi olan 27/3/2018 tarihinden önce tarhiyat öncesi uzlaşma talep edilenler hariç olmak üzere yayımı tarihinde yürürlüğe girer.
+[164] 21/3/2018 tarihli ve 7103 sayılı Kanunun 15 inci maddesiyle bu fıkrada yer alan “vergilerle kesilecek cezalarda” ibaresi “vergiler ile bunlara ilişkin kesilecek vergi ziyaı cezalarında” şeklinde değiştirilmiş olup 7103 sayılı Kanunun 93 üncü maddesi uyarınca bu değişiklik yayım tarihi olan 27/3/2018 tarihinden önce tarhiyat öncesi uzlaşma talep edilenler hariç olmak üzere yayımı tarihinde yürürlüğe girer.
 
-[164] 14/10/2021 tarihli ve 7338 sayılı Kanunun 45 inci maddesiyle bu fıkrada yer alan “ile bunlara ilişkin kesilecek vergi ziyaı cezalarında” ibaresi “ve bunlara ilişkin kesilecek vergi ziyaı cezaları ile 5.000 Türk lirasını aşan usulsüzlük ve özel usulsüzlük cezalarında” şeklinde değiştirilmiştir.
+[165] 14/10/2021 tarihli ve 7338 sayılı Kanunun 45 inci maddesiyle bu fıkrada yer alan “ile bunlara ilişkin kesilecek vergi ziyaı cezalarında” ibaresi “ve bunlara ilişkin kesilecek vergi ziyaı cezaları ile 5.000 Türk lirasını aşan usulsüzlük ve özel usulsüzlük cezalarında” şeklinde değiştirilmiştir.
 
-[165] 20/7/2025 tarihli ve 7555 sayılı Kanunun 5 inci maddesiyle  bu fıkrada yer alan “160” ibaresi “300” şeklinde ve “%20’sini” ibaresi “%40’ını” şeklinde değiştirilmiştir.
+[166] 20/7/2025 tarihli ve 7555 sayılı Kanunun 5 inci maddesiyle  bu fıkrada yer alan “160” ibaresi “300” şeklinde ve “%20’sini” ibaresi “%40’ını” şeklinde değiştirilmiştir.
 
-[166] 14/10/2021 tarihli ve 7338 sayılı Kanunun 46 ncı maddesiyle ek 13 üncü maddeden sonra gelmek üzere bu bölüm başlığı eklenmiştir.
+[167] 14/10/2021 tarihli ve 7338 sayılı Kanunun 46 ncı maddesiyle ek 13 üncü maddeden sonra gelmek üzere bu bölüm başlığı eklenmiştir.
 
-[167] Bu başlık, 23/6/1982 tarihli ve 2686 sayılı Kanunun 49 uncu maddesi ile değiştirilmiş, ayrıca “1. Kısım” ve  "1. bölüm" başlıkları da kaldırılmıştır.
+[168] Bu başlık, 23/6/1982 tarihli ve 2686 sayılı Kanunun 49 uncu maddesi ile değiştirilmiş, ayrıca “1. Kısım” ve  "1. bölüm" başlıkları da kaldırılmıştır.
 
-[168] 23/6/1982 tarih ve 2686 sayılı Kanunun 51 inci maddesiyle değişik şeklidir. 
+[169] 23/6/1982 tarih ve 2686 sayılı Kanunun 51 inci maddesiyle değişik şeklidir. 
 
-[169] Bu madde başlığı “Mükelleflerin izahat talebinde bulunabilecekleri:”iken, 23/7/2010 tarihli ve 6009 sayılı Kanunun 15 inci maddesiyle metne işlendiği şekilde değiştirilmiştir.
+[170] Bu madde başlığı “Mükelleflerin izahat talebinde bulunabilecekleri:”iken, 23/7/2010 tarihli ve 6009 sayılı Kanunun 15 inci maddesiyle metne işlendiği şekilde değiştirilmiştir.
 
-[170] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) ) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
+[171] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) ) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
 
-[171] 2/7/2018 tarihli ve 700 sayılı KHK’nin 46 ncı maddesiyle, bu fıkrada yer alan “Bakanlar Kurulu” ibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir.
+[172] 2/7/2018 tarihli ve 700 sayılı KHK’nin 46 ncı maddesiyle, bu fıkrada yer alan “Bakanlar Kurulu” ibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir.
 
-[172] 22/7/1998 tarih ve 4369 sayılı Kanununun 81 inci maddesiyle bu maddede yeralan "kusur" ibaresi “vergi ziyaı” şeklinde değiştirilmiştir.
+[173] 22/7/1998 tarih ve 4369 sayılı Kanununun 81 inci maddesiyle bu maddede yeralan "kusur" ibaresi “vergi ziyaı” şeklinde değiştirilmiştir.
 
-[173] 22/7/1998 tarih ve 4369 sayılı Kanununun 81 inci maddesiyle bu maddede yeralan "götürü usulden (Zirai kazançlarda götürü gider usulü dahil) gerçek usule geçecek olan mükelleflerin" ibaresi “veya basit usulden gerçek usule geçecek olan mükellefler ile öteden beri faaliyete devam eden serbest meslek erbabınının” şeklinde değiştirilmiştir.
+[174] 22/7/1998 tarih ve 4369 sayılı Kanununun 81 inci maddesiyle bu maddede yeralan "götürü usulden (Zirai kazançlarda götürü gider usulü dahil) gerçek usule geçecek olan mükelleflerin" ibaresi “veya basit usulden gerçek usule geçecek olan mükellefler ile öteden beri faaliyete devam eden serbest meslek erbabınının” şeklinde değiştirilmiştir.
 
-[174] Bu kısımda yer alan “Şu kadar ki, bu Kanunun yürürlüğe girmesinden önce kesinleşmiş mahkumiyet kararları hakkında bu Kanun hükümleri uygulanmaz” şeklindeki son tümce, Anayasa Mahkemesinin 6/7/2000 tarih ve E.: 2000/21, K.: 2000/16 sayılı kararı ile iptal edildiği için metinden çıkarılmıştır.
+[175] Bu kısımda yer alan “Şu kadar ki, bu Kanunun yürürlüğe girmesinden önce kesinleşmiş mahkumiyet kararları hakkında bu Kanun hükümleri uygulanmaz” şeklindeki son tümce, Anayasa Mahkemesinin 6/7/2000 tarih ve E.: 2000/21, K.: 2000/16 sayılı kararı ile iptal edildiği için metinden çıkarılmıştır.
 
-[175]  a) 21/3/2018 tarihli ve 7103 sayılı Kanunun 93 üncü maddesi uyarınca, bu madde yayım tarihi olan 27/3/2018’i izleyen ikinci ay başı olan 1/5/2018 tarihinde yürürlüğe girer.
+[176]  a) 21/3/2018 tarihli ve 7103 sayılı Kanunun 93 üncü maddesi uyarınca, bu madde yayım tarihi olan 27/3/2018’i izleyen ikinci ay başı olan 1/5/2018 tarihinde yürürlüğe girer.
 
 b) 6948 sayılı Sanayi Sicil Kanununa göre sanayi sicil belgesini haiz mükelleflerce münhasıran imalat sanayinde kullanılmak üzere, bu maddeye göre amortisman oran ve süreleri faydalı ömür sürelerinin yarısı dikkate alınarak hesaplanabilecek ve 3065 sayılı Kanunun Geçici 39 uncu maddesine göre katma değer vergisi istisnası kapsamında teslim edilecek yeni makine ve teçhizat için 5/5/2018 tarihli ve 30412 sayılı Resmî Gazete’de yayımlanan, 30/4/2018 tarihli ve 2018/11674 sayılı Bakanlar Kurulu Kararı eki Kararın 4 üncü maddesi ile Karara ekli listeye bakınız.
 
-[176] 2/7/2018 tarihli ve 700 sayılı KHK’nin 46 ncı maddesiyle, bu maddede yer alan “Bakanlar Kurulu” ibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir.
+[177] 2/7/2018 tarihli ve 700 sayılı KHK’nin 46 ncı maddesiyle, bu maddede yer alan “Bakanlar Kurulu” ibaresi “Cumhurbaşkanı” şeklinde değiştirilmiştir.
 
-[177] 27/12/2023 tarihli ve 7491 sayılı Kanunun 16 ncı maddesiyle, bu fıkrada yer alan “31/12/2023” ibaresi “31/12/2024” şeklinde değiştirilmiştir.
+[178] 27/12/2023 tarihli ve 7491 sayılı Kanunun 16 ncı maddesiyle, bu fıkrada yer alan “31/12/2023” ibaresi “31/12/2024” şeklinde değiştirilmiştir.
 
-[178] Anayasa Mahkemesinin 30/11/2023 tarihli ve E.: 2023/105; K.: 2023/208 sayılı Kararı ile bu fıkrada yer alan “…2021…” ibaresi iptal edilmiştir.
+[179] Anayasa Mahkemesinin 30/11/2023 tarihli ve E.: 2023/105; K.: 2023/208 sayılı Kararı ile bu fıkrada yer alan “…2021…” ibaresi iptal edilmiştir.
 
-[179] 24/10/2024 tarihli ve 7529 sayılı Kanunun 12 nci maddesi ile bu fıkranın birinci cümlesinde yer alan “ile sigorta ve reasürans şirketleri ve emeklilik şirketleri” ibaresi “, sigorta ve reasürans şirketleri, emeklilik şirketleri, tasfiye ve iflas hallerindeki şirketler, 8/6/1984 tarihli ve 233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname kapsamındaki iktisadi devlet teşekkülleri ile kamu iktisadi kuruluşları” şeklinde değiştirilmiştir.
+[180] 24/10/2024 tarihli ve 7529 sayılı Kanunun 12 nci maddesi ile bu fıkranın birinci cümlesinde yer alan “ile sigorta ve reasürans şirketleri ve emeklilik şirketleri” ibaresi “, sigorta ve reasürans şirketleri, emeklilik şirketleri, tasfiye ve iflas hallerindeki şirketler, 8/6/1984 tarihli ve 233 sayılı Kamu İktisadi Teşebbüsleri Hakkında Kanun Hükmünde Kararname kapsamındaki iktisadi devlet teşekkülleri ile kamu iktisadi kuruluşları” şeklinde değiştirilmiştir.
 
-[180] Anayasa Mahkemesinin 28/9/2022 tarihli ve E: 2022/59, K: 2022/111 sayılı Kararı ile bu cümle; birinci fıkranın birinci cümlesinde yer alan “…infaz…” ibaresi yönünden ve ikinci fıkrada yer alan “…kovuşturma…” ibaresi yönünden iptal edilmiştir.
+[181] Anayasa Mahkemesinin 28/9/2022 tarihli ve E: 2022/59, K: 2022/111 sayılı Kararı ile bu cümle; birinci fıkranın birinci cümlesinde yer alan “…infaz…” ibaresi yönünden ve ikinci fıkrada yer alan “…kovuşturma…” ibaresi yönünden iptal edilmiştir.
 
-[181] 28/7/2024 tarihli ve 7524 sayılı Kanunun 10 uncu maddesi ile Kanuna bağlı “Usulsüzlük Cezalarına Ait Cetvel” başlığı “1 Sayılı Usulsüzlük Cezalarına Ait Cetvel” şeklinde, mevcut Usulsüzlük Cezalarına Ait Cetveldeki miktarlar cetvele işlendiği şekilde değiştirilmiştir.
+[182] 28/7/2024 tarihli ve 7524 sayılı Kanunun 10 uncu maddesi ile Kanuna bağlı “Usulsüzlük Cezalarına Ait Cetvel” başlığı “1 Sayılı Usulsüzlük Cezalarına Ait Cetvel” şeklinde, mevcut Usulsüzlük Cezalarına Ait Cetveldeki miktarlar cetvele işlendiği şekilde değiştirilmiştir.
 
-[182] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
+[183] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
 
-[183] Bu satırda yer alan "Götürü usulde gelir vergisine tabi olanlar" ibaresi, 22/7/1998 tarih ve 4369 sayılı Kanununun 81 inci maddesiyle metne işlendiği şekilde değiştirilmiştir.
+[184] Bu satırda yer alan "Götürü usulde gelir vergisine tabi olanlar" ibaresi, 22/7/1998 tarih ve 4369 sayılı Kanununun 81 inci maddesiyle metne işlendiği şekilde değiştirilmiştir.
 
-[184] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
+[185] Bu maddeye kanunla getirilen miktarlar aynen korunmuş olup, daha sonra 30/12/2025 tarihli ve 33124 (5. Mükerrer) sayılı Resmî Gazete'de yayımlanan Hazine ve Maliye Bakanlığının (Gelir İdaresi Başkanlığı) 588 Sıra No.’lu Tebliği ile 1/1/2026 tarihinden geçerli olmak üzere tespit edilen miktarlar metne parantez içinde siyah punto ile işlenmiştir. Daha önce yapılan değişiklikler için bu Kanunun sonundaki "ÇEŞİTLİ MEVZUAT İLE YAPILAN DEĞİŞİKLİKLER CETVELİ" ne bakınız.
 
-[185] Bu fıkradaki "31.12.1993" tarihi 26/12/1993 tarih ve 3946 sayılı Kanunun 36 ncı maddesi ile 31.12.1998 olarak daha sonra; 22/7/1998 tarih ve 4369 sayılı Kanunun 81/K maddesi ile de 31/12/2003 olarak değiştirilmiştir.
+[186] Bu fıkradaki "31.12.1993" tarihi 26/12/1993 tarih ve 3946 sayılı Kanunun 36 ncı maddesi ile 31.12.1998 olarak daha sonra; 22/7/1998 tarih ve 4369 sayılı Kanunun 81/K maddesi ile de 31/12/2003 olarak değiştirilmiştir.
 
-[186] Bu maddede yer alan” Dileyen mükellefler, 2004 yılının (kendilerine özel hesap dönemi tayin edilenlerde 2004 yılında biten hesap döneminden sonra başlayan) ilk geçici vergi döneminde beyan edecekleri geçici vergi matrahının tespitinde;” ibaresi, 16/7/2004 tarihli ve 5228 sayılı Kanunun 59 uncu maddesiyle”31.12.2003 tarihi (kendilerine özel hesap dönemi tayin edilenlerde 2004 yılında biten hesap döneminin sonu) itibarıyla aktif toplamı 7,5 trilyon Türk Lirasını veya hesap dönemine ait ciroları toplamı 15 trilyon Türk Lirasını aşmayan mükelleflerden dileyenler, 2004 yılı (kendilerine özel hesap dönemi tayin edilenlerde 2004 yılında biten hesap döneminden sonra başlayan hesap dönemine ilişkin) geçici vergi dönemlerinde beyan edecekleri geçici vergi matrahının tespitinde;”olarak değiştirilmiştir.
+[187] Bu maddede yer alan” Dileyen mükellefler, 2004 yılının (kendilerine özel hesap dönemi tayin edilenlerde 2004 yılında biten hesap döneminden sonra başlayan) ilk geçici vergi döneminde beyan edecekleri geçici vergi matrahının tespitinde;” ibaresi, 16/7/2004 tarihli ve 5228 sayılı Kanunun 59 uncu maddesiyle”31.12.2003 tarihi (kendilerine özel hesap dönemi tayin edilenlerde 2004 yılında biten hesap döneminin sonu) itibarıyla aktif toplamı 7,5 trilyon Türk Lirasını veya hesap dönemine ait ciroları toplamı 15 trilyon Türk Lirasını aşmayan mükelleflerden dileyenler, 2004 yılı (kendilerine özel hesap dönemi tayin edilenlerde 2004 yılında biten hesap döneminden sonra başlayan hesap dönemine ilişkin) geçici vergi dönemlerinde beyan edecekleri geçici vergi matrahının tespitinde;”olarak değiştirilmiştir.
 
-[187] 3239 sayılı Kanunun 144 uncu maddesi uyarınca söz konusu Kanunun; 213 sayılı Kanunun değiştirilmesine ilişkin olan birinci bölümünün araziye ait, asgari ölçüde birim değer tesbiti için yeniden kurulan Takdir Komisyonları ve arazi ile ilgili diğer hükümleri ve yoklamadan maksat ve yoklama memurlarına ilişkin hükümleri 11/12/1985 tarihinde; arsalara ait asgari ölçüde birim değer tesbiti için yeniden kurulan Takdir Komisyonları ile ilgili hükümleri 1/3/1986 tarihinde, Bakanlar Kuruluna ve Maliye ve Gümrük Bakanlığına yetki veren hükümleri 1/1/1986 tarihinden geçerli olmak üzere 11/12/1985 tarihinde yürürlüğe girecektir.
+[188] 3239 sayılı Kanunun 144 uncu maddesi uyarınca söz konusu Kanunun; 213 sayılı Kanunun değiştirilmesine ilişkin olan birinci bölümünün araziye ait, asgari ölçüde birim değer tesbiti için yeniden kurulan Takdir Komisyonları ve arazi ile ilgili diğer hükümleri ve yoklamadan maksat ve yoklama memurlarına ilişkin hükümleri 11/12/1985 tarihinde; arsalara ait asgari ölçüde birim değer tesbiti için yeniden kurulan Takdir Komisyonları ile ilgili hükümleri 1/3/1986 tarihinde, Bakanlar Kuruluna ve Maliye ve Gümrük Bakanlığına yetki veren hükümleri 1/1/1986 tarihinden geçerli olmak üzere 11/12/1985 tarihinde yürürlüğe girecektir.
 
-[188] Anayasa Mahkemesinin 26/1/2012 tarihli ve E.: 2011/74, K.: 2012/15 sayılı Kararı ile; 23/7/2010 tarihli ve 6009 sayılı Kanunun 62 nci maddesinin (d) bendinde yer alan “… 1/7/2010 tarihinden geçerli olmak üzere …” ibaresi, bu bentte yer alan 8 inci  ve 16 ncı maddeler yönünden iptal edilmiştir.
+[189] Anayasa Mahkemesinin 26/1/2012 tarihli ve E.: 2011/74, K.: 2012/15 sayılı Kararı ile; 23/7/2010 tarihli ve 6009 sayılı Kanunun 62 nci maddesinin (d) bendinde yer alan “… 1/7/2010 tarihinden geçerli olmak üzere …” ibaresi, bu bentte yer alan 8 inci  ve 16 ncı maddeler yönünden iptal edilmiştir.
